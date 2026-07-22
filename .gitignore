@@ -1,18 +1,1 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-dist/
-build/
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Env
-.env
-venv/
+IyBQeXRob24KX19weWNhY2hlX18vCioucHlbY29kXQoqLmVnZy1pbmZvLwpkaXN0LwpidWlsZC8KCiMgSURFCi52c2NvZGUvCi5pZGVhLwoKIyBPUwouRFNfU3RvcmUKVGh1bWJzLmRiCgojIEVudgouZW52CnZlbnYvCg==
