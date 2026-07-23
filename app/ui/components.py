@@ -1,1 +1,73 @@
-IiIi6YCa55SoVUnnu4Tku7YiIiIKaW1wb3J0IG9zCmZyb20gUHlTaWRlNi5RdFdpZGdldHMgaW1wb3J0ICgKICAgIFFMYWJlbCwgUVdpZGdldCwgUUhCb3hMYXlvdXQsIFFQdXNoQnV0dG9uCikKZnJvbSBQeVNpZGU2LlF0Q29yZSBpbXBvcnQgUXQsIFFTaXplCmZyb20gUHlTaWRlNi5RdEd1aSBpbXBvcnQgUUljb24KCgpjbGFzcyBTdGF0dXNJbmRpY2F0b3IoUVdpZGdldCk6CiAgICAiIiLluKblvanoibLlnIbngrnnmoTnirbmgIHmoIfnrb4iIiIKICAgIENPTE9SUyA9IHsKICAgICAgICAicmVjb3JkaW5nIjogIiMyQjhBRjUiLCAgICAjIOiTneiJsiAtIOW9leWItuS4rQogICAgICAgICJsaXZlIjogIiMyN0FFNjAiLCAgICAgICAgICMg57u/6ImyIC0g55u05pKt5Lit77yI562J5b6F5b2V5Yi25ZCv5Yqo77yJCiAgICAgICAgIm1vbml0b3JpbmciOiAiI0YzOUMxMiIsICAgIyDmqZnoibIgLSDnm5HmtYvkuK0KICAgICAgICAib2ZmbGluZSI6ICIjQjBCOEM0IiwgICAgICAjIOeBsOiJsiAtIOacquW8gOaSrQogICAgICAgICJpZGxlIjogIiNCMEI4QzQiLCAgICAgICAgICMg5rWF54GwIC0g56m66ZeyCiAgICAgICAgImVycm9yIjogIiNFNzRDM0MiLCAgICAgICAgIyDnuqLoibIgLSDplJnor68KICAgICAgICAiZGlzYWJsZWQiOiAiI0QwRDhFNCIsICAgICAjIOa1heeBsCAtIOemgeeUqAogICAgfQogICAgVEVYVF9NQVAgPSB7CiAgICAgICAgInJlY29yZGluZyI6ICLlvZXliLbkuK0iLAogICAgICAgICJsaXZlIjogIuebtOaSreS4rSIsCiAgICAgICAgIm1vbml0b3JpbmciOiAi55uR5rWL5LitIiwKICAgICAgICAib2ZmbGluZSI6ICLmnKrlvIDmkq0iLAogICAgICAgICJpZGxlIjogIuepuumXsiIsCiAgICAgICAgImVycm9yIjogIumUmeivryIsCiAgICAgICAgImRpc2FibGVkIjogIuW3suemgeeUqCIsCiAgICB9CgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHN0YXR1czogc3RyID0gImlkbGUiLCBwYXJlbnQ9Tm9uZSk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhwYXJlbnQpCiAgICAgICAgc2VsZi5fc3RhdHVzID0gc3RhdHVzCiAgICAgICAgc2VsZi5fc2V0dXBfdWkoKQoKICAgIGRlZiBfc2V0dXBfdWkoc2VsZik6CiAgICAgICAgbGF5b3V0ID0gUUhCb3hMYXlvdXQoc2VsZikKICAgICAgICBsYXlvdXQuc2V0Q29udGVudHNNYXJnaW5zKDAsIDAsIDAsIDApCiAgICAgICAgbGF5b3V0LnNldFNwYWNpbmcoNikKICAgICAgICBjb2xvciA9IHNlbGYuQ09MT1JTLmdldChzZWxmLl9zdGF0dXMsICIjQjBCOEM0IikKICAgICAgICBzZWxmLl9kb3QgPSBRTGFiZWwoKQogICAgICAgIHNlbGYuX2RvdC5zZXRGaXhlZFNpemUoOCwgOCkKICAgICAgICBzZWxmLl9kb3Quc2V0U3R5bGVTaGVldChmImJhY2tncm91bmQ6IHtjb2xvcn07IGJvcmRlci1yYWRpdXM6IDRweDsgYm9yZGVyOiBub25lOyIpCiAgICAgICAgc2VsZi5fbGFiZWwgPSBRTGFiZWwoc2VsZi5URVhUX01BUC5nZXQoc2VsZi5fc3RhdHVzLCAiIikpCiAgICAgICAgc2VsZi5fbGFiZWwuc2V0U3R5bGVTaGVldChmImNvbG9yOiB7Y29sb3J9OyBmb250LXNpemU6IDEycHg7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IikKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KHNlbGYuX2RvdCkKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KHNlbGYuX2xhYmVsKQogICAgICAgIGxheW91dC5hZGRTdHJldGNoKCkKICAgICAgICBzZWxmLnNldEZpeGVkU2l6ZSg4MCwgMjIpCgogICAgZGVmIHNldF9zdGF0dXMoc2VsZiwgc3RhdHVzOiBzdHIpOgogICAgICAgIHNlbGYuX3N0YXR1cyA9IHN0YXR1cwogICAgICAgIGNvbG9yID0gc2VsZi5DT0xPUlMuZ2V0KHN0YXR1cywgIiNCMEI4QzQiKQogICAgICAgIHNlbGYuX2RvdC5zZXRTdHlsZVNoZWV0KGYiYmFja2dyb3VuZDoge2NvbG9yfTsgYm9yZGVyLXJhZGl1czogNHB4OyBib3JkZXI6IG5vbmU7IikKICAgICAgICBzZWxmLl9sYWJlbC5zZXRUZXh0KHNlbGYuVEVYVF9NQVAuZ2V0KHN0YXR1cywgIiIpKQogICAgICAgIHNlbGYuX2xhYmVsLnNldFN0eWxlU2hlZXQoZiJjb2xvcjoge2NvbG9yfTsgZm9udC1zaXplOiAxMnB4OyBib3JkZXI6IG5vbmU7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyIpCgoKY2xhc3MgSWNvbkJ1dHRvbihRUHVzaEJ1dHRvbik6CiAgICAiIiLluKZTVkflm77moIfnmoTmjInpkq4iIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBpY29uX3BhdGg6IHN0ciwgdG9vbHRpcDogc3RyID0gIiIsIHNpemU6IGludCA9IDMyLCBwYXJlbnQ9Tm9uZSk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhwYXJlbnQpCiAgICAgICAgc2VsZi5zZXRGaXhlZFNpemUoc2l6ZSwgc2l6ZSkKICAgICAgICBzZWxmLnNldEN1cnNvcihRdC5DdXJzb3JTaGFwZS5Qb2ludGluZ0hhbmRDdXJzb3IpCiAgICAgICAgc2VsZi5zZXRUb29sVGlwKHRvb2x0aXApCiAgICAgICAgc2VsZi5zZXRPYmplY3ROYW1lKCJpY29uQnRuIikKICAgICAgICBpZiBvcy5wYXRoLmlzZmlsZShpY29uX3BhdGgpOgogICAgICAgICAgICBzZWxmLnNldEljb24oUUljb24oaWNvbl9wYXRoKSkKICAgICAgICAgICAgc2VsZi5zZXRJY29uU2l6ZShRU2l6ZShzaXplIC0gOCwgc2l6ZSAtIDgpKQoKICAgIGRlZiBzZXRfaWNvbihzZWxmLCBpY29uX3BhdGg6IHN0cik6CiAgICAgICAgaWYgb3MucGF0aC5pc2ZpbGUoaWNvbl9wYXRoKToKICAgICAgICAgICAgc2VsZi5zZXRJY29uKFFJY29uKGljb25fcGF0aCkp
+"""通用UI组件"""
+import os
+from PySide6.QtWidgets import (
+    QLabel, QWidget, QHBoxLayout, QPushButton
+)
+from PySide6.QtCore import Qt, QSize
+from PySide6.QtGui import QIcon
+
+
+class StatusIndicator(QWidget):
+    """带彩色圆点的状态标签"""
+    COLORS = {
+        "recording": "#2B8AF5",    # 蓝色 - 录制中
+        "live": "#27AE60",         # 绿色 - 直播中（等待录制启动）
+        "monitoring": "#F39C12",   # 橙色 - 监测中
+        "offline": "#B0B8C4",      # 灰色 - 未开播
+        "idle": "#B0B8C4",         # 浅灰 - 空闲
+        "error": "#E74C3C",        # 红色 - 错误
+        "disabled": "#D0D8E4",     # 浅灰 - 禁用
+    }
+    TEXT_MAP = {
+        "recording": "录制中",
+        "live": "直播中",
+        "monitoring": "监测中",
+        "offline": "未开播",
+        "idle": "空闲",
+        "error": "错误",
+        "disabled": "已禁用",
+    }
+
+    def __init__(self, status: str = "idle", parent=None):
+        super().__init__(parent)
+        self._status = status
+        self._setup_ui()
+
+    def _setup_ui(self):
+        layout = QHBoxLayout(self)
+        layout.setContentsMargins(0, 0, 0, 0)
+        layout.setSpacing(6)
+        color = self.COLORS.get(self._status, "#B0B8C4")
+        self._dot = QLabel()
+        self._dot.setFixedSize(8, 8)
+        self._dot.setStyleSheet(f"background: {color}; border-radius: 4px; border: none;")
+        self._label = QLabel(self.TEXT_MAP.get(self._status, ""))
+        self._label.setStyleSheet(f"color: {color}; font-size: 12px; border: none; background: transparent;")
+        layout.addWidget(self._dot)
+        layout.addWidget(self._label)
+        layout.addStretch()
+        self.setFixedSize(80, 22)
+
+    def set_status(self, status: str):
+        self._status = status
+        color = self.COLORS.get(status, "#B0B8C4")
+        self._dot.setStyleSheet(f"background: {color}; border-radius: 4px; border: none;")
+        self._label.setText(self.TEXT_MAP.get(status, ""))
+        self._label.setStyleSheet(f"color: {color}; font-size: 12px; border: none; background: transparent;")
+
+
+class IconButton(QPushButton):
+    """带SVG图标的按钮"""
+    def __init__(self, icon_path: str, tooltip: str = "", size: int = 32, parent=None):
+        super().__init__(parent)
+        self.setFixedSize(size, size)
+        self.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.setToolTip(tooltip)
+        self.setObjectName("iconBtn")
+        if os.path.isfile(icon_path):
+            self.setIcon(QIcon(icon_path))
+            self.setIconSize(QSize(size - 8, size - 8))
+
+    def set_icon(self, icon_path: str):
+        if os.path.isfile(icon_path):
+            self.setIcon(QIcon(icon_path))

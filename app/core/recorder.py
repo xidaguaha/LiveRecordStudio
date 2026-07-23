@@ -1,1 +1,159 @@
-IiIiCuW9leWItuW8leaTjiAtIOS9v+eUqFFQcm9jZXNz566h55CGZmZtcGVn5a2Q6L+b56iLCiIiIgppbXBvcnQgb3MKaW1wb3J0IHNpZ25hbApmcm9tIFB5U2lkZTYuUXRDb3JlIGltcG9ydCBRT2JqZWN0LCBTaWduYWwsIFFQcm9jZXNzCmZyb20gbG9ndXJ1IGltcG9ydCBsb2dnZXIKCgpjbGFzcyBSZWNvcmRlcihRT2JqZWN0KToKICAgICIiIuWNleS4quW9leWItuS7u+WKoeeuoeeQhiIiIgoKICAgICMg5L+h5Y+3CiAgICByZWNvcmRpbmdfc3RhcnRlZCA9IFNpZ25hbChzdHIsIHN0cikgICAgICMgKHVybCwgZmlsZV9wYXRoKQogICAgcmVjb3JkaW5nX2ZpbmlzaGVkID0gU2lnbmFsKHN0ciwgaW50KSAgICAjICh1cmwsIGV4aXRfY29kZSkKICAgIHJlY29yZGluZ19lcnJvciA9IFNpZ25hbChzdHIsIHN0cikgICAgICAgIyAodXJsLCBlcnJvcl9tc2cpCiAgICBmaWxlX3NpemVfY2hhbmdlZCA9IFNpZ25hbChzdHIsIGludCkgICAgICAjICh1cmwsIHNpemVfYnl0ZXMpCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGZmbXBlZ19wYXRoOiBzdHIsIHBhcmVudD1Ob25lKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKHBhcmVudCkKICAgICAgICBzZWxmLl9mZm1wZWdfcGF0aCA9IGZmbXBlZ19wYXRoCiAgICAgICAgc2VsZi5fcHJvY2VzczogUVByb2Nlc3MgPSBOb25lCiAgICAgICAgc2VsZi5fY3VycmVudF91cmwgPSAiIgogICAgICAgIHNlbGYuX2N1cnJlbnRfZmlsZSA9ICIiCgogICAgQHByb3BlcnR5CiAgICBkZWYgaXNfcmVjb3JkaW5nKHNlbGYpIC0+IGJvb2w6CiAgICAgICAgcmV0dXJuIHNlbGYuX3Byb2Nlc3MgaXMgbm90IE5vbmUgYW5kIHNlbGYuX3Byb2Nlc3Muc3RhdGUoKSA9PSBRUHJvY2Vzcy5Qcm9jZXNzU3RhdGUuUnVubmluZwoKICAgIGRlZiBzdGFydF9yZWNvcmRpbmcoCiAgICAgICAgc2VsZiwKICAgICAgICB1cmw6IHN0ciwKICAgICAgICBzdHJlYW1fdXJsOiBzdHIsCiAgICAgICAgb3V0cHV0X3BhdGg6IHN0ciwKICAgICAgICBmbXQ6IHN0ciA9ICJ0cyIsCiAgICAgICAgcHJveHk6IHN0ciA9ICIiLAogICAgICAgIHNwbGl0X2R1cmF0aW9uOiBpbnQgPSAwLAogICAgKToKICAgICAgICAiIiLlvIDlp4vlvZXliLYiIiIKICAgICAgICAjIOehruS/nei+k+WHuuebruW9leWtmOWcqAogICAgICAgIG9zLm1ha2VkaXJzKG9zLnBhdGguZGlybmFtZShvdXRwdXRfcGF0aCksIGV4aXN0X29rPVRydWUpCgogICAgICAgIHNlbGYuX2N1cnJlbnRfdXJsID0gdXJsCiAgICAgICAgc2VsZi5fY3VycmVudF9maWxlID0gb3V0cHV0X3BhdGgKCiAgICAgICAgc2VsZi5fcHJvY2VzcyA9IFFQcm9jZXNzKHNlbGYpCiAgICAgICAgc2VsZi5fcHJvY2Vzcy5zZXRQcm9jZXNzQ2hhbm5lbE1vZGUoUVByb2Nlc3MuUHJvY2Vzc0NoYW5uZWxNb2RlLk1lcmdlZENoYW5uZWxzKQoKICAgICAgICAjIOi/nuaOpeS/oeWPtwogICAgICAgIHNlbGYuX3Byb2Nlc3Muc3RhcnRlZC5jb25uZWN0KHNlbGYuX29uX3N0YXJ0ZWQpCiAgICAgICAgc2VsZi5fcHJvY2Vzcy5maW5pc2hlZC5jb25uZWN0KHNlbGYuX29uX2ZpbmlzaGVkKQogICAgICAgIHNlbGYuX3Byb2Nlc3MucmVhZHlSZWFkU3RhbmRhcmRPdXRwdXQuY29ubmVjdChzZWxmLl9vbl9vdXRwdXQpCiAgICAgICAgc2VsZi5fcHJvY2Vzcy5yZWFkeVJlYWRTdGFuZGFyZEVycm9yLmNvbm5lY3Qoc2VsZi5fb25fc3RkZXJyKQogICAgICAgIHNlbGYuX3Byb2Nlc3MuZXJyb3JPY2N1cnJlZC5jb25uZWN0KHNlbGYuX29uX2Vycm9yKQoKICAgICAgICAjIOaehOW7uuWRveS7pAogICAgICAgIGNtZCA9IHNlbGYuX2J1aWxkX2NvbW1hbmQoc3RyZWFtX3VybCwgb3V0cHV0X3BhdGgsIGZtdCwgcHJveHksIHNwbGl0X2R1cmF0aW9uKQogICAgICAgIGxvZ2dlci5pbmZvKGYi5ZCv5Yqo5b2V5Yi2OiB7Y21kfSIpCgogICAgICAgICMg5ZCv5YqoZmZtcGVnCiAgICAgICAgd29ya2luZ19kaXIgPSBvcy5wYXRoLmRpcm5hbWUob3V0cHV0X3BhdGgpCiAgICAgICAgc2VsZi5fcHJvY2Vzcy5zZXRXb3JraW5nRGlyZWN0b3J5KHdvcmtpbmdfZGlyKQogICAgICAgIHNlbGYuX3Byb2Nlc3Muc3RhcnQoc2VsZi5fZmZtcGVnX3BhdGgsIGNtZCkKCiAgICBkZWYgc3RvcF9yZWNvcmRpbmcoc2VsZik6CiAgICAgICAgIiIi5YGc5q2i5b2V5Yi277yadGVybWluYXRlICsg5bu26L+fIG9zLmtpbGwg56Gu5L+d6L+b56iL5q275LqhIiIiCiAgICAgICAgaWYgc2VsZi5fcHJvY2VzcyBhbmQgc2VsZi5fcHJvY2Vzcy5zdGF0ZSgpID09IFFQcm9jZXNzLlByb2Nlc3NTdGF0ZS5SdW5uaW5nOgogICAgICAgICAgICBsb2dnZXIuaW5mbyhmIuWBnOatouW9leWItjoge3NlbGYuX2N1cnJlbnRfdXJsfSIpCiAgICAgICAgICAgIHBpZCA9IHNlbGYuX3Byb2Nlc3MucHJvY2Vzc0lkKCkKICAgICAgICAgICAgc2VsZi5fcHJvY2Vzcy50ZXJtaW5hdGUoKQogICAgICAgICAgICAjIDgwMG1zIOWQjueUqCBvcy5raWxsIOehruS/nei/m+eoi+ecn+ato+atu+aOie+8iOS4jeS+nei1liBRdCBldmVudCBsb29w77yJCiAgICAgICAgICAgIGltcG9ydCB0aHJlYWRpbmcKICAgICAgICAgICAgZGVmIF9lbnN1cmVfZGVhZCgpOgogICAgICAgICAgICAgICAgaW1wb3J0IHRpbWUKICAgICAgICAgICAgICAgIHRpbWUuc2xlZXAoMC44KQogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIG9zLmtpbGwocGlkLCBzaWduYWwuU0lHVEVSTSkKICAgICAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbyhmIuW3suW8uuWItue7iOatoiBmZm1wZWcgUElEPXtwaWR9IikKICAgICAgICAgICAgICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgICAgICAgICAgICAgIHBhc3MgICMg6L+b56iL5bey6YCA5Ye6CiAgICAgICAgICAgIHQgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1fZW5zdXJlX2RlYWQsIGRhZW1vbj1UcnVlKQogICAgICAgICAgICB0LnN0YXJ0KCkKCiAgICBkZWYgX2J1aWxkX2NvbW1hbmQoc2VsZiwgc3RyZWFtX3VybCwgb3V0cHV0X3BhdGgsIGZtdCwgcHJveHksIHNwbGl0X2R1cmF0aW9uKToKICAgICAgICAiIiLmnoTlu7pmZm1wZWflkb3ku6Tlj4LmlbDvvIjkuI3lkKtmZm1wZWfoh6rouqvot6/lvoTvvIkiIiIKICAgICAgICBhcmdzID0gWyIteSJdCiAgICAgICAgYXJncy5leHRlbmQoWyItcndfdGltZW91dCIsICI1MDAwMDAwIl0pICAjIDXnp5Lor7vlhpnotoXml7YKCiAgICAgICAgaWYgcHJveHk6CiAgICAgICAgICAgIGFyZ3MuZXh0ZW5kKFsiLWh0dHBfcHJveHkiLCBwcm94eV0pCgogICAgICAgIGFyZ3MuZXh0ZW5kKFsiLWkiLCBzdHJlYW1fdXJsXSkKCiAgICAgICAgaWYgc3BsaXRfZHVyYXRpb24gPiAwOgogICAgICAgICAgICBhcmdzLmV4dGVuZChbIi10Iiwgc3RyKHNwbGl0X2R1cmF0aW9uKV0pCgogICAgICAgIGFyZ3MuZXh0ZW5kKFsiLWMiLCAiY29weSJdKQogICAgICAgIGFyZ3MuZXh0ZW5kKFsiLWYiLCBmbXQsIG91dHB1dF9wYXRoXSkKCiAgICAgICAgcmV0dXJuIGFyZ3MKCiAgICBkZWYgX29uX3N0YXJ0ZWQoc2VsZik6CiAgICAgICAgcGlkID0gc2VsZi5fcHJvY2Vzcy5wcm9jZXNzSWQoKSBpZiBzZWxmLl9wcm9jZXNzIGVsc2UgMAogICAgICAgIGxvZ2dlci5pbmZvKGYi5b2V5Yi25bey5ZCv5YqoOiBQSUQ9e3BpZH0sIGZpbGU9e29zLnBhdGguYmFzZW5hbWUoc2VsZi5fY3VycmVudF9maWxlKX0iKQogICAgICAgIHNlbGYucmVjb3JkaW5nX3N0YXJ0ZWQuZW1pdChzZWxmLl9jdXJyZW50X3VybCwgc2VsZi5fY3VycmVudF9maWxlKQoKICAgIGRlZiBfb25fZmluaXNoZWQoc2VsZiwgZXhpdF9jb2RlLCBleGl0X3N0YXR1cyk6CiAgICAgICAgaWYgc2VsZi5fcHJvY2VzcyBpcyBOb25lIGFuZCBub3Qgc2VsZi5fY3VycmVudF91cmw6CiAgICAgICAgICAgIHJldHVybgogICAgICAgIHVybCA9IHNlbGYuX2N1cnJlbnRfdXJsCiAgICAgICAgZmlsZV9wYXRoID0gc2VsZi5fY3VycmVudF9maWxlCiAgICAgICAgbG9nZ2VyLmluZm8oZiLlvZXliLbnu5PmnZ86IHtvcy5wYXRoLmJhc2VuYW1lKGZpbGVfcGF0aCl9LCBleGl0X2NvZGU9e2V4aXRfY29kZX0sIHN0YXR1cz17ZXhpdF9zdGF0dXN9IikKICAgICAgICAjIOmHiuaUviBRUHJvY2Vzc++8jOWFs+mXreaWh+S7tuWPpeafhAogICAgICAgIHByb2MgPSBzZWxmLl9wcm9jZXNzCiAgICAgICAgc2VsZi5fcHJvY2VzcyA9IE5vbmUKICAgICAgICBzZWxmLl9jdXJyZW50X3VybCA9ICIiCiAgICAgICAgc2VsZi5fY3VycmVudF9maWxlID0gIiIKICAgICAgICAjIOaWreW8gOS/oeWPt++8jOmBv+WFjemHjeWkjeinpuWPkQogICAgICAgIHByb2MuZmluaXNoZWQuZGlzY29ubmVjdChzZWxmLl9vbl9maW5pc2hlZCkKICAgICAgICBwcm9jLmVycm9yT2NjdXJyZWQuZGlzY29ubmVjdChzZWxmLl9vbl9lcnJvcikKICAgICAgICBwcm9jLmNsb3NlKCkKICAgICAgICBwcm9jLmRlbGV0ZUxhdGVyKCkKICAgICAgICBzZWxmLnJlY29yZGluZ19maW5pc2hlZC5lbWl0KHVybCwgZXhpdF9jb2RlKQoKICAgIGRlZiBfb25fb3V0cHV0KHNlbGYpOgogICAgICAgICIiImZmbXBlZ+i+k+WHuu+8iOWPr+eUqOS6juino+aekOi/m+W6pu+8iSIiIgogICAgICAgIGlmIHNlbGYuX3Byb2Nlc3M6CiAgICAgICAgICAgIG91dHB1dCA9IHNlbGYuX3Byb2Nlc3MucmVhZEFsbFN0YW5kYXJkT3V0cHV0KCkuZGF0YSgpLmRlY29kZSgndXRmLTgnLCBlcnJvcnM9J3JlcGxhY2UnKS5zdHJpcCgpCiAgICAgICAgICAgIGlmIG91dHB1dDoKICAgICAgICAgICAgICAgIGxvZ2dlci5kZWJ1ZyhmImZmbXBlZyBzdGRvdXQ6IHtvdXRwdXRbOjIwMF19IikKICAgICAgICAgICAgICAgICMg5pu05paw5paH5Lu25aSn5bCPCiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgc2l6ZSA9IG9zLnBhdGguZ2V0c2l6ZShzZWxmLl9jdXJyZW50X2ZpbGUpCiAgICAgICAgICAgICAgICAgICAgc2VsZi5maWxlX3NpemVfY2hhbmdlZC5lbWl0KHNlbGYuX2N1cnJlbnRfdXJsLCBzaXplKQogICAgICAgICAgICAgICAgZXhjZXB0IE9TRXJyb3I6CiAgICAgICAgICAgICAgICAgICAgcGFzcwoKICAgIGRlZiBfb25fc3RkZXJyKHNlbGYpOgogICAgICAgICIiImZmbXBlZ+mUmeivr+i+k+WHuiIiIgogICAgICAgIGlmIHNlbGYuX3Byb2Nlc3M6CiAgICAgICAgICAgIGVyciA9IHNlbGYuX3Byb2Nlc3MucmVhZEFsbFN0YW5kYXJkRXJyb3IoKS5kYXRhKCkuZGVjb2RlKCd1dGYtOCcsIGVycm9ycz0ncmVwbGFjZScpLnN0cmlwKCkKICAgICAgICAgICAgaWYgZXJyOgogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiJmZm1wZWcgc3RkZXJyOiB7ZXJyWzo1MDBdfSIpCgogICAgZGVmIF9vbl9lcnJvcihzZWxmLCBlcnJvcik6CiAgICAgICAgZXJyb3JfbXNnID0gewogICAgICAgICAgICBRUHJvY2Vzcy5Qcm9jZXNzRXJyb3IuRmFpbGVkVG9TdGFydDogIuWQr+WKqOWksei0pShGRm1wZWfmnKrmib7liLDmiJbml6DmnYPpmZApIiwKICAgICAgICAgICAgUVByb2Nlc3MuUHJvY2Vzc0Vycm9yLkNyYXNoZWQ6ICLov5vnqIvooqvnu4jmraIo5q2j5bi45YGc5q2iKSIsCiAgICAgICAgICAgIFFQcm9jZXNzLlByb2Nlc3NFcnJvci5UaW1lZG91dDogIui2heaXtiIsCiAgICAgICAgICAgIFFQcm9jZXNzLlByb2Nlc3NFcnJvci5Xcml0ZUVycm9yOiAi5YaZ5YWl6ZSZ6K+vIiwKICAgICAgICAgICAgUVByb2Nlc3MuUHJvY2Vzc0Vycm9yLlJlYWRFcnJvcjogIuivu+WPlumUmeivryIsCiAgICAgICAgICAgIFFQcm9jZXNzLlByb2Nlc3NFcnJvci5Vbmtub3duRXJyb3I6ICLmnKrnn6XplJnor68iCiAgICAgICAgfS5nZXQoZXJyb3IsICLmnKrnn6XplJnor68iKQogICAgICAgICMgQ3Jhc2gg5pivIHRlcm1pbmF0ZSgpIOeahOato+W4uOe7k+aenO+8jOS4jeinhuS4uumUmeivrwogICAgICAgIGlmIGVycm9yICE9IFFQcm9jZXNzLlByb2Nlc3NFcnJvci5DcmFzaGVkOgogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLlvZXliLbplJnor686IHtlcnJvcl9tc2d9IikKICAgICAgICAgICAgc2VsZi5yZWNvcmRpbmdfZXJyb3IuZW1pdChzZWxmLl9jdXJyZW50X3VybCwgZXJyb3JfbXNnKQogICAgICAgICMg5LiN5Zyo5q2k5aSE5riF55CG54q25oCB77yM57uf5LiA55SxIF9vbl9maW5pc2hlZCDlpITnkIYKICAgICAgICAjIOWboOS4uiB0ZXJtaW5hdGUoKSDlkI4gZmluaXNoZWQg5L+h5Y+35LuN5Lya6Kem5Y+R
+"""
+录制引擎 - 使用QProcess管理ffmpeg子进程
+"""
+import os
+import signal
+from PySide6.QtCore import QObject, Signal, QProcess
+from loguru import logger
+
+
+class Recorder(QObject):
+    """单个录制任务管理"""
+
+    # 信号
+    recording_started = Signal(str, str)     # (url, file_path)
+    recording_finished = Signal(str, int)    # (url, exit_code)
+    recording_error = Signal(str, str)       # (url, error_msg)
+    file_size_changed = Signal(str, int)      # (url, size_bytes)
+
+    def __init__(self, ffmpeg_path: str, parent=None):
+        super().__init__(parent)
+        self._ffmpeg_path = ffmpeg_path
+        self._process: QProcess = None
+        self._current_url = ""
+        self._current_file = ""
+
+    @property
+    def is_recording(self) -> bool:
+        return self._process is not None and self._process.state() == QProcess.ProcessState.Running
+
+    def start_recording(
+        self,
+        url: str,
+        stream_url: str,
+        output_path: str,
+        fmt: str = "ts",
+        proxy: str = "",
+        split_duration: int = 0,
+    ):
+        """开始录制"""
+        # 确保输出目录存在
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+        self._current_url = url
+        self._current_file = output_path
+
+        self._process = QProcess(self)
+        self._process.setProcessChannelMode(QProcess.ProcessChannelMode.MergedChannels)
+
+        # 连接信号
+        self._process.started.connect(self._on_started)
+        self._process.finished.connect(self._on_finished)
+        self._process.readyReadStandardOutput.connect(self._on_output)
+        self._process.readyReadStandardError.connect(self._on_stderr)
+        self._process.errorOccurred.connect(self._on_error)
+
+        # 构建命令
+        cmd = self._build_command(stream_url, output_path, fmt, proxy, split_duration)
+        logger.info(f"启动录制: {cmd}")
+
+        # 启动ffmpeg
+        working_dir = os.path.dirname(output_path)
+        self._process.setWorkingDirectory(working_dir)
+        self._process.start(self._ffmpeg_path, cmd)
+
+    def stop_recording(self):
+        """停止录制：terminate + 延迟 os.kill 确保进程死亡"""
+        if self._process and self._process.state() == QProcess.ProcessState.Running:
+            logger.info(f"停止录制: {self._current_url}")
+            pid = self._process.processId()
+            self._process.terminate()
+            # 800ms 后用 os.kill 确保进程真正死掉（不依赖 Qt event loop）
+            import threading
+            def _ensure_dead():
+                import time
+                time.sleep(0.8)
+                try:
+                    os.kill(pid, signal.SIGTERM)
+                    logger.info(f"已强制终止 ffmpeg PID={pid}")
+                except OSError:
+                    pass  # 进程已退出
+            t = threading.Thread(target=_ensure_dead, daemon=True)
+            t.start()
+
+    def _build_command(self, stream_url, output_path, fmt, proxy, split_duration):
+        """构建ffmpeg命令参数（不含ffmpeg自身路径）"""
+        args = ["-y"]
+        args.extend(["-rw_timeout", "5000000"])  # 5秒读写超时
+
+        if proxy:
+            args.extend(["-http_proxy", proxy])
+
+        args.extend(["-i", stream_url])
+
+        if split_duration > 0:
+            args.extend(["-t", str(split_duration)])
+
+        args.extend(["-c", "copy"])
+        args.extend(["-f", fmt, output_path])
+
+        return args
+
+    def _on_started(self):
+        pid = self._process.processId() if self._process else 0
+        logger.info(f"录制已启动: PID={pid}, file={os.path.basename(self._current_file)}")
+        self.recording_started.emit(self._current_url, self._current_file)
+
+    def _on_finished(self, exit_code, exit_status):
+        if self._process is None and not self._current_url:
+            return
+        url = self._current_url
+        file_path = self._current_file
+        logger.info(f"录制结束: {os.path.basename(file_path)}, exit_code={exit_code}, status={exit_status}")
+        # 释放 QProcess，关闭文件句柄
+        proc = self._process
+        self._process = None
+        self._current_url = ""
+        self._current_file = ""
+        # 断开信号，避免重复触发
+        proc.finished.disconnect(self._on_finished)
+        proc.errorOccurred.disconnect(self._on_error)
+        proc.close()
+        proc.deleteLater()
+        self.recording_finished.emit(url, exit_code)
+
+    def _on_output(self):
+        """ffmpeg输出（可用于解析进度）"""
+        if self._process:
+            output = self._process.readAllStandardOutput().data().decode('utf-8', errors='replace').strip()
+            if output:
+                logger.debug(f"ffmpeg stdout: {output[:200]}")
+                # 更新文件大小
+                try:
+                    size = os.path.getsize(self._current_file)
+                    self.file_size_changed.emit(self._current_url, size)
+                except OSError:
+                    pass
+
+    def _on_stderr(self):
+        """ffmpeg错误输出"""
+        if self._process:
+            err = self._process.readAllStandardError().data().decode('utf-8', errors='replace').strip()
+            if err:
+                logger.warning(f"ffmpeg stderr: {err[:500]}")
+
+    def _on_error(self, error):
+        error_msg = {
+            QProcess.ProcessError.FailedToStart: "启动失败(FFmpeg未找到或无权限)",
+            QProcess.ProcessError.Crashed: "进程被终止(正常停止)",
+            QProcess.ProcessError.Timedout: "超时",
+            QProcess.ProcessError.WriteError: "写入错误",
+            QProcess.ProcessError.ReadError: "读取错误",
+            QProcess.ProcessError.UnknownError: "未知错误"
+        }.get(error, "未知错误")
+        # Crash 是 terminate() 的正常结果，不视为错误
+        if error != QProcess.ProcessError.Crashed:
+            logger.error(f"录制错误: {error_msg}")
+            self.recording_error.emit(self._current_url, error_msg)
+        # 不在此处清理状态，统一由 _on_finished 处理
+        # 因为 terminate() 后 finished 信号仍会触发

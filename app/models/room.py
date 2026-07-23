@@ -1,1 +1,147 @@
-ZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzLCBmaWVsZApmcm9tIGVudW0gaW1wb3J0IEVudW0KaW1wb3J0IHRpbWUKCgpjbGFzcyBSb29tU3RhdHVzKEVudW0pOgogICAgSURMRSA9ICJpZGxlIiAgICAgICAgICAgIyDnqbrpl7Iv5pyq55uR5o6nCiAgICBNT05JVE9SSU5HID0gIm1vbml0b3JpbmciICAjIOebkea1i+S4rQogICAgUkVDT1JESU5HID0gInJlY29yZGluZyIgICAgIyDlvZXliLbkuK0KICAgIE9GRkxJTkUgPSAib2ZmbGluZSIgICAgICAgICMg55u05pKt6Ze056a757q/L+acquW8gOaSrQogICAgRVJST1IgPSAiZXJyb3IiICAgICAgICAgICAgIyDplJnor68KCgpjbGFzcyBQbGF0Zm9ybShFbnVtKToKICAgIERPVVlJTiA9ICLmipbpn7MiCiAgICBUSUtUT0sgPSAiVGlrVG9rIgogICAgS1VBSVNIT1UgPSAi5b+r5omLIgogICAgSFVZQSA9ICLomY7niZkiCiAgICBET1VZVSA9ICLmlpfpsbwiCiAgICBZWSA9ICJZWeebtOaSrSIKICAgIEJJTElCSUxJID0gIuWTlOWTqeWTlOWTqSIKICAgIFhJQU9IT05HU0hVID0gIuWwj+e6ouS5piIKICAgIFRXSVRDSCA9ICJUd2l0Y2giCiAgICBZT1VUVUJFID0gIllvdVR1YmUiCiAgICAjIC4uLiDmm7TlpJrlubPlj7AKICAgIFVOS05PV04gPSAi5pyq55+lIgoKCiMgVVJM5Z+f5ZCN5Yiw5bmz5Y+w55qE5pig5bCECkRPTUFJTl9NQVAgPSB7CiAgICAibGl2ZS5kb3V5aW4uY29tIjogUGxhdGZvcm0uRE9VWUlOLAogICAgInd3dy5kb3V5aW4uY29tIjogUGxhdGZvcm0uRE9VWUlOLAogICAgImxpdmUua3VhaXNob3UuY29tIjogUGxhdGZvcm0uS1VBSVNIT1UsCiAgICAid3d3Lmh1eWEuY29tIjogUGxhdGZvcm0uSFVZQSwKICAgICJ3d3cuZG91eXUuY29tIjogUGxhdGZvcm0uRE9VWVUsCiAgICAibGl2ZS5iaWxpYmlsaS5jb20iOiBQbGF0Zm9ybS5CSUxJQklMSSwKICAgICJsaXZlLnhpYW9ob25nc2h1LmNvbSI6IFBsYXRmb3JtLlhJQU9IT05HU0hVLAogICAgInd3dy50d2l0Y2gudHYiOiBQbGF0Zm9ybS5UV0lUQ0gsCiAgICAid3d3LnlvdXR1YmUuY29tIjogUGxhdGZvcm0uWU9VVFVCRSwKICAgICJ3d3cueXkuY29tIjogUGxhdGZvcm0uWVksCiAgICAjIOa3u+WKoOabtOWkmgp9CgoKY2xhc3MgUXVhbGl0eShFbnVtKToKICAgIE9EID0gIuWOn+eUuyIKICAgIFVIRCA9ICLotoXmuIUiCiAgICBIRCA9ICLpq5jmuIUiCiAgICBTRCA9ICLmoIfmuIUiCiAgICBMRCA9ICLmtYHnlYUiCgoKZGVmIGRldGVjdF9wbGF0Zm9ybSh1cmw6IHN0cikgLT4gUGxhdGZvcm06CiAgICAiIiLku45VUkzoh6rliqjor4bliKvlubPlj7AiIiIKICAgIGZyb20gdXJsbGliLnBhcnNlIGltcG9ydCB1cmxwYXJzZQogICAgdHJ5OgogICAgICAgIGRvbWFpbiA9IHVybHBhcnNlKHVybCkuaG9zdG5hbWUgb3IgIiIKICAgICAgICBmb3IgcGF0dGVybiwgcGxhdGZvcm0gaW4gRE9NQUlOX01BUC5pdGVtcygpOgogICAgICAgICAgICBpZiBwYXR0ZXJuIGluIGRvbWFpbjoKICAgICAgICAgICAgICAgIHJldHVybiBwbGF0Zm9ybQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXNzCiAgICByZXR1cm4gUGxhdGZvcm0uVU5LTk9XTgoKCkBkYXRhY2xhc3MKY2xhc3MgUm9vbToKICAgIHVybDogc3RyCiAgICBhbmNob3JfbmFtZTogc3RyID0gIiIKICAgIGN1c3RvbV9uYW1lOiBzdHIgPSAiIiAgIyDnlKjmiLfoh6rlrprkuYnlkI3np7DvvIjkvJjlhYjmmL7npLrvvIkKICAgIHF1YWxpdHk6IFF1YWxpdHkgPSBRdWFsaXR5Lk9ECiAgICBwbGF0Zm9ybTogUGxhdGZvcm0gPSBQbGF0Zm9ybS5VTktOT1dOCiAgICBzdGF0dXM6IFJvb21TdGF0dXMgPSBSb29tU3RhdHVzLklETEUKICAgIGVuYWJsZWQ6IGJvb2wgPSBUcnVlCiAgICBjb29raWU6IHN0ciA9ICIiICAjIOivpeebtOaSremXtOeahOeZu+W9leaAgSBDb29raWUKICAgIHJlY29yZF9maWxlOiBzdHIgPSAiIiAgIyDlvZPliY3lvZXliLbmlofku7bot6/lvoQKICAgIHJlY29yZF9zdGFydF90aW1lOiBmbG9hdCA9IDAgICMg5b2V5Yi25byA5aeL5pe26Ze05oizCiAgICBmaWxlX3NpemU6IGludCA9IDAgICMg5b2T5YmN5paH5Lu25aSn5bCPKOWtl+iKgikKICAgIGVycm9yX21zZzogc3RyID0gIiIKICAgIGxhc3RfY2hlY2s6IGZsb2F0ID0gMCAgIyDkuIrmrKHmo4DmtYvml7bpl7QKCiAgICBkZWYgX19wb3N0X2luaXRfXyhzZWxmKToKICAgICAgICBpZiBzZWxmLnBsYXRmb3JtID09IFBsYXRmb3JtLlVOS05PV046CiAgICAgICAgICAgIHNlbGYucGxhdGZvcm0gPSBkZXRlY3RfcGxhdGZvcm0oc2VsZi51cmwpCgogICAgQHByb3BlcnR5CiAgICBkZWYgZGlzcGxheV9uYW1lKHNlbGYpIC0+IHN0cjoKICAgICAgICAiIiLmmL7npLrlkI3np7DvvJrkvJjlhYjoh6rlrprkuYnlkI3vvIzlhbbmrKHkuLvmkq3lkI3vvIzmnIDlkI7lubPlj7Ar5bqP5Y+3IiIiCiAgICAgICAgcmV0dXJuIHNlbGYuY3VzdG9tX25hbWUgb3Igc2VsZi5hbmNob3JfbmFtZSBvciBmIntzZWxmLnBsYXRmb3JtLnZhbHVlfeebtOaSremXtCIKCiAgICBAcHJvcGVydHkKICAgIGRlZiByZWNvcmRfZHVyYXRpb24oc2VsZikgLT4gc3RyOgogICAgICAgICIiIuW9leWItuaXtumVv+agvOW8j+WMliIiIgogICAgICAgIGlmIHNlbGYucmVjb3JkX3N0YXJ0X3RpbWUgPD0gMDoKICAgICAgICAgICAgcmV0dXJuICItLTotLTotLSIKICAgICAgICBlbGFwc2VkID0gaW50KHRpbWUudGltZSgpIC0gc2VsZi5yZWNvcmRfc3RhcnRfdGltZSkKICAgICAgICBoLCBtLCBzID0gZWxhcHNlZCAvLyAzNjAwLCBlbGFwc2VkICUgMzYwMCAvLyA2MCwgZWxhcHNlZCAlIDYwCiAgICAgICAgcmV0dXJuIGYie2g6MDJkfTp7bTowMmR9OntzOjAyZH0iCgogICAgQHByb3BlcnR5CiAgICBkZWYgZmlsZV9zaXplX3N0cihzZWxmKSAtPiBzdHI6CiAgICAgICAgIiIi5paH5Lu25aSn5bCP5qC85byP5YyWIiIiCiAgICAgICAgaWYgc2VsZi5maWxlX3NpemUgPD0gMDoKICAgICAgICAgICAgcmV0dXJuICItLSIKICAgICAgICBzaXplID0gc2VsZi5maWxlX3NpemUgICMg5L2/55So5Li05pe25Y+Y6YeP77yM6YG/5YWN5L+u5pS55Y6f5aeL5YC8CiAgICAgICAgZm9yIHVuaXQgaW4gWydCJywgJ0tCJywgJ01CJywgJ0dCJ106CiAgICAgICAgICAgIGlmIHNpemUgPCAxMDI0OgogICAgICAgICAgICAgICAgcmV0dXJuIGYie3NpemU6LjFmfSB7dW5pdH0iCiAgICAgICAgICAgIHNpemUgLz0gMTAyNAogICAgICAgIHJldHVybiBmIntzaXplOi4xZn0gVEIiCgogICAgZGVmIHRvX2RpY3Qoc2VsZikgLT4gZGljdDoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAidXJsIjogc2VsZi51cmwsCiAgICAgICAgICAgICJhbmNob3JfbmFtZSI6IHNlbGYuYW5jaG9yX25hbWUsCiAgICAgICAgICAgICJjdXN0b21fbmFtZSI6IHNlbGYuY3VzdG9tX25hbWUsCiAgICAgICAgICAgICJxdWFsaXR5Ijogc2VsZi5xdWFsaXR5LnZhbHVlLAogICAgICAgICAgICAiZW5hYmxlZCI6IHNlbGYuZW5hYmxlZCwKICAgICAgICAgICAgImNvb2tpZSI6IHNlbGYuY29va2llLAogICAgICAgIH0KCiAgICBAY2xhc3NtZXRob2QKICAgIGRlZiBmcm9tX2RpY3QoY2xzLCBkOiBkaWN0KSAtPiAiUm9vbSI6CiAgICAgICAgcXVhbGl0eV9zdHIgPSBkLmdldCgicXVhbGl0eSIsICLljp/nlLsiKQogICAgICAgIHF1YWxpdHkgPSBRdWFsaXR5Lk9EICAjIOm7mOiupOWAvAogICAgICAgIGlmIGlzaW5zdGFuY2UocXVhbGl0eV9zdHIsIFF1YWxpdHkpOgogICAgICAgICAgICBxdWFsaXR5ID0gcXVhbGl0eV9zdHIKICAgICAgICBlbGlmIGlzaW5zdGFuY2UocXVhbGl0eV9zdHIsIHN0cik6CiAgICAgICAgICAgICMg5YWI5oyJ5p6a5Li+5YC877yI5Lit5paH77yJ5Yy56YWNCiAgICAgICAgICAgIGZvciBxIGluIFF1YWxpdHk6CiAgICAgICAgICAgICAgICBpZiBxLnZhbHVlID09IHF1YWxpdHlfc3RyOgogICAgICAgICAgICAgICAgICAgIHF1YWxpdHkgPSBxCiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICMg5YaN5oyJ5p6a5Li+5ZCN77yI6Iux5paHIGtlee+8ieWMuemFjQogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHF1YWxpdHkgPSBRdWFsaXR5W3F1YWxpdHlfc3RyXQogICAgICAgICAgICAgICAgZXhjZXB0IEtleUVycm9yOgogICAgICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICByZXR1cm4gY2xzKAogICAgICAgICAgICB1cmw9ZFsidXJsIl0sCiAgICAgICAgICAgIGFuY2hvcl9uYW1lPWQuZ2V0KCJhbmNob3JfbmFtZSIsICIiKSwKICAgICAgICAgICAgY3VzdG9tX25hbWU9ZC5nZXQoImN1c3RvbV9uYW1lIiwgIiIpLAogICAgICAgICAgICBxdWFsaXR5PXF1YWxpdHksCiAgICAgICAgICAgIGVuYWJsZWQ9ZC5nZXQoImVuYWJsZWQiLCBUcnVlKSwKICAgICAgICAgICAgY29va2llPWQuZ2V0KCJjb29raWUiLCAiIiksCiAgICAgICAgKQ==
+from dataclasses import dataclass, field
+from enum import Enum
+import time
+
+
+class RoomStatus(Enum):
+    IDLE = "idle"           # 空闲/未监控
+    MONITORING = "monitoring"  # 监测中
+    RECORDING = "recording"    # 录制中
+    OFFLINE = "offline"        # 直播间离线/未开播
+    ERROR = "error"            # 错误
+
+
+class Platform(Enum):
+    DOUYIN = "抖音"
+    TIKTOK = "TikTok"
+    KUAISHOU = "快手"
+    HUYA = "虎牙"
+    DOUYU = "斗鱼"
+    YY = "YY直播"
+    BILIBILI = "哔哩哔哩"
+    XIAOHONGSHU = "小红书"
+    TWITCH = "Twitch"
+    YOUTUBE = "YouTube"
+    # ... 更多平台
+    UNKNOWN = "未知"
+
+
+# URL域名到平台的映射
+DOMAIN_MAP = {
+    "live.douyin.com": Platform.DOUYIN,
+    "www.douyin.com": Platform.DOUYIN,
+    "live.kuaishou.com": Platform.KUAISHOU,
+    "www.huya.com": Platform.HUYA,
+    "www.douyu.com": Platform.DOUYU,
+    "live.bilibili.com": Platform.BILIBILI,
+    "live.xiaohongshu.com": Platform.XIAOHONGSHU,
+    "www.twitch.tv": Platform.TWITCH,
+    "www.youtube.com": Platform.YOUTUBE,
+    "www.yy.com": Platform.YY,
+    # 添加更多
+}
+
+
+class Quality(Enum):
+    OD = "原画"
+    UHD = "超清"
+    HD = "高清"
+    SD = "标清"
+    LD = "流畅"
+
+
+def detect_platform(url: str) -> Platform:
+    """从URL自动识别平台"""
+    from urllib.parse import urlparse
+    try:
+        domain = urlparse(url).hostname or ""
+        for pattern, platform in DOMAIN_MAP.items():
+            if pattern in domain:
+                return platform
+    except Exception:
+        pass
+    return Platform.UNKNOWN
+
+
+@dataclass
+class Room:
+    url: str
+    anchor_name: str = ""
+    custom_name: str = ""  # 用户自定义名称（优先显示）
+    quality: Quality = Quality.OD
+    platform: Platform = Platform.UNKNOWN
+    status: RoomStatus = RoomStatus.IDLE
+    enabled: bool = True
+    cookie: str = ""  # 该直播间的登录态 Cookie
+    record_file: str = ""  # 当前录制文件路径
+    record_start_time: float = 0  # 录制开始时间戳
+    file_size: int = 0  # 当前文件大小(字节)
+    error_msg: str = ""
+    last_check: float = 0  # 上次检测时间
+
+    def __post_init__(self):
+        if self.platform == Platform.UNKNOWN:
+            self.platform = detect_platform(self.url)
+
+    @property
+    def display_name(self) -> str:
+        """显示名称：优先自定义名，其次主播名，最后平台+序号"""
+        return self.custom_name or self.anchor_name or f"{self.platform.value}直播间"
+
+    @property
+    def record_duration(self) -> str:
+        """录制时长格式化"""
+        if self.record_start_time <= 0:
+            return "--:--:--"
+        elapsed = int(time.time() - self.record_start_time)
+        h, m, s = elapsed // 3600, elapsed % 3600 // 60, elapsed % 60
+        return f"{h:02d}:{m:02d}:{s:02d}"
+
+    @property
+    def file_size_str(self) -> str:
+        """文件大小格式化"""
+        if self.file_size <= 0:
+            return "--"
+        size = self.file_size  # 使用临时变量，避免修改原始值
+        for unit in ['B', 'KB', 'MB', 'GB']:
+            if size < 1024:
+                return f"{size:.1f} {unit}"
+            size /= 1024
+        return f"{size:.1f} TB"
+
+    def to_dict(self) -> dict:
+        return {
+            "url": self.url,
+            "anchor_name": self.anchor_name,
+            "custom_name": self.custom_name,
+            "quality": self.quality.value,
+            "enabled": self.enabled,
+            "cookie": self.cookie,
+        }
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "Room":
+        quality_str = d.get("quality", "原画")
+        quality = Quality.OD  # 默认值
+        if isinstance(quality_str, Quality):
+            quality = quality_str
+        elif isinstance(quality_str, str):
+            # 先按枚举值（中文）匹配
+            for q in Quality:
+                if q.value == quality_str:
+                    quality = q
+                    break
+            else:
+                # 再按枚举名（英文 key）匹配
+                try:
+                    quality = Quality[quality_str]
+                except KeyError:
+                    pass
+        return cls(
+            url=d["url"],
+            anchor_name=d.get("anchor_name", ""),
+            custom_name=d.get("custom_name", ""),
+            quality=quality,
+            enabled=d.get("enabled", True),
+            cookie=d.get("cookie", ""),
+        )

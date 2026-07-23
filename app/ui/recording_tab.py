@@ -1,1 +1,310 @@
-IiIi5b2V5Yi254q25oCB6Z2i5p2/IC0g5a6e5pe25b2V5Yi2ICsg5Y6G5Y+y6K6w5b2VIiIiCmltcG9ydCBvcwppbXBvcnQgdGltZQpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQpmcm9tIFB5U2lkZTYuUXRXaWRnZXRzIGltcG9ydCAoCiAgICBRV2lkZ2V0LCBRVkJveExheW91dCwgUUhCb3hMYXlvdXQsIFFMYWJlbCwgUVNjcm9sbEFyZWEsIFFGcmFtZSwKICAgIFFQdXNoQnV0dG9uLCBRVGFibGVXaWRnZXQsIFFUYWJsZVdpZGdldEl0ZW0sIFFIZWFkZXJWaWV3LCBRTWVzc2FnZUJveCwKICAgIFFNZW51CikKZnJvbSBQeVNpZGU2LlF0Q29yZSBpbXBvcnQgUXQsIFNpZ25hbCwgUVRpbWVyCmZyb20gUHlTaWRlNi5RdEd1aSBpbXBvcnQgUUN1cnNvcgoKCmNsYXNzIFJlY29yZGluZ0NhcmQoUVdpZGdldCk6CiAgICAiIiLljZXkuKrlvZXliLbljaHniYciIiIKICAgIHN0b3BfY2xpY2tlZCA9IFNpZ25hbChzdHIpCiAgICBvcGVuX2ZvbGRlcl9jbGlja2VkID0gU2lnbmFsKHN0cikKCiAgICBkZWYgX19pbml0X18oc2VsZiwgdXJsOiBzdHIsIG5hbWU6IHN0ciwgcGxhdGZvcm06IHN0ciwgc3RhcnRfdGltZTogZmxvYXQgPSAwLCBwYXJlbnQ9Tm9uZSk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhwYXJlbnQpCiAgICAgICAgc2VsZi5fdXJsID0gdXJsCiAgICAgICAgc2VsZi5fbmFtZSA9IG5hbWUKICAgICAgICBzZWxmLl9wbGF0Zm9ybSA9IHBsYXRmb3JtCiAgICAgICAgc2VsZi5fc3RhcnRfdGltZSA9IHN0YXJ0X3RpbWUKICAgICAgICBzZWxmLl9maWxlX3NpemUgPSAwCiAgICAgICAgc2VsZi5fc2V0dXBfdWkoKQoKICAgIGRlZiBfc2V0dXBfdWkoc2VsZik6CiAgICAgICAgc2VsZi5zZXRPYmplY3ROYW1lKCJyZWNvcmRpbmdDYXJkIikKICAgICAgICBzZWxmLnNldEZpeGVkSGVpZ2h0KDY0KQogICAgICAgIGxheW91dCA9IFFIQm94TGF5b3V0KHNlbGYpCiAgICAgICAgbGF5b3V0LnNldENvbnRlbnRzTWFyZ2lucygxNiwgMCwgMTYsIDApCiAgICAgICAgbGF5b3V0LnNldFNwYWNpbmcoMTIpCgogICAgICAgICMg5bem5L6n5L+h5oGv5Yy677yI5Z6C55u05bGF5Lit5aCG5Y+g77yJCiAgICAgICAgaW5mbyA9IFFWQm94TGF5b3V0KCkKICAgICAgICBpbmZvLnNldFNwYWNpbmcoMikKICAgICAgICBpbmZvLnNldENvbnRlbnRzTWFyZ2lucygwLCAwLCAwLCAwKQoKICAgICAgICB0b3AgPSBRSEJveExheW91dCgpCiAgICAgICAgdG9wLnNldFNwYWNpbmcoOCkKICAgICAgICBuYW1lX2xhYmVsID0gUUxhYmVsKHNlbGYuX25hbWUpCiAgICAgICAgbmFtZV9sYWJlbC5zZXRTdHlsZVNoZWV0KCJjb2xvcjogIzJDM0U1MDsgZm9udC1zaXplOiAxNHB4OyBmb250LXdlaWdodDogNTAwOyBib3JkZXI6IG5vbmU7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyIpCiAgICAgICAgcGxhdGZvcm1fbGFiZWwgPSBRTGFiZWwoc2VsZi5fcGxhdGZvcm0pCiAgICAgICAgcGxhdGZvcm1fbGFiZWwuc2V0U3R5bGVTaGVldCgKICAgICAgICAgICAgImJhY2tncm91bmQ6ICNGMEY0RkE7IGNvbG9yOiAjMkI4QUY1OyBmb250LXNpemU6IDExcHg7ICIKICAgICAgICAgICAgImJvcmRlcjogbm9uZTsgYm9yZGVyLXJhZGl1czogNHB4OyBwYWRkaW5nOiAxcHggNnB4OyIKICAgICAgICApCiAgICAgICAgc2VsZi5fcmVjb3JkaW5nX2luZGljYXRvciA9IFFMYWJlbCgiUkVDIikKICAgICAgICBzZWxmLl9yZWNvcmRpbmdfaW5kaWNhdG9yLnNldFN0eWxlU2hlZXQoCiAgICAgICAgICAgICJjb2xvcjogI0U3NEMzQzsgZm9udC1zaXplOiAxMXB4OyBmb250LXdlaWdodDogYm9sZDsgYm9yZGVyOiBub25lOyBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsiCiAgICAgICAgKQogICAgICAgIHRvcC5hZGRXaWRnZXQobmFtZV9sYWJlbCkKICAgICAgICB0b3AuYWRkV2lkZ2V0KHBsYXRmb3JtX2xhYmVsKQogICAgICAgIHRvcC5hZGRXaWRnZXQoc2VsZi5fcmVjb3JkaW5nX2luZGljYXRvcikKICAgICAgICBpbmZvLmFkZExheW91dCh0b3ApCgogICAgICAgIG1pZCA9IFFIQm94TGF5b3V0KCkKICAgICAgICBtaWQuc2V0U3BhY2luZygxNikKICAgICAgICBzZWxmLl9zdGFydF90aW1lX2xhYmVsID0gUUxhYmVsKCkKICAgICAgICBzZWxmLl9zdGFydF90aW1lX2xhYmVsLnNldFN0eWxlU2hlZXQoImNvbG9yOiAjOEU5QUFGOyBmb250LXNpemU6IDEycHg7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IikKICAgICAgICBzZWxmLl9kdXJhdGlvbl9sYWJlbCA9IFFMYWJlbCgi5b2V5Yi25pe26ZW/OiAtLTotLTotLSIpCiAgICAgICAgc2VsZi5fZHVyYXRpb25fbGFiZWwuc2V0U3R5bGVTaGVldCgiY29sb3I6ICMyQjhBRjU7IGZvbnQtc2l6ZTogMTJweDsgZm9udC13ZWlnaHQ6IDUwMDsgYm9yZGVyOiBub25lOyBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsiKQogICAgICAgIHNlbGYuX3NpemVfbGFiZWwgPSBRTGFiZWwoIuaWh+S7tuWkp+WwjzogLS0iKQogICAgICAgIHNlbGYuX3NpemVfbGFiZWwuc2V0U3R5bGVTaGVldCgiY29sb3I6ICM4RTlBQUY7IGZvbnQtc2l6ZTogMTJweDsgYm9yZGVyOiBub25lOyBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsiKQogICAgICAgIG1pZC5hZGRXaWRnZXQoc2VsZi5fc3RhcnRfdGltZV9sYWJlbCkKICAgICAgICBtaWQuYWRkV2lkZ2V0KHNlbGYuX2R1cmF0aW9uX2xhYmVsKQogICAgICAgIG1pZC5hZGRXaWRnZXQoc2VsZi5fc2l6ZV9sYWJlbCkKICAgICAgICBpbmZvLmFkZExheW91dChtaWQpCgogICAgICAgIGxheW91dC5hZGRMYXlvdXQoaW5mbywgMSkKCiAgICAgICAgIyDlj7PkvqfmjInpkq7vvIjlnoLnm7TlsYXkuK3vvIkKICAgICAgICBmb2xkZXJfYnRuID0gUVB1c2hCdXR0b24oIuaJk+W8gOaWh+S7tuWkuSIpCiAgICAgICAgZm9sZGVyX2J0bi5zZXRPYmplY3ROYW1lKCJibHVlVG9vbEJ0biIpCiAgICAgICAgZm9sZGVyX2J0bi5zZXRGaXhlZEhlaWdodCgyOCkKICAgICAgICBmb2xkZXJfYnRuLnNldEN1cnNvcihRdC5DdXJzb3JTaGFwZS5Qb2ludGluZ0hhbmRDdXJzb3IpCiAgICAgICAgZm9sZGVyX2J0bi5jbGlja2VkLmNvbm5lY3QobGFtYmRhOiBzZWxmLm9wZW5fZm9sZGVyX2NsaWNrZWQuZW1pdChzZWxmLl91cmwpKQogICAgICAgIHN0b3BfYnRuID0gUVB1c2hCdXR0b24oIuWBnOatouW9leWItiIpCiAgICAgICAgc3RvcF9idG4uc2V0T2JqZWN0TmFtZSgicmVkVG9vbEJ0biIpCiAgICAgICAgc3RvcF9idG4uc2V0Rml4ZWRIZWlnaHQoMjgpCiAgICAgICAgc3RvcF9idG4uc2V0Q3Vyc29yKFF0LkN1cnNvclNoYXBlLlBvaW50aW5nSGFuZEN1cnNvcikKICAgICAgICBzdG9wX2J0bi5jbGlja2VkLmNvbm5lY3QobGFtYmRhOiBzZWxmLnN0b3BfY2xpY2tlZC5lbWl0KHNlbGYuX3VybCkpCiAgICAgICAgbGF5b3V0LmFkZFdpZGdldChmb2xkZXJfYnRuKQogICAgICAgIGxheW91dC5hZGRXaWRnZXQoc3RvcF9idG4pCgogICAgICAgIGlmIHNlbGYuX3N0YXJ0X3RpbWUgPiAwOgogICAgICAgICAgICBkdCA9IGRhdGV0aW1lLmZyb210aW1lc3RhbXAoc2VsZi5fc3RhcnRfdGltZSkKICAgICAgICAgICAgc2VsZi5fc3RhcnRfdGltZV9sYWJlbC5zZXRUZXh0KGYi5byA5aeL5LqOOiB7ZHQuc3RyZnRpbWUoJyVIOiVNOiVTJyl9IikKCiAgICBkZWYgdXBkYXRlX2luZm8oc2VsZiwgZmlsZV9zaXplOiBpbnQpOgogICAgICAgIHNlbGYuX2ZpbGVfc2l6ZSA9IGZpbGVfc2l6ZQogICAgICAgIHNpemUgPSBmaWxlX3NpemUKICAgICAgICBmb3IgdW5pdCBpbiBbJ0InLCAnS0InLCAnTUInLCAnR0InXToKICAgICAgICAgICAgaWYgc2l6ZSA8IDEwMjQ6CiAgICAgICAgICAgICAgICBzaXplX3N0ciA9IGYie3NpemU6LjFmfSB7dW5pdH0iCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICBzaXplIC89IDEwMjQKICAgICAgICBlbHNlOgogICAgICAgICAgICBzaXplX3N0ciA9IGYie3NpemU6LjFmfSBUQiIKICAgICAgICBzZWxmLl9zaXplX2xhYmVsLnNldFRleHQoZiLmlofku7blpKflsI86IHtzaXplX3N0cn0iKQoKICAgIGRlZiB1cGRhdGVfZHVyYXRpb24oc2VsZik6CiAgICAgICAgaWYgc2VsZi5fc3RhcnRfdGltZSA8PSAwOgogICAgICAgICAgICByZXR1cm4KICAgICAgICBlbGFwc2VkID0gaW50KHRpbWUudGltZSgpIC0gc2VsZi5fc3RhcnRfdGltZSkKICAgICAgICBoLCBtLCBzID0gZWxhcHNlZCAvLyAzNjAwLCBlbGFwc2VkICUgMzYwMCAvLyA2MCwgZWxhcHNlZCAlIDYwCiAgICAgICAgc2VsZi5fZHVyYXRpb25fbGFiZWwuc2V0VGV4dChmIuW9leWItuaXtumVvzoge2g6MDJkfTp7bTowMmR9OntzOjAyZH0iKQoKCmNsYXNzIFJlY29yZGluZ1RhYihRV2lkZ2V0KToKICAgIG9wZW5fZm9sZGVyX3JlcXVlc3RlZCA9IFNpZ25hbChzdHIpCiAgICBzdG9wX3JlY29yZGluZ19yZXF1ZXN0ZWQgPSBTaWduYWwoc3RyKQogICAgaGlzdG9yeV9jbGVhcl9yZXF1ZXN0ZWQgPSBTaWduYWwoKQogICAgZGVsZXRlX3JlY29yZF9yZXF1ZXN0ZWQgPSBTaWduYWwoaW50KSAgICAgICAjIOWIoOmZpOWOhuWPsuiusOW9le+8iOe0ouW8le+8iQogICAgZGVsZXRlX2ZpbGVfcmVxdWVzdGVkID0gU2lnbmFsKGludCwgc3RyKSAgICAjIOWIoOmZpOaWh+S7tu+8iOe0ouW8lSwg5paH5Lu26Lev5b6E77yJCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGljb25fZGlyOiBzdHIgPSAiIiwgcGFyZW50PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18ocGFyZW50KQogICAgICAgIHNlbGYuX2ljb25fZGlyID0gaWNvbl9kaXIKICAgICAgICBzZWxmLl9jYXJkcyA9IHt9CiAgICAgICAgc2VsZi5fc2V0dXBfdWkoKQogICAgICAgIHNlbGYuX2R1cmF0aW9uX3RpbWVyID0gUVRpbWVyKHNlbGYpCiAgICAgICAgc2VsZi5fZHVyYXRpb25fdGltZXIudGltZW91dC5jb25uZWN0KHNlbGYuX3JlZnJlc2hfZHVyYXRpb25zKQogICAgICAgIHNlbGYuX2R1cmF0aW9uX3RpbWVyLnNldEludGVydmFsKDEwMDApCgogICAgZGVmIF9zZXR1cF91aShzZWxmKToKICAgICAgICBsYXlvdXQgPSBRVkJveExheW91dChzZWxmKQogICAgICAgIGxheW91dC5zZXRDb250ZW50c01hcmdpbnMoMjAsIDE2LCAyMCwgMTYpCiAgICAgICAgbGF5b3V0LnNldFNwYWNpbmcoMTIpCgogICAgICAgICMgPT09PT0g5q2j5Zyo5b2V5Yi25Yy65Z+fID09PT09CiAgICAgICAgaGVhZGVyID0gUUhCb3hMYXlvdXQoKQogICAgICAgIHRpdGxlID0gUUxhYmVsKCLmraPlnKjlvZXliLYiKQogICAgICAgIHRpdGxlLnNldFN0eWxlU2hlZXQoImNvbG9yOiAjMkMzRTUwOyBmb250LXNpemU6IDE4cHg7IGZvbnQtd2VpZ2h0OiBib2xkOyBib3JkZXI6IG5vbmU7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyIpCiAgICAgICAgaGVhZGVyLmFkZFdpZGdldCh0aXRsZSkKICAgICAgICBzZWxmLl9jb3VudF9sYWJlbCA9IFFMYWJlbCgiIikKICAgICAgICBzZWxmLl9jb3VudF9sYWJlbC5zZXRTdHlsZVNoZWV0KCJjb2xvcjogIzJCOEFGNTsgZm9udC1zaXplOiAxM3B4OyBmb250LXdlaWdodDogYm9sZDsgYm9yZGVyOiBub25lOyBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsiKQogICAgICAgIGhlYWRlci5hZGRXaWRnZXQoc2VsZi5fY291bnRfbGFiZWwpCiAgICAgICAgaGVhZGVyLmFkZFN0cmV0Y2goKQogICAgICAgIGxheW91dC5hZGRMYXlvdXQoaGVhZGVyKQoKICAgICAgICBzZXAgPSBRTGFiZWwoKQogICAgICAgIHNlcC5zZXRGaXhlZEhlaWdodCgxKQogICAgICAgIHNlcC5zZXRTdHlsZVNoZWV0KCJiYWNrZ3JvdW5kOiAjRThFQ0YxOyBib3JkZXI6IG5vbmU7IikKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KHNlcCkKCiAgICAgICAgc2Nyb2xsID0gUVNjcm9sbEFyZWEoKQogICAgICAgIHNjcm9sbC5zZXRXaWRnZXRSZXNpemFibGUoVHJ1ZSkKICAgICAgICBzY3JvbGwuc2V0RnJhbWVTaGFwZShRU2Nyb2xsQXJlYS5TaGFwZS5Ob0ZyYW1lKQogICAgICAgIHNjcm9sbC5zZXRNaW5pbXVtSGVpZ2h0KDEwMCkgICMg56Gu5L+d6Iez5bCR6IO95pi+56S65LiA5Liq5a6M5pW05Y2h54mHCiAgICAgICAgc2VsZi5fY29udGFpbmVyID0gUVdpZGdldCgpCiAgICAgICAgc2VsZi5fY29udGFpbmVyX2xheW91dCA9IFFWQm94TGF5b3V0KHNlbGYuX2NvbnRhaW5lcikKICAgICAgICBzZWxmLl9jb250YWluZXJfbGF5b3V0LnNldENvbnRlbnRzTWFyZ2lucygwLCAwLCAwLCAwKQogICAgICAgIHNlbGYuX2NvbnRhaW5lcl9sYXlvdXQuc2V0U3BhY2luZyg4KQogICAgICAgIHNlbGYuX2NvbnRhaW5lcl9sYXlvdXQuYWRkU3RyZXRjaCgpCiAgICAgICAgc2Nyb2xsLnNldFdpZGdldChzZWxmLl9jb250YWluZXIpCiAgICAgICAgbGF5b3V0LmFkZFdpZGdldChzY3JvbGwsIDEpCgogICAgICAgICMgPT09PT0g5b2V5Yi25Y6G5Y+y5Yy65Z+fID09PT09CiAgICAgICAgaGlzdF9oZWFkZXIgPSBRSEJveExheW91dCgpCiAgICAgICAgaGlzdF90aXRsZSA9IFFMYWJlbCgi5b2V5Yi25Y6G5Y+yIikKICAgICAgICBoaXN0X3RpdGxlLnNldFN0eWxlU2hlZXQoImNvbG9yOiAjMkMzRTUwOyBmb250LXNpemU6IDE4cHg7IGZvbnQtd2VpZ2h0OiBib2xkOyBib3JkZXI6IG5vbmU7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyIpCiAgICAgICAgaGlzdF9oZWFkZXIuYWRkV2lkZ2V0KGhpc3RfdGl0bGUpCiAgICAgICAgc2VsZi5faGlzdF9jb3VudCA9IFFMYWJlbCgiIikKICAgICAgICBzZWxmLl9oaXN0X2NvdW50LnNldFN0eWxlU2hlZXQoImNvbG9yOiAjOEU5QUFGOyBmb250LXNpemU6IDEzcHg7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IikKICAgICAgICBoaXN0X2hlYWRlci5hZGRXaWRnZXQoc2VsZi5faGlzdF9jb3VudCkKICAgICAgICBoaXN0X2hlYWRlci5hZGRTdHJldGNoKCkKICAgICAgICBzZWxmLl9jbGVhcl9oaXN0X2J0biA9IFFQdXNoQnV0dG9uKCLmuIXnqbrljoblj7IiKQogICAgICAgIHNlbGYuX2NsZWFyX2hpc3RfYnRuLnNldE9iamVjdE5hbWUoInJlZFRvb2xCdG4iKQogICAgICAgIHNlbGYuX2NsZWFyX2hpc3RfYnRuLnNldEZpeGVkSGVpZ2h0KDI4KQogICAgICAgIHNlbGYuX2NsZWFyX2hpc3RfYnRuLmNsaWNrZWQuY29ubmVjdChzZWxmLl9vbl9jbGVhcl9oaXN0b3J5KQogICAgICAgIGhpc3RfaGVhZGVyLmFkZFdpZGdldChzZWxmLl9jbGVhcl9oaXN0X2J0bikKICAgICAgICBsYXlvdXQuYWRkTGF5b3V0KGhpc3RfaGVhZGVyKQoKICAgICAgICBzZXAyID0gUUxhYmVsKCkKICAgICAgICBzZXAyLnNldEZpeGVkSGVpZ2h0KDEpCiAgICAgICAgc2VwMi5zZXRTdHlsZVNoZWV0KCJiYWNrZ3JvdW5kOiAjRThFQ0YxOyBib3JkZXI6IG5vbmU7IikKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KHNlcDIpCgogICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUgPSBRVGFibGVXaWRnZXQoKQogICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUuc2V0Q29sdW1uQ291bnQoNykKICAgICAgICBzZWxmLl9oaXN0b3J5X3RhYmxlLnNldEhvcml6b250YWxIZWFkZXJMYWJlbHMoWwogICAgICAgICAgICAi5Li75pKtIiwgIuW5s+WPsCIsICLmoIfpopgiLCAi5pe26ZW/IiwgIuWkp+WwjyIsICLml7bpl7QiLCAi5pON5L2cIgogICAgICAgIF0pCiAgICAgICAgaGVhZGVyID0gc2VsZi5faGlzdG9yeV90YWJsZS5ob3Jpem9udGFsSGVhZGVyKCkKICAgICAgICAjIOS4u+aSreOAgeW5s+WPsOOAgeagh+mimOWFgeiuuOaLieS8uAogICAgICAgIGhlYWRlci5zZXRTZWN0aW9uUmVzaXplTW9kZSgwLCBRSGVhZGVyVmlldy5SZXNpemVNb2RlLlN0cmV0Y2gpICAjIOS4u+aSrQogICAgICAgIGhlYWRlci5zZXRTZWN0aW9uUmVzaXplTW9kZSgyLCBRSGVhZGVyVmlldy5SZXNpemVNb2RlLlN0cmV0Y2gpICAjIOagh+mimAogICAgICAgICMg5YW25LuW5YiX5Zu65a6a5oiW6Ieq6YCC5bqU5YaF5a65CiAgICAgICAgaGVhZGVyLnNldFNlY3Rpb25SZXNpemVNb2RlKDEsIFFIZWFkZXJWaWV3LlJlc2l6ZU1vZGUuUmVzaXplVG9Db250ZW50cykgICMg5bmz5Y+wCiAgICAgICAgaGVhZGVyLnNldFNlY3Rpb25SZXNpemVNb2RlKDMsIFFIZWFkZXJWaWV3LlJlc2l6ZU1vZGUuUmVzaXplVG9Db250ZW50cykgICMg5pe26ZW/CiAgICAgICAgaGVhZGVyLnNldFNlY3Rpb25SZXNpemVNb2RlKDQsIFFIZWFkZXJWaWV3LlJlc2l6ZU1vZGUuUmVzaXplVG9Db250ZW50cykgICMg5aSn5bCPCiAgICAgICAgaGVhZGVyLnNldFNlY3Rpb25SZXNpemVNb2RlKDUsIFFIZWFkZXJWaWV3LlJlc2l6ZU1vZGUuUmVzaXplVG9Db250ZW50cykgICMg5pe26Ze0CiAgICAgICAgaGVhZGVyLnNldFNlY3Rpb25SZXNpemVNb2RlKDYsIFFIZWFkZXJWaWV3LlJlc2l6ZU1vZGUuRml4ZWQpCiAgICAgICAgaGVhZGVyLnJlc2l6ZVNlY3Rpb24oNiwgMTIwKSAgIyDmk43kvZzliJflm7rlrpoxMjBweAogICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUuc2V0U2VsZWN0aW9uQmVoYXZpb3IoUVRhYmxlV2lkZ2V0LlNlbGVjdGlvbkJlaGF2aW9yLlNlbGVjdFJvd3MpCiAgICAgICAgc2VsZi5faGlzdG9yeV90YWJsZS5zZXRFZGl0VHJpZ2dlcnMoUVRhYmxlV2lkZ2V0LkVkaXRUcmlnZ2VyLk5vRWRpdFRyaWdnZXJzKQogICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUuc2V0QWx0ZXJuYXRpbmdSb3dDb2xvcnMoVHJ1ZSkKICAgICAgICBzZWxmLl9oaXN0b3J5X3RhYmxlLnZlcnRpY2FsSGVhZGVyKCkuc2V0RGVmYXVsdFNlY3Rpb25TaXplKDQ0KQogICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUudmVydGljYWxIZWFkZXIoKS5zZXRWaXNpYmxlKEZhbHNlKQogICAgICAgIGxheW91dC5hZGRXaWRnZXQoc2VsZi5faGlzdG9yeV90YWJsZSwgMikKCiAgICBkZWYgYWRkX3JlY29yZGluZyhzZWxmLCB1cmw6IHN0ciwgbmFtZTogc3RyLCBwbGF0Zm9ybTogc3RyLCBzdGFydF90aW1lOiBmbG9hdCA9IDApOgogICAgICAgIGlmIHVybCBpbiBzZWxmLl9jYXJkczoKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgY2FyZCA9IFJlY29yZGluZ0NhcmQodXJsLCBuYW1lLCBwbGF0Zm9ybSwgc3RhcnRfdGltZSkKICAgICAgICBjYXJkLnN0b3BfY2xpY2tlZC5jb25uZWN0KHNlbGYuc3RvcF9yZWNvcmRpbmdfcmVxdWVzdGVkLmVtaXQpCiAgICAgICAgY2FyZC5vcGVuX2ZvbGRlcl9jbGlja2VkLmNvbm5lY3Qoc2VsZi5vcGVuX2ZvbGRlcl9yZXF1ZXN0ZWQuZW1pdCkKICAgICAgICBzZWxmLl9jb250YWluZXJfbGF5b3V0Lmluc2VydFdpZGdldChzZWxmLl9jb250YWluZXJfbGF5b3V0LmNvdW50KCkgLSAxLCBjYXJkKQogICAgICAgIHNlbGYuX2NhcmRzW3VybF0gPSBjYXJkCiAgICAgICAgc2VsZi5fdXBkYXRlX2NvdW50KCkKICAgICAgICBpZiBub3Qgc2VsZi5fZHVyYXRpb25fdGltZXIuaXNBY3RpdmUoKSBhbmQgc2VsZi5fY2FyZHM6CiAgICAgICAgICAgIHNlbGYuX2R1cmF0aW9uX3RpbWVyLnN0YXJ0KCkKCiAgICBkZWYgcmVtb3ZlX3JlY29yZGluZyhzZWxmLCB1cmw6IHN0cik6CiAgICAgICAgY2FyZCA9IHNlbGYuX2NhcmRzLnBvcCh1cmwsIE5vbmUpCiAgICAgICAgaWYgY2FyZDoKICAgICAgICAgICAgc2VsZi5fY29udGFpbmVyX2xheW91dC5yZW1vdmVXaWRnZXQoY2FyZCkKICAgICAgICAgICAgY2FyZC5kZWxldGVMYXRlcigpCiAgICAgICAgc2VsZi5fdXBkYXRlX2NvdW50KCkKICAgICAgICBpZiBub3Qgc2VsZi5fY2FyZHM6CiAgICAgICAgICAgIHNlbGYuX2R1cmF0aW9uX3RpbWVyLnN0b3AoKQoKICAgIGRlZiB1cGRhdGVfcmVjb3JkaW5nKHNlbGYsIHVybDogc3RyLCBmaWxlX3NpemU6IGludCk6CiAgICAgICAgY2FyZCA9IHNlbGYuX2NhcmRzLmdldCh1cmwpCiAgICAgICAgaWYgY2FyZDoKICAgICAgICAgICAgY2FyZC51cGRhdGVfaW5mbyhmaWxlX3NpemUpCgogICAgZGVmIHJlZnJlc2hfaGlzdG9yeShzZWxmLCByZWNvcmRzOiBsaXN0KToKICAgICAgICAiIiLliLfmlrDljoblj7LorrDlvZXooajmoLwiIiIKICAgICAgICBzZWxmLl9oaXN0b3J5X3RhYmxlLnNldFJvd0NvdW50KGxlbihyZWNvcmRzKSkKICAgICAgICBmb3IgaSwgciBpbiBlbnVtZXJhdGUocmVjb3Jkcyk6CiAgICAgICAgICAgICMg5Li75pKtCiAgICAgICAgICAgIGl0ZW0wID0gUVRhYmxlV2lkZ2V0SXRlbShyLmFuY2hvcl9uYW1lIG9yICLmnKrnn6UiKQogICAgICAgICAgICBpdGVtMC5zZXRUZXh0QWxpZ25tZW50KFF0LkFsaWdubWVudEZsYWcuQWxpZ25DZW50ZXIpCiAgICAgICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUuc2V0SXRlbShpLCAwLCBpdGVtMCkKICAgICAgICAgICAgIyDlubPlj7AKICAgICAgICAgICAgaXRlbTEgPSBRVGFibGVXaWRnZXRJdGVtKHIucGxhdGZvcm0gb3IgIi0iKQogICAgICAgICAgICBpdGVtMS5zZXRUZXh0QWxpZ25tZW50KFF0LkFsaWdubWVudEZsYWcuQWxpZ25DZW50ZXIpCiAgICAgICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUuc2V0SXRlbShpLCAxLCBpdGVtMSkKICAgICAgICAgICAgIyDmoIfpopgKICAgICAgICAgICAgaXRlbTIgPSBRVGFibGVXaWRnZXRJdGVtKHIudGl0bGUgb3IgIi0iKQogICAgICAgICAgICBzZWxmLl9oaXN0b3J5X3RhYmxlLnNldEl0ZW0oaSwgMiwgaXRlbTIpCiAgICAgICAgICAgICMg5pe26ZW/CiAgICAgICAgICAgIGl0ZW0zID0gUVRhYmxlV2lkZ2V0SXRlbShyLmR1cmF0aW9uX3N0ciBvciAiLSIpCiAgICAgICAgICAgIGl0ZW0zLnNldFRleHRBbGlnbm1lbnQoUXQuQWxpZ25tZW50RmxhZy5BbGlnbkNlbnRlcikKICAgICAgICAgICAgc2VsZi5faGlzdG9yeV90YWJsZS5zZXRJdGVtKGksIDMsIGl0ZW0zKQogICAgICAgICAgICAjIOWkp+WwjwogICAgICAgICAgICBpdGVtNCA9IFFUYWJsZVdpZGdldEl0ZW0oci5maWxlX3NpemVfc3RyIG9yICItIikKICAgICAgICAgICAgaXRlbTQuc2V0VGV4dEFsaWdubWVudChRdC5BbGlnbm1lbnRGbGFnLkFsaWduQ2VudGVyKQogICAgICAgICAgICBzZWxmLl9oaXN0b3J5X3RhYmxlLnNldEl0ZW0oaSwgNCwgaXRlbTQpCiAgICAgICAgICAgICMg5pe26Ze0CiAgICAgICAgICAgIGl0ZW01ID0gUVRhYmxlV2lkZ2V0SXRlbShyLnN0YXJ0X3RpbWVfc3RyIG9yICItIikKICAgICAgICAgICAgaXRlbTUuc2V0VGV4dEFsaWdubWVudChRdC5BbGlnbm1lbnRGbGFnLkFsaWduQ2VudGVyKQogICAgICAgICAgICBzZWxmLl9oaXN0b3J5X3RhYmxlLnNldEl0ZW0oaSwgNSwgaXRlbTUpCiAgICAgICAgICAgICMg5pON5L2cIC0g5omT5byAICsg5Yig6ZmkCiAgICAgICAgICAgIGJ0bl93aWRnZXQgPSBRV2lkZ2V0KCkKICAgICAgICAgICAgYnRuX2xheW91dCA9IFFIQm94TGF5b3V0KGJ0bl93aWRnZXQpCiAgICAgICAgICAgIGJ0bl9sYXlvdXQuc2V0Q29udGVudHNNYXJnaW5zKDQsIDAsIDQsIDApCiAgICAgICAgICAgIGJ0bl9sYXlvdXQuc2V0U3BhY2luZyg2KQogICAgICAgICAgICBvcGVuX2J0biA9IFFQdXNoQnV0dG9uKCLmiZPlvIAiKQogICAgICAgICAgICBvcGVuX2J0bi5zZXRGaXhlZFNpemUoNTAsIDI2KQogICAgICAgICAgICBvcGVuX2J0bi5zZXRDdXJzb3IoUXQuQ3Vyc29yU2hhcGUuUG9pbnRpbmdIYW5kQ3Vyc29yKQogICAgICAgICAgICBvcGVuX2J0bi5zZXRTdHlsZVNoZWV0KCJmb250LXNpemU6IDExcHg7IHBhZGRpbmc6IDBweCA2cHg7IGJvcmRlci1yYWRpdXM6IDRweDsgYm9yZGVyOiAxcHggc29saWQgI0RFRTJFODsgYmFja2dyb3VuZDogd2hpdGU7IGNvbG9yOiAjMkMzRTUwOyIpCiAgICAgICAgICAgIG9wZW5fYnRuLmNsaWNrZWQuY29ubmVjdChsYW1iZGEgY2hlY2tlZCwgZnA9ci5maWxlX3BhdGg6IHNlbGYuX29wZW5fZmlsZShmcCkpCiAgICAgICAgICAgIGJ0bl9sYXlvdXQuYWRkV2lkZ2V0KG9wZW5fYnRuKQogICAgICAgICAgICBkZWxfYnRuID0gUVB1c2hCdXR0b24oIuWIoOmZpCIpCiAgICAgICAgICAgIGRlbF9idG4uc2V0Rml4ZWRTaXplKDUwLCAyNikKICAgICAgICAgICAgZGVsX2J0bi5zZXRDdXJzb3IoUXQuQ3Vyc29yU2hhcGUuUG9pbnRpbmdIYW5kQ3Vyc29yKQogICAgICAgICAgICBkZWxfYnRuLnNldFN0eWxlU2hlZXQoImZvbnQtc2l6ZTogMTFweDsgcGFkZGluZzogMHB4IDZweDsgYm9yZGVyLXJhZGl1czogNHB4OyBib3JkZXI6IDFweCBzb2xpZCAjRTc0QzNDOyBiYWNrZ3JvdW5kOiB3aGl0ZTsgY29sb3I6ICNFNzRDM0M7IikKICAgICAgICAgICAgZGVsX2J0bi5jbGlja2VkLmNvbm5lY3QobGFtYmRhIGNoZWNrZWQsIGlkeD1pLCBmcD1yLmZpbGVfcGF0aDogc2VsZi5fb25fZGVsZXRlX2NsaWNrZWQoaWR4LCBmcCkpCiAgICAgICAgICAgIGJ0bl9sYXlvdXQuYWRkV2lkZ2V0KGRlbF9idG4pCiAgICAgICAgICAgIGJ0bl9sYXlvdXQuYWRkU3RyZXRjaCgpCiAgICAgICAgICAgIHNlbGYuX2hpc3RvcnlfdGFibGUuc2V0Q2VsbFdpZGdldChpLCA2LCBidG5fd2lkZ2V0KQogICAgICAgIHNlbGYuX2hpc3RfY291bnQuc2V0VGV4dChmIih7bGVuKHJlY29yZHMpfSkiIGlmIHJlY29yZHMgZWxzZSAiIikKCiAgICBkZWYgX29wZW5fZmlsZShzZWxmLCBmaWxlX3BhdGg6IHN0cik6CiAgICAgICAgaWYgZmlsZV9wYXRoIGFuZCBvcy5wYXRoLmlzZmlsZShmaWxlX3BhdGgpOgogICAgICAgICAgICBmcm9tIGFwcC51dGlscy5maWxlX21hbmFnZXIgaW1wb3J0IG9wZW5fZmlsZV9sb2NhdGlvbgogICAgICAgICAgICBvcGVuX2ZpbGVfbG9jYXRpb24oZmlsZV9wYXRoKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIFFNZXNzYWdlQm94LmluZm9ybWF0aW9uKHNlbGYsICLmj5DnpLoiLCAi5paH5Lu25LiN5a2Y5Zyo5oiW5bey6KKr5Yig6ZmkIikKCiAgICBkZWYgX29uX2RlbGV0ZV9jbGlja2VkKHNlbGYsIGluZGV4OiBpbnQsIGZpbGVfcGF0aDogc3RyKToKICAgICAgICAiIiLngrnlh7vliKDpmaTmjInpkq7vvIzlvLnlh7rpgInmi6noj5zljZUiIiIKICAgICAgICBtZW51ID0gUU1lbnUoc2VsZikKICAgICAgICBhY3RfcmVjb3JkID0gbWVudS5hZGRBY3Rpb24oIuS7heWIoOmZpOiusOW9lSIpCiAgICAgICAgYWN0X2ZpbGUgPSBtZW51LmFkZEFjdGlvbigi5Yig6Zmk6K6w5b2V5ZKM5paH5Lu2IikKICAgICAgICBhY3Rpb24gPSBtZW51LmV4ZWMoUUN1cnNvci5wb3MoKSkKICAgICAgICBpZiBhY3Rpb24gPT0gYWN0X3JlY29yZDoKICAgICAgICAgICAgc2VsZi5kZWxldGVfcmVjb3JkX3JlcXVlc3RlZC5lbWl0KGluZGV4KQogICAgICAgIGVsaWYgYWN0aW9uID09IGFjdF9maWxlOgogICAgICAgICAgICBzZWxmLmRlbGV0ZV9maWxlX3JlcXVlc3RlZC5lbWl0KGluZGV4LCBmaWxlX3BhdGgpCgogICAgZGVmIF9vbl9jbGVhcl9oaXN0b3J5KHNlbGYpOgogICAgICAgIHJlcGx5ID0gUU1lc3NhZ2VCb3gucXVlc3Rpb24oCiAgICAgICAgICAgIHNlbGYsICLnoa7orqTmuIXnqboiLCAi56Gu5a6a6KaB5riF56m65omA5pyJ5b2V5Yi25Y6G5Y+y5ZCX77yfXG7vvIjkuI3kvJrliKDpmaTlrp7pmYXmlofku7bvvIkiLAogICAgICAgICAgICBRTWVzc2FnZUJveC5TdGFuZGFyZEJ1dHRvbi5ZZXMgfCBRTWVzc2FnZUJveC5TdGFuZGFyZEJ1dHRvbi5ObwogICAgICAgICkKICAgICAgICBpZiByZXBseSA9PSBRTWVzc2FnZUJveC5TdGFuZGFyZEJ1dHRvbi5ZZXM6CiAgICAgICAgICAgIHNlbGYuaGlzdG9yeV9jbGVhcl9yZXF1ZXN0ZWQuZW1pdCgpCgogICAgZGVmIF9yZWZyZXNoX2R1cmF0aW9ucyhzZWxmKToKICAgICAgICBmb3IgY2FyZCBpbiBzZWxmLl9jYXJkcy52YWx1ZXMoKToKICAgICAgICAgICAgY2FyZC51cGRhdGVfZHVyYXRpb24oKQoKICAgIGRlZiBfdXBkYXRlX2NvdW50KHNlbGYpOgogICAgICAgIGNvdW50ID0gbGVuKHNlbGYuX2NhcmRzKQogICAgICAgIHNlbGYuX2NvdW50X2xhYmVsLnNldFRleHQoZiIoe2NvdW50fSkiIGlmIGNvdW50ID4gMCBlbHNlICIiKQo=
+"""录制状态面板 - 实时录制 + 历史记录"""
+import os
+import time
+from datetime import datetime
+from PySide6.QtWidgets import (
+    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QScrollArea, QFrame,
+    QPushButton, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox,
+    QMenu
+)
+from PySide6.QtCore import Qt, Signal, QTimer
+from PySide6.QtGui import QCursor
+
+
+class RecordingCard(QWidget):
+    """单个录制卡片"""
+    stop_clicked = Signal(str)
+    open_folder_clicked = Signal(str)
+
+    def __init__(self, url: str, name: str, platform: str, start_time: float = 0, parent=None):
+        super().__init__(parent)
+        self._url = url
+        self._name = name
+        self._platform = platform
+        self._start_time = start_time
+        self._file_size = 0
+        self._setup_ui()
+
+    def _setup_ui(self):
+        self.setObjectName("recordingCard")
+        self.setFixedHeight(64)
+        layout = QHBoxLayout(self)
+        layout.setContentsMargins(16, 0, 16, 0)
+        layout.setSpacing(12)
+
+        # 左侧信息区（垂直居中堆叠）
+        info = QVBoxLayout()
+        info.setSpacing(2)
+        info.setContentsMargins(0, 0, 0, 0)
+
+        top = QHBoxLayout()
+        top.setSpacing(8)
+        name_label = QLabel(self._name)
+        name_label.setStyleSheet("color: #2C3E50; font-size: 14px; font-weight: 500; border: none; background: transparent;")
+        platform_label = QLabel(self._platform)
+        platform_label.setStyleSheet(
+            "background: #F0F4FA; color: #2B8AF5; font-size: 11px; "
+            "border: none; border-radius: 4px; padding: 1px 6px;"
+        )
+        self._recording_indicator = QLabel("REC")
+        self._recording_indicator.setStyleSheet(
+            "color: #E74C3C; font-size: 11px; font-weight: bold; border: none; background: transparent;"
+        )
+        top.addWidget(name_label)
+        top.addWidget(platform_label)
+        top.addWidget(self._recording_indicator)
+        info.addLayout(top)
+
+        mid = QHBoxLayout()
+        mid.setSpacing(16)
+        self._start_time_label = QLabel()
+        self._start_time_label.setStyleSheet("color: #8E9AAF; font-size: 12px; border: none; background: transparent;")
+        self._duration_label = QLabel("录制时长: --:--:--")
+        self._duration_label.setStyleSheet("color: #2B8AF5; font-size: 12px; font-weight: 500; border: none; background: transparent;")
+        self._size_label = QLabel("文件大小: --")
+        self._size_label.setStyleSheet("color: #8E9AAF; font-size: 12px; border: none; background: transparent;")
+        mid.addWidget(self._start_time_label)
+        mid.addWidget(self._duration_label)
+        mid.addWidget(self._size_label)
+        info.addLayout(mid)
+
+        layout.addLayout(info, 1)
+
+        # 右侧按钮（垂直居中）
+        folder_btn = QPushButton("打开文件夹")
+        folder_btn.setObjectName("blueToolBtn")
+        folder_btn.setFixedHeight(28)
+        folder_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        folder_btn.clicked.connect(lambda: self.open_folder_clicked.emit(self._url))
+        stop_btn = QPushButton("停止录制")
+        stop_btn.setObjectName("redToolBtn")
+        stop_btn.setFixedHeight(28)
+        stop_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        stop_btn.clicked.connect(lambda: self.stop_clicked.emit(self._url))
+        layout.addWidget(folder_btn)
+        layout.addWidget(stop_btn)
+
+        if self._start_time > 0:
+            dt = datetime.fromtimestamp(self._start_time)
+            self._start_time_label.setText(f"开始于: {dt.strftime('%H:%M:%S')}")
+
+    def update_info(self, file_size: int):
+        self._file_size = file_size
+        size = file_size
+        for unit in ['B', 'KB', 'MB', 'GB']:
+            if size < 1024:
+                size_str = f"{size:.1f} {unit}"
+                break
+            size /= 1024
+        else:
+            size_str = f"{size:.1f} TB"
+        self._size_label.setText(f"文件大小: {size_str}")
+
+    def update_duration(self):
+        if self._start_time <= 0:
+            return
+        elapsed = int(time.time() - self._start_time)
+        h, m, s = elapsed // 3600, elapsed % 3600 // 60, elapsed % 60
+        self._duration_label.setText(f"录制时长: {h:02d}:{m:02d}:{s:02d}")
+
+
+class RecordingTab(QWidget):
+    open_folder_requested = Signal(str)
+    stop_recording_requested = Signal(str)
+    history_clear_requested = Signal()
+    delete_record_requested = Signal(int)       # 删除历史记录（索引）
+    delete_file_requested = Signal(int, str)    # 删除文件（索引, 文件路径）
+
+    def __init__(self, icon_dir: str = "", parent=None):
+        super().__init__(parent)
+        self._icon_dir = icon_dir
+        self._cards = {}
+        self._setup_ui()
+        self._duration_timer = QTimer(self)
+        self._duration_timer.timeout.connect(self._refresh_durations)
+        self._duration_timer.setInterval(1000)
+
+    def _setup_ui(self):
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(20, 16, 20, 16)
+        layout.setSpacing(12)
+
+        # ===== 正在录制区域 =====
+        header = QHBoxLayout()
+        title = QLabel("正在录制")
+        title.setStyleSheet("color: #2C3E50; font-size: 18px; font-weight: bold; border: none; background: transparent;")
+        header.addWidget(title)
+        self._count_label = QLabel("")
+        self._count_label.setStyleSheet("color: #2B8AF5; font-size: 13px; font-weight: bold; border: none; background: transparent;")
+        header.addWidget(self._count_label)
+        header.addStretch()
+        layout.addLayout(header)
+
+        sep = QLabel()
+        sep.setFixedHeight(1)
+        sep.setStyleSheet("background: #E8ECF1; border: none;")
+        layout.addWidget(sep)
+
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QScrollArea.Shape.NoFrame)
+        scroll.setMinimumHeight(100)  # 确保至少能显示一个完整卡片
+        self._container = QWidget()
+        self._container_layout = QVBoxLayout(self._container)
+        self._container_layout.setContentsMargins(0, 0, 0, 0)
+        self._container_layout.setSpacing(8)
+        self._container_layout.addStretch()
+        scroll.setWidget(self._container)
+        layout.addWidget(scroll, 1)
+
+        # ===== 录制历史区域 =====
+        hist_header = QHBoxLayout()
+        hist_title = QLabel("录制历史")
+        hist_title.setStyleSheet("color: #2C3E50; font-size: 18px; font-weight: bold; border: none; background: transparent;")
+        hist_header.addWidget(hist_title)
+        self._hist_count = QLabel("")
+        self._hist_count.setStyleSheet("color: #8E9AAF; font-size: 13px; border: none; background: transparent;")
+        hist_header.addWidget(self._hist_count)
+        hist_header.addStretch()
+        self._clear_hist_btn = QPushButton("清空历史")
+        self._clear_hist_btn.setObjectName("redToolBtn")
+        self._clear_hist_btn.setFixedHeight(28)
+        self._clear_hist_btn.clicked.connect(self._on_clear_history)
+        hist_header.addWidget(self._clear_hist_btn)
+        layout.addLayout(hist_header)
+
+        sep2 = QLabel()
+        sep2.setFixedHeight(1)
+        sep2.setStyleSheet("background: #E8ECF1; border: none;")
+        layout.addWidget(sep2)
+
+        self._history_table = QTableWidget()
+        self._history_table.setColumnCount(7)
+        self._history_table.setHorizontalHeaderLabels([
+            "主播", "平台", "标题", "时长", "大小", "时间", "操作"
+        ])
+        header = self._history_table.horizontalHeader()
+        # 主播、平台、标题允许拉伸
+        header.setSectionResizeMode(0, QHeaderView.ResizeMode.Stretch)  # 主播
+        header.setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)  # 标题
+        # 其他列固定或自适应内容
+        header.setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)  # 平台
+        header.setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)  # 时长
+        header.setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)  # 大小
+        header.setSectionResizeMode(5, QHeaderView.ResizeMode.ResizeToContents)  # 时间
+        header.setSectionResizeMode(6, QHeaderView.ResizeMode.Fixed)
+        header.resizeSection(6, 120)  # 操作列固定120px
+        self._history_table.setSelectionBehavior(QTableWidget.SelectionBehavior.SelectRows)
+        self._history_table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
+        self._history_table.setAlternatingRowColors(True)
+        self._history_table.verticalHeader().setDefaultSectionSize(44)
+        self._history_table.verticalHeader().setVisible(False)
+        layout.addWidget(self._history_table, 2)
+
+    def add_recording(self, url: str, name: str, platform: str, start_time: float = 0):
+        if url in self._cards:
+            return
+        card = RecordingCard(url, name, platform, start_time)
+        card.stop_clicked.connect(self.stop_recording_requested.emit)
+        card.open_folder_clicked.connect(self.open_folder_requested.emit)
+        self._container_layout.insertWidget(self._container_layout.count() - 1, card)
+        self._cards[url] = card
+        self._update_count()
+        if not self._duration_timer.isActive() and self._cards:
+            self._duration_timer.start()
+
+    def remove_recording(self, url: str):
+        card = self._cards.pop(url, None)
+        if card:
+            self._container_layout.removeWidget(card)
+            card.deleteLater()
+        self._update_count()
+        if not self._cards:
+            self._duration_timer.stop()
+
+    def update_recording(self, url: str, file_size: int):
+        card = self._cards.get(url)
+        if card:
+            card.update_info(file_size)
+
+    def refresh_history(self, records: list):
+        """刷新历史记录表格"""
+        self._history_table.setRowCount(len(records))
+        for i, r in enumerate(records):
+            # 主播
+            item0 = QTableWidgetItem(r.anchor_name or "未知")
+            item0.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            self._history_table.setItem(i, 0, item0)
+            # 平台
+            item1 = QTableWidgetItem(r.platform or "-")
+            item1.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            self._history_table.setItem(i, 1, item1)
+            # 标题
+            item2 = QTableWidgetItem(r.title or "-")
+            self._history_table.setItem(i, 2, item2)
+            # 时长
+            item3 = QTableWidgetItem(r.duration_str or "-")
+            item3.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            self._history_table.setItem(i, 3, item3)
+            # 大小
+            item4 = QTableWidgetItem(r.file_size_str or "-")
+            item4.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            self._history_table.setItem(i, 4, item4)
+            # 时间
+            item5 = QTableWidgetItem(r.start_time_str or "-")
+            item5.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            self._history_table.setItem(i, 5, item5)
+            # 操作 - 打开 + 删除
+            btn_widget = QWidget()
+            btn_layout = QHBoxLayout(btn_widget)
+            btn_layout.setContentsMargins(4, 0, 4, 0)
+            btn_layout.setSpacing(6)
+            open_btn = QPushButton("打开")
+            open_btn.setFixedSize(50, 26)
+            open_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+            open_btn.setStyleSheet("font-size: 11px; padding: 0px 6px; border-radius: 4px; border: 1px solid #DEE2E8; background: white; color: #2C3E50;")
+            open_btn.clicked.connect(lambda checked, fp=r.file_path: self._open_file(fp))
+            btn_layout.addWidget(open_btn)
+            del_btn = QPushButton("删除")
+            del_btn.setFixedSize(50, 26)
+            del_btn.setCursor(Qt.CursorShape.PointingHandCursor)
+            del_btn.setStyleSheet("font-size: 11px; padding: 0px 6px; border-radius: 4px; border: 1px solid #E74C3C; background: white; color: #E74C3C;")
+            del_btn.clicked.connect(lambda checked, idx=i, fp=r.file_path: self._on_delete_clicked(idx, fp))
+            btn_layout.addWidget(del_btn)
+            btn_layout.addStretch()
+            self._history_table.setCellWidget(i, 6, btn_widget)
+        self._hist_count.setText(f"({len(records)})" if records else "")
+
+    def _open_file(self, file_path: str):
+        if file_path and os.path.isfile(file_path):
+            from app.utils.file_manager import open_file_location
+            open_file_location(file_path)
+        else:
+            QMessageBox.information(self, "提示", "文件不存在或已被删除")
+
+    def _on_delete_clicked(self, index: int, file_path: str):
+        """点击删除按钮，弹出选择菜单"""
+        menu = QMenu(self)
+        act_record = menu.addAction("仅删除记录")
+        act_file = menu.addAction("删除记录和文件")
+        action = menu.exec(QCursor.pos())
+        if action == act_record:
+            self.delete_record_requested.emit(index)
+        elif action == act_file:
+            self.delete_file_requested.emit(index, file_path)
+
+    def _on_clear_history(self):
+        reply = QMessageBox.question(
+            self, "确认清空", "确定要清空所有录制历史吗？\n（不会删除实际文件）",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
+        )
+        if reply == QMessageBox.StandardButton.Yes:
+            self.history_clear_requested.emit()
+
+    def _refresh_durations(self):
+        for card in self._cards.values():
+            card.update_duration()
+
+    def _update_count(self):
+        count = len(self._cards)
+        self._count_label.setText(f"({count})" if count > 0 else "")

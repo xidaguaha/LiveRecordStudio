@@ -1,1 +1,96 @@
-IyBMaXZlUmVjb3JkIFN0dWRpbwoK5aSa5bmz5Y+w55u05pKt6Ieq5Yqo5b2V5Yi25bel5YW377yM5Z+65LqOIFB5dGhvbiArIFB5U2lkZTYgKyBGRm1wZWfjgIIKCiMjIOWKn+iDveeJueaApwoKLSAqKuWkmuW5s+WPsOaUr+aMgSoq77yaQmlsaWJpbGnjgIHlv6vmiYvjgIHmipbpn7PjgIHmlpfpsbzjgIHomY7niZnjgIFZb3VUdWJlIOetieS4u+a1geebtOaSreW5s+WPsAotICoq6Ieq5Yqo55uR5o6nKirvvJrlrprml7bmo4DmtYvnm7Tmkq3pl7TnirbmgIHvvIzlvIDmkq3oh6rliqjlvZXliLbvvIzkuIvmkq3oh6rliqjlgZzmraIKLSAqKuWkmuaIv+mXtOW5tuWPkSoq77ya5ZCM5pe255uR5o6n5aSa5Liq55u05pKt6Ze077yM54us56uL5b2V5Yi25LqS5LiN5bmy5omwCi0gKirnlLvotKjpgInmi6kqKu+8muWOn+eUuyAvIOmrmOa4hSAvIOagh+a4heWPr+mAiQotICoq5b2V5Yi25qC85byPKirvvJpUUyDmtYHlvI/lvZXliLbvvIjmlq3nlLXkuI3kuKLmlbDmja7vvInvvIzlj6/pgInoh6rliqjovaznoIEgTVA0Ci0gKirlvZXliLbljoblj7IqKu+8muS/oeWPt+iusOW9lSArIOacrOWcsOaWh+S7tuaJq+aPj+WPjOmHjemqjOivge+8jOS4jeS4ouWkseS7u+S9leW9leWItgotICoqQ29va2llIOeZu+W9leaAgSoq77ya5q+P5Liq55u05pKt6Ze05Y+v5Y2V54us6K6+572uIENvb2tpZe+8jOaUr+aMgemcgOimgeeZu+W9leeahOW5s+WPsAotICoqV2ViaG9vayDmjqjpgIEqKu+8muW8gOaSrSAvIOS4i+aSreiHquWKqOaOqOmAgemAmuefpeWIsOmSiemSiQotICoq57O757uf5omY55uYKirvvJrmnIDlsI/ljJbliLDmiZjnm5jvvIzlkI7lj7DmjIHnu63nm5HmjqcKLSAqKuaWh+S7tueuoeeQhioq77ya5b2V5Yi25Y6G5Y+y5Lit5Y+v55u05o6l5omT5byA5paH5Lu25omA5Zyo55uu5b2V44CB5Yig6Zmk6K6w5b2V5oiW5Yig6Zmk5paH5Lu2CgojIyDmioDmnK/moIgKCnwg57uE5Lu2IHwg5oqA5pyvIHwKfC0tLS0tLXwtLS0tLS18CnwgR1VJIHwgUHlTaWRlNiAoUXQ2KSB8Cnwg5rWB6Kej5p6QIHwgc3RyZWFtLWdlYXIgfAp8IOW9leWItiB8IEZGbXBlZyAoUVByb2Nlc3MpIHwKfCDmiZPljIUgfCBQeUluc3RhbGxlciB8CgojIyDlv6vpgJ/lvIDlp4sKCiMjIyDnjq/looPopoHmsYIKCi0gUHl0aG9uIDMuMTArCi0gRkZtcGVnIDcueO+8iOiHquWKqOWGhee9ru+8iQoKIyMjIOWuieijheS+nei1lgoKYGBgYmFzaApwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0CmBgYAoKIyMjIOi/kOihjAoKYGBgYmFzaApweXRob24gbWFpbi5weQpgYGAKCiMjIyDmiZPljIUKCmBgYGJhc2gKcHlpbnN0YWxsZXIgLXkgLS1kaXN0cGF0aCBkaXN0IExpdmVSZWNvcmRTdHVkaW8uc3BlYwpgYGAKCiMjIOmhueebrue7k+aehAoKYGBgCkxpdmVSZWNvcmRTdHVkaW8vCuKUnOKUgOKUgCBtYWluLnB5ICAgICAgICAgICAgICAgICAgICAjIOeoi+W6j+WFpeWPowrilJzilIDilIAgcmVxdWlyZW1lbnRzLnR4dCAgICAgICAgICAgIyBQeXRob24g5L6d6LWWCuKUnOKUgOKUgCBMaXZlUmVjb3JkU3R1ZGlvLnNwZWMgICAgICAjIFB5SW5zdGFsbGVyIOaJk+WMhemFjee9rgrilJzilIDilIAgYXBwLwrilIIgICDilJzilIDilIAgc3R5bGUucXNzICAgICAgICAgICAgICAjIOWFqOWxgOagt+W8j+ihqArilIIgICDilJzilIDilIAgY29uZmlnLwrilIIgICDilIIgICDilJTilIDilIAgc2V0dGluZ3MucHkgICAgICAgICMg6YWN572u566h55CG77yISlNPTiDmjIHkuYXljJbvvIkK4pSCICAg4pSc4pSA4pSAIGNvcmUvCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCByZWNvcmRlci5weSAgICAgICAgIyDlvZXliLblvJXmk47vvIhRUHJvY2VzcyArIEZGbXBlZ++8iQrilIIgICDilIIgICDilJzilIDilIAgbW9uaXRvci5weSAgICAgICAgICMg55u05pKt55uR5o6n77yIUVRocmVhZCDova7or6LvvIkK4pSCICAg4pSCICAg4pSc4pSA4pSAIHN0cmVhbV9wYXJzZXIucHkgICAjIOa1geWcsOWdgOino+aekO+8iHN0cmVhbS1nZWFy77yJCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB0YXNrX21hbmFnZXIucHkgICAgIyDku7vliqHosIPluqbvvIjnm5Hmjqcv5b2V5Yi2L+i9rOegge+8iQrilIIgICDilJzilIDilIAgbW9kZWxzLwrilIIgICDilIIgICDilJTilIDilIAgcm9vbS5weSAgICAgICAgICAgICMg5oi/6Ze05pWw5o2u5qih5Z6LCuKUgiAgIOKUnOKUgOKUgCB1aS8K4pSCICAg4pSCICAg4pSc4pSA4pSAIG1haW5fd2luZG93LnB5ICAgICAjIOS4u+eql+WPowrilIIgICDilIIgICDilJzilIDilIAgbGl2ZV90YWIucHkgICAgICAgICMg55u05pKt6Ze05YiX6KGoCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCByZWNvcmRpbmdfdGFiLnB5ICAgIyDlvZXliLbnirbmgIEgKyDljoblj7LorrDlvZUK4pSCICAg4pSCICAg4pSc4pSA4pSAIHNldHRpbmdzX3RhYi5weSAgICAjIOiuvue9rumhtQrilIIgICDilIIgICDilJzilIDilIAgbG9nX3RhYi5weSAgICAgICAgICMg6L+Q6KGM5pel5b+XCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBhYm91dF90YWIucHkgICAgICAgIyDlhbPkuo7pobUK4pSCICAg4pSCICAg4pSc4pSA4pSAIGFkZF9yb29tX2RpYWxvZy5weSAjIOa3u+WKoOaIv+mXtOWvueivneahhgrilIIgICDilIIgICDilJTilIDilIAgY29tcG9uZW50cy5weSAgICAgICMg6YCa55SoIFVJIOe7hOS7tgrilIIgICDilJTilIDilIAgdXRpbHMvCuKUgiAgICAgICDilJzilIDilIAgZmZtcGVnX2hlbHBlci5weSAgICMgRkZtcGVnIOafpeaJvuS4jueuoeeQhgrilIIgICAgICAg4pSc4pSA4pSAIGZpbGVfbWFuYWdlci5weSAgICAjIOaWh+S7tuaTjeS9nO+8iOaJk+W8gOebruW9leetie+8iQrilIIgICAgICAg4pSc4pSA4pSAIGZpbGVfbmFtaW5nLnB5ICAgICAjIOW9leWItuaWh+S7tuWRveWQjeaooeadvwrilIIgICAgICAg4pSU4pSA4pSAIGhpc3RvcnlfbWFuYWdlci5weSAjIOW9leWItuWOhuWPsuaMgeS5heWMlgpgYGAKCiMjIOS9v+eUqOivtOaYjgoKMS4gKirmt7vliqDnm7Tmkq3pl7QqKu+8mueCueWHuyLmt7vliqDnm7Tmkq3pl7Qi5oyJ6ZKu77yM57KY6LS055u05pKt6Ze0IFVSTAoyLiAqKuWQr+WKqOebkeaOpyoq77ya54K55Ye7IuWFqOmDqOW8gOWniyLmiJbljZXni6zlkK/nlKjmn5DkuKrmiL/pl7QKMy4gKirlvZXliLborr7nva4qKu+8muWcqOiuvue9rumhtemFjee9ruS/neWtmOi3r+W+hOOAgeeUu+i0qOOAgeajgOa1i+mXtOmalOetiQo0LiAqKuafpeeci+WOhuWPsioq77ya5Zyo5b2V5Yi26aG15p+l55yL5omA5pyJ5b2V5Yi26K6w5b2V77yM5pSv5oyB5omT5byA5paH5Lu244CB5Yig6Zmk6K6w5b2VCjUuICoq6K6+572uIENvb2tpZSoq77ya5Y+z6ZSu55u05pKt6Ze0IOKGkiAi6K6+572uIENvb2tpZSLvvIjpg6jliIblubPlj7DpnIDopoHvvIkKCiMjIOiuuOWPr+ivgQoKTUlUIExpY2Vuc2U=
+# LiveRecord Studio
+
+多平台直播自动录制工具，基于 Python + PySide6 + FFmpeg。
+
+## 功能特性
+
+- **多平台支持**：Bilibili、快手、抖音、斗鱼、虎牙、YouTube 等主流直播平台
+- **自动监控**：定时检测直播间状态，开播自动录制，下播自动停止
+- **多房间并发**：同时监控多个直播间，独立录制互不干扰
+- **画质选择**：原画 / 高清 / 标清可选
+- **录制格式**：TS 流式录制（断电不丢数据），可选自动转码 MP4
+- **录制历史**：信号记录 + 本地文件扫描双重验证，不丢失任何录制
+- **Cookie 登录态**：每个直播间可单独设置 Cookie，支持需要登录的平台
+- **Webhook 推送**：开播 / 下播自动推送通知到钉钉
+- **系统托盘**：最小化到托盘，后台持续监控
+- **文件管理**：录制历史中可直接打开文件所在目录、删除记录或删除文件
+
+## 技术栈
+
+| 组件 | 技术 |
+|------|------|
+| GUI | PySide6 (Qt6) |
+| 流解析 | stream-gear |
+| 录制 | FFmpeg (QProcess) |
+| 打包 | PyInstaller |
+
+## 快速开始
+
+### 环境要求
+
+- Python 3.10+
+- FFmpeg 7.x（自动内置）
+
+### 安装依赖
+
+```bash
+pip install -r requirements.txt
+```
+
+### 运行
+
+```bash
+python main.py
+```
+
+### 打包
+
+```bash
+pyinstaller -y --distpath dist LiveRecordStudio.spec
+```
+
+## 项目结构
+
+```
+LiveRecordStudio/
+├── main.py                    # 程序入口
+├── requirements.txt           # Python 依赖
+├── LiveRecordStudio.spec      # PyInstaller 打包配置
+├── app/
+│   ├── style.qss              # 全局样式表
+│   ├── config/
+│   │   └── settings.py        # 配置管理（JSON 持久化）
+│   ├── core/
+│   │   ├── recorder.py        # 录制引擎（QProcess + FFmpeg）
+│   │   ├── monitor.py         # 直播监控（QThread 轮询）
+│   │   ├── stream_parser.py   # 流地址解析（stream-gear）
+│   │   └── task_manager.py    # 任务调度（监控/录制/转码）
+│   ├── models/
+│   │   └── room.py            # 房间数据模型
+│   ├── ui/
+│   │   ├── main_window.py     # 主窗口
+│   │   ├── live_tab.py        # 直播间列表
+│   │   ├── recording_tab.py   # 录制状态 + 历史记录
+│   │   ├── settings_tab.py    # 设置页
+│   │   ├── log_tab.py         # 运行日志
+│   │   ├── about_tab.py       # 关于页
+│   │   ├── add_room_dialog.py # 添加房间对话框
+│   │   └── components.py      # 通用 UI 组件
+│   └── utils/
+│       ├── ffmpeg_helper.py   # FFmpeg 查找与管理
+│       ├── file_manager.py    # 文件操作（打开目录等）
+│       ├── file_naming.py     # 录制文件命名模板
+│       └── history_manager.py # 录制历史持久化
+```
+
+## 使用说明
+
+1. **添加直播间**：点击"添加直播间"按钮，粘贴直播间 URL
+2. **启动监控**：点击"全部开始"或单独启用某个房间
+3. **录制设置**：在设置页配置保存路径、画质、检测间隔等
+4. **查看历史**：在录制页查看所有录制记录，支持打开文件、删除记录
+5. **设置 Cookie**：右键直播间 → "设置 Cookie"（部分平台需要）
+
+## 许可证
+
+MIT License

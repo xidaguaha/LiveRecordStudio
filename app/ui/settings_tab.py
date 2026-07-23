@@ -1,1 +1,423 @@
-IiIi6K6+572u6aG16Z2iIC0g5YyF5ZCr5b2V5Yi2L+e9kee7nC/pgJrnlKjorr7nva4iIiIKaW1wb3J0IG9zCmltcG9ydCBqc29uCmltcG9ydCB0aW1lCmltcG9ydCBobWFjCmltcG9ydCBoYXNobGliCmltcG9ydCBiYXNlNjQKaW1wb3J0IHVybGxpYi5yZXF1ZXN0CmltcG9ydCB1cmxsaWIuZXJyb3IKaW1wb3J0IHVybGxpYi5wYXJzZQppbXBvcnQgd2lucmVnCmZyb20gUHlTaWRlNi5RdFdpZGdldHMgaW1wb3J0ICgKICAgIFFXaWRnZXQsIFFWQm94TGF5b3V0LCBRSEJveExheW91dCwgUUxhYmVsLCBRTGluZUVkaXQsIFFDb21ib0JveCwKICAgIFFTcGluQm94LCBRQ2hlY2tCb3gsIFFQdXNoQnV0dG9uLCBRR3JvdXBCb3gsIFFGb3JtTGF5b3V0LAogICAgUVNjcm9sbEFyZWEsIFFGaWxlRGlhbG9nLCBRQnV0dG9uR3JvdXAsIFFSYWRpb0J1dHRvbiwgUU1lbnUKKQpmcm9tIFB5U2lkZTYuUXRDb3JlIGltcG9ydCBRdCwgU2lnbmFsCgoKY2xhc3MgU2V0dGluZ3NUYWIoUVdpZGdldCk6CiAgICBzZXR0aW5nc19jaGFuZ2VkID0gU2lnbmFsKCkKCiAgICBkZWYgX19pbml0X18oc2VsZiwgcGFyZW50PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18ocGFyZW50KQogICAgICAgIHNlbGYuX3NldHVwX3VpKCkKCiAgICBkZWYgX3NldHVwX3VpKHNlbGYpOgogICAgICAgIHNjcm9sbCA9IFFTY3JvbGxBcmVhKCkKICAgICAgICBzY3JvbGwuc2V0V2lkZ2V0UmVzaXphYmxlKFRydWUpCiAgICAgICAgc2Nyb2xsLnNldEZyYW1lU2hhcGUoUVNjcm9sbEFyZWEuU2hhcGUuTm9GcmFtZSkKCiAgICAgICAgY29udGFpbmVyID0gUVdpZGdldCgpCiAgICAgICAgbGF5b3V0ID0gUVZCb3hMYXlvdXQoY29udGFpbmVyKQogICAgICAgIGxheW91dC5zZXRDb250ZW50c01hcmdpbnMoMjgsIDIwLCAyOCwgMjApCiAgICAgICAgbGF5b3V0LnNldFNwYWNpbmcoMjApCgogICAgICAgICMgPT09PT09PT09PSDlvZXliLborr7nva4gPT09PT09PT09PQogICAgICAgIHJlY29yZF9ncm91cCA9IFFHcm91cEJveCgi5b2V5Yi26K6+572uIikKICAgICAgICByZWNvcmRfZm9ybSA9IFFGb3JtTGF5b3V0KHJlY29yZF9ncm91cCkKICAgICAgICByZWNvcmRfZm9ybS5zZXRTcGFjaW5nKDE0KQogICAgICAgIHJlY29yZF9mb3JtLnNldExhYmVsQWxpZ25tZW50KFF0LkFsaWdubWVudEZsYWcuQWxpZ25SaWdodCkKCiAgICAgICAgcGF0aF9sYXlvdXQgPSBRSEJveExheW91dCgpCiAgICAgICAgc2VsZi5fcGF0aF9pbnB1dCA9IFFMaW5lRWRpdCgpCiAgICAgICAgc2VsZi5fcGF0aF9pbnB1dC5zZXRSZWFkT25seShUcnVlKQogICAgICAgIGJyb3dzZV9idG4gPSBRUHVzaEJ1dHRvbigi5rWP6KeILi4uIikKICAgICAgICBicm93c2VfYnRuLnNldEZpeGVkV2lkdGgoODApCiAgICAgICAgYnJvd3NlX2J0bi5jbGlja2VkLmNvbm5lY3Qoc2VsZi5fYnJvd3NlX3BhdGgpCiAgICAgICAgcGF0aF9sYXlvdXQuYWRkV2lkZ2V0KHNlbGYuX3BhdGhfaW5wdXQsIDEpCiAgICAgICAgcGF0aF9sYXlvdXQuYWRkV2lkZ2V0KGJyb3dzZV9idG4pCiAgICAgICAgcmVjb3JkX2Zvcm0uYWRkUm93KCLkv53lrZjot6/lvoQ6IiwgcGF0aF9sYXlvdXQpCgogICAgICAgIHNlbGYuX2Zvcm1hdF9jb21ibyA9IFFDb21ib0JveCgpCiAgICAgICAgc2VsZi5fZm9ybWF0X2NvbWJvLmFkZEl0ZW1zKFsidHMiLCAibWt2IiwgImZsdiIsICJtcDQiXSkKICAgICAgICByZWNvcmRfZm9ybS5hZGRSb3coIuinhumikeagvOW8jzoiLCBzZWxmLl9mb3JtYXRfY29tYm8pCgogICAgICAgIHNlbGYuX3F1YWxpdHlfY29tYm8gPSBRQ29tYm9Cb3goKQogICAgICAgIHNlbGYuX3F1YWxpdHlfY29tYm8uYWRkSXRlbXMoWyLljp/nlLsoT0QpIiwgIui2hea4hShVSEQpIiwgIumrmOa4hShIRCkiLCAi5qCH5riFKFNEKSIsICLmtYHnlYUoTEQpIl0pCiAgICAgICAgcmVjb3JkX2Zvcm0uYWRkUm93KCLpu5jorqTnlLvotKg6Iiwgc2VsZi5fcXVhbGl0eV9jb21ibykKCiAgICAgICAgc2VsZi5faW50ZXJ2YWxfc3BpbiA9IFFTcGluQm94KCkKICAgICAgICBzZWxmLl9pbnRlcnZhbF9zcGluLnNldFJhbmdlKDEwLCAzNjAwKQogICAgICAgIHNlbGYuX2ludGVydmFsX3NwaW4uc2V0VmFsdWUoMTIwKQogICAgICAgIHNlbGYuX2ludGVydmFsX3NwaW4uc2V0U3VmZml4KCIg56eSIikKICAgICAgICByZWNvcmRfZm9ybS5hZGRSb3coIuajgOa1i+mXtOmalDoiLCBzZWxmLl9pbnRlcnZhbF9zcGluKQoKICAgICAgICBzZWxmLl9zcGxpdF9jaGVjayA9IFFDaGVja0JveCgi5ZCv55So5YiG5q615b2V5Yi2IikKICAgICAgICBzZWxmLl9zcGxpdF9zcGluID0gUVNwaW5Cb3goKQogICAgICAgIHNlbGYuX3NwbGl0X3NwaW4uc2V0UmFuZ2UoMzAwLCA3MjAwKQogICAgICAgIHNlbGYuX3NwbGl0X3NwaW4uc2V0VmFsdWUoMzYwMCkKICAgICAgICBzZWxmLl9zcGxpdF9zcGluLnNldFN1ZmZpeCgiIOenkiIpCiAgICAgICAgc2VsZi5fc3BsaXRfc3Bpbi5zZXRFbmFibGVkKEZhbHNlKQogICAgICAgIHNlbGYuX3NwbGl0X2NoZWNrLnRvZ2dsZWQuY29ubmVjdChzZWxmLl9zcGxpdF9zcGluLnNldEVuYWJsZWQpCiAgICAgICAgc3BsaXRfbGF5b3V0ID0gUUhCb3hMYXlvdXQoKQogICAgICAgIHNwbGl0X2xheW91dC5hZGRXaWRnZXQoc2VsZi5fc3BsaXRfY2hlY2spCiAgICAgICAgc3BsaXRfbGF5b3V0LmFkZFdpZGdldChzZWxmLl9zcGxpdF9zcGluKQogICAgICAgIHJlY29yZF9mb3JtLmFkZFJvdygi5YiG5q61OiIsIHNwbGl0X2xheW91dCkKCiAgICAgICAgc2VsZi5fY29udmVydF9jaGVjayA9IFFDaGVja0JveCgi5b2V5Yi25a6M5oiQ5ZCO6Ieq5Yqo6L2s56CB5Li6TVA077yI5Yig6Zmk5Y6f5paH5Lu277yJIikKICAgICAgICByZWNvcmRfZm9ybS5hZGRSb3coIui9rOeggToiLCBzZWxmLl9jb252ZXJ0X2NoZWNrKQoKICAgICAgICAjIOaWh+S7tuWRveWQjeaooeadvwogICAgICAgIHRlbXBsYXRlX2xhYmVsID0gUUxhYmVsKCLlkb3lkI3mqKHmnb86IikKICAgICAgICB0ZW1wbGF0ZV90b3AgPSBRSEJveExheW91dCgpCiAgICAgICAgdGVtcGxhdGVfdG9wLnNldFNwYWNpbmcoNikKICAgICAgICBzZWxmLl90ZW1wbGF0ZV9pbnB1dCA9IFFMaW5lRWRpdCgpCiAgICAgICAgc2VsZi5fdGVtcGxhdGVfaW5wdXQuc2V0UGxhY2Vob2xkZXJUZXh0KCJ7cGxhdGZvcm19L3tvd25lcn0ve3llYXJ9LXttb250aH0te2RhdGV9IHtob3VyfS17bWlufS17c2VjfSB7dGl0bGV9IikKICAgICAgICB0ZW1wbGF0ZV90b3AuYWRkV2lkZ2V0KHNlbGYuX3RlbXBsYXRlX2lucHV0LCAxKQogICAgICAgICMg5Y2g5L2N56ym5oyJ6ZKuCiAgICAgICAgc2VsZi5fdGVtcGxhdGVfYnRuID0gUVB1c2hCdXR0b24oIuaPkuWFpSIpCiAgICAgICAgc2VsZi5fdGVtcGxhdGVfYnRuLnNldEZpeGVkV2lkdGgoNTApCiAgICAgICAgc2VsZi5fdGVtcGxhdGVfYnRuLnNldEZpeGVkSGVpZ2h0KDMyKQogICAgICAgIHNlbGYuX3RlbXBsYXRlX2J0bi5jbGlja2VkLmNvbm5lY3Qoc2VsZi5fc2hvd190ZW1wbGF0ZV9tZW51KQogICAgICAgIHRlbXBsYXRlX3RvcC5hZGRXaWRnZXQoc2VsZi5fdGVtcGxhdGVfYnRuKQogICAgICAgIHJlY29yZF9mb3JtLmFkZFJvdyh0ZW1wbGF0ZV9sYWJlbCwgdGVtcGxhdGVfdG9wKQoKICAgICAgICB0ZW1wbGF0ZV9oaW50ID0gUUxhYmVsKAogICAgICAgICAgICAi5Y2g5L2N56ymOiB7cGxhdGZvcm19IHtvd25lcn0ge3RpdGxlfSB7eWVhcn0ge21vbnRofSB7ZGF0ZX0ge2hvdXJ9IHttaW59IHtzZWN9IgogICAgICAgICkKICAgICAgICB0ZW1wbGF0ZV9oaW50LnNldFN0eWxlU2hlZXQoImNvbG9yOiAjOEU5QUFGOyBmb250LXNpemU6IDExcHg7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IikKICAgICAgICB0ZW1wbGF0ZV9sYXlvdXQgPSBRVkJveExheW91dCgpCiAgICAgICAgdGVtcGxhdGVfbGF5b3V0LnNldFNwYWNpbmcoMikKICAgICAgICB0ZW1wbGF0ZV9sYXlvdXQuYWRkTGF5b3V0KHRlbXBsYXRlX3RvcCkKICAgICAgICB0ZW1wbGF0ZV9sYXlvdXQuYWRkV2lkZ2V0KHRlbXBsYXRlX2hpbnQpCiAgICAgICAgcmVjb3JkX2Zvcm0uYWRkUm93KCIiLCB0ZW1wbGF0ZV9sYXlvdXQpCgogICAgICAgIGxheW91dC5hZGRXaWRnZXQocmVjb3JkX2dyb3VwKQoKICAgICAgICAjID09PT09PT09PT0g572R57uc6K6+572uID09PT09PT09PT0KICAgICAgICBuZXR3b3JrX2dyb3VwID0gUUdyb3VwQm94KCLnvZHnu5zorr7nva4iKQogICAgICAgIG5ldHdvcmtfZm9ybSA9IFFGb3JtTGF5b3V0KG5ldHdvcmtfZ3JvdXApCiAgICAgICAgbmV0d29ya19mb3JtLnNldFNwYWNpbmcoMTQpCgogICAgICAgIHNlbGYuX3Byb3h5X2NoZWNrID0gUUNoZWNrQm94KCLkvb/nlKjku6PnkIYiKQogICAgICAgIHNlbGYuX3Byb3h5X2lucHV0ID0gUUxpbmVFZGl0KCkKICAgICAgICBzZWxmLl9wcm94eV9pbnB1dC5zZXRQbGFjZWhvbGRlclRleHQoImh0dHA6Ly8xMjcuMC4wLjE6Nzg5MCDmiJYgc29ja3M1Oi8vMTI3LjAuMC4xOjc4OTAiKQogICAgICAgIHNlbGYuX3Byb3h5X2lucHV0LnNldEVuYWJsZWQoRmFsc2UpCiAgICAgICAgc2VsZi5fcHJveHlfY2hlY2sudG9nZ2xlZC5jb25uZWN0KHNlbGYuX3Byb3h5X2lucHV0LnNldEVuYWJsZWQpCiAgICAgICAgcHJveHlfbGF5b3V0ID0gUUhCb3hMYXlvdXQoKQogICAgICAgIHByb3h5X2xheW91dC5hZGRXaWRnZXQoc2VsZi5fcHJveHlfY2hlY2spCiAgICAgICAgcHJveHlfbGF5b3V0LmFkZFdpZGdldChzZWxmLl9wcm94eV9pbnB1dCwgMSkKICAgICAgICBuZXR3b3JrX2Zvcm0uYWRkUm93KCLku6PnkIY6IiwgcHJveHlfbGF5b3V0KQoKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KG5ldHdvcmtfZ3JvdXApCgogICAgICAgICMgPT09PT09PT09PSDmjqjpgIHorr7nva4gPT09PT09PT09PQogICAgICAgIHB1c2hfZ3JvdXAgPSBRR3JvdXBCb3goIuaOqOmAgeiuvue9ru+8iFdlYmhvb2vvvIkiKQogICAgICAgIHB1c2hfZm9ybSA9IFFGb3JtTGF5b3V0KHB1c2hfZ3JvdXApCiAgICAgICAgcHVzaF9mb3JtLnNldFNwYWNpbmcoMTQpCgogICAgICAgIHNlbGYuX3B1c2hfbGl2ZV9jaGVjayA9IFFDaGVja0JveCgi5qOA5rWL5Yiw5byA5pKt5pe25o6o6YCBIikKICAgICAgICBzZWxmLl9wdXNoX2VuZF9jaGVjayA9IFFDaGVja0JveCgi55u05pKt57uT5p2f5pe25o6o6YCBIikKICAgICAgICBwdXNoX2V2ZW50c19sYXlvdXQgPSBRVkJveExheW91dCgpCiAgICAgICAgcHVzaF9ldmVudHNfbGF5b3V0LnNldFNwYWNpbmcoNikKICAgICAgICBwdXNoX2V2ZW50c19sYXlvdXQuYWRkV2lkZ2V0KHNlbGYuX3B1c2hfbGl2ZV9jaGVjaykKICAgICAgICBwdXNoX2V2ZW50c19sYXlvdXQuYWRkV2lkZ2V0KHNlbGYuX3B1c2hfZW5kX2NoZWNrKQogICAgICAgIHB1c2hfZm9ybS5hZGRSb3coIuaOqOmAgeS6i+S7tjoiLCBwdXNoX2V2ZW50c19sYXlvdXQpCgogICAgICAgIHNlbGYuX3dlYmhvb2tfdXJsX2lucHV0ID0gUUxpbmVFZGl0KCkKICAgICAgICBzZWxmLl93ZWJob29rX3VybF9pbnB1dC5zZXRQbGFjZWhvbGRlclRleHQoImh0dHBzOi8vZXhhbXBsZS5jb20vd2ViaG9vayDmiJYg55WZ56m65L2/55So6ZKJ6ZKJ5py65Zmo5Lq6IikKICAgICAgICBwdXNoX2Zvcm0uYWRkUm93KCJXZWJob29rIFVSTDoiLCBzZWxmLl93ZWJob29rX3VybF9pbnB1dCkKCiAgICAgICAgc2VsZi5fd2ViaG9va19zZWNyZXRfaW5wdXQgPSBRTGluZUVkaXQoKQogICAgICAgIHNlbGYuX3dlYmhvb2tfc2VjcmV0X2lucHV0LnNldFBsYWNlaG9sZGVyVGV4dCgi562+5ZCN5a+G6ZKl77yI5Y+v6YCJ77yM6ZKJ6ZKJ5py65Zmo5Lq65Yqg562+5pe25L2/55So77yJIikKICAgICAgICBwdXNoX2Zvcm0uYWRkUm93KCLnrb7lkI3lr4bpkqU6Iiwgc2VsZi5fd2ViaG9va19zZWNyZXRfaW5wdXQpCgogICAgICAgIHNlbGYuX3dlYmhvb2tfYm9keV9pbnB1dCA9IFFMaW5lRWRpdCgpCiAgICAgICAgc2VsZi5fd2ViaG9va19ib2R5X2lucHV0LnNldFBsYWNlaG9sZGVyVGV4dCgneyJ0ZXh0IjogIntldmVudH0gLSB7YW5jaG9yfSJ9JykKICAgICAgICBzZWxmLl93ZWJob29rX2JvZHlfaW5wdXQuc2V0VG9vbFRpcCgKICAgICAgICAgICAgJ1BPU1Qg6K+35rGC5L2T5qih5p2/77yM5pSv5oyB5Y+Y6YePOlxuJwogICAgICAgICAgICAne2V2ZW50fSA9IOW8gOaSrS/kuIvmkq1cbicKICAgICAgICAgICAgJ3thbmNob3J9ID0g5Li75pKt5ZCNXG4nCiAgICAgICAgICAgICd7cGxhdGZvcm19ID0g5bmz5Y+w5ZCNXG4nCiAgICAgICAgICAgICd7dXJsfSA9IOebtOaSremXtOmTvuaOpVxuJwogICAgICAgICAgICAne3RpdGxlfSA9IOebtOaSreagh+mimFxuJwogICAgICAgICAgICAne3RpbWV9ID0g5b2T5YmN5pe26Ze0JwogICAgICAgICkKICAgICAgICBwdXNoX2Zvcm0uYWRkUm93KCLor7fmsYLkvZPmqKHmnb86Iiwgc2VsZi5fd2ViaG9va19ib2R5X2lucHV0KQoKICAgICAgICBzZWxmLl93ZWJob29rX3Rlc3RfYnRuID0gUVB1c2hCdXR0b24oIuWPkemAgea1i+ivleaOqOmAgSIpCiAgICAgICAgc2VsZi5fd2ViaG9va190ZXN0X2J0bi5zZXRGaXhlZEhlaWdodCgzMikKICAgICAgICBzZWxmLl93ZWJob29rX3Rlc3RfYnRuLmNsaWNrZWQuY29ubmVjdChzZWxmLl90ZXN0X3dlYmhvb2spCiAgICAgICAgcHVzaF9mb3JtLmFkZFJvdygiIiwgc2VsZi5fd2ViaG9va190ZXN0X2J0bikKCiAgICAgICAgbGF5b3V0LmFkZFdpZGdldChwdXNoX2dyb3VwKQoKICAgICAgICAjID09PT09PT09PT0g6YCa55So6K6+572uID09PT09PT09PT0KICAgICAgICBnZW5lcmFsX2dyb3VwID0gUUdyb3VwQm94KCLpgJrnlKjorr7nva4iKQogICAgICAgIGdlbmVyYWxfZm9ybSA9IFFGb3JtTGF5b3V0KGdlbmVyYWxfZ3JvdXApCiAgICAgICAgZ2VuZXJhbF9mb3JtLnNldFNwYWNpbmcoMTQpCgogICAgICAgICMg5pyA5bCP5YyW6KGM5Li6CiAgICAgICAgc2VsZi5fbWluaW1pemVfYnRuX2dyb3VwID0gUUJ1dHRvbkdyb3VwKHNlbGYpCiAgICAgICAgc2VsZi5fbWluaW1pemVfdHJheV9yYWRpbyA9IFFSYWRpb0J1dHRvbigi5pyA5bCP5YyW5Yiw57O757uf5omY55uY77yI5o6o6I2Q77yJIikKICAgICAgICBzZWxmLl9taW5pbWl6ZV90YXNrYmFyX3JhZGlvID0gUVJhZGlvQnV0dG9uKCLmnIDlsI/ljJbliLDku7vliqHmoI8iKQogICAgICAgIHNlbGYuX21pbmltaXplX2Fza19yYWRpbyA9IFFSYWRpb0J1dHRvbigi5q+P5qyh6K+i6ZeuIikKICAgICAgICBzZWxmLl9taW5pbWl6ZV9idG5fZ3JvdXAuYWRkQnV0dG9uKHNlbGYuX21pbmltaXplX3RyYXlfcmFkaW8sIDApCiAgICAgICAgc2VsZi5fbWluaW1pemVfYnRuX2dyb3VwLmFkZEJ1dHRvbihzZWxmLl9taW5pbWl6ZV90YXNrYmFyX3JhZGlvLCAxKQogICAgICAgIHNlbGYuX21pbmltaXplX2J0bl9ncm91cC5hZGRCdXR0b24oc2VsZi5fbWluaW1pemVfYXNrX3JhZGlvLCAyKQoKICAgICAgICBtaW5pbWl6ZV9sYXlvdXQgPSBRVkJveExheW91dCgpCiAgICAgICAgbWluaW1pemVfbGF5b3V0LnNldFNwYWNpbmcoOCkKICAgICAgICBtaW5pbWl6ZV9sYXlvdXQuYWRkV2lkZ2V0KHNlbGYuX21pbmltaXplX3RyYXlfcmFkaW8pCiAgICAgICAgbWluaW1pemVfbGF5b3V0LmFkZFdpZGdldChzZWxmLl9taW5pbWl6ZV90YXNrYmFyX3JhZGlvKQogICAgICAgIG1pbmltaXplX2xheW91dC5hZGRXaWRnZXQoc2VsZi5fbWluaW1pemVfYXNrX3JhZGlvKQogICAgICAgIGdlbmVyYWxfZm9ybS5hZGRSb3coIuacgOWwj+WMluihjOS4ujoiLCBtaW5pbWl6ZV9sYXlvdXQpCgogICAgICAgICMg5byA5py66Ieq5ZCv5YqoCiAgICAgICAgc2VsZi5fYXV0b19zdGFydF9jaGVjayA9IFFDaGVja0JveCgi5byA5py66Ieq5Yqo5ZCv5YqoIikKICAgICAgICBzZWxmLl9hdXRvX3N0YXJ0X2NoZWNrLnNldENoZWNrZWQoc2VsZi5faXNfYXV0b19zdGFydF9lbmFibGVkKCkpCiAgICAgICAgZ2VuZXJhbF9mb3JtLmFkZFJvdygi5ZCv5YqoOiIsIHNlbGYuX2F1dG9fc3RhcnRfY2hlY2spCgogICAgICAgICMg5YWz6Zet6KGM5Li6CiAgICAgICAgc2VsZi5fY2xvc2VfY29uZmlybV9jaGVjayA9IFFDaGVja0JveCgi5YWz6Zet5pe256Gu6K6kIikKICAgICAgICBnZW5lcmFsX2Zvcm0uYWRkUm93KCLlhbPpl606Iiwgc2VsZi5fY2xvc2VfY29uZmlybV9jaGVjaykKCiAgICAgICAgIyDlkK/liqjml7boh6rliqjnm5HmjqcKICAgICAgICBzZWxmLl9hdXRvX21vbml0b3JfY2hlY2sgPSBRQ2hlY2tCb3goIuWQr+WKqOi9r+S7tuWQjuiHquWKqOW8gOWni+ebkeaOp+aJgOacieWQr+eUqOeahOebtOaSremXtCIpCiAgICAgICAgZ2VuZXJhbF9mb3JtLmFkZFJvdygi6Ieq5Yqo55uR5o6nOiIsIHNlbGYuX2F1dG9fbW9uaXRvcl9jaGVjaykKCiAgICAgICAgIyDlvIDmkq3ns7vnu5/pgJrnn6UKICAgICAgICBzZWxmLl9ub3RpZnlfbGl2ZV9jaGVjayA9IFFDaGVja0JveCgi5qOA5rWL5Yiw5byA5pKt5pe25Y+R6YCB57O757uf6YCa55+lIikKICAgICAgICBnZW5lcmFsX2Zvcm0uYWRkUm93KCLlvIDmkq3pgJrnn6U6Iiwgc2VsZi5fbm90aWZ5X2xpdmVfY2hlY2spCgogICAgICAgIGxheW91dC5hZGRXaWRnZXQoZ2VuZXJhbF9ncm91cCkKCiAgICAgICAgbGF5b3V0LmFkZFN0cmV0Y2goKQoKICAgICAgICBidG5fbGF5b3V0ID0gUUhCb3hMYXlvdXQoKQogICAgICAgIGJ0bl9sYXlvdXQuYWRkU3RyZXRjaCgpCiAgICAgICAgc2VsZi5fc2F2ZV9idG4gPSBRUHVzaEJ1dHRvbigi5L+d5a2Y6K6+572uIikKICAgICAgICBzZWxmLl9zYXZlX2J0bi5zZXRGaXhlZEhlaWdodCg0MCkKICAgICAgICBzZWxmLl9zYXZlX2J0bi5zZXRGaXhlZFdpZHRoKDEyMCkKICAgICAgICBzZWxmLl9zYXZlX2J0bi5zZXRPYmplY3ROYW1lKCJwcmltYXJ5QnRuIikKICAgICAgICBzZWxmLl9zYXZlX2J0bi5jbGlja2VkLmNvbm5lY3Qoc2VsZi5fb25fc2F2ZSkKICAgICAgICBidG5fbGF5b3V0LmFkZFdpZGdldChzZWxmLl9zYXZlX2J0bikKICAgICAgICBsYXlvdXQuYWRkTGF5b3V0KGJ0bl9sYXlvdXQpCgogICAgICAgIHNjcm9sbC5zZXRXaWRnZXQoY29udGFpbmVyKQogICAgICAgIG1haW5fbGF5b3V0ID0gUVZCb3hMYXlvdXQoc2VsZikKICAgICAgICBtYWluX2xheW91dC5zZXRDb250ZW50c01hcmdpbnMoMCwgMCwgMCwgMCkKICAgICAgICBtYWluX2xheW91dC5hZGRXaWRnZXQoc2Nyb2xsKQoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBfaXNfYXV0b19zdGFydF9lbmFibGVkKCkgLT4gYm9vbDoKICAgICAgICAiIiLmo4Dmn6Xms6jlhozooajkuK3mmK/lkKblt7Lorr7nva7lvIDmnLroh6rlkK/liqgiIiIKICAgICAgICB0cnk6CiAgICAgICAgICAgIGtleSA9IHdpbnJlZy5PcGVuS2V5KAogICAgICAgICAgICAgICAgd2lucmVnLkhLRVlfQ1VSUkVOVF9VU0VSLAogICAgICAgICAgICAgICAgciJTb2Z0d2FyZVxNaWNyb3NvZnRcV2luZG93c1xDdXJyZW50VmVyc2lvblxSdW4iLAogICAgICAgICAgICAgICAgMCwgd2lucmVnLktFWV9SRUFECiAgICAgICAgICAgICkKICAgICAgICAgICAgdmFsdWUsIF8gPSB3aW5yZWcuUXVlcnlWYWx1ZUV4KGtleSwgIkxpdmVSZWNvcmRTdHVkaW8iKQogICAgICAgICAgICB3aW5yZWcuQ2xvc2VLZXkoa2V5KQogICAgICAgICAgICByZXR1cm4gYm9vbCh2YWx1ZSBhbmQgb3MucGF0aC5pc2ZpbGUodmFsdWUpKQogICAgICAgIGV4Y2VwdCAoRmlsZU5vdEZvdW5kRXJyb3IsIE9TRXJyb3IpOgogICAgICAgICAgICByZXR1cm4gRmFsc2UKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgc2V0X2F1dG9fc3RhcnQoZW5hYmxlOiBib29sKToKICAgICAgICAiIiLorr7nva7miJblj5bmtojlvIDmnLroh6rlkK/liqgiIiIKICAgICAgICBrZXkgPSB3aW5yZWcuT3BlbktleSgKICAgICAgICAgICAgd2lucmVnLkhLRVlfQ1VSUkVOVF9VU0VSLAogICAgICAgICAgICByIlNvZnR3YXJlXE1pY3Jvc29mdFxXaW5kb3dzXEN1cnJlbnRWZXJzaW9uXFJ1biIsCiAgICAgICAgICAgIDAsIHdpbnJlZy5LRVlfU0VUX1ZBTFVFCiAgICAgICAgKQogICAgICAgIGlmIGVuYWJsZToKICAgICAgICAgICAgIyDkvb/nlKjlvZPliY0gZXhlIOeahOWujOaVtOi3r+W+hAogICAgICAgICAgICBpbXBvcnQgc3lzCiAgICAgICAgICAgIGlmIGdldGF0dHIoc3lzLCAnZnJvemVuJywgRmFsc2UpOgogICAgICAgICAgICAgICAgZXhlX3BhdGggPSBzeXMuZXhlY3V0YWJsZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgZXhlX3BhdGggPSBvcy5wYXRoLmFic3BhdGgoc3lzLmFyZ3ZbMF0pCiAgICAgICAgICAgIHdpbnJlZy5TZXRWYWx1ZUV4KGtleSwgIkxpdmVSZWNvcmRTdHVkaW8iLCAwLCB3aW5yZWcuUkVHX1NaLCBleGVfcGF0aCkKICAgICAgICBlbHNlOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB3aW5yZWcuRGVsZXRlVmFsdWUoa2V5LCAiTGl2ZVJlY29yZFN0dWRpbyIpCiAgICAgICAgICAgIGV4Y2VwdCBGaWxlTm90Rm91bmRFcnJvcjoKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICB3aW5yZWcuQ2xvc2VLZXkoa2V5KQoKICAgIGRlZiBfc2hvd190ZW1wbGF0ZV9tZW51KHNlbGYpOgogICAgICAgICIiIuaYvuekuuWNoOS9jeespuaPkuWFpeiPnOWNlSIiIgogICAgICAgIG1lbnUgPSBRTWVudShzZWxmKQogICAgICAgIHBsYWNlaG9sZGVycyA9IFsKICAgICAgICAgICAgKCJ7cGxhdGZvcm19IiwgIuW5s+WPsOWQjSIpLAogICAgICAgICAgICAoIntvd25lcn0iLCAi5Li75pKt5ZCNIiksCiAgICAgICAgICAgICgie3RpdGxlfSIsICLnm7Tmkq3moIfpopgiKSwKICAgICAgICAgICAgKCJ7eWVhcn0iLCAi5bm0IiksCiAgICAgICAgICAgICgie21vbnRofSIsICLmnIgiKSwKICAgICAgICAgICAgKCJ7ZGF0ZX0iLCAi5pelIiksCiAgICAgICAgICAgICgie2hvdXJ9IiwgIuaXtiIpLAogICAgICAgICAgICAoInttaW59IiwgIuWIhiIpLAogICAgICAgICAgICAoIntzZWN9IiwgIuenkiIpLAogICAgICAgICAgICAoIi8iLCAi6Lev5b6E5YiG6ZqU56ymIiksCiAgICAgICAgXQogICAgICAgIGZvciB2YXIsIGRlc2MgaW4gcGxhY2Vob2xkZXJzOgogICAgICAgICAgICBhY3Rpb24gPSBtZW51LmFkZEFjdGlvbihmInt2YXJ9ICAoe2Rlc2N9KSIpCiAgICAgICAgICAgIGFjdGlvbi5zZXREYXRhKHZhcikKICAgICAgICBhY3Rpb24gPSBtZW51LmV4ZWMoc2VsZi5fdGVtcGxhdGVfYnRuLm1hcFRvR2xvYmFsKHNlbGYuX3RlbXBsYXRlX2J0bi5yZWN0KCkuYm90dG9tTGVmdCgpKSkKICAgICAgICBpZiBhY3Rpb246CiAgICAgICAgICAgIHRleHQgPSBhY3Rpb24uZGF0YSgpCiAgICAgICAgICAgIGxpbmVfZWRpdCA9IHNlbGYuX3RlbXBsYXRlX2lucHV0CiAgICAgICAgICAgIGN1cnNvciA9IGxpbmVfZWRpdC5jdXJzb3JQb3NpdGlvbigpCiAgICAgICAgICAgIGxpbmVfZWRpdC5pbnNlcnQodGV4dCkKCiAgICBkZWYgX2Jyb3dzZV9wYXRoKHNlbGYpOgogICAgICAgIHBhdGggPSBRRmlsZURpYWxvZy5nZXRFeGlzdGluZ0RpcmVjdG9yeShzZWxmLCAi6YCJ5oup5L+d5a2Y6Lev5b6EIikKICAgICAgICBpZiBwYXRoOgogICAgICAgICAgICBzZWxmLl9wYXRoX2lucHV0LnNldFRleHQocGF0aCkKCiAgICBkZWYgbG9hZF9zZXR0aW5ncyhzZWxmLCBzZXR0aW5ncyk6CiAgICAgICAgciA9IHNldHRpbmdzLnJlY29yZAogICAgICAgIHNlbGYuX3BhdGhfaW5wdXQuc2V0VGV4dChyLnNhdmVfcGF0aCkKICAgICAgICBpZHggPSBzZWxmLl9mb3JtYXRfY29tYm8uZmluZFRleHQoci52aWRlb19mb3JtYXQpCiAgICAgICAgaWYgaWR4ID49IDA6IHNlbGYuX2Zvcm1hdF9jb21iby5zZXRDdXJyZW50SW5kZXgoaWR4KQogICAgICAgIHF1YWxpdHlfbWFwID0geyJPRCI6IDAsICJVSEQiOiAxLCAiSEQiOiAyLCAiU0QiOiAzLCAiTEQiOiA0fQogICAgICAgIGlkeCA9IHF1YWxpdHlfbWFwLmdldChyLnF1YWxpdHksIDApCiAgICAgICAgaWYgMCA8PSBpZHggPCBzZWxmLl9xdWFsaXR5X2NvbWJvLmNvdW50KCk6CiAgICAgICAgICAgIHNlbGYuX3F1YWxpdHlfY29tYm8uc2V0Q3VycmVudEluZGV4KGlkeCkKICAgICAgICBzZWxmLl9pbnRlcnZhbF9zcGluLnNldFZhbHVlKHIubG9vcF9pbnRlcnZhbCkKICAgICAgICBzZWxmLl9zcGxpdF9jaGVjay5zZXRDaGVja2VkKHIuYXV0b19zcGxpdCkKICAgICAgICBzZWxmLl9zcGxpdF9zcGluLnNldFZhbHVlKHIuc3BsaXRfZHVyYXRpb24pCiAgICAgICAgc2VsZi5fY29udmVydF9jaGVjay5zZXRDaGVja2VkKHIuY29udmVydF9tcDQpCiAgICAgICAgc2VsZi5fcHJveHlfY2hlY2suc2V0Q2hlY2tlZChyLnVzZV9wcm94eSkKICAgICAgICBzZWxmLl9wcm94eV9pbnB1dC5zZXRUZXh0KHIucHJveHlfYWRkcikKICAgICAgICBzZWxmLl90ZW1wbGF0ZV9pbnB1dC5zZXRUZXh0KGdldGF0dHIociwgJ2ZpbGVuYW1lX3RlbXBsYXRlJywgJycpKQoKICAgICAgICAjIOacgOWwj+WMluihjOS4ugogICAgICAgIG1pbmltaXplX2FjdGlvbiA9IGdldGF0dHIoc2V0dGluZ3MsICdtaW5pbWl6ZV9hY3Rpb24nLCAnYXNrJykKICAgICAgICBpZiBtaW5pbWl6ZV9hY3Rpb24gPT0gInRyYXkiOgogICAgICAgICAgICBzZWxmLl9taW5pbWl6ZV90cmF5X3JhZGlvLnNldENoZWNrZWQoVHJ1ZSkKICAgICAgICBlbGlmIG1pbmltaXplX2FjdGlvbiA9PSAidGFza2JhciI6CiAgICAgICAgICAgIHNlbGYuX21pbmltaXplX3Rhc2tiYXJfcmFkaW8uc2V0Q2hlY2tlZChUcnVlKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYuX21pbmltaXplX2Fza19yYWRpby5zZXRDaGVja2VkKFRydWUpCgogICAgICAgIHNlbGYuX2Nsb3NlX2NvbmZpcm1fY2hlY2suc2V0Q2hlY2tlZChnZXRhdHRyKHNldHRpbmdzLCAnY2xvc2VfY29uZmlybScsIFRydWUpKQogICAgICAgIHNlbGYuX2F1dG9fbW9uaXRvcl9jaGVjay5zZXRDaGVja2VkKGdldGF0dHIoc2V0dGluZ3MsICdhdXRvX3N0YXJ0X21vbml0b3InLCBGYWxzZSkpCiAgICAgICAgc2VsZi5fbm90aWZ5X2xpdmVfY2hlY2suc2V0Q2hlY2tlZChnZXRhdHRyKHNldHRpbmdzLCAnbm90aWZ5X29uX2xpdmUnLCBUcnVlKSkKICAgICAgICAjIFdlYmhvb2sg5o6o6YCBCiAgICAgICAgcHVzaCA9IGdldGF0dHIoc2V0dGluZ3MsICdwdXNoJywgTm9uZSkKICAgICAgICBpZiBwdXNoOgogICAgICAgICAgICBzZWxmLl9wdXNoX2xpdmVfY2hlY2suc2V0Q2hlY2tlZChnZXRhdHRyKHB1c2gsICdub3RpZnlfb25fbGl2ZScsIFRydWUpKQogICAgICAgICAgICBzZWxmLl9wdXNoX2VuZF9jaGVjay5zZXRDaGVja2VkKGdldGF0dHIocHVzaCwgJ25vdGlmeV9vbl9lbmQnLCBGYWxzZSkpCiAgICAgICAgICAgIHNlbGYuX3dlYmhvb2tfdXJsX2lucHV0LnNldFRleHQoZ2V0YXR0cihwdXNoLCAnZGluZ3RhbGtfd2ViaG9vaycsICcnKSBvciAnJykKICAgICAgICBzZWxmLl93ZWJob29rX3NlY3JldF9pbnB1dC5zZXRUZXh0KGdldGF0dHIoc2V0dGluZ3MsICd3ZWJob29rX3NlY3JldCcsICcnKSBvciAnJykKICAgICAgICBzZWxmLl93ZWJob29rX2JvZHlfaW5wdXQuc2V0VGV4dChnZXRhdHRyKHNldHRpbmdzLCAnd2ViaG9va19ib2R5JywgJycpIG9yICcnKQogICAgICAgIHNlbGYuX2F1dG9fc3RhcnRfY2hlY2suc2V0Q2hlY2tlZChzZWxmLl9pc19hdXRvX3N0YXJ0X2VuYWJsZWQoKSkKCiAgICBkZWYgZ2V0X3NldHRpbmdzKHNlbGYpIC0+IGRpY3Q6CiAgICAgICAgcXVhbGl0eV9tYXAgPSB7MDogIk9EIiwgMTogIlVIRCIsIDI6ICJIRCIsIDM6ICJTRCIsIDQ6ICJMRCJ9CgogICAgICAgIGlmIHNlbGYuX21pbmltaXplX3RyYXlfcmFkaW8uaXNDaGVja2VkKCk6CiAgICAgICAgICAgIG1pbmltaXplX2FjdGlvbiA9ICJ0cmF5IgogICAgICAgIGVsaWYgc2VsZi5fbWluaW1pemVfdGFza2Jhcl9yYWRpby5pc0NoZWNrZWQoKToKICAgICAgICAgICAgbWluaW1pemVfYWN0aW9uID0gInRhc2tiYXIiCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbWluaW1pemVfYWN0aW9uID0gImFzayIKCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgInNhdmVfcGF0aCI6IHNlbGYuX3BhdGhfaW5wdXQudGV4dCgpLAogICAgICAgICAgICAidmlkZW9fZm9ybWF0Ijogc2VsZi5fZm9ybWF0X2NvbWJvLmN1cnJlbnRUZXh0KCksCiAgICAgICAgICAgICJxdWFsaXR5IjogcXVhbGl0eV9tYXAuZ2V0KHNlbGYuX3F1YWxpdHlfY29tYm8uY3VycmVudEluZGV4KCksICJPRCIpLAogICAgICAgICAgICAibG9vcF9pbnRlcnZhbCI6IHNlbGYuX2ludGVydmFsX3NwaW4udmFsdWUoKSwKICAgICAgICAgICAgImF1dG9fc3BsaXQiOiBzZWxmLl9zcGxpdF9jaGVjay5pc0NoZWNrZWQoKSwKICAgICAgICAgICAgInNwbGl0X2R1cmF0aW9uIjogc2VsZi5fc3BsaXRfc3Bpbi52YWx1ZSgpLAogICAgICAgICAgICAiY29udmVydF9tcDQiOiBzZWxmLl9jb252ZXJ0X2NoZWNrLmlzQ2hlY2tlZCgpLAogICAgICAgICAgICAidXNlX3Byb3h5Ijogc2VsZi5fcHJveHlfY2hlY2suaXNDaGVja2VkKCksCiAgICAgICAgICAgICJwcm94eV9hZGRyIjogc2VsZi5fcHJveHlfaW5wdXQudGV4dCgpLAogICAgICAgICAgICAiZmlsZW5hbWVfdGVtcGxhdGUiOiBzZWxmLl90ZW1wbGF0ZV9pbnB1dC50ZXh0KCksCiAgICAgICAgICAgICJtaW5pbWl6ZV9hY3Rpb24iOiBtaW5pbWl6ZV9hY3Rpb24sCiAgICAgICAgICAgICJjbG9zZV9jb25maXJtIjogc2VsZi5fY2xvc2VfY29uZmlybV9jaGVjay5pc0NoZWNrZWQoKSwKICAgICAgICAgICAgImF1dG9fc3RhcnQiOiBzZWxmLl9hdXRvX3N0YXJ0X2NoZWNrLmlzQ2hlY2tlZCgpLAogICAgICAgICAgICAiYXV0b19zdGFydF9tb25pdG9yIjogc2VsZi5fYXV0b19tb25pdG9yX2NoZWNrLmlzQ2hlY2tlZCgpLAogICAgICAgICAgICAibm90aWZ5X29uX2xpdmUiOiBzZWxmLl9ub3RpZnlfbGl2ZV9jaGVjay5pc0NoZWNrZWQoKSwKICAgICAgICAgICAgInB1c2hfZW5hYmxlZCI6IHNlbGYuX3B1c2hfbGl2ZV9jaGVjay5pc0NoZWNrZWQoKSBvciBzZWxmLl9wdXNoX2VuZF9jaGVjay5pc0NoZWNrZWQoKSwKICAgICAgICAgICAgInB1c2hfbm90aWZ5X2xpdmUiOiBzZWxmLl9wdXNoX2xpdmVfY2hlY2suaXNDaGVja2VkKCksCiAgICAgICAgICAgICJwdXNoX25vdGlmeV9lbmQiOiBzZWxmLl9wdXNoX2VuZF9jaGVjay5pc0NoZWNrZWQoKSwKICAgICAgICAgICAgIndlYmhvb2tfdXJsIjogc2VsZi5fd2ViaG9va191cmxfaW5wdXQudGV4dCgpLnN0cmlwKCksCiAgICAgICAgICAgICJ3ZWJob29rX3NlY3JldCI6IHNlbGYuX3dlYmhvb2tfc2VjcmV0X2lucHV0LnRleHQoKS5zdHJpcCgpLAogICAgICAgICAgICAid2ViaG9va19ib2R5Ijogc2VsZi5fd2ViaG9va19ib2R5X2lucHV0LnRleHQoKS5zdHJpcCgpLAogICAgICAgIH0KCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgc2VuZF93ZWJob29rKHVybCwgc2VjcmV0LCBib2R5X3RlbXBsYXRlLCBldmVudCwgYW5jaG9yLCBwbGF0Zm9ybSwgcm9vbV91cmwsIHRpdGxlPSIiKToKICAgICAgICAiIiLlj5HpgIEgV2ViaG9vayDmjqjpgIHvvIjpnZnmgIHmlrnms5XvvIzkuZ/lj6/ooqvlhbbku5bmqKHlnZfosIPnlKjvvIkiIiIKICAgICAgICBpZiBub3QgdXJsOgogICAgICAgICAgICByZXR1cm4KICAgICAgICB0cnk6CiAgICAgICAgICAgIG5vdyA9IHRpbWUuc3RyZnRpbWUoJyVZLSVtLSVkICVIOiVNOiVTJykKICAgICAgICAgICAgYm9keV9zdHIgPSAoYm9keV90ZW1wbGF0ZSBvciAneyJ0ZXh0IjogIntldmVudH0gLSB7YW5jaG9yfSBbe3BsYXRmb3JtfV0ifScpLmZvcm1hdCgKICAgICAgICAgICAgICAgIGV2ZW50PWV2ZW50LCBhbmNob3I9YW5jaG9yLCBwbGF0Zm9ybT1wbGF0Zm9ybSwgdXJsPXJvb21fdXJsLAogICAgICAgICAgICAgICAgdGl0bGU9dGl0bGUgb3IgIiIsIHRpbWU9bm93LAogICAgICAgICAgICApCiAgICAgICAgICAgICMg6ZKJ6ZKJ5Yqg562+CiAgICAgICAgICAgIGhlYWRlcnMgPSB7IkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04In0KICAgICAgICAgICAgaWYgc2VjcmV0OgogICAgICAgICAgICAgICAgdHMgPSBzdHIocm91bmQodGltZS50aW1lKCkgKiAxMDAwKSkKICAgICAgICAgICAgICAgIHNpZ25fc3RyID0gZiJ7dHN9XG57c2VjcmV0fSIKICAgICAgICAgICAgICAgIGhtYWNfY29kZSA9IGhtYWMubmV3KAogICAgICAgICAgICAgICAgICAgIHNlY3JldC5lbmNvZGUoInV0Zi04IiksIHNpZ25fc3RyLmVuY29kZSgidXRmLTgiKSwgaGFzaGxpYi5zaGEyNTYKICAgICAgICAgICAgICAgICkuZGlnZXN0KCkKICAgICAgICAgICAgICAgIHNpZ24gPSB1cmxsaWIucGFyc2UucXVvdGVfcGx1cyhiYXNlNjQuYjY0ZW5jb2RlKGhtYWNfY29kZSkpCiAgICAgICAgICAgICAgICBzZXAgPSAiJiIgaWYgIj8iIGluIHVybCBlbHNlICI/IgogICAgICAgICAgICAgICAgdXJsID0gZiJ7dXJsfXtzZXB9dGltZXN0YW1wPXt0c30mc2lnbj17c2lnbn0iCgogICAgICAgICAgICBkYXRhID0gYm9keV9zdHIuZW5jb2RlKCJ1dGYtOCIpCiAgICAgICAgICAgIHJlcSA9IHVybGxpYi5yZXF1ZXN0LlJlcXVlc3QodXJsLCBkYXRhPWRhdGEsIGhlYWRlcnM9aGVhZGVycywgbWV0aG9kPSJQT1NUIikKICAgICAgICAgICAgd2l0aCB1cmxsaWIucmVxdWVzdC51cmxvcGVuKHJlcSwgdGltZW91dD0xMCkgYXMgcmVzcDoKICAgICAgICAgICAgICAgIHJlc3AucmVhZCgpCiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICByZXR1cm4gc3RyKGUpCgogICAgZGVmIF90ZXN0X3dlYmhvb2soc2VsZik6CiAgICAgICAgdXJsID0gc2VsZi5fd2ViaG9va191cmxfaW5wdXQudGV4dCgpLnN0cmlwKCkKICAgICAgICBpZiBub3QgdXJsOgogICAgICAgICAgICBmcm9tIFB5U2lkZTYuUXRXaWRnZXRzIGltcG9ydCBRTWVzc2FnZUJveAogICAgICAgICAgICBRTWVzc2FnZUJveC53YXJuaW5nKHNlbGYsICLmj5DnpLoiLCAi6K+35YWI5aGr5YaZIFdlYmhvb2sgVVJMIikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgc2VjcmV0ID0gc2VsZi5fd2ViaG9va19zZWNyZXRfaW5wdXQudGV4dCgpLnN0cmlwKCkKICAgICAgICBib2R5ID0gc2VsZi5fd2ViaG9va19ib2R5X2lucHV0LnRleHQoKS5zdHJpcCgpCiAgICAgICAgcmVzdWx0ID0gc2VsZi5zZW5kX3dlYmhvb2sodXJsLCBzZWNyZXQsIGJvZHksICLmtYvor5UiLCAi5rWL6K+V5Li75pKtIiwgIuaKlumfsyIsICJodHRwczovL2V4YW1wbGUuY29tIiwgIua1i+ivleagh+mimCIpCiAgICAgICAgaWYgcmVzdWx0IGlzIFRydWU6CiAgICAgICAgICAgIHNlbGYuX3dlYmhvb2tfdGVzdF9idG4uc2V0VGV4dCgi5o6o6YCB5oiQ5YqfISIpCiAgICAgICAgICAgIHNlbGYuX3dlYmhvb2tfdGVzdF9idG4uc2V0U3R5bGVTaGVldCgKICAgICAgICAgICAgICAgICJiYWNrZ3JvdW5kOiAjMjdBRTYwOyBjb2xvcjogd2hpdGU7IGJvcmRlci1yYWRpdXM6IDZweDsgZm9udC1zaXplOiAxMnB4OyIKICAgICAgICAgICAgKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYuX3dlYmhvb2tfdGVzdF9idG4uc2V0VGV4dChmIuWksei0pToge3Jlc3VsdH0iKQogICAgICAgICAgICBzZWxmLl93ZWJob29rX3Rlc3RfYnRuLnNldFN0eWxlU2hlZXQoCiAgICAgICAgICAgICAgICAiYmFja2dyb3VuZDogI0U3NEMzQzsgY29sb3I6IHdoaXRlOyBib3JkZXItcmFkaXVzOiA2cHg7IGZvbnQtc2l6ZTogMTJweDsiCiAgICAgICAgICAgICkKICAgICAgICBmcm9tIFB5U2lkZTYuUXRDb3JlIGltcG9ydCBRVGltZXIKICAgICAgICBRVGltZXIuc2luZ2xlU2hvdCgzMDAwLCBzZWxmLl9yZXNldF90ZXN0X2J0bikKCiAgICBkZWYgX3Jlc2V0X3Rlc3RfYnRuKHNlbGYpOgogICAgICAgIHNlbGYuX3dlYmhvb2tfdGVzdF9idG4uc2V0VGV4dCgi5Y+R6YCB5rWL6K+V5o6o6YCBIikKICAgICAgICBzZWxmLl93ZWJob29rX3Rlc3RfYnRuLnNldFN0eWxlU2hlZXQoIiIpCgogICAgZGVmIF9vbl9zYXZlKHNlbGYpOgogICAgICAgIHNlbGYuc2V0dGluZ3NfY2hhbmdlZC5lbWl0KCk=
+"""设置页面 - 包含录制/网络/通用设置"""
+import os
+import json
+import time
+import hmac
+import hashlib
+import base64
+import urllib.request
+import urllib.error
+import urllib.parse
+import winreg
+from PySide6.QtWidgets import (
+    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QComboBox,
+    QSpinBox, QCheckBox, QPushButton, QGroupBox, QFormLayout,
+    QScrollArea, QFileDialog, QButtonGroup, QRadioButton, QMenu
+)
+from PySide6.QtCore import Qt, Signal
+
+
+class SettingsTab(QWidget):
+    settings_changed = Signal()
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self._setup_ui()
+
+    def _setup_ui(self):
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QScrollArea.Shape.NoFrame)
+
+        container = QWidget()
+        layout = QVBoxLayout(container)
+        layout.setContentsMargins(28, 20, 28, 20)
+        layout.setSpacing(20)
+
+        # ========== 录制设置 ==========
+        record_group = QGroupBox("录制设置")
+        record_form = QFormLayout(record_group)
+        record_form.setSpacing(14)
+        record_form.setLabelAlignment(Qt.AlignmentFlag.AlignRight)
+
+        path_layout = QHBoxLayout()
+        self._path_input = QLineEdit()
+        self._path_input.setReadOnly(True)
+        browse_btn = QPushButton("浏览...")
+        browse_btn.setFixedWidth(80)
+        browse_btn.clicked.connect(self._browse_path)
+        path_layout.addWidget(self._path_input, 1)
+        path_layout.addWidget(browse_btn)
+        record_form.addRow("保存路径:", path_layout)
+
+        self._format_combo = QComboBox()
+        self._format_combo.addItems(["ts", "mkv", "flv", "mp4"])
+        record_form.addRow("视频格式:", self._format_combo)
+
+        self._quality_combo = QComboBox()
+        self._quality_combo.addItems(["原画(OD)", "超清(UHD)", "高清(HD)", "标清(SD)", "流畅(LD)"])
+        record_form.addRow("默认画质:", self._quality_combo)
+
+        self._interval_spin = QSpinBox()
+        self._interval_spin.setRange(10, 3600)
+        self._interval_spin.setValue(120)
+        self._interval_spin.setSuffix(" 秒")
+        record_form.addRow("检测间隔:", self._interval_spin)
+
+        self._split_check = QCheckBox("启用分段录制")
+        self._split_spin = QSpinBox()
+        self._split_spin.setRange(300, 7200)
+        self._split_spin.setValue(3600)
+        self._split_spin.setSuffix(" 秒")
+        self._split_spin.setEnabled(False)
+        self._split_check.toggled.connect(self._split_spin.setEnabled)
+        split_layout = QHBoxLayout()
+        split_layout.addWidget(self._split_check)
+        split_layout.addWidget(self._split_spin)
+        record_form.addRow("分段:", split_layout)
+
+        self._convert_check = QCheckBox("录制完成后自动转码为MP4（删除原文件）")
+        record_form.addRow("转码:", self._convert_check)
+
+        # 文件命名模板
+        template_label = QLabel("命名模板:")
+        template_top = QHBoxLayout()
+        template_top.setSpacing(6)
+        self._template_input = QLineEdit()
+        self._template_input.setPlaceholderText("{platform}/{owner}/{year}-{month}-{date} {hour}-{min}-{sec} {title}")
+        template_top.addWidget(self._template_input, 1)
+        # 占位符按钮
+        self._template_btn = QPushButton("插入")
+        self._template_btn.setFixedWidth(50)
+        self._template_btn.setFixedHeight(32)
+        self._template_btn.clicked.connect(self._show_template_menu)
+        template_top.addWidget(self._template_btn)
+        record_form.addRow(template_label, template_top)
+
+        template_hint = QLabel(
+            "占位符: {platform} {owner} {title} {year} {month} {date} {hour} {min} {sec}"
+        )
+        template_hint.setStyleSheet("color: #8E9AAF; font-size: 11px; border: none; background: transparent;")
+        template_layout = QVBoxLayout()
+        template_layout.setSpacing(2)
+        template_layout.addLayout(template_top)
+        template_layout.addWidget(template_hint)
+        record_form.addRow("", template_layout)
+
+        layout.addWidget(record_group)
+
+        # ========== 网络设置 ==========
+        network_group = QGroupBox("网络设置")
+        network_form = QFormLayout(network_group)
+        network_form.setSpacing(14)
+
+        self._proxy_check = QCheckBox("使用代理")
+        self._proxy_input = QLineEdit()
+        self._proxy_input.setPlaceholderText("http://127.0.0.1:7890 或 socks5://127.0.0.1:7890")
+        self._proxy_input.setEnabled(False)
+        self._proxy_check.toggled.connect(self._proxy_input.setEnabled)
+        proxy_layout = QHBoxLayout()
+        proxy_layout.addWidget(self._proxy_check)
+        proxy_layout.addWidget(self._proxy_input, 1)
+        network_form.addRow("代理:", proxy_layout)
+
+        layout.addWidget(network_group)
+
+        # ========== 推送设置 ==========
+        push_group = QGroupBox("推送设置（Webhook）")
+        push_form = QFormLayout(push_group)
+        push_form.setSpacing(14)
+
+        self._push_live_check = QCheckBox("检测到开播时推送")
+        self._push_end_check = QCheckBox("直播结束时推送")
+        push_events_layout = QVBoxLayout()
+        push_events_layout.setSpacing(6)
+        push_events_layout.addWidget(self._push_live_check)
+        push_events_layout.addWidget(self._push_end_check)
+        push_form.addRow("推送事件:", push_events_layout)
+
+        self._webhook_url_input = QLineEdit()
+        self._webhook_url_input.setPlaceholderText("https://example.com/webhook 或 留空使用钉钉机器人")
+        push_form.addRow("Webhook URL:", self._webhook_url_input)
+
+        self._webhook_secret_input = QLineEdit()
+        self._webhook_secret_input.setPlaceholderText("签名密钥（可选，钉钉机器人加签时使用）")
+        push_form.addRow("签名密钥:", self._webhook_secret_input)
+
+        self._webhook_body_input = QLineEdit()
+        self._webhook_body_input.setPlaceholderText('{"text": "{event} - {anchor}"}')
+        self._webhook_body_input.setToolTip(
+            'POST 请求体模板，支持变量:\n'
+            '{event} = 开播/下播\n'
+            '{anchor} = 主播名\n'
+            '{platform} = 平台名\n'
+            '{url} = 直播间链接\n'
+            '{title} = 直播标题\n'
+            '{time} = 当前时间'
+        )
+        push_form.addRow("请求体模板:", self._webhook_body_input)
+
+        self._webhook_test_btn = QPushButton("发送测试推送")
+        self._webhook_test_btn.setFixedHeight(32)
+        self._webhook_test_btn.clicked.connect(self._test_webhook)
+        push_form.addRow("", self._webhook_test_btn)
+
+        layout.addWidget(push_group)
+
+        # ========== 通用设置 ==========
+        general_group = QGroupBox("通用设置")
+        general_form = QFormLayout(general_group)
+        general_form.setSpacing(14)
+
+        # 最小化行为
+        self._minimize_btn_group = QButtonGroup(self)
+        self._minimize_tray_radio = QRadioButton("最小化到系统托盘（推荐）")
+        self._minimize_taskbar_radio = QRadioButton("最小化到任务栏")
+        self._minimize_ask_radio = QRadioButton("每次询问")
+        self._minimize_btn_group.addButton(self._minimize_tray_radio, 0)
+        self._minimize_btn_group.addButton(self._minimize_taskbar_radio, 1)
+        self._minimize_btn_group.addButton(self._minimize_ask_radio, 2)
+
+        minimize_layout = QVBoxLayout()
+        minimize_layout.setSpacing(8)
+        minimize_layout.addWidget(self._minimize_tray_radio)
+        minimize_layout.addWidget(self._minimize_taskbar_radio)
+        minimize_layout.addWidget(self._minimize_ask_radio)
+        general_form.addRow("最小化行为:", minimize_layout)
+
+        # 开机自启动
+        self._auto_start_check = QCheckBox("开机自动启动")
+        self._auto_start_check.setChecked(self._is_auto_start_enabled())
+        general_form.addRow("启动:", self._auto_start_check)
+
+        # 关闭行为
+        self._close_confirm_check = QCheckBox("关闭时确认")
+        general_form.addRow("关闭:", self._close_confirm_check)
+
+        # 启动时自动监控
+        self._auto_monitor_check = QCheckBox("启动软件后自动开始监控所有启用的直播间")
+        general_form.addRow("自动监控:", self._auto_monitor_check)
+
+        # 开播系统通知
+        self._notify_live_check = QCheckBox("检测到开播时发送系统通知")
+        general_form.addRow("开播通知:", self._notify_live_check)
+
+        layout.addWidget(general_group)
+
+        layout.addStretch()
+
+        btn_layout = QHBoxLayout()
+        btn_layout.addStretch()
+        self._save_btn = QPushButton("保存设置")
+        self._save_btn.setFixedHeight(40)
+        self._save_btn.setFixedWidth(120)
+        self._save_btn.setObjectName("primaryBtn")
+        self._save_btn.clicked.connect(self._on_save)
+        btn_layout.addWidget(self._save_btn)
+        layout.addLayout(btn_layout)
+
+        scroll.setWidget(container)
+        main_layout = QVBoxLayout(self)
+        main_layout.setContentsMargins(0, 0, 0, 0)
+        main_layout.addWidget(scroll)
+
+    @staticmethod
+    def _is_auto_start_enabled() -> bool:
+        """检查注册表中是否已设置开机自启动"""
+        try:
+            key = winreg.OpenKey(
+                winreg.HKEY_CURRENT_USER,
+                r"Software\Microsoft\Windows\CurrentVersion\Run",
+                0, winreg.KEY_READ
+            )
+            value, _ = winreg.QueryValueEx(key, "LiveRecordStudio")
+            winreg.CloseKey(key)
+            return bool(value and os.path.isfile(value))
+        except (FileNotFoundError, OSError):
+            return False
+
+    @staticmethod
+    def set_auto_start(enable: bool):
+        """设置或取消开机自启动"""
+        key = winreg.OpenKey(
+            winreg.HKEY_CURRENT_USER,
+            r"Software\Microsoft\Windows\CurrentVersion\Run",
+            0, winreg.KEY_SET_VALUE
+        )
+        if enable:
+            # 使用当前 exe 的完整路径
+            import sys
+            if getattr(sys, 'frozen', False):
+                exe_path = sys.executable
+            else:
+                exe_path = os.path.abspath(sys.argv[0])
+            winreg.SetValueEx(key, "LiveRecordStudio", 0, winreg.REG_SZ, exe_path)
+        else:
+            try:
+                winreg.DeleteValue(key, "LiveRecordStudio")
+            except FileNotFoundError:
+                pass
+        winreg.CloseKey(key)
+
+    def _show_template_menu(self):
+        """显示占位符插入菜单"""
+        menu = QMenu(self)
+        placeholders = [
+            ("{platform}", "平台名"),
+            ("{owner}", "主播名"),
+            ("{title}", "直播标题"),
+            ("{year}", "年"),
+            ("{month}", "月"),
+            ("{date}", "日"),
+            ("{hour}", "时"),
+            ("{min}", "分"),
+            ("{sec}", "秒"),
+            ("/", "路径分隔符"),
+        ]
+        for var, desc in placeholders:
+            action = menu.addAction(f"{var}  ({desc})")
+            action.setData(var)
+        action = menu.exec(self._template_btn.mapToGlobal(self._template_btn.rect().bottomLeft()))
+        if action:
+            text = action.data()
+            line_edit = self._template_input
+            cursor = line_edit.cursorPosition()
+            line_edit.insert(text)
+
+    def _browse_path(self):
+        path = QFileDialog.getExistingDirectory(self, "选择保存路径")
+        if path:
+            self._path_input.setText(path)
+
+    def load_settings(self, settings):
+        r = settings.record
+        self._path_input.setText(r.save_path)
+        idx = self._format_combo.findText(r.video_format)
+        if idx >= 0: self._format_combo.setCurrentIndex(idx)
+        quality_map = {"OD": 0, "UHD": 1, "HD": 2, "SD": 3, "LD": 4}
+        idx = quality_map.get(r.quality, 0)
+        if 0 <= idx < self._quality_combo.count():
+            self._quality_combo.setCurrentIndex(idx)
+        self._interval_spin.setValue(r.loop_interval)
+        self._split_check.setChecked(r.auto_split)
+        self._split_spin.setValue(r.split_duration)
+        self._convert_check.setChecked(r.convert_mp4)
+        self._proxy_check.setChecked(r.use_proxy)
+        self._proxy_input.setText(r.proxy_addr)
+        self._template_input.setText(getattr(r, 'filename_template', ''))
+
+        # 最小化行为
+        minimize_action = getattr(settings, 'minimize_action', 'ask')
+        if minimize_action == "tray":
+            self._minimize_tray_radio.setChecked(True)
+        elif minimize_action == "taskbar":
+            self._minimize_taskbar_radio.setChecked(True)
+        else:
+            self._minimize_ask_radio.setChecked(True)
+
+        self._close_confirm_check.setChecked(getattr(settings, 'close_confirm', True))
+        self._auto_monitor_check.setChecked(getattr(settings, 'auto_start_monitor', False))
+        self._notify_live_check.setChecked(getattr(settings, 'notify_on_live', True))
+        # Webhook 推送
+        push = getattr(settings, 'push', None)
+        if push:
+            self._push_live_check.setChecked(getattr(push, 'notify_on_live', True))
+            self._push_end_check.setChecked(getattr(push, 'notify_on_end', False))
+            self._webhook_url_input.setText(getattr(push, 'dingtalk_webhook', '') or '')
+        self._webhook_secret_input.setText(getattr(settings, 'webhook_secret', '') or '')
+        self._webhook_body_input.setText(getattr(settings, 'webhook_body', '') or '')
+        self._auto_start_check.setChecked(self._is_auto_start_enabled())
+
+    def get_settings(self) -> dict:
+        quality_map = {0: "OD", 1: "UHD", 2: "HD", 3: "SD", 4: "LD"}
+
+        if self._minimize_tray_radio.isChecked():
+            minimize_action = "tray"
+        elif self._minimize_taskbar_radio.isChecked():
+            minimize_action = "taskbar"
+        else:
+            minimize_action = "ask"
+
+        return {
+            "save_path": self._path_input.text(),
+            "video_format": self._format_combo.currentText(),
+            "quality": quality_map.get(self._quality_combo.currentIndex(), "OD"),
+            "loop_interval": self._interval_spin.value(),
+            "auto_split": self._split_check.isChecked(),
+            "split_duration": self._split_spin.value(),
+            "convert_mp4": self._convert_check.isChecked(),
+            "use_proxy": self._proxy_check.isChecked(),
+            "proxy_addr": self._proxy_input.text(),
+            "filename_template": self._template_input.text(),
+            "minimize_action": minimize_action,
+            "close_confirm": self._close_confirm_check.isChecked(),
+            "auto_start": self._auto_start_check.isChecked(),
+            "auto_start_monitor": self._auto_monitor_check.isChecked(),
+            "notify_on_live": self._notify_live_check.isChecked(),
+            "push_enabled": self._push_live_check.isChecked() or self._push_end_check.isChecked(),
+            "push_notify_live": self._push_live_check.isChecked(),
+            "push_notify_end": self._push_end_check.isChecked(),
+            "webhook_url": self._webhook_url_input.text().strip(),
+            "webhook_secret": self._webhook_secret_input.text().strip(),
+            "webhook_body": self._webhook_body_input.text().strip(),
+        }
+
+    @staticmethod
+    def send_webhook(url, secret, body_template, event, anchor, platform, room_url, title=""):
+        """发送 Webhook 推送（静态方法，也可被其他模块调用）"""
+        if not url:
+            return
+        try:
+            now = time.strftime('%Y-%m-%d %H:%M:%S')
+            body_str = (body_template or '{"text": "{event} - {anchor} [{platform}]"}').format(
+                event=event, anchor=anchor, platform=platform, url=room_url,
+                title=title or "", time=now,
+            )
+            # 钉钉加签
+            headers = {"Content-Type": "application/json; charset=utf-8"}
+            if secret:
+                ts = str(round(time.time() * 1000))
+                sign_str = f"{ts}\n{secret}"
+                hmac_code = hmac.new(
+                    secret.encode("utf-8"), sign_str.encode("utf-8"), hashlib.sha256
+                ).digest()
+                sign = urllib.parse.quote_plus(base64.b64encode(hmac_code))
+                sep = "&" if "?" in url else "?"
+                url = f"{url}{sep}timestamp={ts}&sign={sign}"
+
+            data = body_str.encode("utf-8")
+            req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                resp.read()
+            return True
+        except Exception as e:
+            return str(e)
+
+    def _test_webhook(self):
+        url = self._webhook_url_input.text().strip()
+        if not url:
+            from PySide6.QtWidgets import QMessageBox
+            QMessageBox.warning(self, "提示", "请先填写 Webhook URL")
+            return
+        secret = self._webhook_secret_input.text().strip()
+        body = self._webhook_body_input.text().strip()
+        result = self.send_webhook(url, secret, body, "测试", "测试主播", "抖音", "https://example.com", "测试标题")
+        if result is True:
+            self._webhook_test_btn.setText("推送成功!")
+            self._webhook_test_btn.setStyleSheet(
+                "background: #27AE60; color: white; border-radius: 6px; font-size: 12px;"
+            )
+        else:
+            self._webhook_test_btn.setText(f"失败: {result}")
+            self._webhook_test_btn.setStyleSheet(
+                "background: #E74C3C; color: white; border-radius: 6px; font-size: 12px;"
+            )
+        from PySide6.QtCore import QTimer
+        QTimer.singleShot(3000, self._reset_test_btn)
+
+    def _reset_test_btn(self):
+        self._webhook_test_btn.setText("发送测试推送")
+        self._webhook_test_btn.setStyleSheet("")
+
+    def _on_save(self):
+        self.settings_changed.emit()

@@ -1,1 +1,153 @@
-IiIiCua1geino+aekOW8leaTjiAtIOWwgeijhXN0cmVhbWdldOW6k+iOt+WPluebtOaSrea1ge+8iOWkmuW5s+WPsOaUr+aMge+8iQoiIiIKaW1wb3J0IGFzeW5jaW8KZnJvbSB0eXBpbmcgaW1wb3J0IE9wdGlvbmFsCmZyb20gdXJsbGliLnBhcnNlIGltcG9ydCB1cmxwYXJzZQpmcm9tIGxvZ3VydSBpbXBvcnQgbG9nZ2VyCgojIOWfn+WQjSAtPiAo5bmz5Y+w57G7LCDlubPlj7DkuK3mloflkI0pIOeahOaYoOWwhApfUExBVEZPUk1fTUFQID0ge30KCgpkZWYgX2J1aWxkX3BsYXRmb3JtX21hcCgpOgogICAgIiIi5bu26L+f5p6E5bu65bmz5Y+w5pig5bCE77yM6YG/5YWN5a+85YWl5pe25Yqg6L295omA5pyJ57G7IiIiCiAgICBpZiBfUExBVEZPUk1fTUFQOgogICAgICAgIHJldHVybgogICAgZnJvbSBzdHJlYW1nZXQgaW1wb3J0ICgKICAgICAgICBEb3V5aW5MaXZlU3RyZWFtLCBCaWxpYmlsaUxpdmVTdHJlYW0sIEh1eWFMaXZlU3RyZWFtLAogICAgICAgIERvdXl1TGl2ZVN0cmVhbSwgS3dhaUxpdmVTdHJlYW0sIFR3aXRjaExpdmVTdHJlYW0sCiAgICAgICAgWW91dHViZUxpdmVTdHJlYW0sIFlZTGl2ZVN0cmVhbSwgUmVkTm90ZUxpdmVTdHJlYW0sCiAgICAgICAgVGlrVG9rTGl2ZVN0cmVhbSwgQmlnb0xpdmVTdHJlYW0sCiAgICApCiAgICBtYXBwaW5nID0gewogICAgICAgICMg5oqW6Z+zCiAgICAgICAgImxpdmUuZG91eWluLmNvbSI6IChEb3V5aW5MaXZlU3RyZWFtLCAi5oqW6Z+zIiksCiAgICAgICAgInd3dy5kb3V5aW4uY29tIjogKERvdXlpbkxpdmVTdHJlYW0sICLmipbpn7MiKSwKICAgICAgICAjIFRpa1RvawogICAgICAgICJ3d3cudGlrdG9rLmNvbSI6IChUaWtUb2tMaXZlU3RyZWFtLCAiVGlrVG9rIiksCiAgICAgICAgImxpdmUudGlrdG9rLmNvbSI6IChUaWtUb2tMaXZlU3RyZWFtLCAiVGlrVG9rIiksCiAgICAgICAgIyDlv6vmiYsKICAgICAgICAibGl2ZS5rdWFpc2hvdS5jb20iOiAoS3dhaUxpdmVTdHJlYW0sICLlv6vmiYsiKSwKICAgICAgICAjIOiZjueJmQogICAgICAgICJ3d3cuaHV5YS5jb20iOiAoSHV5YUxpdmVTdHJlYW0sICLomY7niZkiKSwKICAgICAgICAjIOaWl+mxvAogICAgICAgICJ3d3cuZG91eXUuY29tIjogKERvdXl1TGl2ZVN0cmVhbSwgIuaWl+mxvCIpLAogICAgICAgICMgQuermQogICAgICAgICJsaXZlLmJpbGliaWxpLmNvbSI6IChCaWxpYmlsaUxpdmVTdHJlYW0sICLlk5Tlk6nlk5Tlk6kiKSwKICAgICAgICAjIOWwj+e6ouS5pgogICAgICAgICJsaXZlLnhpYW9ob25nc2h1LmNvbSI6IChSZWROb3RlTGl2ZVN0cmVhbSwgIuWwj+e6ouS5piIpLAogICAgICAgICMgVHdpdGNoCiAgICAgICAgInd3dy50d2l0Y2gudHYiOiAoVHdpdGNoTGl2ZVN0cmVhbSwgIlR3aXRjaCIpLAogICAgICAgICMgWW91VHViZQogICAgICAgICJ3d3cueW91dHViZS5jb20iOiAoWW91dHViZUxpdmVTdHJlYW0sICJZb3VUdWJlIiksCiAgICAgICAgIyBZWQogICAgICAgICJ3d3cueXkuY29tIjogKFlZTGl2ZVN0cmVhbSwgIllZ55u05pKtIiksCiAgICAgICAgIyBCaWdvCiAgICAgICAgInd3dy5iaWdvLnR2IjogKEJpZ29MaXZlU3RyZWFtLCAiQmlnbyIpLAogICAgfQogICAgX1BMQVRGT1JNX01BUC51cGRhdGUobWFwcGluZykKCgpkZWYgZ2V0X3BsYXRmb3JtX2NsYXNzKHVybDogc3RyKToKICAgICIiIuagueaNrlVSTOi/lOWbnuWvueW6lOeahOW5s+WPsOexu+WSjOS4reaWh+WQje+8jOacquWMuemFjei/lOWbnk5vbmUiIiIKICAgIF9idWlsZF9wbGF0Zm9ybV9tYXAoKQogICAgdHJ5OgogICAgICAgIGRvbWFpbiA9IHVybHBhcnNlKHVybCkuaG9zdG5hbWUgb3IgIiIKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIGZvciBwYXR0ZXJuLCBlbnRyeSBpbiBfUExBVEZPUk1fTUFQLml0ZW1zKCk6CiAgICAgICAgaWYgcGF0dGVybiBpbiBkb21haW46CiAgICAgICAgICAgIHJldHVybiBlbnRyeQogICAgIyDlsJ3or5XlnKjmiYDmnIkga2V5IOS4reWBmuaooeeziuWMuemFjQogICAgZm9yIHBhdHRlcm4sIGVudHJ5IGluIF9QTEFURk9STV9NQVAuaXRlbXMoKToKICAgICAgICBpZiBkb21haW4uZW5kc3dpdGgocGF0dGVybikgb3IgcGF0dGVybi5lbmRzd2l0aChkb21haW4pOgogICAgICAgICAgICByZXR1cm4gZW50cnkKICAgIHJldHVybiBOb25lCgoKY2xhc3MgU3RyZWFtUGFyc2VyOgogICAgIiIi55u05pKt5rWB6Kej5p6Q5Zmo77yM5bCB6KOFc3RyZWFtZ2V05bqT77yM5pSv5oyB5aSa5bmz5Y+wIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHByb3h5OiBzdHIgPSAiIiwgY29va2llOiBzdHIgPSAiIik6CiAgICAgICAgc2VsZi5fcHJveHkgPSBwcm94eQogICAgICAgIHNlbGYuX2Nvb2tpZSA9IGNvb2tpZQogICAgICAgIHNlbGYuX3N0cmVhbWVyID0gTm9uZQogICAgICAgIHNlbGYuX3BsYXRmb3JtX25hbWUgPSAiIgoKICAgIGFzeW5jIGRlZiBmZXRjaF9zdHJlYW1fZGF0YShzZWxmLCB1cmw6IHN0ciwgcXVhbGl0eTogc3RyID0gIk9EIikgLT4gT3B0aW9uYWxbZGljdF06CiAgICAgICAgIiIiCiAgICAgICAg6I635Y+W55u05pKt5rWB5pWw5o2uCiAgICAgICAg6L+U5ZueOiB7ImlzX2xpdmUiOiBib29sLCAiYW5jaG9yX25hbWUiOiBzdHIsICJtM3U4X3VybCI6IHN0ciwgImZsdl91cmwiOiBzdHIsICJ0aXRsZSI6IHN0ciwgInBsYXRmb3JtIjogc3RyfQogICAgICAgIOWmguaenOiOt+WPluWksei0pei/lOWbnk5vbmUKICAgICAgICAiIiIKICAgICAgICAjIOivhuWIq+W5s+WPsAogICAgICAgIHBsYXRmb3JtX2luZm8gPSBnZXRfcGxhdGZvcm1fY2xhc3ModXJsKQogICAgICAgIGlmIG5vdCBwbGF0Zm9ybV9pbmZvOgogICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIuS4jeaUr+aMgeeahOW5s+WPsDoge3VybH0iKQogICAgICAgICAgICByZXR1cm4gTm9uZQoKICAgICAgICBTdHJlYW1lckNsYXNzLCBwbGF0Zm9ybV9uYW1lID0gcGxhdGZvcm1faW5mbwogICAgICAgIHNlbGYuX3BsYXRmb3JtX25hbWUgPSBwbGF0Zm9ybV9uYW1lCiAgICAgICAgc2VsZi5fc3RyZWFtZXIgPSBTdHJlYW1lckNsYXNzKAogICAgICAgICAgICBwcm94eV9hZGRyPXNlbGYuX3Byb3h5IG9yIE5vbmUsCiAgICAgICAgICAgIGNvb2tpZXM9c2VsZi5fY29va2llIG9yICIiLCAgIyDnqbrlrZfnrKbkuLLogIzpnZ5Ob25l77yM6YG/5YWN5bqT5YaF6YOoIC5zdHJpcCgpIOW0qea6gwogICAgICAgICkKCiAgICAgICAgdHJ5OgogICAgICAgICAgICAjIOesrOS4gOatpe+8muiOt+WPlumhtemdouaVsOaNru+8iOmDqOWIhuW5s+WPsOeUqCBmZXRjaF9hcHBfc3RyZWFtX2RhdGHvvIkKICAgICAgICAgICAgZmV0Y2hfbWV0aG9kID0gZ2V0YXR0cihzZWxmLl9zdHJlYW1lciwgJ2ZldGNoX3dlYl9zdHJlYW1fZGF0YScsIE5vbmUpCiAgICAgICAgICAgIGlmIG5vdCBmZXRjaF9tZXRob2Q6CiAgICAgICAgICAgICAgICBmZXRjaF9tZXRob2QgPSBnZXRhdHRyKHNlbGYuX3N0cmVhbWVyLCAnZmV0Y2hfYXBwX3N0cmVhbV9kYXRhJywgTm9uZSkKICAgICAgICAgICAgaWYgbm90IGZldGNoX21ldGhvZDoKICAgICAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuW5s+WPsCB7cGxhdGZvcm1fbmFtZX0g5peg5Y+v55So55qE5pWw5o2u6I635Y+W5pa55rOVOiB7dXJsfSIpCiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQoKICAgICAgICAgICAgZGF0YSA9IGF3YWl0IGZldGNoX21ldGhvZCh1cmwpCiAgICAgICAgICAgIGlmIG5vdCBkYXRhOgogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiLojrflj5bnm7Tmkq3pl7TmlbDmja7lpLHotKU6IHt1cmx9IikKICAgICAgICAgICAgICAgIHJldHVybiBOb25lCgogICAgICAgICAgICAjIOesrOS6jOatpe+8muiOt+WPlua1geWcsOWdgAogICAgICAgICAgICBzdHJlYW1fb2JqID0gYXdhaXQgc2VsZi5fc3RyZWFtZXIuZmV0Y2hfc3RyZWFtX3VybChkYXRhLCBxdWFsaXR5KQogICAgICAgICAgICBpZiBub3Qgc3RyZWFtX29iajoKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYi6I635Y+W5rWB5Zyw5Z2A5aSx6LSlOiB7dXJsfSIpCiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZQoKICAgICAgICAgICAgIyDmtYHlnLDlnYDvvJrkvJjlhYggbTN1OCA+IGZsdiA+IHJlY29yZF91cmzvvIhC56uZ562J5bmz5Y+w55SoIHJlY29yZF91cmzvvIkKICAgICAgICAgICAgbTN1OCA9IGdldGF0dHIoc3RyZWFtX29iaiwgJ20zdThfdXJsJywgJycpIG9yICcnCiAgICAgICAgICAgIGZsdiA9IGdldGF0dHIoc3RyZWFtX29iaiwgJ2Zsdl91cmwnLCAnJykgb3IgJycKICAgICAgICAgICAgcmVjb3JkX3VybCA9IGdldGF0dHIoc3RyZWFtX29iaiwgJ3JlY29yZF91cmwnLCAnJykgb3IgJycKICAgICAgICAgICAgaWYgbm90IGZsdiBhbmQgcmVjb3JkX3VybDoKICAgICAgICAgICAgICAgIGZsdiA9IHJlY29yZF91cmwKCiAgICAgICAgICAgIHJlc3VsdCA9IHsKICAgICAgICAgICAgICAgICJpc19saXZlIjogZ2V0YXR0cihzdHJlYW1fb2JqLCAnaXNfbGl2ZScsIEZhbHNlKSwKICAgICAgICAgICAgICAgICJhbmNob3JfbmFtZSI6IGdldGF0dHIoc3RyZWFtX29iaiwgJ2FuY2hvcl9uYW1lJywgJycpLAogICAgICAgICAgICAgICAgIm0zdThfdXJsIjogbTN1OCwKICAgICAgICAgICAgICAgICJmbHZfdXJsIjogZmx2LAogICAgICAgICAgICAgICAgInRpdGxlIjogZ2V0YXR0cihzdHJlYW1fb2JqLCAndGl0bGUnLCAnJykgb3IgJycsCiAgICAgICAgICAgICAgICAicGxhdGZvcm0iOiBnZXRhdHRyKHN0cmVhbV9vYmosICdwbGF0Zm9ybScsICcnKSBvciBwbGF0Zm9ybV9uYW1lLAogICAgICAgICAgICB9CgogICAgICAgICAgICBsb2dnZXIuaW5mbyhmIuino+aekOaIkOWKnzoge3Jlc3VsdFsnYW5jaG9yX25hbWUnXX0gaXNfbGl2ZT17cmVzdWx0Wydpc19saXZlJ119IikKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdAoKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIua1geino+aekOW8guW4uCB7dXJsfToge2V9IikKICAgICAgICAgICAgcmV0dXJuIE5vbmUKCiAgICBkZWYgZmV0Y2hfc3RyZWFtX2RhdGFfc3luYyhzZWxmLCB1cmw6IHN0ciwgcXVhbGl0eTogc3RyID0gIk9EIikgLT4gT3B0aW9uYWxbZGljdF06CiAgICAgICAgIiIi5ZCM5q2l54mI5pys77yI55So5LqOUVRocmVhZOetiemdnmFzeW5j5LiK5LiL5paH77yJIiIiCiAgICAgICAgbG9nZ2VyLmluZm8oZiLlvIDlp4vojrflj5bnm7Tmkq3mlbDmja46IHt1cmxbOjUwXX0uLi4iKQogICAgICAgIHRyeToKICAgICAgICAgICAgcmVzdWx0ID0gYXN5bmNpby5ydW4oc2VsZi5mZXRjaF9zdHJlYW1fZGF0YSh1cmwsIHF1YWxpdHkpKQogICAgICAgICAgICBpZiByZXN1bHQgaXMgTm9uZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYi6I635Y+W55u05pKt5pWw5o2u6L+U5ZueIE5vbmU6IHt1cmxbOjUwXX0uLi4iKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oZiLojrflj5bnu5Pmnpw6IGlzX2xpdmU9e3Jlc3VsdC5nZXQoJ2lzX2xpdmUnKX0sIGFuY2hvcj17cmVzdWx0LmdldCgnYW5jaG9yX25hbWUnLCAnJylbOjIwXX0sIHBsYXRmb3JtPXtyZXN1bHQuZ2V0KCdwbGF0Zm9ybScsICcnKX0iKQogICAgICAgICAgICByZXR1cm4gcmVzdWx0CiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLmtYHop6PmnpDlkIzmraXlvILluLgge3VybFs6NTBdfToge3R5cGUoZSkuX19uYW1lX199OiB7ZX0iKQogICAgICAgICAgICByZXR1cm4gTm9uZQ==
+"""
+流解析引擎 - 封装streamget库获取直播流（多平台支持）
+"""
+import asyncio
+from typing import Optional
+from urllib.parse import urlparse
+from loguru import logger
+
+# 域名 -> (平台类, 平台中文名) 的映射
+_PLATFORM_MAP = {}
+
+
+def _build_platform_map():
+    """延迟构建平台映射，避免导入时加载所有类"""
+    if _PLATFORM_MAP:
+        return
+    from streamget import (
+        DouyinLiveStream, BilibiliLiveStream, HuyaLiveStream,
+        DouyuLiveStream, KwaiLiveStream, TwitchLiveStream,
+        YoutubeLiveStream, YYLiveStream, RedNoteLiveStream,
+        TikTokLiveStream, BigoLiveStream,
+    )
+    mapping = {
+        # 抖音
+        "live.douyin.com": (DouyinLiveStream, "抖音"),
+        "www.douyin.com": (DouyinLiveStream, "抖音"),
+        # TikTok
+        "www.tiktok.com": (TikTokLiveStream, "TikTok"),
+        "live.tiktok.com": (TikTokLiveStream, "TikTok"),
+        # 快手
+        "live.kuaishou.com": (KwaiLiveStream, "快手"),
+        # 虎牙
+        "www.huya.com": (HuyaLiveStream, "虎牙"),
+        # 斗鱼
+        "www.douyu.com": (DouyuLiveStream, "斗鱼"),
+        # B站
+        "live.bilibili.com": (BilibiliLiveStream, "哔哩哔哩"),
+        # 小红书
+        "live.xiaohongshu.com": (RedNoteLiveStream, "小红书"),
+        # Twitch
+        "www.twitch.tv": (TwitchLiveStream, "Twitch"),
+        # YouTube
+        "www.youtube.com": (YoutubeLiveStream, "YouTube"),
+        # YY
+        "www.yy.com": (YYLiveStream, "YY直播"),
+        # Bigo
+        "www.bigo.tv": (BigoLiveStream, "Bigo"),
+    }
+    _PLATFORM_MAP.update(mapping)
+
+
+def get_platform_class(url: str):
+    """根据URL返回对应的平台类和中文名，未匹配返回None"""
+    _build_platform_map()
+    try:
+        domain = urlparse(url).hostname or ""
+    except Exception:
+        return None
+    for pattern, entry in _PLATFORM_MAP.items():
+        if pattern in domain:
+            return entry
+    # 尝试在所有 key 中做模糊匹配
+    for pattern, entry in _PLATFORM_MAP.items():
+        if domain.endswith(pattern) or pattern.endswith(domain):
+            return entry
+    return None
+
+
+class StreamParser:
+    """直播流解析器，封装streamget库，支持多平台"""
+
+    def __init__(self, proxy: str = "", cookie: str = ""):
+        self._proxy = proxy
+        self._cookie = cookie
+        self._streamer = None
+        self._platform_name = ""
+
+    async def fetch_stream_data(self, url: str, quality: str = "OD") -> Optional[dict]:
+        """
+        获取直播流数据
+        返回: {"is_live": bool, "anchor_name": str, "m3u8_url": str, "flv_url": str, "title": str, "platform": str}
+        如果获取失败返回None
+        """
+        # 识别平台
+        platform_info = get_platform_class(url)
+        if not platform_info:
+            logger.warning(f"不支持的平台: {url}")
+            return None
+
+        StreamerClass, platform_name = platform_info
+        self._platform_name = platform_name
+        self._streamer = StreamerClass(
+            proxy_addr=self._proxy or None,
+            cookies=self._cookie or "",  # 空字符串而非None，避免库内部 .strip() 崩溃
+        )
+
+        try:
+            # 第一步：获取页面数据（部分平台用 fetch_app_stream_data）
+            fetch_method = getattr(self._streamer, 'fetch_web_stream_data', None)
+            if not fetch_method:
+                fetch_method = getattr(self._streamer, 'fetch_app_stream_data', None)
+            if not fetch_method:
+                logger.error(f"平台 {platform_name} 无可用的数据获取方法: {url}")
+                return None
+
+            data = await fetch_method(url)
+            if not data:
+                logger.warning(f"获取直播间数据失败: {url}")
+                return None
+
+            # 第二步：获取流地址
+            stream_obj = await self._streamer.fetch_stream_url(data, quality)
+            if not stream_obj:
+                logger.warning(f"获取流地址失败: {url}")
+                return None
+
+            # 流地址：优先 m3u8 > flv > record_url（B站等平台用 record_url）
+            m3u8 = getattr(stream_obj, 'm3u8_url', '') or ''
+            flv = getattr(stream_obj, 'flv_url', '') or ''
+            record_url = getattr(stream_obj, 'record_url', '') or ''
+            if not flv and record_url:
+                flv = record_url
+
+            result = {
+                "url": url,  # 保留原始 URL，防止被库内部重定向覆盖
+                "is_live": getattr(stream_obj, 'is_live', False),
+                "anchor_name": getattr(stream_obj, 'anchor_name', ''),
+                "m3u8_url": m3u8,
+                "flv_url": flv,
+                "title": getattr(stream_obj, 'title', '') or '',
+                "platform": getattr(stream_obj, 'platform', '') or platform_name,
+            }
+
+            logger.info(f"解析成功: {result['anchor_name']} is_live={result['is_live']}")
+            return result
+
+        except Exception as e:
+            logger.error(f"流解析异常 {url}: {e}")
+            return None
+
+    def fetch_stream_data_sync(self, url: str, quality: str = "OD") -> Optional[dict]:
+        """同步版本（用于QThread等非async上下文）"""
+        logger.info(f"开始获取直播数据: {url[:50]}...")
+        try:
+            result = asyncio.run(self.fetch_stream_data(url, quality))
+            if result is None:
+                logger.warning(f"获取直播数据返回 None: {url[:50]}...")
+            else:
+                logger.info(f"获取结果: is_live={result.get('is_live')}, anchor={result.get('anchor_name', '')[:20]}, platform={result.get('platform', '')}")
+            return result
+        except Exception as e:
+            logger.error(f"流解析同步异常 {url[:50]}: {type(e).__name__}: {e}")
+            return None

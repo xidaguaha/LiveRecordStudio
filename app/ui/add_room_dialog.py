@@ -1,1 +1,97 @@
-IiIi5re75Yqg55u05pKt6Ze05a+56K+d5qGGIiIiCmltcG9ydCBvcwpmcm9tIFB5U2lkZTYuUXRXaWRnZXRzIGltcG9ydCAoCiAgICBRRGlhbG9nLCBRVkJveExheW91dCwgUUhCb3hMYXlvdXQsIFFMYWJlbCwgUUxpbmVFZGl0LAogICAgUUNvbWJvQm94LCBRUHVzaEJ1dHRvbiwgUUZvcm1MYXlvdXQsIFFTaXplUG9saWN5CikKZnJvbSBQeVNpZGU2LlF0Q29yZSBpbXBvcnQgUXQKCgpjbGFzcyBBZGRSb29tRGlhbG9nKFFEaWFsb2cpOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGljb25fZGlyOiBzdHIgPSAiIiwgcGFyZW50PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18ocGFyZW50KQogICAgICAgIHNlbGYuc2V0V2luZG93VGl0bGUoIua3u+WKoOebtOaSremXtCIpCiAgICAgICAgc2VsZi5zZXRXaW5kb3dGbGFncygKICAgICAgICAgICAgc2VsZi53aW5kb3dGbGFncygpCiAgICAgICAgICAgICYgflF0LldpbmRvd1R5cGUuV2luZG93Q29udGV4dEhlbHBCdXR0b25IaW50CiAgICAgICAgKQogICAgICAgIHNlbGYuc2V0TWluaW11bVdpZHRoKDQ4MCkKICAgICAgICBzZWxmLnNldE1pbmltdW1IZWlnaHQoMjYwKQogICAgICAgIHNlbGYuX2ljb25fZGlyID0gaWNvbl9kaXIKICAgICAgICBzZWxmLl9zZXR1cF91aSgpCiAgICAgICAgIyDlsYXkuK3mmL7npLoKICAgICAgICBpZiBwYXJlbnQ6CiAgICAgICAgICAgIGdlbyA9IHNlbGYuZ2VvbWV0cnkoKQogICAgICAgICAgICBwYXJlbnRfZ2VvID0gcGFyZW50Lmdlb21ldHJ5KCkKICAgICAgICAgICAgeCA9IHBhcmVudF9nZW8ueCgpICsgKHBhcmVudF9nZW8ud2lkdGgoKSAtIGdlby53aWR0aCgpKSAvLyAyCiAgICAgICAgICAgIHkgPSBwYXJlbnRfZ2VvLnkoKSArIChwYXJlbnRfZ2VvLmhlaWdodCgpIC0gZ2VvLmhlaWdodCgpKSAvLyAyCiAgICAgICAgICAgIHNlbGYubW92ZSh4LCB5KQoKICAgIGRlZiBfc2V0dXBfdWkoc2VsZik6CiAgICAgICAgbGF5b3V0ID0gUVZCb3hMYXlvdXQoc2VsZikKICAgICAgICBsYXlvdXQuc2V0Q29udGVudHNNYXJnaW5zKDI0LCAyMCwgMjQsIDIwKQogICAgICAgIGxheW91dC5zZXRTcGFjaW5nKDE2KQoKICAgICAgICB0aXRsZSA9IFFMYWJlbCgi5re75Yqg5paw55qE55u05pKt6Ze0IikKICAgICAgICB0aXRsZS5zZXRTdHlsZVNoZWV0KAogICAgICAgICAgICAiZm9udC1zaXplOiAxOHB4OyBmb250LXdlaWdodDogYm9sZDsgY29sb3I6ICMyQzNFNTA7ICIKICAgICAgICAgICAgImJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IgogICAgICAgICkKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KHRpdGxlKQoKICAgICAgICBmb3JtID0gUUZvcm1MYXlvdXQoKQogICAgICAgIGZvcm0uc2V0U3BhY2luZygxMikKICAgICAgICBmb3JtLnNldExhYmVsQWxpZ25tZW50KFF0LkFsaWdubWVudEZsYWcuQWxpZ25SaWdodCB8IFF0LkFsaWdubWVudEZsYWcuQWxpZ25WQ2VudGVyKQogICAgICAgIGZvcm0uc2V0RmllbGRHcm93dGhQb2xpY3koUUZvcm1MYXlvdXQuRmllbGRHcm93dGhQb2xpY3kuRXhwYW5kaW5nRmllbGRzR3JvdykKCiAgICAgICAgIyDnm7Tmkq3pl7TlnLDlnYAKICAgICAgICBzZWxmLl91cmxfaW5wdXQgPSBRTGluZUVkaXQoKQogICAgICAgIHNlbGYuX3VybF9pbnB1dC5zZXRQbGFjZWhvbGRlclRleHQoImh0dHBzOi8vbGl2ZS5kb3V5aW4uY29tL3h4eCIpCiAgICAgICAgc2VsZi5fdXJsX2lucHV0LnNldE1pbmltdW1IZWlnaHQoMzIpCiAgICAgICAgZm9ybS5hZGRSb3coIuebtOaSremXtOWcsOWdgDoiLCBzZWxmLl91cmxfaW5wdXQpCgogICAgICAgICMg5pi+56S65ZCN56ewCiAgICAgICAgc2VsZi5fbmFtZV9pbnB1dCA9IFFMaW5lRWRpdCgpCiAgICAgICAgc2VsZi5fbmFtZV9pbnB1dC5zZXRQbGFjZWhvbGRlclRleHQoIuWPr+mAie+8jOiHquWumuS5ieaYvuekuuWQjeensCIpCiAgICAgICAgc2VsZi5fbmFtZV9pbnB1dC5zZXRNaW5pbXVtSGVpZ2h0KDMyKQogICAgICAgIGZvcm0uYWRkUm93KCLmmL7npLrlkI3np7A6Iiwgc2VsZi5fbmFtZV9pbnB1dCkKCiAgICAgICAgIyDnlLvotKjpgInmi6kKICAgICAgICBzZWxmLl9xdWFsaXR5X2NvbWJvID0gUUNvbWJvQm94KCkKICAgICAgICBzZWxmLl9xdWFsaXR5X2NvbWJvLmFkZEl0ZW1zKFsi5Y6f55S7IiwgIuiTneWFiSIsICLotoXmuIUiLCAi6auY5riFIiwgIuagh+a4hSIsICLmtYHnlYUiXSkKICAgICAgICBzZWxmLl9xdWFsaXR5X2NvbWJvLnNldEN1cnJlbnRJbmRleCgwKQogICAgICAgIHNlbGYuX3F1YWxpdHlfY29tYm8uc2V0TWluaW11bUhlaWdodCgzMikKICAgICAgICBmb3JtLmFkZFJvdygi55S76LSo6YCJ5oupOiIsIHNlbGYuX3F1YWxpdHlfY29tYm8pCgogICAgICAgIGxheW91dC5hZGRMYXlvdXQoZm9ybSkKICAgICAgICBsYXlvdXQuYWRkU3RyZXRjaCgpCgogICAgICAgICMg5oyJ6ZKu5Yy6CiAgICAgICAgYnRuX2xheW91dCA9IFFIQm94TGF5b3V0KCkKICAgICAgICBidG5fbGF5b3V0LmFkZFN0cmV0Y2goKQoKICAgICAgICBjYW5jZWxfYnRuID0gUVB1c2hCdXR0b24oIuWPlua2iCIpCiAgICAgICAgY2FuY2VsX2J0bi5zZXRNaW5pbXVtSGVpZ2h0KDM2KQogICAgICAgIGNhbmNlbF9idG4uc2V0TWluaW11bVdpZHRoKDgwKQogICAgICAgIGNhbmNlbF9idG4uY2xpY2tlZC5jb25uZWN0KHNlbGYucmVqZWN0KQoKICAgICAgICBva19idG4gPSBRUHVzaEJ1dHRvbigi5re75YqgIikKICAgICAgICBva19idG4uc2V0T2JqZWN0TmFtZSgicHJpbWFyeUJ0biIpCiAgICAgICAgb2tfYnRuLnNldE1pbmltdW1IZWlnaHQoMzYpCiAgICAgICAgb2tfYnRuLnNldE1pbmltdW1XaWR0aCg4MCkKICAgICAgICBva19idG4uc2V0RGVmYXVsdChUcnVlKQogICAgICAgIG9rX2J0bi5jbGlja2VkLmNvbm5lY3Qoc2VsZi5hY2NlcHQpCgogICAgICAgIGJ0bl9sYXlvdXQuYWRkV2lkZ2V0KGNhbmNlbF9idG4pCiAgICAgICAgYnRuX2xheW91dC5hZGRXaWRnZXQob2tfYnRuKQogICAgICAgIGxheW91dC5hZGRMYXlvdXQoYnRuX2xheW91dCkKCiAgICBkZWYgZ2V0X2RhdGEoc2VsZikgLT4gZGljdDoKICAgICAgICAiIiLov5Tlm57nlKjmiLfovpPlhaXnmoTmlbDmja4iIiIKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAidXJsIjogc2VsZi5fdXJsX2lucHV0LnRleHQoKS5zdHJpcCgpLAogICAgICAgICAgICAiYW5jaG9yX25hbWUiOiAiIiwKICAgICAgICAgICAgImN1c3RvbV9uYW1lIjogc2VsZi5fbmFtZV9pbnB1dC50ZXh0KCkuc3RyaXAoKSwKICAgICAgICAgICAgInF1YWxpdHkiOiBzZWxmLl9xdWFsaXR5X2NvbWJvLmN1cnJlbnRUZXh0KCksCiAgICAgICAgICAgICJlbmFibGVkIjogVHJ1ZSwKICAgICAgICB9
+"""添加直播间对话框"""
+import os
+from PySide6.QtWidgets import (
+    QDialog, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,
+    QComboBox, QPushButton, QFormLayout, QSizePolicy
+)
+from PySide6.QtCore import Qt
+
+
+class AddRoomDialog(QDialog):
+    def __init__(self, icon_dir: str = "", parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("添加直播间")
+        self.setWindowFlags(
+            self.windowFlags()
+            & ~Qt.WindowType.WindowContextHelpButtonHint
+        )
+        self.setMinimumWidth(480)
+        self.setMinimumHeight(260)
+        self._icon_dir = icon_dir
+        self._setup_ui()
+        # 居中显示
+        if parent:
+            geo = self.geometry()
+            parent_geo = parent.geometry()
+            x = parent_geo.x() + (parent_geo.width() - geo.width()) // 2
+            y = parent_geo.y() + (parent_geo.height() - geo.height()) // 2
+            self.move(x, y)
+
+    def _setup_ui(self):
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(24, 20, 24, 20)
+        layout.setSpacing(16)
+
+        title = QLabel("添加新的直播间")
+        title.setStyleSheet(
+            "font-size: 18px; font-weight: bold; color: #2C3E50; "
+            "border: none; background: transparent;"
+        )
+        layout.addWidget(title)
+
+        form = QFormLayout()
+        form.setSpacing(12)
+        form.setLabelAlignment(Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter)
+        form.setFieldGrowthPolicy(QFormLayout.FieldGrowthPolicy.ExpandingFieldsGrow)
+
+        # 直播间地址
+        self._url_input = QLineEdit()
+        self._url_input.setPlaceholderText("https://live.douyin.com/xxx")
+        self._url_input.setMinimumHeight(32)
+        form.addRow("直播间地址:", self._url_input)
+
+        # 显示名称
+        self._name_input = QLineEdit()
+        self._name_input.setPlaceholderText("可选，自定义显示名称")
+        self._name_input.setMinimumHeight(32)
+        form.addRow("显示名称:", self._name_input)
+
+        # 画质选择
+        self._quality_combo = QComboBox()
+        self._quality_combo.addItems(["原画", "蓝光", "超清", "高清", "标清", "流畅"])
+        self._quality_combo.setCurrentIndex(0)
+        self._quality_combo.setMinimumHeight(32)
+        form.addRow("画质选择:", self._quality_combo)
+
+        layout.addLayout(form)
+        layout.addStretch()
+
+        # 按钮区
+        btn_layout = QHBoxLayout()
+        btn_layout.addStretch()
+
+        cancel_btn = QPushButton("取消")
+        cancel_btn.setMinimumHeight(36)
+        cancel_btn.setMinimumWidth(80)
+        cancel_btn.clicked.connect(self.reject)
+
+        ok_btn = QPushButton("添加")
+        ok_btn.setObjectName("primaryBtn")
+        ok_btn.setMinimumHeight(36)
+        ok_btn.setMinimumWidth(80)
+        ok_btn.setDefault(True)
+        ok_btn.clicked.connect(self.accept)
+
+        btn_layout.addWidget(cancel_btn)
+        btn_layout.addWidget(ok_btn)
+        layout.addLayout(btn_layout)
+
+    def get_data(self) -> dict:
+        """返回用户输入的数据"""
+        return {
+            "url": self._url_input.text().strip(),
+            "anchor_name": "",
+            "custom_name": self._name_input.text().strip(),
+            "quality": self._quality_combo.currentText(),
+            "enabled": True,
+        }

@@ -1,1 +1,44 @@
-IyAtKi0gbW9kZTogcHl0aG9uIDsgY29kaW5nOiB1dGYtOCAtKi0NCg0KDQphID0gQW5hbHlzaXMoDQogICAgWydtYWluLnB5dyddLA0KICAgIHBhdGhleD1bXSwNCiAgICBiaW5hcmllcz1bXSwNCiAgICBkYXRhcz1bKCdmZm1wZWcnLCAnZmZtcGVnJyksICgncmVzb3VyY2VzJywgJ3Jlc291cmNlcycpLCAoJ2FwcC9zdHlsZS5xc3MnLCAnYXBwJyldLA0KICAgIGhpZGRlbmltcG9ydHM9WydhcHAudWkubWFpbl93aW5kb3cnLCAnYXBwLnVpLmxpdmVfdGFiJywgJ2FwcC51aS5yZWNvcmRpbmdfdGFiJywgJ2FwcC51aS5zZXR0aW5nc190YWInLCAnYXBwLnVpLmxvZ190YWInLCAnYXBwLnVpLmFib3V0X3RhYicsICdhcHAudWkuYWRkX3Jvb21fZGlhbG9nJywgJ2FwcC5jb3JlLm1vbml0b3InLCAnYXBwLmNvcmUucmVjb3JkZXInLCAnYXBwLmNvcmUuc3RyZWFtX3BhcnNlcicsICdhcHAuY29yZS50YXNrX21hbmFnZXInLCAnYXBwLmNvbmZpZy5zZXR0aW5ncycsICdhcHAubW9kZWxzLnJvb20nLCAnYXBwLnV0aWxzLmZmbXBlZ19oZWxwZXInLCAnYXBwLnV0aWxzLmZpbGVfbWFuYWdlcicsICdhcHAudXRpbHMuZmlsZV9uYW1pbmcnLCAnYXBwLnV0aWxzLmhpc3RvcnlfbWFuYWdlcicsICdQeVNpZGU2LlF0U3ZnJ10sDQogICAgaG9va3NwYXRoPVtdLA0KICAgIGhvb2tzY29uZmlnPXt9LA0KICAgIHJ1bnRpbWVfaG9va3M9W10sDQogICAgZXhjbHVkZXM9W10sDQogICAgbm9hcmNoaXZlPUZhbHNlLA0KICAgIG9wdGltaXplPTAsDQopDQpweXogPSBQWVooYS5wdXJlKQ0KDQpleGUgPSBFWEUoDQogICAgcHl6LA0KICAgIGEuc2NyaXB0cywNCiAgICBbXSwNCiAgICBleGNsdWRlX2JpbmFyaWVzPVRydWUsDQogICAgbmFtZT0nTGl2ZVJlY29yZFN0dWRpbycsDQogICAgZGVidWc9RmFsc2UsDQogICAgYm9vdGxvYWRlcl9pZ25vcmVfc2lnbmFscz1GYWxzZSwNCiAgICBzdHJpcD1GYWxzZSwNCiAgICB1cHg9VHJ1ZSwNCiAgICBjb25zb2xlPUZhbHNlLA0KICAgIGRpc2FibGVfd2luZG93ZWRfdHJhY2ViYWNrPUZhbHNlLA0KICAgIGFyZ3ZfZW11bGF0aW9uPUZhbHNlLA0KICAgIHRhcmdldF9hcmNoPU5vbmUsDQogICAgY29kZXNpZ25faWRlbnRpdHk9Tm9uZSwNCiAgICBlbnRpdGxlbWVudHNfZmlsZT1Ob25lLA0KKQ0KY29sbCA9IENPTExFQ1QoDQogICAgZXhlLA0KICAgIGEuYmluYXJpZXMsDQogICAgYS5kYXRhcywNCiAgICBzdHJpcD1GYWxzZSwNCiAgICB1cHg9VHJ1ZSwNCiAgICB1cHhfZXhjbHVkZT1bXSwNCiAgICBuYW1lPSdMaXZlUmVjb3JkU3R1ZGlvJywNCikNCg==
+# -*- mode: python ; coding: utf-8 -*-
+
+
+a = Analysis(
+    ['main.pyw'],
+    pathex=[],
+    binaries=[],
+    datas=[('ffmpeg', 'ffmpeg'), ('resources', 'resources'), ('app/style.qss', 'app')],
+    hiddenimports=['app.ui.main_window', 'app.ui.live_tab', 'app.ui.recording_tab', 'app.ui.settings_tab', 'app.ui.log_tab', 'app.ui.about_tab', 'app.ui.add_room_dialog', 'app.core.monitor', 'app.core.recorder', 'app.core.stream_parser', 'app.core.task_manager', 'app.config.settings', 'app.models.room', 'app.utils.ffmpeg_helper', 'app.utils.file_manager', 'app.utils.file_naming', 'app.utils.history_manager', 'PySide6.QtSvg'],
+    hookspath=[],
+    hooksconfig={},
+    runtime_hooks=[],
+    excludes=[],
+    noarchive=False,
+    optimize=0,
+)
+pyz = PYZ(a.pure)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    [],
+    exclude_binaries=True,
+    name='LiveRecordStudio',
+    debug=False,
+    bootloader_ignore_signals=False,
+    strip=False,
+    upx=True,
+    console=False,
+    disable_windowed_traceback=False,
+    argv_emulation=False,
+    target_arch=None,
+    codesign_identity=None,
+    entitlements_file=None,
+)
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='LiveRecordStudio',
+)

@@ -1,1 +1,184 @@
-aW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCB0aHJlYWRpbmcKZnJvbSB0eXBpbmcgaW1wb3J0IEFueSwgT3B0aW9uYWwKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzLCBmaWVsZCwgYXNkaWN0CgoKQGRhdGFjbGFzcwpjbGFzcyBSZWNvcmRTZXR0aW5nczoKICAgIHNhdmVfcGF0aDogc3RyID0gIiIgICMg6buY6K6k5Zyo56iL5bqP55uu5b2V5LiL55qEIFJlY29yZGluZ3MKICAgIHZpZGVvX2Zvcm1hdDogc3RyID0gInRzIiAgIyB0cy9ta3YvZmx2L21wNAogICAgcXVhbGl0eTogc3RyID0gIk9EIiAgIyBPRC9VSEQvSEQvU0QvTEQKICAgIGF1dG9fc3BsaXQ6IGJvb2wgPSBGYWxzZQogICAgc3BsaXRfZHVyYXRpb246IGludCA9IDM2MDAgICMg56eSCiAgICBjb252ZXJ0X21wNDogYm9vbCA9IEZhbHNlCiAgICBoMjY0X3JlZW5jb2RlOiBib29sID0gRmFsc2UKICAgIHByb3h5X2FkZHI6IHN0ciA9ICIiCiAgICB1c2VfcHJveHk6IGJvb2wgPSBGYWxzZQogICAgcHJveHlfcGxhdGZvcm1zOiBsaXN0ID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PWxpc3QpCiAgICBsb29wX2ludGVydmFsOiBpbnQgPSAxMjAgICMg5qOA5rWL6Ze06ZqU56eSCiAgICBtYXhfdGhyZWFkczogaW50ID0gNQogICAgZmlsZW5hbWVfdGVtcGxhdGU6IHN0ciA9ICJ7cGxhdGZvcm19L3tvd25lcn0ve3llYXJ9LXttb250aH0te2RhdGV9IHtob3VyfS17bWlufS17c2VjfSB7dGl0bGV9IgoKCkBkYXRhY2xhc3MKY2xhc3MgUHVzaFNldHRpbmdzOgogICAgZW5hYmxlZDogYm9vbCA9IEZhbHNlCiAgICBjaGFubmVsczogbGlzdCA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT1saXN0KQogICAgZGluZ3RhbGtfd2ViaG9vazogc3RyID0gIiIKICAgIHRlbGVncmFtX2JvdF90b2tlbjogc3RyID0gIiIKICAgIHRlbGVncmFtX2NoYXRfaWQ6IHN0ciA9ICIiCiAgICBiYXJrX3VybDogc3RyID0gIiIKICAgIG50ZnlfdXJsOiBzdHIgPSAiIgogICAgcHVzaHBsdXNfdG9rZW46IHN0ciA9ICIiCiAgICBlbWFpbF9ob3N0OiBzdHIgPSAiIgogICAgZW1haWxfcG9ydDogaW50ID0gNDY1CiAgICBlbWFpbF91c2VyOiBzdHIgPSAiIgogICAgZW1haWxfcGFzczogc3RyID0gIiIKICAgIGVtYWlsX3JlY2VpdmVyczogc3RyID0gIiIKICAgIG5vdGlmeV9vbl9saXZlOiBib29sID0gVHJ1ZQogICAgbm90aWZ5X29uX2VuZDogYm9vbCA9IFRydWUKCgpAZGF0YWNsYXNzCmNsYXNzIEFwcFNldHRpbmdzOgogICAgcmVjb3JkOiBSZWNvcmRTZXR0aW5ncyA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT1SZWNvcmRTZXR0aW5ncykKICAgIHB1c2g6IFB1c2hTZXR0aW5ncyA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT1QdXNoU2V0dGluZ3MpCiAgICByb29tczogbGlzdCA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT1saXN0KSAgIyBSb29tLnRvX2RpY3QoKSDnmoTliJfooagKICAgIHdpbmRvd19nZW9tZXRyeTogc3RyID0gIiIKICAgIHdpbmRvd19zdGF0ZTogc3RyID0gIiIKICAgIG1pbmltaXplX2FjdGlvbjogc3RyID0gImFzayIgICMgYXNrIC8gdHJheSAvIHRhc2tiYXIKICAgIGRvbnRfYXNrX2FnYWluOiBib29sID0gRmFsc2UKICAgIGNsb3NlX2NvbmZpcm06IGJvb2wgPSBUcnVlICAjIOWFs+mXreaXtuaYr+WQpuWni+e7iOehruiupAogICAgYXV0b19zdGFydF9tb25pdG9yOiBib29sID0gRmFsc2UgICMg5ZCv5Yqo5pe26Ieq5Yqo5byA5aeL55uR5o6nCiAgICBub3RpZnlfb25fbGl2ZTogYm9vbCA9IFRydWUgICMg5byA5pKt5pe257O757uf5omY55uY6YCa55+lCiAgICB3ZWJob29rX3NlY3JldDogc3RyID0gIiIgICMgV2ViaG9vayDnrb7lkI3lr4bpkqUKICAgIHdlYmhvb2tfYm9keTogc3RyID0gIiIgICMgV2ViaG9vayDor7fmsYLkvZPmqKHmnb8KCgpjbGFzcyBTZXR0aW5nc01hbmFnZXI6CiAgICAiIiJKU09O6YWN572u566h55CG5ZmoIiIiCgogICAgREVGQVVMVF9GSUxFTkFNRSA9ICJzZXR0aW5ncy5qc29uIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjb25maWdfZGlyOiBzdHIpOgogICAgICAgIHNlbGYuX2NvbmZpZ19kaXIgPSBjb25maWdfZGlyCiAgICAgICAgc2VsZi5fZmlsZXBhdGggPSBvcy5wYXRoLmpvaW4oY29uZmlnX2Rpciwgc2VsZi5ERUZBVUxUX0ZJTEVOQU1FKQogICAgICAgIHNlbGYuX2xvY2sgPSB0aHJlYWRpbmcuTG9jaygpCiAgICAgICAgb3MubWFrZWRpcnMoY29uZmlnX2RpciwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBzZWxmLl9zZXR0aW5ncyA9IEFwcFNldHRpbmdzKCkKICAgICAgICBzZWxmLmxvYWQoKQoKICAgIEBwcm9wZXJ0eQogICAgZGVmIHNldHRpbmdzKHNlbGYpIC0+IEFwcFNldHRpbmdzOgogICAgICAgIHJldHVybiBzZWxmLl9zZXR0aW5ncwoKICAgIEBwcm9wZXJ0eQogICAgZGVmIHJlY29yZChzZWxmKSAtPiBSZWNvcmRTZXR0aW5nczoKICAgICAgICByZXR1cm4gc2VsZi5fc2V0dGluZ3MucmVjb3JkCgogICAgQHByb3BlcnR5CiAgICBkZWYgcHVzaChzZWxmKSAtPiBQdXNoU2V0dGluZ3M6CiAgICAgICAgcmV0dXJuIHNlbGYuX3NldHRpbmdzLnB1c2gKCiAgICBkZWYgbG9hZChzZWxmKToKICAgICAgICAiIiLku45KU09O5paH5Lu25Yqg6L296YWN572uIiIiCiAgICAgICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKHNlbGYuX2ZpbGVwYXRoKToKICAgICAgICAgICAgIyDliJ3lp4vljJbpu5jorqTkv53lrZjot6/lvoQKICAgICAgICAgICAgc2VsZi5fc2V0dGluZ3MucmVjb3JkLnNhdmVfcGF0aCA9IG9zLnBhdGguam9pbihzZWxmLl9jb25maWdfZGlyLCAiUmVjb3JkaW5ncyIpCiAgICAgICAgICAgIG9zLm1ha2VkaXJzKHNlbGYuX3NldHRpbmdzLnJlY29yZC5zYXZlX3BhdGgsIGV4aXN0X29rPVRydWUpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIHRyeToKICAgICAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICAgICAgd2l0aCBvcGVuKHNlbGYuX2ZpbGVwYXRoLCAncicsIGVuY29kaW5nPSd1dGYtOCcpIGFzIGY6CiAgICAgICAgICAgICAgICAgICAgZGF0YSA9IGpzb24ubG9hZChmKQogICAgICAgICAgICAgICAgIyDop6PmnpByZWNvcmQKICAgICAgICAgICAgICAgIGlmICJyZWNvcmQiIGluIGRhdGE6CiAgICAgICAgICAgICAgICAgICAgZm9yIGssIHYgaW4gZGF0YVsicmVjb3JkIl0uaXRlbXMoKToKICAgICAgICAgICAgICAgICAgICAgICAgaWYgaGFzYXR0cihzZWxmLl9zZXR0aW5ncy5yZWNvcmQsIGspOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2V0YXR0cihzZWxmLl9zZXR0aW5ncy5yZWNvcmQsIGssIHYpCiAgICAgICAgICAgICAgICAjIOino+aekHB1c2gKICAgICAgICAgICAgICAgIGlmICJwdXNoIiBpbiBkYXRhOgogICAgICAgICAgICAgICAgICAgIGZvciBrLCB2IGluIGRhdGFbInB1c2giXS5pdGVtcygpOgogICAgICAgICAgICAgICAgICAgICAgICBpZiBoYXNhdHRyKHNlbGYuX3NldHRpbmdzLnB1c2gsIGspOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2V0YXR0cihzZWxmLl9zZXR0aW5ncy5wdXNoLCBrLCB2KQogICAgICAgICAgICAgICAgIyDop6PmnpByb29tcwogICAgICAgICAgICAgICAgaWYgInJvb21zIiBpbiBkYXRhOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3NldHRpbmdzLnJvb21zID0gZGF0YVsicm9vbXMiXQogICAgICAgICAgICAgICAgIyDop6PmnpDnqpflj6PnirbmgIEKICAgICAgICAgICAgICAgIGlmICJ3aW5kb3dfZ2VvbWV0cnkiIGluIGRhdGE6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc2V0dGluZ3Mud2luZG93X2dlb21ldHJ5ID0gZGF0YVsid2luZG93X2dlb21ldHJ5Il0KICAgICAgICAgICAgICAgIGlmICJ3aW5kb3dfc3RhdGUiIGluIGRhdGE6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc2V0dGluZ3Mud2luZG93X3N0YXRlID0gZGF0YVsid2luZG93X3N0YXRlIl0KICAgICAgICAgICAgICAgICMg6Kej5p6Q55So5oi35YGP5aW9CiAgICAgICAgICAgICAgICBpZiAibWluaW1pemVfYWN0aW9uIiBpbiBkYXRhOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3NldHRpbmdzLm1pbmltaXplX2FjdGlvbiA9IGRhdGFbIm1pbmltaXplX2FjdGlvbiJdCiAgICAgICAgICAgICAgICBpZiAiZG9udF9hc2tfYWdhaW4iIGluIGRhdGE6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc2V0dGluZ3MuZG9udF9hc2tfYWdhaW4gPSBkYXRhWyJkb250X2Fza19hZ2FpbiJdCiAgICAgICAgICAgICAgICBpZiAiY2xvc2VfY29uZmlybSIgaW4gZGF0YToKICAgICAgICAgICAgICAgICAgICBzZWxmLl9zZXR0aW5ncy5jbG9zZV9jb25maXJtID0gZGF0YVsiY2xvc2VfY29uZmlybSJdCiAgICAgICAgICAgICAgICBpZiAiYXV0b19zdGFydF9tb25pdG9yIiBpbiBkYXRhOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3NldHRpbmdzLmF1dG9fc3RhcnRfbW9uaXRvciA9IGRhdGFbImF1dG9fc3RhcnRfbW9uaXRvciJdCiAgICAgICAgICAgICAgICBpZiAibm90aWZ5X29uX2xpdmUiIGluIGRhdGE6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc2V0dGluZ3Mubm90aWZ5X29uX2xpdmUgPSBkYXRhWyJub3RpZnlfb25fbGl2ZSJdCiAgICAgICAgICAgICAgICBpZiAid2ViaG9va19zZWNyZXQiIGluIGRhdGE6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc2V0dGluZ3Mud2ViaG9va19zZWNyZXQgPSBkYXRhWyJ3ZWJob29rX3NlY3JldCJdCiAgICAgICAgICAgICAgICBpZiAid2ViaG9va19ib2R5IiBpbiBkYXRhOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3NldHRpbmdzLndlYmhvb2tfYm9keSA9IGRhdGFbIndlYmhvb2tfYm9keSJdCiAgICAgICAgICAgICAgICAjIOm7mOiupOS/neWtmOi3r+W+hO+8iOWmguaenOmFjee9rueahOi3r+W+hOS4jeWtmOWcqOWImeWbnumAgOWIsOm7mOiupO+8iQogICAgICAgICAgICAgICAgaWYgbm90IHNlbGYuX3NldHRpbmdzLnJlY29yZC5zYXZlX3BhdGggb3Igbm90IG9zLnBhdGguaXNkaXIoc2VsZi5fc2V0dGluZ3MucmVjb3JkLnNhdmVfcGF0aCk6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fc2V0dGluZ3MucmVjb3JkLnNhdmVfcGF0aCA9IG9zLnBhdGguam9pbihzZWxmLl9jb25maWdfZGlyLCAiUmVjb3JkaW5ncyIpCgogICAgICAgICAgICAgICAgIyDnoa7kv53kv53lrZjot6/lvoTnm67lvZXlrZjlnKgKICAgICAgICAgICAgICAgIGlmIHNlbGYuX3NldHRpbmdzLnJlY29yZC5zYXZlX3BhdGg6CiAgICAgICAgICAgICAgICAgICAgb3MubWFrZWRpcnMoc2VsZi5fc2V0dGluZ3MucmVjb3JkLnNhdmVfcGF0aCwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBleGNlcHQgKGpzb24uSlNPTkRlY29kZUVycm9yLCBLZXlFcnJvciwgVHlwZUVycm9yLCBGaWxlTm90Rm91bmRFcnJvcikgYXMgZToKICAgICAgICAgICAgcHJpbnQoZiLphY3nva7liqDovb3lpLHotKU6IHtlfSIpCgogICAgICAgICMg5peg6K666YWN572u5paH5Lu25piv5ZCm5a2Y5Zyo77yM6YO956Gu5L+d5L+d5a2Y6Lev5b6E5pyJ5pWICiAgICAgICAgaWYgbm90IHNlbGYuX3NldHRpbmdzLnJlY29yZC5zYXZlX3BhdGggb3Igbm90IG9zLnBhdGguaXNkaXIoc2VsZi5fc2V0dGluZ3MucmVjb3JkLnNhdmVfcGF0aCk6CiAgICAgICAgICAgIHNlbGYuX3NldHRpbmdzLnJlY29yZC5zYXZlX3BhdGggPSBvcy5wYXRoLmpvaW4oc2VsZi5fY29uZmlnX2RpciwgIlJlY29yZGluZ3MiKQogICAgICAgIGlmIHNlbGYuX3NldHRpbmdzLnJlY29yZC5zYXZlX3BhdGg6CiAgICAgICAgICAgIG9zLm1ha2VkaXJzKHNlbGYuX3NldHRpbmdzLnJlY29yZC5zYXZlX3BhdGgsIGV4aXN0X29rPVRydWUpCgogICAgZGVmIHNhdmUoc2VsZik6CiAgICAgICAgIiIi5L+d5a2Y6YWN572u5YiwSlNPTuaWh+S7tiIiIgogICAgICAgIHRyeToKICAgICAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICAgICAgZGF0YSA9IHsKICAgICAgICAgICAgICAgICAgICAicmVjb3JkIjogYXNkaWN0KHNlbGYuX3NldHRpbmdzLnJlY29yZCksCiAgICAgICAgICAgICAgICAgICAgInB1c2giOiBhc2RpY3Qoc2VsZi5fc2V0dGluZ3MucHVzaCksCiAgICAgICAgICAgICAgICAgICAgInJvb21zIjogc2VsZi5fc2V0dGluZ3Mucm9vbXMsCiAgICAgICAgICAgICAgICAgICAgIndpbmRvd19nZW9tZXRyeSI6IHNlbGYuX3NldHRpbmdzLndpbmRvd19nZW9tZXRyeSwKICAgICAgICAgICAgICAgICAgICAid2luZG93X3N0YXRlIjogc2VsZi5fc2V0dGluZ3Mud2luZG93X3N0YXRlLAogICAgICAgICAgICAgICAgICAgICJtaW5pbWl6ZV9hY3Rpb24iOiBzZWxmLl9zZXR0aW5ncy5taW5pbWl6ZV9hY3Rpb24sCiAgICAgICAgICAgICAgICAgICAgImRvbnRfYXNrX2FnYWluIjogc2VsZi5fc2V0dGluZ3MuZG9udF9hc2tfYWdhaW4sCiAgICAgICAgICAgICAgICAgICAgImNsb3NlX2NvbmZpcm0iOiBzZWxmLl9zZXR0aW5ncy5jbG9zZV9jb25maXJtLAogICAgICAgICAgICAgICAgICAgICJhdXRvX3N0YXJ0X21vbml0b3IiOiBzZWxmLl9zZXR0aW5ncy5hdXRvX3N0YXJ0X21vbml0b3IsCiAgICAgICAgICAgICAgICAgICAgIm5vdGlmeV9vbl9saXZlIjogc2VsZi5fc2V0dGluZ3Mubm90aWZ5X29uX2xpdmUsCiAgICAgICAgICAgICAgICAgICAgIndlYmhvb2tfc2VjcmV0Ijogc2VsZi5fc2V0dGluZ3Mud2ViaG9va19zZWNyZXQsCiAgICAgICAgICAgICAgICAgICAgIndlYmhvb2tfYm9keSI6IHNlbGYuX3NldHRpbmdzLndlYmhvb2tfYm9keSwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHdpdGggb3BlbihzZWxmLl9maWxlcGF0aCwgJ3cnLCBlbmNvZGluZz0ndXRmLTgnKSBhcyBmOgogICAgICAgICAgICAgICAgICAgIGpzb24uZHVtcChkYXRhLCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoZiLphY3nva7kv53lrZjlpLHotKU6IHtlfSIpCgogICAgZGVmIGFkZF9yb29tKHNlbGYsIHJvb21fZGljdDogZGljdCk6CiAgICAgICAgc2VsZi5fc2V0dGluZ3Mucm9vbXMuYXBwZW5kKHJvb21fZGljdCkKICAgICAgICBzZWxmLnNhdmUoKQoKICAgIGRlZiByZW1vdmVfcm9vbShzZWxmLCB1cmw6IHN0cik6CiAgICAgICAgc2VsZi5fc2V0dGluZ3Mucm9vbXMgPSBbciBmb3IgciBpbiBzZWxmLl9zZXR0aW5ncy5yb29tcyBpZiByLmdldCgidXJsIikgIT0gdXJsXQogICAgICAgIHNlbGYuc2F2ZSgpCgogICAgZGVmIHVwZGF0ZV9yb29tKHNlbGYsIHVybDogc3RyLCB1cGRhdGVzOiBkaWN0KToKICAgICAgICBmb3Igcm9vbSBpbiBzZWxmLl9zZXR0aW5ncy5yb29tczoKICAgICAgICAgICAgaWYgcm9vbS5nZXQoInVybCIpID09IHVybDoKICAgICAgICAgICAgICAgIHJvb20udXBkYXRlKHVwZGF0ZXMpCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgIHNlbGYuc2F2ZSgpCgogICAgZGVmIGdldF9yb29tcyhzZWxmKSAtPiBsaXN0OgogICAgICAgIHJldHVybiBsaXN0KHNlbGYuX3NldHRpbmdzLnJvb21zKQ==
+import json
+import os
+import threading
+from typing import Any, Optional
+from dataclasses import dataclass, field, asdict
+
+
+@dataclass
+class RecordSettings:
+    save_path: str = ""  # 默认在程序目录下的 Recordings
+    video_format: str = "ts"  # ts/mkv/flv/mp4
+    quality: str = "OD"  # OD/UHD/HD/SD/LD
+    auto_split: bool = False
+    split_duration: int = 3600  # 秒
+    convert_mp4: bool = False
+    h264_reencode: bool = False
+    proxy_addr: str = ""
+    use_proxy: bool = False
+    proxy_platforms: list = field(default_factory=list)
+    loop_interval: int = 120  # 检测间隔秒
+    max_threads: int = 5
+    filename_template: str = "{platform}/{owner}/{year}-{month}-{date} {hour}-{min}-{sec} {title}"
+
+
+@dataclass
+class PushSettings:
+    enabled: bool = False
+    channels: list = field(default_factory=list)
+    dingtalk_webhook: str = ""
+    telegram_bot_token: str = ""
+    telegram_chat_id: str = ""
+    bark_url: str = ""
+    ntfy_url: str = ""
+    pushplus_token: str = ""
+    email_host: str = ""
+    email_port: int = 465
+    email_user: str = ""
+    email_pass: str = ""
+    email_receivers: str = ""
+    notify_on_live: bool = True
+    notify_on_end: bool = True
+
+
+@dataclass
+class AppSettings:
+    record: RecordSettings = field(default_factory=RecordSettings)
+    push: PushSettings = field(default_factory=PushSettings)
+    rooms: list = field(default_factory=list)  # Room.to_dict() 的列表
+    window_geometry: str = ""
+    window_state: str = ""
+    minimize_action: str = "ask"  # ask / tray / taskbar
+    dont_ask_again: bool = False
+    close_confirm: bool = True  # 关闭时是否始终确认
+    auto_start_monitor: bool = False  # 启动时自动开始监控
+    notify_on_live: bool = True  # 开播时系统托盘通知
+    webhook_secret: str = ""  # Webhook 签名密钥
+    webhook_body: str = ""  # Webhook 请求体模板
+
+
+class SettingsManager:
+    """JSON配置管理器"""
+
+    DEFAULT_FILENAME = "settings.json"
+
+    def __init__(self, config_dir: str):
+        self._config_dir = config_dir
+        self._filepath = os.path.join(config_dir, self.DEFAULT_FILENAME)
+        self._lock = threading.Lock()
+        os.makedirs(config_dir, exist_ok=True)
+        self._settings = AppSettings()
+        self.load()
+
+    @property
+    def settings(self) -> AppSettings:
+        return self._settings
+
+    @property
+    def record(self) -> RecordSettings:
+        return self._settings.record
+
+    @property
+    def push(self) -> PushSettings:
+        return self._settings.push
+
+    def load(self):
+        """从JSON文件加载配置"""
+        if not os.path.isfile(self._filepath):
+            # 初始化默认保存路径
+            self._settings.record.save_path = os.path.join(self._config_dir, "Recordings")
+            os.makedirs(self._settings.record.save_path, exist_ok=True)
+            return
+        try:
+            with self._lock:
+                with open(self._filepath, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                # 解析record
+                if "record" in data:
+                    for k, v in data["record"].items():
+                        if hasattr(self._settings.record, k):
+                            setattr(self._settings.record, k, v)
+                # 解析push
+                if "push" in data:
+                    for k, v in data["push"].items():
+                        if hasattr(self._settings.push, k):
+                            setattr(self._settings.push, k, v)
+                # 解析rooms
+                if "rooms" in data:
+                    self._settings.rooms = data["rooms"]
+                # 解析窗口状态
+                if "window_geometry" in data:
+                    self._settings.window_geometry = data["window_geometry"]
+                if "window_state" in data:
+                    self._settings.window_state = data["window_state"]
+                # 解析用户偏好
+                if "minimize_action" in data:
+                    self._settings.minimize_action = data["minimize_action"]
+                if "dont_ask_again" in data:
+                    self._settings.dont_ask_again = data["dont_ask_again"]
+                if "close_confirm" in data:
+                    self._settings.close_confirm = data["close_confirm"]
+                if "auto_start_monitor" in data:
+                    self._settings.auto_start_monitor = data["auto_start_monitor"]
+                if "notify_on_live" in data:
+                    self._settings.notify_on_live = data["notify_on_live"]
+                if "webhook_secret" in data:
+                    self._settings.webhook_secret = data["webhook_secret"]
+                if "webhook_body" in data:
+                    self._settings.webhook_body = data["webhook_body"]
+                # 默认保存路径（如果配置的路径不存在则回退到默认）
+                if not self._settings.record.save_path or not os.path.isdir(self._settings.record.save_path):
+                    self._settings.record.save_path = os.path.join(self._config_dir, "Recordings")
+
+                # 确保保存路径目录存在
+                if self._settings.record.save_path:
+                    os.makedirs(self._settings.record.save_path, exist_ok=True)
+        except (json.JSONDecodeError, KeyError, TypeError, FileNotFoundError) as e:
+            print(f"配置加载失败: {e}")
+
+        # 无论配置文件是否存在，都确保保存路径有效
+        if not self._settings.record.save_path or not os.path.isdir(self._settings.record.save_path):
+            self._settings.record.save_path = os.path.join(self._config_dir, "Recordings")
+        if self._settings.record.save_path:
+            os.makedirs(self._settings.record.save_path, exist_ok=True)
+
+    def save(self):
+        """保存配置到JSON文件"""
+        try:
+            with self._lock:
+                data = {
+                    "record": asdict(self._settings.record),
+                    "push": asdict(self._settings.push),
+                    "rooms": self._settings.rooms,
+                    "window_geometry": self._settings.window_geometry,
+                    "window_state": self._settings.window_state,
+                    "minimize_action": self._settings.minimize_action,
+                    "dont_ask_again": self._settings.dont_ask_again,
+                    "close_confirm": self._settings.close_confirm,
+                    "auto_start_monitor": self._settings.auto_start_monitor,
+                    "notify_on_live": self._settings.notify_on_live,
+                    "webhook_secret": self._settings.webhook_secret,
+                    "webhook_body": self._settings.webhook_body,
+                }
+                with open(self._filepath, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"配置保存失败: {e}")
+
+    def add_room(self, room_dict: dict):
+        self._settings.rooms.append(room_dict)
+        self.save()
+
+    def remove_room(self, url: str):
+        self._settings.rooms = [r for r in self._settings.rooms if r.get("url") != url]
+        self.save()
+
+    def update_room(self, url: str, updates: dict):
+        for room in self._settings.rooms:
+            if room.get("url") == url:
+                room.update(updates)
+                break
+        self.save()
+
+    def get_rooms(self) -> list:
+        return list(self._settings.rooms)

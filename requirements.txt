@@ -1,1 +1,3 @@
-UHlTaWRlNj49Ni41CnN0cmVhbWdldD49NC4wCmxvZ3VydQ==
+PySide6>=6.5
+streamget>=4.0
+loguru

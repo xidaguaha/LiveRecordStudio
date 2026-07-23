@@ -1,1 +1,106 @@
-IiIi5pel5b+X6Z2i5p2/IiIiCmZyb20gUHlTaWRlNi5RdFdpZGdldHMgaW1wb3J0IFFXaWRnZXQsIFFWQm94TGF5b3V0LCBRSEJveExheW91dCwgUVB1c2hCdXR0b24sIFFMYWJlbCwgUVBsYWluVGV4dEVkaXQsIFFDb21ib0JveApmcm9tIFB5U2lkZTYuUXRDb3JlIGltcG9ydCBRdCwgU2lnbmFsCmZyb20gUHlTaWRlNi5RdEd1aSBpbXBvcnQgUVRleHRDaGFyRm9ybWF0LCBRQ29sb3IKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKCgpjbGFzcyBMb2dUYWIoUVdpZGdldCk6CiAgICBMRVZFTF9DT0xPUlMgPSB7CiAgICAgICAgImluZm8iOiAiIzJDM0U1MCIsCiAgICAgICAgIndhcm5pbmciOiAiI0U2N0UyMiIsCiAgICAgICAgImVycm9yIjogIiNFNzRDM0MiLAogICAgICAgICJkZWJ1ZyI6ICIjQjBCOEM0IiwKICAgIH0KICAgIEZJTFRFUl9NQVAgPSB7IuWFqOmDqCI6ICJhbGwiLCAi5L+h5oGvIjogImluZm8iLCAi6K2m5ZGKIjogIndhcm5pbmciLCAi6ZSZ6K+vIjogImVycm9yIn0KCiAgICBkZWYgX19pbml0X18oc2VsZiwgcGFyZW50PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18ocGFyZW50KQogICAgICAgIHNlbGYuX21heF9saW5lcyA9IDUwMDAKICAgICAgICBzZWxmLl9hdXRvX3Njcm9sbCA9IFRydWUKICAgICAgICBzZWxmLl9hbGxfbG9ncyA9IFtdICAjIOWtmOWCqOaJgOacieaXpeW/lzogWyhsZXZlbCwgbWVzc2FnZSwgdGltZXN0YW1wKSwgLi4uXQogICAgICAgIHNlbGYuX3NldHVwX3VpKCkKCiAgICBkZWYgX3NldHVwX3VpKHNlbGYpOgogICAgICAgIGxheW91dCA9IFFWQm94TGF5b3V0KHNlbGYpCiAgICAgICAgbGF5b3V0LnNldENvbnRlbnRzTWFyZ2lucygyMCwgMTYsIDIwLCAxNikKICAgICAgICBsYXlvdXQuc2V0U3BhY2luZygxMikKCiAgICAgICAgdG9vbGJhciA9IFFIQm94TGF5b3V0KCkKICAgICAgICB0b29sYmFyLnNldFNwYWNpbmcoOCkKCiAgICAgICAgdGl0bGUgPSBRTGFiZWwoIuaXpeW/lyIpCiAgICAgICAgdGl0bGUuc2V0U3R5bGVTaGVldCgiY29sb3I6ICMyQzNFNTA7IGZvbnQtc2l6ZTogMThweDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IikKICAgICAgICB0b29sYmFyLmFkZFdpZGdldCh0aXRsZSkKICAgICAgICB0b29sYmFyLmFkZFN0cmV0Y2goKQoKICAgICAgICBzZWxmLl9maWx0ZXJfY29tYm8gPSBRQ29tYm9Cb3goKQogICAgICAgIHNlbGYuX2ZpbHRlcl9jb21iby5hZGRJdGVtcyhbIuWFqOmDqCIsICLkv6Hmga8iLCAi6K2m5ZGKIiwgIumUmeivryJdKQogICAgICAgIHNlbGYuX2ZpbHRlcl9jb21iby5zZXRGaXhlZFdpZHRoKDEwMCkKICAgICAgICBzZWxmLl9maWx0ZXJfY29tYm8uc2V0Rml4ZWRIZWlnaHQoMzIpCiAgICAgICAgc2VsZi5fZmlsdGVyX2NvbWJvLmN1cnJlbnRUZXh0Q2hhbmdlZC5jb25uZWN0KHNlbGYuX29uX2ZpbHRlcl9jaGFuZ2VkKQogICAgICAgIHRvb2xiYXIuYWRkV2lkZ2V0KHNlbGYuX2ZpbHRlcl9jb21ibykKCiAgICAgICAgc2VsZi5fYXV0b19zY3JvbGxfYnRuID0gUVB1c2hCdXR0b24oIuiHquWKqOa7muWKqDog5byAIikKICAgICAgICBzZWxmLl9hdXRvX3Njcm9sbF9idG4uc2V0Rml4ZWRIZWlnaHQoMzIpCiAgICAgICAgc2VsZi5fYXV0b19zY3JvbGxfYnRuLnNldENoZWNrYWJsZShUcnVlKQogICAgICAgIHNlbGYuX2F1dG9fc2Nyb2xsX2J0bi5zZXRDaGVja2VkKFRydWUpCiAgICAgICAgc2VsZi5fYXV0b19zY3JvbGxfYnRuLnRvZ2dsZWQuY29ubmVjdChzZWxmLl9vbl9hdXRvX3Njcm9sbCkKICAgICAgICB0b29sYmFyLmFkZFdpZGdldChzZWxmLl9hdXRvX3Njcm9sbF9idG4pCgogICAgICAgIHNlbGYuX2NsZWFyX2J0biA9IFFQdXNoQnV0dG9uKCLmuIXnqboiKQogICAgICAgIHNlbGYuX2NsZWFyX2J0bi5zZXRGaXhlZEhlaWdodCgzMikKICAgICAgICBzZWxmLl9jbGVhcl9idG4uY2xpY2tlZC5jb25uZWN0KHNlbGYuX29uX2NsZWFyKQogICAgICAgIHRvb2xiYXIuYWRkV2lkZ2V0KHNlbGYuX2NsZWFyX2J0bikKICAgICAgICBsYXlvdXQuYWRkTGF5b3V0KHRvb2xiYXIpCgogICAgICAgIHNlbGYuX2xvZyA9IFFQbGFpblRleHRFZGl0KCkKICAgICAgICBzZWxmLl9sb2cuc2V0UmVhZE9ubHkoVHJ1ZSkKICAgICAgICBzZWxmLl9sb2cuc2V0TWF4aW11bUJsb2NrQ291bnQoc2VsZi5fbWF4X2xpbmVzKQogICAgICAgIGxheW91dC5hZGRXaWRnZXQoc2VsZi5fbG9nLCAxKQoKICAgIGRlZiBhcHBlbmRfbG9nKHNlbGYsIGxldmVsOiBzdHIsIG1lc3NhZ2U6IHN0cik6CiAgICAgICAgdGltZXN0YW1wID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVIOiVNOiVTIikKICAgICAgICBzZWxmLl9hbGxfbG9ncy5hcHBlbmQoKGxldmVsLCBtZXNzYWdlLCB0aW1lc3RhbXApKQoKICAgICAgICAjIOi2hei/h+S4iumZkOaXtuijgeWJqgogICAgICAgIGlmIGxlbihzZWxmLl9hbGxfbG9ncykgPiBzZWxmLl9tYXhfbGluZXM6CiAgICAgICAgICAgIHNlbGYuX2FsbF9sb2dzID0gc2VsZi5fYWxsX2xvZ3NbLXNlbGYuX21heF9saW5lczpdCgogICAgICAgICMg5qOA5p+l5b2T5YmN6L+H5ruk5p2h5Lu2CiAgICAgICAgY3VycmVudCA9IHNlbGYuRklMVEVSX01BUC5nZXQoc2VsZi5fZmlsdGVyX2NvbWJvLmN1cnJlbnRUZXh0KCksICJhbGwiKQogICAgICAgIGlmIGN1cnJlbnQgIT0gImFsbCIgYW5kIGxldmVsICE9IGN1cnJlbnQ6CiAgICAgICAgICAgIHJldHVybgoKICAgICAgICBjb2xvciA9IHNlbGYuTEVWRUxfQ09MT1JTLmdldChsZXZlbCwgIiMyQzNFNTAiKQogICAgICAgIGZtdCA9IFFUZXh0Q2hhckZvcm1hdCgpCiAgICAgICAgZm10LnNldEZvcmVncm91bmQoUUNvbG9yKGNvbG9yKSkKICAgICAgICBzZWxmLl9sb2cuc2V0Q3VycmVudENoYXJGb3JtYXQoZm10KQogICAgICAgIHNlbGYuX2xvZy5hcHBlbmRQbGFpblRleHQoZiJbe3RpbWVzdGFtcH1dIFt7bGV2ZWwudXBwZXIoKX1dIHttZXNzYWdlfSIpCiAgICAgICAgaWYgc2VsZi5fYXV0b19zY3JvbGw6CiAgICAgICAgICAgIHNiID0gc2VsZi5fbG9nLnZlcnRpY2FsU2Nyb2xsQmFyKCkKICAgICAgICAgICAgc2Iuc2V0VmFsdWUoc2IubWF4aW11bSgpKQoKICAgIGRlZiBfb25fZmlsdGVyX2NoYW5nZWQoc2VsZiwgdGV4dDogc3RyKToKICAgICAgICAiIiLov4fmu6TmnaHku7bmlLnlj5jml7bvvIznlKjlrZjlgqjnmoTml6Xlv5fph43lu7rmmL7npLoiIiIKICAgICAgICB0YXJnZXQgPSBzZWxmLkZJTFRFUl9NQVAuZ2V0KHRleHQsICJhbGwiKQogICAgICAgIHNlbGYuX2xvZy5jbGVhcigpCiAgICAgICAgZm9yIGxldmVsLCBtZXNzYWdlLCB0aW1lc3RhbXAgaW4gc2VsZi5fYWxsX2xvZ3M6CiAgICAgICAgICAgIGlmIHRhcmdldCAhPSAiYWxsIiBhbmQgbGV2ZWwgIT0gdGFyZ2V0OgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgY29sb3IgPSBzZWxmLkxFVkVMX0NPTE9SUy5nZXQobGV2ZWwsICIjMkMzRTUwIikKICAgICAgICAgICAgZm10ID0gUVRleHRDaGFyRm9ybWF0KCkKICAgICAgICAgICAgZm10LnNldEZvcmVncm91bmQoUUNvbG9yKGNvbG9yKSkKICAgICAgICAgICAgc2VsZi5fbG9nLnNldEN1cnJlbnRDaGFyRm9ybWF0KGZtdCkKICAgICAgICAgICAgc2VsZi5fbG9nLmFwcGVuZFBsYWluVGV4dChmIlt7dGltZXN0YW1wfV0gW3tsZXZlbC51cHBlcigpfV0ge21lc3NhZ2V9IikKICAgICAgICBpZiBzZWxmLl9hdXRvX3Njcm9sbDoKICAgICAgICAgICAgc2IgPSBzZWxmLl9sb2cudmVydGljYWxTY3JvbGxCYXIoKQogICAgICAgICAgICBzYi5zZXRWYWx1ZShzYi5tYXhpbXVtKCkpCgogICAgZGVmIF9vbl9jbGVhcihzZWxmKToKICAgICAgICBzZWxmLl9hbGxfbG9ncy5jbGVhcigpCiAgICAgICAgc2VsZi5fbG9nLmNsZWFyKCkKCiAgICBkZWYgX29uX2F1dG9fc2Nyb2xsKHNlbGYsIGNoZWNrZWQpOgogICAgICAgIHNlbGYuX2F1dG9fc2Nyb2xsID0gY2hlY2tlZAogICAgICAgIHNlbGYuX2F1dG9fc2Nyb2xsX2J0bi5zZXRUZXh0KGYi6Ieq5Yqo5rua5YqoOiB7J+W8gCcgaWYgY2hlY2tlZCBlbHNlICflhbMnfSIp
+"""日志面板"""
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QPlainTextEdit, QComboBox
+from PySide6.QtCore import Qt, Signal
+from PySide6.QtGui import QTextCharFormat, QColor
+from datetime import datetime
+
+
+class LogTab(QWidget):
+    LEVEL_COLORS = {
+        "info": "#2C3E50",
+        "warning": "#E67E22",
+        "error": "#E74C3C",
+        "debug": "#B0B8C4",
+    }
+    FILTER_MAP = {"全部": "all", "信息": "info", "警告": "warning", "错误": "error"}
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self._max_lines = 5000
+        self._auto_scroll = True
+        self._all_logs = []  # 存储所有日志: [(level, message, timestamp), ...]
+        self._setup_ui()
+
+    def _setup_ui(self):
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(20, 16, 20, 16)
+        layout.setSpacing(12)
+
+        toolbar = QHBoxLayout()
+        toolbar.setSpacing(8)
+
+        title = QLabel("日志")
+        title.setStyleSheet("color: #2C3E50; font-size: 18px; font-weight: bold; border: none; background: transparent;")
+        toolbar.addWidget(title)
+        toolbar.addStretch()
+
+        self._filter_combo = QComboBox()
+        self._filter_combo.addItems(["全部", "信息", "警告", "错误"])
+        self._filter_combo.setFixedWidth(100)
+        self._filter_combo.setFixedHeight(32)
+        self._filter_combo.currentTextChanged.connect(self._on_filter_changed)
+        toolbar.addWidget(self._filter_combo)
+
+        self._auto_scroll_btn = QPushButton("自动滚动: 开")
+        self._auto_scroll_btn.setFixedHeight(32)
+        self._auto_scroll_btn.setCheckable(True)
+        self._auto_scroll_btn.setChecked(True)
+        self._auto_scroll_btn.toggled.connect(self._on_auto_scroll)
+        toolbar.addWidget(self._auto_scroll_btn)
+
+        self._clear_btn = QPushButton("清空")
+        self._clear_btn.setFixedHeight(32)
+        self._clear_btn.clicked.connect(self._on_clear)
+        toolbar.addWidget(self._clear_btn)
+        layout.addLayout(toolbar)
+
+        self._log = QPlainTextEdit()
+        self._log.setReadOnly(True)
+        self._log.setMaximumBlockCount(self._max_lines)
+        layout.addWidget(self._log, 1)
+
+    def append_log(self, level: str, message: str):
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        self._all_logs.append((level, message, timestamp))
+
+        # 超过上限时裁剪
+        if len(self._all_logs) > self._max_lines:
+            self._all_logs = self._all_logs[-self._max_lines:]
+
+        # 检查当前过滤条件
+        current = self.FILTER_MAP.get(self._filter_combo.currentText(), "all")
+        if current != "all" and level != current:
+            return
+
+        color = self.LEVEL_COLORS.get(level, "#2C3E50")
+        fmt = QTextCharFormat()
+        fmt.setForeground(QColor(color))
+        self._log.setCurrentCharFormat(fmt)
+        self._log.appendPlainText(f"[{timestamp}] [{level.upper()}] {message}")
+        if self._auto_scroll:
+            sb = self._log.verticalScrollBar()
+            sb.setValue(sb.maximum())
+
+    def _on_filter_changed(self, text: str):
+        """过滤条件改变时，用存储的日志重建显示"""
+        target = self.FILTER_MAP.get(text, "all")
+        self._log.clear()
+        for level, message, timestamp in self._all_logs:
+            if target != "all" and level != target:
+                continue
+            color = self.LEVEL_COLORS.get(level, "#2C3E50")
+            fmt = QTextCharFormat()
+            fmt.setForeground(QColor(color))
+            self._log.setCurrentCharFormat(fmt)
+            self._log.appendPlainText(f"[{timestamp}] [{level.upper()}] {message}")
+        if self._auto_scroll:
+            sb = self._log.verticalScrollBar()
+            sb.setValue(sb.maximum())
+
+    def _on_clear(self):
+        self._all_logs.clear()
+        self._log.clear()
+
+    def _on_auto_scroll(self, checked):
+        self._auto_scroll = checked
+        self._auto_scroll_btn.setText(f"自动滚动: {'开' if checked else '关'}")

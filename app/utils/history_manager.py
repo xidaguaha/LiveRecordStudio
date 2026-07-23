@@ -1,1 +1,219 @@
-IiIiCuW9leWItuWOhuWPsueuoeeQhiAtIOaMgeS5heWMluW9leWItuiusOW9le+8iOS/oeWPtyvmnKzlnLDmlofku7bmiavmj4/lj4zph43pqozor4HvvIkKIiIiCmltcG9ydCBvcwppbXBvcnQganNvbgppbXBvcnQgdGltZQpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MsIGFzZGljdApmcm9tIHR5cGluZyBpbXBvcnQgTGlzdCwgT3B0aW9uYWwKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKCgpAZGF0YWNsYXNzCmNsYXNzIFJlY29yZGluZ0hpc3Rvcnk6CiAgICAiIiLljZXmrKHlvZXliLborrDlvZUiIiIKICAgIHVybDogc3RyID0gIiIKICAgIGFuY2hvcl9uYW1lOiBzdHIgPSAiIgogICAgdGl0bGU6IHN0ciA9ICIiCiAgICBwbGF0Zm9ybTogc3RyID0gIiIKICAgIHF1YWxpdHk6IHN0ciA9ICIiCiAgICBzdGFydF90aW1lOiBmbG9hdCA9IDAuMAogICAgZW5kX3RpbWU6IGZsb2F0ID0gMC4wCiAgICBmaWxlX3BhdGg6IHN0ciA9ICIiCiAgICBmaWxlX3NpemU6IGludCA9IDAKICAgIGR1cmF0aW9uOiBpbnQgPSAwICAjIOenkgogICAgc3RhdHVzOiBzdHIgPSAiIiAgIyBjb21wbGV0ZWQgLyBlcnJvciAvIGludGVycnVwdGVkCgogICAgZGVmIHRvX2RpY3Qoc2VsZikgLT4gZGljdDoKICAgICAgICByZXR1cm4gYXNkaWN0KHNlbGYpCgogICAgQGNsYXNzbWV0aG9kCiAgICBkZWYgZnJvbV9kaWN0KGNscywgZDogZGljdCkgLT4gIlJlY29yZGluZ0hpc3RvcnkiOgogICAgICAgIHJldHVybiBjbHMoKipkKQoKICAgIEBwcm9wZXJ0eQogICAgZGVmIHN0YXJ0X3RpbWVfc3RyKHNlbGYpIC0+IHN0cjoKICAgICAgICBpZiBzZWxmLnN0YXJ0X3RpbWU6CiAgICAgICAgICAgIHJldHVybiBkYXRldGltZS5mcm9tdGltZXN0YW1wKHNlbGYuc3RhcnRfdGltZSkuc3RyZnRpbWUoIiVZLSVtLSVkICVIOiVNOiVTIikKICAgICAgICByZXR1cm4gIiIKCiAgICBAcHJvcGVydHkKICAgIGRlZiBlbmRfdGltZV9zdHIoc2VsZikgLT4gc3RyOgogICAgICAgIGlmIHNlbGYuZW5kX3RpbWU6CiAgICAgICAgICAgIHJldHVybiBkYXRldGltZS5mcm9tdGltZXN0YW1wKHNlbGYuZW5kX3RpbWUpLnN0cmZ0aW1lKCIlWS0lbS0lZCAlSDolTTolUyIpCiAgICAgICAgcmV0dXJuICIiCgogICAgQHByb3BlcnR5CiAgICBkZWYgZHVyYXRpb25fc3RyKHNlbGYpIC0+IHN0cjoKICAgICAgICBpZiBzZWxmLmR1cmF0aW9uOgogICAgICAgICAgICBoID0gc2VsZi5kdXJhdGlvbiAvLyAzNjAwCiAgICAgICAgICAgIG0gPSAoc2VsZi5kdXJhdGlvbiAlIDM2MDApIC8vIDYwCiAgICAgICAgICAgIHMgPSBzZWxmLmR1cmF0aW9uICUgNjAKICAgICAgICAgICAgaWYgaCA+IDA6CiAgICAgICAgICAgICAgICByZXR1cm4gZiJ7aH06e206MDJkfTp7czowMmR9IgogICAgICAgICAgICByZXR1cm4gZiJ7bX06e3M6MDJkfSIKICAgICAgICByZXR1cm4gIiIKCiAgICBAcHJvcGVydHkKICAgIGRlZiBmaWxlX3NpemVfc3RyKHNlbGYpIC0+IHN0cjoKICAgICAgICBzaXplID0gc2VsZi5maWxlX3NpemUKICAgICAgICBpZiBzaXplID49IDEwMjQgKiogMzoKICAgICAgICAgICAgcmV0dXJuIGYie3NpemUgLyAoMTAyNCAqKiAzKTouMmZ9IEdCIgogICAgICAgIGVsaWYgc2l6ZSA+PSAxMDI0ICoqIDI6CiAgICAgICAgICAgIHJldHVybiBmIntzaXplIC8gKDEwMjQgKiogMik6LjJmfSBNQiIKICAgICAgICBlbGlmIHNpemUgPj0gMTAyNDoKICAgICAgICAgICAgcmV0dXJuIGYie3NpemUgLyAxMDI0Oi4yZn0gS0IiCiAgICAgICAgcmV0dXJuIGYie3NpemV9IEIiCgoKY2xhc3MgSGlzdG9yeU1hbmFnZXI6CiAgICAiIiLlvZXliLbljoblj7LnrqHnkIblmagiIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgY29uZmlnX2Rpcjogc3RyKToKICAgICAgICBzZWxmLl9maWxlcGF0aCA9IG9zLnBhdGguam9pbihjb25maWdfZGlyLCAicmVjb3JkaW5nX2hpc3RvcnkuanNvbiIpCiAgICAgICAgc2VsZi5fcmVjb3JkczogTGlzdFtSZWNvcmRpbmdIaXN0b3J5XSA9IFtdCiAgICAgICAgc2VsZi5fbG9hZCgpCgogICAgZGVmIF9sb2FkKHNlbGYpOgogICAgICAgICIiIuS7juaWh+S7tuWKoOi9veWOhuWPsuiusOW9lSIiIgogICAgICAgIGlmIG5vdCBvcy5wYXRoLmlzZmlsZShzZWxmLl9maWxlcGF0aCk6CiAgICAgICAgICAgIHJldHVybgogICAgICAgIHRyeToKICAgICAgICAgICAgd2l0aCBvcGVuKHNlbGYuX2ZpbGVwYXRoLCAncicsIGVuY29kaW5nPSd1dGYtOCcpIGFzIGY6CiAgICAgICAgICAgICAgICBkYXRhID0ganNvbi5sb2FkKGYpCiAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UoZGF0YSwgbGlzdCk6CiAgICAgICAgICAgICAgICBzZWxmLl9yZWNvcmRzID0gW1JlY29yZGluZ0hpc3RvcnkuZnJvbV9kaWN0KHIpIGZvciByIGluIGRhdGFdCiAgICAgICAgZXhjZXB0IChqc29uLkpTT05EZWNvZGVFcnJvciwgVHlwZUVycm9yLCBLZXlFcnJvcikgYXMgZToKICAgICAgICAgICAgcHJpbnQoZiLljoblj7LorrDlvZXliqDovb3lpLHotKU6IHtlfSIpCgogICAgZGVmIHNhdmUoc2VsZik6CiAgICAgICAgIiIi5L+d5a2Y5Y6G5Y+y6K6w5b2V5Yiw5paH5Lu2IiIiCiAgICAgICAgdHJ5OgogICAgICAgICAgICByZWNvcmRzID0gW3IudG9fZGljdCgpIGZvciByIGluIHNlbGYuX3JlY29yZHNdCiAgICAgICAgICAgIHdpdGggb3BlbihzZWxmLl9maWxlcGF0aCwgJ3cnLCBlbmNvZGluZz0ndXRmLTgnKSBhcyBmOgogICAgICAgICAgICAgICAganNvbi5kdW1wKHJlY29yZHMsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludChmIuWOhuWPsuiusOW9leS/neWtmOWksei0pToge2V9IikKCiAgICBkZWYgYWRkX3JlY29yZChzZWxmLCByZWNvcmQ6IFJlY29yZGluZ0hpc3RvcnkpOgogICAgICAgICIiIua3u+WKoOS4gOadoeiusOW9lSIiIgogICAgICAgIHNlbGYuX3JlY29yZHMuaW5zZXJ0KDAsIHJlY29yZCkgICMg5paw6K6w5b2V5pS+5YmN6Z2iCiAgICAgICAgIyDpmZDliLbmnIDlpJogMTAwMDAg5p2hCiAgICAgICAgaWYgbGVuKHNlbGYuX3JlY29yZHMpID4gMTAwMDA6CiAgICAgICAgICAgIHNlbGYuX3JlY29yZHMgPSBzZWxmLl9yZWNvcmRzWzoxMDAwMF0KICAgICAgICBzZWxmLnNhdmUoKQoKICAgIGRlZiByZW1vdmVfcmVjb3JkKHNlbGYsIGluZGV4OiBpbnQpOgogICAgICAgICIiIuWIoOmZpOaMh+Wumue0ouW8leeahOiusOW9lSIiIgogICAgICAgIGlmIDAgPD0gaW5kZXggPCBsZW4oc2VsZi5fcmVjb3Jkcyk6CiAgICAgICAgICAgIHNlbGYuX3JlY29yZHMucG9wKGluZGV4KQogICAgICAgICAgICBzZWxmLnNhdmUoKQoKICAgIGRlZiBjbGVhcihzZWxmKToKICAgICAgICAiIiLmuIXnqbrmiYDmnInorrDlvZUiIiIKICAgICAgICBzZWxmLl9yZWNvcmRzLmNsZWFyKCkKICAgICAgICBzZWxmLnNhdmUoKQoKICAgIGRlZiBnZXRfcmVjb3JkcyhzZWxmKSAtPiBMaXN0W1JlY29yZGluZ0hpc3RvcnldOgogICAgICAgICIiIuiOt+WPluaJgOacieiusOW9lSIiIgogICAgICAgIHJldHVybiBsaXN0KHNlbGYuX3JlY29yZHMpCgogICAgZGVmIGdldF90b3RhbF9zaXplKHNlbGYpIC0+IGludDoKICAgICAgICAiIiLojrflj5bmiYDmnInlvZXliLbmlofku7bnmoTmgLvlpKflsI8iIiIKICAgICAgICByZXR1cm4gc3VtKHIuZmlsZV9zaXplIGZvciByIGluIHNlbGYuX3JlY29yZHMgaWYgci5zdGF0dXMgPT0gImNvbXBsZXRlZCIpCgogICAgZGVmIGdldF90b3RhbF9kdXJhdGlvbihzZWxmKSAtPiBpbnQ6CiAgICAgICAgIiIi6I635Y+W5omA5pyJ5b2V5Yi25paH5Lu255qE5oC75pe26ZW/77yI56eS77yJIiIiCiAgICAgICAgcmV0dXJuIHN1bShyLmR1cmF0aW9uIGZvciByIGluIHNlbGYuX3JlY29yZHMgaWYgci5zdGF0dXMgPT0gImNvbXBsZXRlZCIpCgogICAgZGVmIGdldF9zdGF0cyhzZWxmKSAtPiBkaWN0OgogICAgICAgICIiIuiOt+WPlue7n+iuoeS/oeaBryIiIgogICAgICAgIGNvbXBsZXRlZCA9IFtyIGZvciByIGluIHNlbGYuX3JlY29yZHMgaWYgci5zdGF0dXMgPT0gImNvbXBsZXRlZCJdCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgInRvdGFsX2NvdW50IjogbGVuKHNlbGYuX3JlY29yZHMpLAogICAgICAgICAgICAiY29tcGxldGVkX2NvdW50IjogbGVuKGNvbXBsZXRlZCksCiAgICAgICAgICAgICJ0b3RhbF9zaXplIjogc2VsZi5nZXRfdG90YWxfc2l6ZSgpLAogICAgICAgICAgICAidG90YWxfZHVyYXRpb24iOiBzZWxmLmdldF90b3RhbF9kdXJhdGlvbigpLAogICAgICAgIH0KCiAgICBkZWYgc2Nhbl9sb2NhbF9maWxlcyhzZWxmLCBzYXZlX3Jvb3Q6IHN0cikgLT4gTGlzdFtSZWNvcmRpbmdIaXN0b3J5XToKICAgICAgICAiIiLmiavmj4/kv53lrZjnm67lvZXkuIvnmoTlvZXliLbmlofku7bvvIzooaXlhYXnvLrlpLHnmoTljoblj7LorrDlvZUiIiIKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2RpcihzYXZlX3Jvb3QpOgogICAgICAgICAgICByZXR1cm4gW10KCiAgICAgICAgIyDlt7LmnInorrDlvZXnmoTmlofku7bot6/lvoTpm4blkIjvvIjnlKjkuo7ljrvph43vvIkKICAgICAgICBleGlzdGluZ19wYXRocyA9IHNldCgpCiAgICAgICAgZm9yIHIgaW4gc2VsZi5fcmVjb3JkczoKICAgICAgICAgICAgaWYgci5maWxlX3BhdGg6CiAgICAgICAgICAgICAgICBleGlzdGluZ19wYXRocy5hZGQob3MucGF0aC5ub3JtcGF0aChyLmZpbGVfcGF0aCkpCgogICAgICAgICMg5pSv5oyB55qE6KeG6aKR5paH5Lu25omp5bGV5ZCNCiAgICAgICAgdmlkZW9fZXh0cyA9ICgnLnRzJywgJy5tcDQnLCAnLm1rdicsICcuZmx2JykKICAgICAgICBuZXdfcmVjb3JkcyA9IFtdCgogICAgICAgICMg6YCS5b2S5omr5o+PIHNhdmVfcm9vdCDkuIvmiYDmnInop4bpopHmlofku7YKICAgICAgICBmb3Igcm9vdCwgZGlycywgZmlsZXMgaW4gb3Mud2FsayhzYXZlX3Jvb3QpOgogICAgICAgICAgICBmb3IgZm5hbWUgaW4gZmlsZXM6CiAgICAgICAgICAgICAgICBpZiBub3QgZm5hbWUubG93ZXIoKS5lbmRzd2l0aCh2aWRlb19leHRzKToKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgZnVsbF9wYXRoID0gb3MucGF0aC5ub3JtcGF0aChvcy5wYXRoLmpvaW4ocm9vdCwgZm5hbWUpKQogICAgICAgICAgICAgICAgaWYgZnVsbF9wYXRoIGluIGV4aXN0aW5nX3BhdGhzOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgIyDot7Pov4flpKrlsI/nmoTmlofku7bvvIjlj6/og73mmK/lpLHotKXnmoTlvZXliLbvvIw8IDEwMEtC77yJCiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgZnNpemUgPSBvcy5wYXRoLmdldHNpemUoZnVsbF9wYXRoKQogICAgICAgICAgICAgICAgZXhjZXB0IE9TRXJyb3I6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIGlmIGZzaXplIDwgMTAwICogMTAyNDoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgICAgICMg5LuO55uu5b2V57uT5p6E5o6o5pat5bmz5Y+w5ZKM5Li75pKt5ZCNCiAgICAgICAgICAgICAgICAjIOebruW9lee7k+aehDogc2F2ZV9yb290L3BsYXRmb3JtL293bmVyL2ZpbGVuYW1lLnRzCiAgICAgICAgICAgICAgICByZWwgPSBvcy5wYXRoLnJlbHBhdGgocm9vdCwgc2F2ZV9yb290KQogICAgICAgICAgICAgICAgcGFydHMgPSByZWwucmVwbGFjZShvcy5zZXAsICcvJykuc3BsaXQoJy8nKQogICAgICAgICAgICAgICAgcGxhdGZvcm0gPSBwYXJ0c1swXSBpZiBsZW4ocGFydHMpID49IDEgZWxzZSAi5pyq55+lIgogICAgICAgICAgICAgICAgb3duZXIgPSBwYXJ0c1sxXSBpZiBsZW4ocGFydHMpID49IDIgZWxzZSAi5pyq55+lIgoKICAgICAgICAgICAgICAgICMg5LuO5paH5Lu25ZCN5o+Q5Y+W5L+h5oGv77yI5Y675o6J5omp5bGV5ZCN77yJCiAgICAgICAgICAgICAgICBiYXNlID0gb3MucGF0aC5zcGxpdGV4dChmbmFtZSlbMF0KCiAgICAgICAgICAgICAgICAjIOeUqOaWh+S7tuS/ruaUueaXtumXtOS9nOS4uuaXtumXtOaIswogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIG10aW1lID0gb3MucGF0aC5nZXRtdGltZShmdWxsX3BhdGgpCiAgICAgICAgICAgICAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICAgICAgICAgICAgICBtdGltZSA9IHRpbWUudGltZSgpCgogICAgICAgICAgICAgICAgcmVjb3JkID0gUmVjb3JkaW5nSGlzdG9yeSgKICAgICAgICAgICAgICAgICAgICB1cmw9IiIsCiAgICAgICAgICAgICAgICAgICAgYW5jaG9yX25hbWU9b3duZXIsCiAgICAgICAgICAgICAgICAgICAgdGl0bGU9YmFzZSwKICAgICAgICAgICAgICAgICAgICBwbGF0Zm9ybT1wbGF0Zm9ybSwKICAgICAgICAgICAgICAgICAgICBxdWFsaXR5PSIiLAogICAgICAgICAgICAgICAgICAgIHN0YXJ0X3RpbWU9bXRpbWUsCiAgICAgICAgICAgICAgICAgICAgZW5kX3RpbWU9bXRpbWUsCiAgICAgICAgICAgICAgICAgICAgZmlsZV9wYXRoPWZ1bGxfcGF0aCwKICAgICAgICAgICAgICAgICAgICBmaWxlX3NpemU9ZnNpemUsCiAgICAgICAgICAgICAgICAgICAgZHVyYXRpb249MCwKICAgICAgICAgICAgICAgICAgICBzdGF0dXM9ImNvbXBsZXRlZCIsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBuZXdfcmVjb3Jkcy5hcHBlbmQocmVjb3JkKQoKICAgICAgICAjIOaMieaXtumXtOWAkuW6j+aOkuWIlwogICAgICAgIG5ld19yZWNvcmRzLnNvcnQoa2V5PWxhbWJkYSByOiByLmVuZF90aW1lLCByZXZlcnNlPVRydWUpCiAgICAgICAgcmV0dXJuIG5ld19yZWNvcmRzCgogICAgZGVmIG1lcmdlX3NjYW5uZWRfcmVjb3JkcyhzZWxmLCBzYXZlX3Jvb3Q6IHN0cik6CiAgICAgICAgIiIi5omr5o+P5pys5Zyw5paH5Lu25bm25ZCI5bm25Yiw5Y6G5Y+y6K6w5b2V5Lit77yM6L+U5Zue5a6M5pW06K6w5b2V5YiX6KGoIiIiCiAgICAgICAgbmV3X3JlY29yZHMgPSBzZWxmLnNjYW5fbG9jYWxfZmlsZXMoc2F2ZV9yb290KQogICAgICAgIGlmIG5ld19yZWNvcmRzOgogICAgICAgICAgICAjIOWQiOW5tu+8muaWsOiusOW9leaPkuWIsOW3suacieiusOW9leWJjemdou+8jOmBv+WFjemHjeWkjQogICAgICAgICAgICBuZXdfcGF0aHMgPSB7b3MucGF0aC5ub3JtcGF0aChyLmZpbGVfcGF0aCkgZm9yIHIgaW4gbmV3X3JlY29yZHN9CiAgICAgICAgICAgICMg5Y675o6J5bey5pyJ6K6w5b2V5Lit5LiO5omr5o+P57uT5p6c6YeN5aSN55qE5pen6K6w5b2VCiAgICAgICAgICAgIHNlbGYuX3JlY29yZHMgPSBbciBmb3IgciBpbiBzZWxmLl9yZWNvcmRzIGlmIG9zLnBhdGgubm9ybXBhdGgoci5maWxlX3BhdGgpIG5vdCBpbiBuZXdfcGF0aHNdCiAgICAgICAgICAgICMg5o+S5YWl5paw6K6w5b2VCiAgICAgICAgICAgIHNlbGYuX3JlY29yZHMgPSBuZXdfcmVjb3JkcyArIHNlbGYuX3JlY29yZHMKICAgICAgICAgICAgIyDmjInml7bpl7TlgJLluo8KICAgICAgICAgICAgc2VsZi5fcmVjb3Jkcy5zb3J0KGtleT1sYW1iZGEgcjogci5lbmRfdGltZSwgcmV2ZXJzZT1UcnVlKQogICAgICAgICAgICBzZWxmLnNhdmUoKQogICAgICAgIHJldHVybiBsaXN0KHNlbGYuX3JlY29yZHMpCg==
+"""
+录制历史管理 - 持久化录制记录（信号+本地文件扫描双重验证）
+"""
+import os
+import json
+import time
+from dataclasses import dataclass, asdict
+from typing import List, Optional
+from datetime import datetime
+
+
+@dataclass
+class RecordingHistory:
+    """单次录制记录"""
+    url: str = ""
+    anchor_name: str = ""
+    title: str = ""
+    platform: str = ""
+    quality: str = ""
+    start_time: float = 0.0
+    end_time: float = 0.0
+    file_path: str = ""
+    file_size: int = 0
+    duration: int = 0  # 秒
+    status: str = ""  # completed / error / interrupted
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "RecordingHistory":
+        return cls(**d)
+
+    @property
+    def start_time_str(self) -> str:
+        if self.start_time:
+            return datetime.fromtimestamp(self.start_time).strftime("%Y-%m-%d %H:%M:%S")
+        return ""
+
+    @property
+    def end_time_str(self) -> str:
+        if self.end_time:
+            return datetime.fromtimestamp(self.end_time).strftime("%Y-%m-%d %H:%M:%S")
+        return ""
+
+    @property
+    def duration_str(self) -> str:
+        if self.duration:
+            h = self.duration // 3600
+            m = (self.duration % 3600) // 60
+            s = self.duration % 60
+            if h > 0:
+                return f"{h}:{m:02d}:{s:02d}"
+            return f"{m}:{s:02d}"
+        return ""
+
+    @property
+    def file_size_str(self) -> str:
+        size = self.file_size
+        if size >= 1024 ** 3:
+            return f"{size / (1024 ** 3):.2f} GB"
+        elif size >= 1024 ** 2:
+            return f"{size / (1024 ** 2):.2f} MB"
+        elif size >= 1024:
+            return f"{size / 1024:.2f} KB"
+        return f"{size} B"
+
+
+class HistoryManager:
+    """录制历史管理器"""
+
+    def __init__(self, config_dir: str):
+        self._filepath = os.path.join(config_dir, "recording_history.json")
+        self._records: List[RecordingHistory] = []
+        self._load()
+
+    def _load(self):
+        """从文件加载历史记录"""
+        if not os.path.isfile(self._filepath):
+            return
+        try:
+            with open(self._filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                self._records = [RecordingHistory.from_dict(r) for r in data]
+        except (json.JSONDecodeError, TypeError, KeyError) as e:
+            print(f"历史记录加载失败: {e}")
+
+    def save(self):
+        """保存历史记录到文件"""
+        try:
+            records = [r.to_dict() for r in self._records]
+            with open(self._filepath, 'w', encoding='utf-8') as f:
+                json.dump(records, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            print(f"历史记录保存失败: {e}")
+
+    def add_record(self, record: RecordingHistory):
+        """添加一条记录"""
+        self._records.insert(0, record)  # 新记录放前面
+        # 限制最多 10000 条
+        if len(self._records) > 10000:
+            self._records = self._records[:10000]
+        self.save()
+
+    def remove_record(self, index: int):
+        """删除指定索引的记录"""
+        if 0 <= index < len(self._records):
+            self._records.pop(index)
+            self.save()
+
+    def clear(self):
+        """清空所有记录"""
+        self._records.clear()
+        self.save()
+
+    def get_records(self) -> List[RecordingHistory]:
+        """获取所有记录"""
+        return list(self._records)
+
+    def get_total_size(self) -> int:
+        """获取所有录制文件的总大小"""
+        return sum(r.file_size for r in self._records if r.status == "completed")
+
+    def get_total_duration(self) -> int:
+        """获取所有录制文件的总时长（秒）"""
+        return sum(r.duration for r in self._records if r.status == "completed")
+
+    def get_stats(self) -> dict:
+        """获取统计信息"""
+        completed = [r for r in self._records if r.status == "completed"]
+        return {
+            "total_count": len(self._records),
+            "completed_count": len(completed),
+            "total_size": self.get_total_size(),
+            "total_duration": self.get_total_duration(),
+        }
+
+    def scan_local_files(self, save_root: str) -> List[RecordingHistory]:
+        """扫描保存目录下的录制文件，补充缺失的历史记录"""
+        if not os.path.isdir(save_root):
+            return []
+
+        # 已有记录的文件路径集合（用于去重）
+        existing_paths = set()
+        for r in self._records:
+            if r.file_path:
+                existing_paths.add(os.path.normpath(r.file_path))
+
+        # 支持的视频文件扩展名
+        video_exts = ('.ts', '.mp4', '.mkv', '.flv')
+        new_records = []
+
+        # 递归扫描 save_root 下所有视频文件
+        for root, dirs, files in os.walk(save_root):
+            for fname in files:
+                if not fname.lower().endswith(video_exts):
+                    continue
+                full_path = os.path.normpath(os.path.join(root, fname))
+                if full_path in existing_paths:
+                    continue
+
+                # 跳过太小的文件（可能是失败的录制，< 100KB）
+                try:
+                    fsize = os.path.getsize(full_path)
+                except OSError:
+                    continue
+                if fsize < 100 * 1024:
+                    continue
+
+                # 从目录结构推断平台和主播名
+                # 目录结构: save_root/platform/owner/filename.ts
+                rel = os.path.relpath(root, save_root)
+                parts = rel.replace(os.sep, '/').split('/')
+                platform = parts[0] if len(parts) >= 1 else "未知"
+                owner = parts[1] if len(parts) >= 2 else "未知"
+
+                # 从文件名提取信息（去掉扩展名）
+                base = os.path.splitext(fname)[0]
+
+                # 用文件修改时间作为时间戳
+                try:
+                    mtime = os.path.getmtime(full_path)
+                except OSError:
+                    mtime = time.time()
+
+                record = RecordingHistory(
+                    url="",
+                    anchor_name=owner,
+                    title=base,
+                    platform=platform,
+                    quality="",
+                    start_time=mtime,
+                    end_time=mtime,
+                    file_path=full_path,
+                    file_size=fsize,
+                    duration=0,
+                    status="completed",
+                )
+                new_records.append(record)
+
+        # 按时间倒序排列
+        new_records.sort(key=lambda r: r.end_time, reverse=True)
+        return new_records
+
+    def merge_scanned_records(self, save_root: str):
+        """扫描本地文件并合并到历史记录中，返回完整记录列表"""
+        new_records = self.scan_local_files(save_root)
+        if new_records:
+            # 合并：新记录插到已有记录前面，避免重复
+            new_paths = {os.path.normpath(r.file_path) for r in new_records}
+            # 去掉已有记录中与扫描结果重复的旧记录
+            self._records = [r for r in self._records if os.path.normpath(r.file_path) not in new_paths]
+            # 插入新记录
+            self._records = new_records + self._records
+            # 按时间倒序
+            self._records.sort(key=lambda r: r.end_time, reverse=True)
+            self.save()
+        return list(self._records)

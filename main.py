@@ -1,1 +1,57 @@
-IyAtKi0gZW5jb2Rpbmc6IHV0Zi04IC0qLQoiIiIKTGl2ZVJlY29yZCBTdHVkaW8gLSDnjrDku6PljJblpJrlubPlj7Dnm7Tmkq3lvZXliLblt6XlhbcK5YWl5Y+j5paH5Lu2CiIiIgppbXBvcnQgb3MKaW1wb3J0IHN5cwoKIyBXaW5kb3dzOiDpmpDol4/mjqfliLblj7Dnqpflj6PvvIjpgb/lhY3lj4zlh7sgLnB5IOaWh+S7tuaXtuW8ueWHuum7keahhu+8iQppZiBzeXMucGxhdGZvcm0gPT0gJ3dpbjMyJzoKICAgIHRyeToKICAgICAgICBpbXBvcnQgY3R5cGVzCiAgICAgICAgaHduZCA9IGN0eXBlcy53aW5kbGwua2VybmVsMzIuR2V0Q29uc29sZVdpbmRvdygpCiAgICAgICAgaWYgaHduZDoKICAgICAgICAgICAgY3R5cGVzLndpbmRsbC51c2VyMzIuU2hvd1dpbmRvdyhod25kLCAwKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXNzCgoKZGVmIGdldF9hcHBfcm9vdCgpOgogICAgIiIi6I635Y+W5bqU55So5qC555uu5b2V77yI5YW85a655byA5Y+R546v5aKD5ZKMUHlJbnN0YWxsZXLmiZPljIXnjq/looPvvIkiIiIKICAgIGlmIGdldGF0dHIoc3lzLCAnZnJvemVuJywgRmFsc2UpOgogICAgICAgIHJldHVybiBvcy5wYXRoLmRpcm5hbWUoc3lzLmV4ZWN1dGFibGUpCiAgICByZXR1cm4gb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpCgoKX0FQUF9ST09UID0gZ2V0X2FwcF9yb290KCkKaWYgX0FQUF9ST09UIG5vdCBpbiBzeXMucGF0aDoKICAgIHN5cy5wYXRoLmluc2VydCgwLCBfQVBQX1JPT1QpCgojIOmFjee9ruebruW9le+8muaJk+WMheeOr+Wig+ebtOaOpeeUqCBBcHBEYXRh77yM6YG/5YWN5p2D6ZmQ6Zeu6aKYCmlmIGdldGF0dHIoc3lzLCAnZnJvemVuJywgRmFsc2UpOgogICAgX0NPTkZJR19ESVIgPSBvcy5wYXRoLmpvaW4ob3MuZW52aXJvbi5nZXQoJ0FQUERBVEEnLCBvcy5wYXRoLmV4cGFuZHVzZXIoJ34nKSksICdMaXZlUmVjb3JkU3R1ZGlvJywgJ2NvbmZpZycpCmVsc2U6CiAgICBfQ09ORklHX0RJUiA9IG9zLnBhdGguam9pbihfQVBQX1JPT1QsICJjb25maWciKQpvcy5tYWtlZGlycyhfQ09ORklHX0RJUiwgZXhpc3Rfb2s9VHJ1ZSkKCgpkZWYgbWFpbigpOgogICAgZnJvbSBQeVNpZGU2LlF0V2lkZ2V0cyBpbXBvcnQgUUFwcGxpY2F0aW9uCiAgICBmcm9tIFB5U2lkZTYuUXRHdWkgaW1wb3J0IFFGb250CgogICAgYXBwID0gUUFwcGxpY2F0aW9uKHN5cy5hcmd2KQogICAgYXBwLnNldEFwcGxpY2F0aW9uTmFtZSgiTGl2ZVJlY29yZCBTdHVkaW8iKQogICAgYXBwLnNldEFwcGxpY2F0aW9uRGlzcGxheU5hbWUoIkxpdmVSZWNvcmQgU3R1ZGlvIikKICAgIGFwcC5zZXRRdWl0T25MYXN0V2luZG93Q2xvc2VkKEZhbHNlKQogICAgYXBwLnNldEZvbnQoUUZvbnQoIk1pY3Jvc29mdCBZYUhlaSIsIDEwKSkKCiAgICBmcm9tIGFwcC51aS5tYWluX3dpbmRvdyBpbXBvcnQgTWFpbldpbmRvdwogICAgd2luZG93ID0gTWFpbldpbmRvdyhfQ09ORklHX0RJUikKICAgIHdpbmRvdy5zaG93KCkKCiAgICBzeXMuZXhpdChhcHAuZXhlYygpKQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBtYWluKCkK
+# -*- encoding: utf-8 -*-
+"""
+LiveRecord Studio - 现代化多平台直播录制工具
+入口文件
+"""
+import os
+import sys
+
+# Windows: 隐藏控制台窗口（避免双击 .py 文件时弹出黑框）
+if sys.platform == 'win32':
+    try:
+        import ctypes
+        hwnd = ctypes.windll.kernel32.GetConsoleWindow()
+        if hwnd:
+            ctypes.windll.user32.ShowWindow(hwnd, 0)
+    except Exception:
+        pass
+
+
+def get_app_root():
+    """获取应用根目录（兼容开发环境和PyInstaller打包环境）"""
+    if getattr(sys, 'frozen', False):
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.abspath(__file__))
+
+
+_APP_ROOT = get_app_root()
+if _APP_ROOT not in sys.path:
+    sys.path.insert(0, _APP_ROOT)
+
+# 配置目录：打包环境直接用 AppData，避免权限问题
+if getattr(sys, 'frozen', False):
+    _CONFIG_DIR = os.path.join(os.environ.get('APPDATA', os.path.expanduser('~')), 'LiveRecordStudio', 'config')
+else:
+    _CONFIG_DIR = os.path.join(_APP_ROOT, "config")
+os.makedirs(_CONFIG_DIR, exist_ok=True)
+
+
+def main():
+    from PySide6.QtWidgets import QApplication
+    from PySide6.QtGui import QFont
+
+    app = QApplication(sys.argv)
+    app.setApplicationName("LiveRecord Studio")
+    app.setApplicationDisplayName("LiveRecord Studio")
+    app.setQuitOnLastWindowClosed(False)
+    app.setFont(QFont("Microsoft YaHei", 10))
+
+    from app.ui.main_window import MainWindow
+    window = MainWindow(_CONFIG_DIR)
+    window.show()
+
+    sys.exit(app.exec())
+
+
+if __name__ == '__main__':
+    main()

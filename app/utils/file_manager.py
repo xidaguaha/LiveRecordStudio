@@ -1,1 +1,67 @@
-aW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgdGltZQpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQoKCmRlZiBzYW5pdGl6ZV9maWxlbmFtZShuYW1lOiBzdHIpIC0+IHN0cjoKICAgICIiIua4heeQhuaWh+S7tuWQje+8jOenu+mZpOmdnuazleWtl+espiIiIgogICAgIyDnp7vpmaRXaW5kb3dz6Z2e5rOV5a2X56ymCiAgICBuYW1lID0gcmUuc3ViKHInWzw+OiIvXFx8PypceDAwLVx4MWZdJywgJycsIG5hbWUpCiAgICAjIOenu+mZpGVtb2pp5ZKM54m55q6KVW5pY29kZQogICAgbmFtZSA9IHJlLnN1YihyJ1tcVTAwMDEwMDAwLVxVMDAxMGZmZmZdJywgJycsIG5hbWUpCiAgICAjIOWOu+mZpOmmluWwvuepuuagvOWSjOeCuQogICAgbmFtZSA9IG5hbWUuc3RyaXAoJyAuJykKICAgIHJldHVybiBuYW1lIG9yICJ1bm5hbWVkIgoKCmRlZiBnZW5lcmF0ZV9vdXRwdXRfcGF0aCgKICAgIHNhdmVfcm9vdDogc3RyLAogICAgcGxhdGZvcm06IHN0ciwKICAgIGFuY2hvcl9uYW1lOiBzdHIsCiAgICB0aXRsZTogc3RyID0gIiIsCiAgICBmbXQ6IHN0ciA9ICJ0cyIsCiAgICBieV9kYXRlOiBib29sID0gVHJ1ZSwKKSAtPiBzdHI6CiAgICAiIiLnlJ/miJDlvZXliLbmlofku7bkv53lrZjot6/lvoQiIiIKICAgIHNhZmVfYW5jaG9yID0gc2FuaXRpemVfZmlsZW5hbWUoYW5jaG9yX25hbWUpIG9yICJ1bmtub3duIgoKICAgIGlmIGJ5X2RhdGU6CiAgICAgICAgdG9kYXkgPSBkYXRldGltZS5ub3coKS5zdHJmdGltZSgiJVktJW0tJWQiKQogICAgICAgIGRpcl9wYXRoID0gb3MucGF0aC5qb2luKHNhdmVfcm9vdCwgcGxhdGZvcm0sIHNhZmVfYW5jaG9yLCB0b2RheSkKICAgIGVsc2U6CiAgICAgICAgZGlyX3BhdGggPSBvcy5wYXRoLmpvaW4oc2F2ZV9yb290LCBwbGF0Zm9ybSwgc2FmZV9hbmNob3IpCgogICAgb3MubWFrZWRpcnMoZGlyX3BhdGgsIGV4aXN0X29rPVRydWUpCgogICAgdGltZXN0YW1wID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVIJU0lUyIpCiAgICBzYWZlX3RpdGxlID0gc2FuaXRpemVfZmlsZW5hbWUodGl0bGUpIGlmIHRpdGxlIGVsc2UgIiIKICAgIGlmIHNhZmVfdGl0bGU6CiAgICAgICAgZmlsZW5hbWUgPSBmIntzYWZlX3RpdGxlfV97dGltZXN0YW1wfS57Zm10fSIKICAgIGVsc2U6CiAgICAgICAgZmlsZW5hbWUgPSBmImxpdmVfe3RpbWVzdGFtcH0ue2ZtdH0iCgogICAgcmV0dXJuIG9zLnBhdGguam9pbihkaXJfcGF0aCwgZmlsZW5hbWUpCgoKZGVmIGdldF9maWxlX3NpemUocGF0aDogc3RyKSAtPiBpbnQ6CiAgICAiIiLojrflj5bmlofku7blpKflsI8iIiIKICAgIHRyeToKICAgICAgICByZXR1cm4gb3MucGF0aC5nZXRzaXplKHBhdGgpCiAgICBleGNlcHQgKE9TRXJyb3IsIEZpbGVOb3RGb3VuZEVycm9yKToKICAgICAgICByZXR1cm4gMAoKCmRlZiBvcGVuX2ZpbGVfbG9jYXRpb24ocGF0aDogc3RyKToKICAgICIiIuaJk+W8gOaWh+S7tuaJgOWcqOaWh+S7tuWkuSIiIgogICAgaWYgbm90IG9zLnBhdGguaXNmaWxlKHBhdGgpOgogICAgICAgICMg5aaC5p6c5paH5Lu25LiN5a2Y5Zyo77yM5omT5byA55uu5b2VCiAgICAgICAgZm9sZGVyID0gb3MucGF0aC5kaXJuYW1lKHBhdGgpIG9yIHBhdGgKICAgICAgICBpZiBub3Qgb3MucGF0aC5pc2Rpcihmb2xkZXIpOgogICAgICAgICAgICByZXR1cm4KICAgICAgICBwYXRoID0gZm9sZGVyCiAgICBpbXBvcnQgc3VicHJvY2VzcwogICAgaWYgb3MubmFtZSA9PSAnbnQnOgogICAgICAgIHN1YnByb2Nlc3MucnVuKFsnZXhwbG9yZXInLCAnL3NlbGVjdCwnLCBvcy5wYXRoLm5vcm1wYXRoKHBhdGgpXSwgY2hlY2s9RmFsc2UpCiAgICBlbGlmIG9zLm5hbWUgPT0gJ3Bvc2l4JzoKICAgICAgICBzdWJwcm9jZXNzLnJ1bihbJ3hkZy1vcGVuJywgb3MucGF0aC5kaXJuYW1lKHBhdGgpXSwgY2hlY2s9RmFsc2Up
+import os
+import re
+import time
+from datetime import datetime
+
+
+def sanitize_filename(name: str) -> str:
+    """清理文件名，移除非法字符"""
+    # 移除Windows非法字符
+    name = re.sub(r'[<>:"/\\|?*\x00-\x1f]', '', name)
+    # 移除emoji和特殊Unicode
+    name = re.sub(r'[\U00010000-\U0010ffff]', '', name)
+    # 去除首尾空格和点
+    name = name.strip(' .')
+    return name or "unnamed"
+
+
+def generate_output_path(
+    save_root: str,
+    platform: str,
+    anchor_name: str,
+    title: str = "",
+    fmt: str = "ts",
+    by_date: bool = True,
+) -> str:
+    """生成录制文件保存路径"""
+    safe_anchor = sanitize_filename(anchor_name) or "unknown"
+
+    if by_date:
+        today = datetime.now().strftime("%Y-%m-%d")
+        dir_path = os.path.join(save_root, platform, safe_anchor, today)
+    else:
+        dir_path = os.path.join(save_root, platform, safe_anchor)
+
+    os.makedirs(dir_path, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%H%M%S")
+    safe_title = sanitize_filename(title) if title else ""
+    if safe_title:
+        filename = f"{safe_title}_{timestamp}.{fmt}"
+    else:
+        filename = f"live_{timestamp}.{fmt}"
+
+    return os.path.join(dir_path, filename)
+
+
+def get_file_size(path: str) -> int:
+    """获取文件大小"""
+    try:
+        return os.path.getsize(path)
+    except (OSError, FileNotFoundError):
+        return 0
+
+
+def open_file_location(path: str):
+    """打开文件所在文件夹"""
+    if not os.path.isfile(path):
+        # 如果文件不存在，打开目录
+        folder = os.path.dirname(path) or path
+        if not os.path.isdir(folder):
+            return
+        path = folder
+    import subprocess
+    if os.name == 'nt':
+        subprocess.run(['explorer', '/select,', os.path.normpath(path)], check=False)
+    elif os.name == 'posix':
+        subprocess.run(['xdg-open', os.path.dirname(path)], check=False)

@@ -1,1 +1,106 @@
-IiIiCuebtOaSreeKtuaAgeebkeaOp+e6v+eoiyAtIOWumuaXtuajgOa1i+ebtOaSremXtOW8gOaSreeKtuaAgQoiIiIKaW1wb3J0IHRpbWUKZnJvbSBQeVNpZGU2LlF0Q29yZSBpbXBvcnQgUVRocmVhZCwgU2lnbmFsCmZyb20gbG9ndXJ1IGltcG9ydCBsb2dnZXIKCgpjbGFzcyBNb25pdG9yV29ya2VyKFFUaHJlYWQpOgogICAgIiIi5Y2V5Liq55u05pKt6Ze055qE55uR5o6n5bel5L2c57q/56iLIiIiCgogICAgIyDkv6Hlj7cKICAgIHN0YXR1c19jaGFuZ2VkID0gU2lnbmFsKHN0ciwgc3RyLCBzdHIpICAjICh1cmwsIHN0YXR1cywgZXh0cmFfaW5mbykKICAgIHN0cmVhbV9mb3VuZCA9IFNpZ25hbChzdHIsIGRpY3QpICAgICAgICAgIyAodXJsLCBzdHJlYW1fZGF0YSkKICAgIGVycm9yX29jY3VycmVkID0gU2lnbmFsKHN0ciwgc3RyKSAgICAgICAgIyAodXJsLCBlcnJvcl9tc2cpCiAgICBsb2dfbWVzc2FnZSA9IFNpZ25hbChzdHIsIHN0cikgICAgICAgICAgICMgKGxldmVsLCBtZXNzYWdlKQoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCB1cmw6IHN0ciwgcXVhbGl0eTogc3RyID0gIk9EIiwgaW50ZXJ2YWw6IGludCA9IDEyMCwgcGFyZW50PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18ocGFyZW50KQogICAgICAgIHNlbGYuX3VybCA9IHVybAogICAgICAgIHNlbGYuX3F1YWxpdHkgPSBxdWFsaXR5CiAgICAgICAgc2VsZi5faW50ZXJ2YWwgPSBtYXgoaW50ZXJ2YWwsIDEwKSAgIyDmnIDlsJExMOenkgogICAgICAgIHNlbGYuX3J1bm5pbmcgPSBUcnVlCiAgICAgICAgc2VsZi5fcGF1c2VkID0gRmFsc2UKICAgICAgICBzZWxmLl9wYXJzZXIgPSBOb25lICAjIOW7tui/n+WIneWni+WMlgogICAgICAgIHNlbGYuX3Byb3h5ID0gIiIKICAgICAgICBzZWxmLl9jb29raWUgPSAiIgogICAgICAgIHNlbGYuX3dhc19saXZlID0gRmFsc2UgICMg5LiK5LiA5qyh5qOA5rWL55qE55u05pKt54q25oCB77yM55So5LqO5qOA5rWL54q25oCB57+76L2sCgogICAgZGVmIHNldF9wcm94eShzZWxmLCBwcm94eTogc3RyKToKICAgICAgICBzZWxmLl9wcm94eSA9IHByb3h5CgogICAgZGVmIHNldF9jb29raWUoc2VsZiwgY29va2llOiBzdHIpOgogICAgICAgIHNlbGYuX2Nvb2tpZSA9IGNvb2tpZQoKICAgIGRlZiBwYXVzZShzZWxmKToKICAgICAgICBzZWxmLl9wYXVzZWQgPSBUcnVlCgogICAgZGVmIHJlc3VtZShzZWxmKToKICAgICAgICBzZWxmLl9wYXVzZWQgPSBGYWxzZQoKICAgIGRlZiBzdG9wKHNlbGYpOgogICAgICAgIHNlbGYuX3J1bm5pbmcgPSBGYWxzZQogICAgICAgIHNlbGYud2FpdCg1MDAwKSAgIyDnrYnlvoXnur/nqIvnu5PmnZ8KCiAgICBkZWYgcnVuKHNlbGYpOgogICAgICAgICIiIuS4u+W+queOr++8muWumuaXtuajgOa1i+ebtOaSreeKtuaAgSIiIgogICAgICAgIGZyb20gYXBwLmNvcmUuc3RyZWFtX3BhcnNlciBpbXBvcnQgU3RyZWFtUGFyc2VyCiAgICAgICAgc2VsZi5fcGFyc2VyID0gU3RyZWFtUGFyc2VyKHByb3h5PXNlbGYuX3Byb3h5LCBjb29raWU9c2VsZi5fY29va2llKQoKICAgICAgICBzZWxmLmxvZ19tZXNzYWdlLmVtaXQoImluZm8iLCBmIlt7c2VsZi5fdXJsWzozMF19XSDlvIDlp4vnm5HmjqcuLi4iKQogICAgICAgIHNlbGYuc3RhdHVzX2NoYW5nZWQuZW1pdChzZWxmLl91cmwsICJtb25pdG9yaW5nIiwgIiIpCgogICAgICAgIHdoaWxlIHNlbGYuX3J1bm5pbmc6CiAgICAgICAgICAgIGlmIHNlbGYuX3BhdXNlZDoKICAgICAgICAgICAgICAgIHRpbWUuc2xlZXAoMSkKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAjIOiwg+eUqOa1geino+aekAogICAgICAgICAgICAgICAgZGF0YSA9IHNlbGYuX3BhcnNlci5mZXRjaF9zdHJlYW1fZGF0YV9zeW5jKHNlbGYuX3VybCwgc2VsZi5fcXVhbGl0eSkKCiAgICAgICAgICAgICAgICBpZiBkYXRhIGlzIE5vbmU6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5zdGF0dXNfY2hhbmdlZC5lbWl0KHNlbGYuX3VybCwgImVycm9yIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJ3YXJuaW5nIiwgZiJbe3NlbGYuX3VybFs6MzBdfV0g6I635Y+W55u05pKt5pWw5o2u5aSx6LSlKOi/lOWbnk5vbmUpIikKICAgICAgICAgICAgICAgICAgICAjIOazqOaEj++8muS4jeS/ruaUuSBfd2FzX2xpdmXvvIzpgb/lhY3nvZHnu5zms6Lliqjlr7zoh7TlvZXliLbkuK3mlq0KICAgICAgICAgICAgICAgIGVsaWYgZGF0YS5nZXQoImlzX2xpdmUiLCBGYWxzZSk6CiAgICAgICAgICAgICAgICAgICAgaXNfbmV3X2xpdmUgPSBub3Qgc2VsZi5fd2FzX2xpdmUKICAgICAgICAgICAgICAgICAgICBzZWxmLl93YXNfbGl2ZSA9IFRydWUKICAgICAgICAgICAgICAgICAgICBhbmNob3JfbmFtZSA9IGRhdGEuZ2V0KCJhbmNob3JfbmFtZSIsICIiKSBvciAiIgogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gZGF0YS5nZXQoInRpdGxlIikgb3IgIiIKICAgICAgICAgICAgICAgICAgICAjIOWFiOWPkSBsaXZlIOeKtuaAge+8iOW4puS4u+aSreWQje+8ie+8jOiuqSBVSSDmm7TmlrDmmL7npLoKICAgICAgICAgICAgICAgICAgICBzZWxmLnN0YXR1c19jaGFuZ2VkLmVtaXQoc2VsZi5fdXJsLCAibGl2ZSIsIGFuY2hvcl9uYW1lKQogICAgICAgICAgICAgICAgICAgICMg5LuF5Zyo5LuO5pyq5byA5pKt4oaS5byA5pKt55qE54q25oCB57+76L2s5pe26Kem5Y+R5b2V5Yi2CiAgICAgICAgICAgICAgICAgICAgaWYgaXNfbmV3X2xpdmU6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiaW5mbyIsIGYiW3tzZWxmLl91cmxbOjMwXX1dIOajgOa1i+WIsOW8gOaSrToge2FuY2hvcl9uYW1lfSB8IHt0aXRsZVs6MzBdfSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuc3RyZWFtX2ZvdW5kLmVtaXQoc2VsZi5fdXJsLCBkYXRhKQogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiZGVidWciLCBmIlt7c2VsZi5fdXJsWzozMF19XSDnm7Tmkq3kuK3vvIjmjIHnu63nm5HmjqfvvIk6IHthbmNob3JfbmFtZX0iKQogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICB3YXNfbGl2ZSA9IHNlbGYuX3dhc19saXZlCiAgICAgICAgICAgICAgICAgICAgc2VsZi5fd2FzX2xpdmUgPSBGYWxzZQogICAgICAgICAgICAgICAgICAgIHNlbGYuc3RhdHVzX2NoYW5nZWQuZW1pdChzZWxmLl91cmwsICJvZmZsaW5lIiwgZGF0YS5nZXQoImFuY2hvcl9uYW1lIiwgIiIpIGlmIGRhdGEgZWxzZSAiIikKICAgICAgICAgICAgICAgICAgICBpZiB3YXNfbGl2ZToKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJpbmZvIiwgZiJbe3NlbGYuX3VybFs6MzBdfV0g55u05pKt5bey57uT5p2fOiB7ZGF0YS5nZXQoJ2FuY2hvcl9uYW1lJywgJycpIGlmIGRhdGEgZWxzZSAnJ30iKQogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiZGVidWciLCBmIlt7c2VsZi5fdXJsWzozMF19XSDmnKrlvIDmkq0iKQoKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgc2VsZi5lcnJvcl9vY2N1cnJlZC5lbWl0KHNlbGYuX3VybCwgc3RyKGUpKQogICAgICAgICAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJlcnJvciIsIGYiW3tzZWxmLl91cmxbOjMwXX1dIOebkeaOp+W8guW4uDoge3R5cGUoZSkuX19uYW1lX199OiB7ZX0iKQoKICAgICAgICAgICAgIyDnrYnlvoXkuIvkuIDmrKHmo4DmtYsKICAgICAgICAgICAgZm9yIF8gaW4gcmFuZ2UoaW50KHNlbGYuX2ludGVydmFsKSk6CiAgICAgICAgICAgICAgICBpZiBub3Qgc2VsZi5fcnVubmluZzoKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgaWYgc2VsZi5fcGF1c2VkOgogICAgICAgICAgICAgICAgICAgIHRpbWUuc2xlZXAoMSkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgdGltZS5zbGVlcCgxKQoKICAgICAgICBzZWxmLmxvZ19tZXNzYWdlLmVtaXQoImluZm8iLCBmIlt7c2VsZi5fdXJsWzozMF19XSDnm5Hmjqflt7LlgZzmraIiKQogICAgICAgIHNlbGYuc3RhdHVzX2NoYW5nZWQuZW1pdChzZWxmLl91cmwsICJpZGxlIiwgIiIp
+"""
+直播状态监控线程 - 定时检测直播间开播状态
+"""
+import time
+from PySide6.QtCore import QThread, Signal
+from loguru import logger
+
+
+class MonitorWorker(QThread):
+    """单个直播间的监控工作线程"""
+
+    # 信号
+    status_changed = Signal(str, str, str)  # (url, status, extra_info)
+    stream_found = Signal(str, dict)         # (url, stream_data)
+    error_occurred = Signal(str, str)        # (url, error_msg)
+    log_message = Signal(str, str)           # (level, message)
+
+    def __init__(self, url: str, quality: str = "OD", interval: int = 120, parent=None):
+        super().__init__(parent)
+        self._url = url
+        self._quality = quality
+        self._interval = max(interval, 10)  # 最少10秒
+        self._running = True
+        self._paused = False
+        self._parser = None  # 延迟初始化
+        self._proxy = ""
+        self._cookie = ""
+        self._was_live = False  # 上一次检测的直播状态，用于检测状态翻转
+
+    def set_proxy(self, proxy: str):
+        self._proxy = proxy
+
+    def set_cookie(self, cookie: str):
+        self._cookie = cookie
+
+    def pause(self):
+        self._paused = True
+
+    def resume(self):
+        self._paused = False
+
+    def stop(self):
+        self._running = False
+        self.wait(5000)  # 等待线程结束
+
+    def run(self):
+        """主循环：定时检测直播状态"""
+        from app.core.stream_parser import StreamParser
+        self._parser = StreamParser(proxy=self._proxy, cookie=self._cookie)
+
+        # 保存原始 URL 副本，防止 streamget 库内部修改 self._url
+        original_url = self._url
+
+        self.log_message.emit("info", f"[{original_url[:30]}] 开始监控...")
+        self.status_changed.emit(original_url, "monitoring", "")
+
+        while self._running:
+            if self._paused:
+                time.sleep(1)
+                continue
+
+            try:
+                # 调用流解析
+                data = self._parser.fetch_stream_data_sync(original_url, self._quality)
+
+                if data is None:
+                    self.status_changed.emit(original_url, "error", "")
+                    self.log_message.emit("warning", f"[{original_url[:30]}] 获取直播数据失败(返回None)")
+                    # 注意：不修改 _was_live，避免网络波动导致录制中断
+                elif data.get("is_live", False):
+                    is_new_live = not self._was_live
+                    self._was_live = True
+                    anchor_name = data.get("anchor_name", "") or ""
+                    title = data.get("title") or ""
+                    # 先发 live 状态（带主播名），让 UI 更新显示
+                    self.status_changed.emit(original_url, "live", anchor_name)
+                    # 仅在从未开播→开播的状态翻转时触发录制
+                    if is_new_live:
+                        self.log_message.emit("info", f"[{original_url[:30]}] 检测到开播: {anchor_name} | {title[:30]}")
+                        self.stream_found.emit(original_url, data)
+                    else:
+                        self.log_message.emit("debug", f"[{original_url[:30]}] 直播中（持续监控）: {anchor_name}")
+                else:
+                    was_live = self._was_live
+                    self._was_live = False
+                    self.status_changed.emit(original_url, "offline", data.get("anchor_name", "") if data else "")
+                    if was_live:
+                        self.log_message.emit("info", f"[{original_url[:30]}] 直播已结束: {data.get('anchor_name', '') if data else ''}")
+                    else:
+                        self.log_message.emit("debug", f"[{original_url[:30]}] 未开播")
+
+            except Exception as e:
+                self.error_occurred.emit(original_url, str(e))
+                self.log_message.emit("error", f"[{original_url[:30]}] 监控异常: {type(e).__name__}: {e}")
+
+            # 等待下一次检测
+            for _ in range(int(self._interval)):
+                if not self._running:
+                    break
+                if self._paused:
+                    time.sleep(1)
+                else:
+                    time.sleep(1)
+
+        self.log_message.emit("info", f"[{original_url[:30]}] 监控已停止")
+        self.status_changed.emit(original_url, "idle", "")

@@ -1,1 +1,140 @@
-IiIiCuaWh+S7tuWRveWQjeaooeadv+ezu+e7nyAtIOaUr+aMgeWNoOS9jeespueahOaWh+S7tui3r+W+hOeUn+aIkArlj4LogIMgYmlsaUxpdmUtdG9vbHMg55qE5paH5Lu25ZG95ZCN6KeE5YiZCiIiIgppbXBvcnQgb3MKaW1wb3J0IHJlCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCmZyb20gdHlwaW5nIGltcG9ydCBPcHRpb25hbAoKCiMgV2luZG93cyDpnZ7ms5XlrZfnrKYKX0lMTEVHQUxfQ0hBUlMgPSByZS5jb21waWxlKHInWzw+OiIvXFx8PypceDAwLVx4MWZdJykKCgpkZWYgX3Nhbml0aXplKG5hbWUpIC0+IHN0cjoKICAgICIiIua4heeQhuaWh+S7tuWQjeS4reeahOmdnuazleWtl+espiIiIgogICAgaWYgbm90IG5hbWU6CiAgICAgICAgcmV0dXJuICd1bmtub3duJwogICAgbmFtZSA9IHN0cihuYW1lKQogICAgbmFtZSA9IF9JTExFR0FMX0NIQVJTLnN1YignXycsIG5hbWUpCiAgICBuYW1lID0gbmFtZS5zdHJpcCgnLiAnKQogICAgaWYgbm90IG5hbWU6CiAgICAgICAgbmFtZSA9ICd1bmtub3duJwogICAgcmV0dXJuIG5hbWUKCgpkZWYgZm9ybWF0X2ZpbGVuYW1lKAogICAgdGVtcGxhdGU6IHN0ciwKICAgIHBsYXRmb3JtOiBzdHIgPSAiIiwKICAgIG93bmVyOiBzdHIgPSAiIiwKICAgIHRpdGxlOiBzdHIgPSAiIiwKICAgIHF1YWxpdHk6IHN0ciA9ICIiLAogICAgY2hhbm5lbF9pZDogc3RyID0gIiIsCiAgICBzdGFydF90aW1lOiBPcHRpb25hbFtkYXRldGltZV0gPSBOb25lLAopIC0+IHN0cjoKICAgICIiIgogICAg5qC55o2u5qih5p2/55Sf5oiQ5paH5Lu25ZCNL+i3r+W+hAogICAgCiAgICDljaDkvY3nrKY6CiAgICAgICAge3BsYXRmb3JtfSAgIC0g5bmz5Y+w5ZCN56ewCiAgICAgICAge293bmVyfSAgICAgIC0g5Li75pKt5ZCN56ewCiAgICAgICAge3RpdGxlfSAgICAgIC0g55u05pKt5qCH6aKYCiAgICAgICAge3F1YWxpdHl9ICAgIC0g55S76LSoCiAgICAgICAge2NoYW5uZWxJZH0gIC0g5oi/6Ze05Y+3L+mikemBk0lECiAgICAgICAge3llYXJ9ICAgICAgIC0g5bm05Lu9ICg05L2NKQogICAgICAgIHttb250aH0gICAgICAtIOaciOS7vSAoMDEtMTIpCiAgICAgICAge2RhdGV9ICAgICAgIC0g5pel5pyfICgwMS0zMSkKICAgICAgICB7aG91cn0gICAgICAgLSDlsI/ml7YgKDAwLTIzKQogICAgICAgIHttaW59ICAgICAgICAtIOWIhumSnyAoMDAtNTkpCiAgICAgICAge3NlY30gICAgICAgIC0g56eSICgwMC01OSkKICAgICAgICB7bXN9ICAgICAgICAgLSDmr6vnp5IgKDAwMC05OTkpCiAgICAiIiIKICAgIGlmIHN0YXJ0X3RpbWUgaXMgTm9uZToKICAgICAgICBzdGFydF90aW1lID0gZGF0ZXRpbWUubm93KCkKCiAgICAjIOaPkOWPluaIv+mXtOWPt++8iOS7jiBVUkwg5oiW5Lyg5YWl55qEIGNoYW5uZWxfaWTvvIkKICAgIHJvb21faWQgPSBjaGFubmVsX2lkIG9yICIiCgogICAgcGxhY2Vob2xkZXJzID0gewogICAgICAgICJwbGF0Zm9ybSI6IF9zYW5pdGl6ZShwbGF0Zm9ybSksCiAgICAgICAgIm93bmVyIjogX3Nhbml0aXplKG93bmVyKSwKICAgICAgICAidGl0bGUiOiBfc2FuaXRpemUodGl0bGUpLAogICAgICAgICJxdWFsaXR5IjogX3Nhbml0aXplKHF1YWxpdHkpLAogICAgICAgICJjaGFubmVsSWQiOiBfc2FuaXRpemUocm9vbV9pZCksCiAgICAgICAgInllYXIiOiBzdGFydF90aW1lLnN0cmZ0aW1lKCIlWSIpLAogICAgICAgICJtb250aCI6IHN0YXJ0X3RpbWUuc3RyZnRpbWUoIiVtIiksCiAgICAgICAgImRhdGUiOiBzdGFydF90aW1lLnN0cmZ0aW1lKCIlZCIpLAogICAgICAgICJob3VyIjogc3RhcnRfdGltZS5zdHJmdGltZSgiJUgiKSwKICAgICAgICAibWluIjogc3RhcnRfdGltZS5zdHJmdGltZSgiJU0iKSwKICAgICAgICAic2VjIjogc3RhcnRfdGltZS5zdHJmdGltZSgiJVMiKSwKICAgICAgICAibXMiOiBzdGFydF90aW1lLnN0cmZ0aW1lKCIlZiIpWzozXSwKICAgIH0KCiAgICByZXN1bHQgPSB0ZW1wbGF0ZQogICAgZm9yIGtleSwgdmFsdWUgaW4gcGxhY2Vob2xkZXJzLml0ZW1zKCk6CiAgICAgICAgcmVzdWx0ID0gcmVzdWx0LnJlcGxhY2UoZiJ7e3trZXl9fX0iLCB2YWx1ZSkKCiAgICAjIOa4heeQhui3r+W+hOS4reeahOWkmuS9meaWnOadoOWSjOmdnuazleWtl+espgogICAgcmVzdWx0ID0gb3MucGF0aC5ub3JtcGF0aChyZXN1bHQpCiAgICByZXR1cm4gcmVzdWx0CgoKZGVmIGdlbmVyYXRlX3JlY29yZGluZ19wYXRoKAogICAgc2F2ZV9yb290OiBzdHIsCiAgICB0ZW1wbGF0ZTogc3RyLAogICAgcGxhdGZvcm06IHN0ciA9ICIiLAogICAgb3duZXI6IHN0ciA9ICIiLAogICAgdGl0bGU6IHN0ciA9ICIiLAogICAgcXVhbGl0eTogc3RyID0gIiIsCiAgICBjaGFubmVsX2lkOiBzdHIgPSAiIiwKICAgIGV4dDogc3RyID0gInRzIiwKICAgIHN0YXJ0X3RpbWU6IE9wdGlvbmFsW2RhdGV0aW1lXSA9IE5vbmUsCikgLT4gc3RyOgogICAgIiIiCiAgICDnlJ/miJDlrozmlbTnmoTlvZXliLbmlofku7bot6/lvoQKICAgIAogICAgQXJnczoKICAgICAgICBzYXZlX3Jvb3Q6IOS/neWtmOagueebruW9lQogICAgICAgIHRlbXBsYXRlOiDmlofku7blkb3lkI3mqKHmnb/vvIjnm7jlr7not6/lvoTvvIkKICAgICAgICBwbGF0Zm9ybSwgb3duZXIsIHRpdGxlLCBxdWFsaXR5LCBjaGFubmVsX2lkOiDljaDkvY3nrKbmlbDmja4KICAgICAgICBleHQ6IOaWh+S7tuaJqeWxleWQje+8iOS4jeWQq+eCue+8iQogICAgICAgIHN0YXJ0X3RpbWU6IOW9leWItuW8gOWni+aXtumXtAogICAgCiAgICBSZXR1cm5zOgogICAgICAgIOWujOaVtOeahOe7neWvueaWh+S7tui3r+W+hAogICAgIiIiCiAgICBmb3JtYXR0ZWQgPSBmb3JtYXRfZmlsZW5hbWUoCiAgICAgICAgdGVtcGxhdGUsCiAgICAgICAgcGxhdGZvcm09cGxhdGZvcm0sCiAgICAgICAgb3duZXI9b3duZXIsCiAgICAgICAgdGl0bGU9dGl0bGUsCiAgICAgICAgcXVhbGl0eT1xdWFsaXR5LAogICAgICAgIGNoYW5uZWxfaWQ9Y2hhbm5lbF9pZCwKICAgICAgICBzdGFydF90aW1lPXN0YXJ0X3RpbWUsCiAgICApCgogICAgIyDnoa7kv53mnInmianlsZXlkI0KICAgIGlmIG5vdCBmb3JtYXR0ZWQubG93ZXIoKS5lbmRzd2l0aChmIi57ZXh0Lmxvd2VyKCl9Iik6CiAgICAgICAgZm9ybWF0dGVkID0gZiJ7Zm9ybWF0dGVkfS57ZXh0fSIKCiAgICBmdWxsX3BhdGggPSBvcy5wYXRoLmpvaW4oc2F2ZV9yb290LCBmb3JtYXR0ZWQpCiAgICAKICAgICMg56Gu5L+d55uu5b2V5a2Y5ZyoCiAgICBkaXJfcGF0aCA9IG9zLnBhdGguZGlybmFtZShmdWxsX3BhdGgpCiAgICBpZiBkaXJfcGF0aDoKICAgICAgICBvcy5tYWtlZGlycyhkaXJfcGF0aCwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICAjIOWmguaenOaWh+S7tuW3suWtmOWcqO+8jOa3u+WKoOW6j+WPtwogICAgaWYgb3MucGF0aC5leGlzdHMoZnVsbF9wYXRoKToKICAgICAgICBiYXNlLCBleHRlbnNpb24gPSBvcy5wYXRoLnNwbGl0ZXh0KGZ1bGxfcGF0aCkKICAgICAgICBjb3VudGVyID0gMQogICAgICAgIHdoaWxlIG9zLnBhdGguZXhpc3RzKGZ1bGxfcGF0aCk6CiAgICAgICAgICAgIGZ1bGxfcGF0aCA9IGYie2Jhc2V9X3tjb3VudGVyfXtleHRlbnNpb259IgogICAgICAgICAgICBjb3VudGVyICs9IDEKCiAgICByZXR1cm4gZnVsbF9wYXRoCgoKIyDpu5jorqTmqKHmnb8KREVGQVVMVF9URU1QTEFURSA9ICJ7cGxhdGZvcm19L3tvd25lcn0ve3llYXJ9LXttb250aH0te2RhdGV9IHtob3VyfS17bWlufS17c2VjfSB7dGl0bGV9Igo=
+"""
+文件命名模板系统 - 支持占位符的文件路径生成
+参考 biliLive-tools 的文件命名规则
+"""
+import os
+import re
+from datetime import datetime
+from typing import Optional
+
+
+# Windows 非法字符
+_ILLEGAL_CHARS = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
+
+
+def _sanitize(name) -> str:
+    """清理文件名中的非法字符"""
+    if not name:
+        return 'unknown'
+    name = str(name)
+    name = _ILLEGAL_CHARS.sub('_', name)
+    name = name.strip('. ')
+    if not name:
+        name = 'unknown'
+    return name
+
+
+def format_filename(
+    template: str,
+    platform: str = "",
+    owner: str = "",
+    title: str = "",
+    quality: str = "",
+    channel_id: str = "",
+    start_time: Optional[datetime] = None,
+) -> str:
+    """
+    根据模板生成文件名/路径
+    
+    占位符:
+        {platform}   - 平台名称
+        {owner}      - 主播名称
+        {title}      - 直播标题
+        {quality}    - 画质
+        {channelId}  - 房间号/频道ID
+        {year}       - 年份 (4位)
+        {month}      - 月份 (01-12)
+        {date}       - 日期 (01-31)
+        {hour}       - 小时 (00-23)
+        {min}        - 分钟 (00-59)
+        {sec}        - 秒 (00-59)
+        {ms}         - 毫秒 (000-999)
+    """
+    if start_time is None:
+        start_time = datetime.now()
+
+    # 提取房间号（从 URL 或传入的 channel_id）
+    room_id = channel_id or ""
+
+    placeholders = {
+        "platform": _sanitize(platform),
+        "owner": _sanitize(owner),
+        "title": _sanitize(title),
+        "quality": _sanitize(quality),
+        "channelId": _sanitize(room_id),
+        "year": start_time.strftime("%Y"),
+        "month": start_time.strftime("%m"),
+        "date": start_time.strftime("%d"),
+        "hour": start_time.strftime("%H"),
+        "min": start_time.strftime("%M"),
+        "sec": start_time.strftime("%S"),
+        "ms": start_time.strftime("%f")[:3],
+    }
+
+    result = template
+    for key, value in placeholders.items():
+        result = result.replace(f"{{{key}}}", value)
+
+    # 清理路径中的多余斜杠和非法字符
+    result = os.path.normpath(result)
+    return result
+
+
+def generate_recording_path(
+    save_root: str,
+    template: str,
+    platform: str = "",
+    owner: str = "",
+    title: str = "",
+    quality: str = "",
+    channel_id: str = "",
+    ext: str = "ts",
+    start_time: Optional[datetime] = None,
+) -> str:
+    """
+    生成完整的录制文件路径
+    
+    Args:
+        save_root: 保存根目录
+        template: 文件命名模板（相对路径）
+        platform, owner, title, quality, channel_id: 占位符数据
+        ext: 文件扩展名（不含点）
+        start_time: 录制开始时间
+    
+    Returns:
+        完整的绝对文件路径
+    """
+    formatted = format_filename(
+        template,
+        platform=platform,
+        owner=owner,
+        title=title,
+        quality=quality,
+        channel_id=channel_id,
+        start_time=start_time,
+    )
+
+    # 确保有扩展名
+    if not formatted.lower().endswith(f".{ext.lower()}"):
+        formatted = f"{formatted}.{ext}"
+
+    full_path = os.path.join(save_root, formatted)
+    
+    # 确保目录存在
+    dir_path = os.path.dirname(full_path)
+    if dir_path:
+        os.makedirs(dir_path, exist_ok=True)
+
+    # 如果文件已存在，添加序号
+    if os.path.exists(full_path):
+        base, extension = os.path.splitext(full_path)
+        counter = 1
+        while os.path.exists(full_path):
+            full_path = f"{base}_{counter}{extension}"
+            counter += 1
+
+    return full_path
+
+
+# 默认模板
+DEFAULT_TEMPLATE = "{platform}/{owner}/{year}-{month}-{date} {hour}-{min}-{sec} {title}"

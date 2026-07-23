@@ -1,1 +1,682 @@
-LyoKICogTGl2ZVJlY29yZCBTdHVkaW8gLSDphbfni5fmpoLlv7XniYjmoYzpnaLljJbpo47moLwKICog55m96Imy5bqVICsg6JOd6Imy6YCJ5Lit5oCBICsg5q+b546755KD5Y2h54mHCiAqLwoKLyogPT09PT09PT09PT09PT09PT09PT0g5YWo5bGAID09PT09PT09PT09PT09PT09PT09ICovClFNYWluV2luZG93IHsKICAgIGJhY2tncm91bmQ6ICNGNUY3RkE7Cn0KClFNYWluV2luZG93OjpzZXBhcmF0b3IgewogICAgYmFja2dyb3VuZDogI0U4RUNGMTsKICAgIHdpZHRoOiAxcHg7CiAgICBoZWlnaHQ6IDFweDsKfQoKUVdpZGdldCB7CiAgICBmb250LWZhbWlseTogIk1pY3Jvc29mdCBZYUhlaSIsICJTZWdvZSBVSSIsIHNhbnMtc2VyaWY7CiAgICBmb250LXNpemU6IDEzcHg7CiAgICBjb2xvcjogIzJDM0U1MDsKfQoKLyogPT09PT09PT09PT09PT09PT09PT0g5L6n6L655qCPID09PT09PT09PT09PT09PT09PT09ICovClFXaWRnZXQjc2lkZWJhciB7CiAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI0U4RUNGMTsKfQoKUVdpZGdldCNzaWRlYmFyTG9nbyB7CiAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjRjBGMkY1Owp9CgovKiDlr7zoiKrmjInpkq7lrrnlmaggKi8KUVdpZGdldCNuYXZDb250YWluZXIgewogICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOmhtumDqOW3peWFt+agjyA9PT09PT09PT09PT09PT09PT09PSAqLwpRV2lkZ2V0I3Rvb2xiYXIgewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjRThFQ0YxOwp9CgovKiA9PT09PT09PT09PT09PT09PT09PSDmjInpkq7ln7rnoYAgPT09PT09PT09PT09PT09PT09PT0gKi8KUVB1c2hCdXR0b24gewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGNvbG9yOiAjMkMzRTUwOwogICAgYm9yZGVyOiAxcHggc29saWQgI0RFRTJFODsKICAgIGJvcmRlci1yYWRpdXM6IDhweDsKICAgIHBhZGRpbmc6IDZweCAxNnB4OwogICAgZm9udC1zaXplOiAxM3B4OwogICAgbWluLWhlaWdodDogMThweDsKfQoKUVB1c2hCdXR0b246aG92ZXIgewogICAgYm9yZGVyLWNvbG9yOiAjMkI4QUY1OwogICAgY29sb3I6ICMyQjhBRjU7CiAgICBiYWNrZ3JvdW5kOiAjRjhGQkZGOwp9CgpRUHVzaEJ1dHRvbjpwcmVzc2VkIHsKICAgIGJhY2tncm91bmQ6ICNFOEYwRkU7Cn0KClFQdXNoQnV0dG9uOmRpc2FibGVkIHsKICAgIGJhY2tncm91bmQ6ICNGNUY3RkE7CiAgICBjb2xvcjogI0MwQzhENDsKICAgIGJvcmRlci1jb2xvcjogI0U4RUNGMTsKfQoKLyog5Li75oyJ6ZKuIC0g6JOd6Imy5aGr5YWFICovClFQdXNoQnV0dG9uI3ByaW1hcnlCdG4gewogICAgYmFja2dyb3VuZDogIzJCOEFGNTsKICAgIGNvbG9yOiAjRkZGRkZGOwogICAgYm9yZGVyOiAxcHggc29saWQgIzJCOEFGNTsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwogICAgYm9yZGVyLXJhZGl1czogOHB4Owp9CgpRUHVzaEJ1dHRvbiNwcmltYXJ5QnRuOmhvdmVyIHsKICAgIGJhY2tncm91bmQ6ICMxQTdBRTg7CiAgICBib3JkZXItY29sb3I6ICMxQTdBRTg7Cn0KClFQdXNoQnV0dG9uI3ByaW1hcnlCdG46cHJlc3NlZCB7CiAgICBiYWNrZ3JvdW5kOiAjMTU2OENDOwp9CgovKiDljbHpmanmjInpkq4gKi8KUVB1c2hCdXR0b24jZGFuZ2VyQnRuIHsKICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICBjb2xvcjogI0U3NEMzQzsKICAgIGJvcmRlcjogMXB4IHNvbGlkICNGQURCRDg7Cn0KClFQdXNoQnV0dG9uI2RhbmdlckJ0bjpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjRkRGMkYyOwogICAgYm9yZGVyLWNvbG9yOiAjRTc0QzNDOwp9CgovKiDlm77moIfmjInpkq4gKi8KUVB1c2hCdXR0b24jaWNvbkJ0biB7CiAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKICAgIGJvcmRlcjogMXB4IHNvbGlkIHRyYW5zcGFyZW50OwogICAgYm9yZGVyLXJhZGl1czogNnB4OwogICAgcGFkZGluZzogNnB4OwogICAgbWluLXdpZHRoOiAyOHB4OwogICAgbWluLWhlaWdodDogMjhweDsKICAgIGNvbG9yOiAjOEU5QUFGOwp9CgpRUHVzaEJ1dHRvbiNpY29uQnRuOmhvdmVyIHsKICAgIGJhY2tncm91bmQ6ICNGMEY0RkE7CiAgICBib3JkZXItY29sb3I6ICNERUUyRTg7CiAgICBjb2xvcjogIzJCOEFGNTsKfQoKLyog5bel5YW35oyJ6ZKuKOW4puWbvuaghyvmloflrZcpICovClFQdXNoQnV0dG9uI3Rvb2xCdG4gewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGNvbG9yOiAjMkMzRTUwOwogICAgYm9yZGVyOiAxcHggc29saWQgI0RFRTJFODsKICAgIGJvcmRlci1yYWRpdXM6IDhweDsKICAgIHBhZGRpbmc6IDZweCAxNHB4OwogICAgZm9udC1zaXplOiAxM3B4Owp9CgpRUHVzaEJ1dHRvbiN0b29sQnRuOmhvdmVyIHsKICAgIGJvcmRlci1jb2xvcjogIzJCOEFGNTsKICAgIGNvbG9yOiAjMkI4QUY1Owp9CgpRUHVzaEJ1dHRvbiNncmVlblRvb2xCdG4gewogICAgYmFja2dyb3VuZDogI0YwRkFGMDsKICAgIGNvbG9yOiAjMjdBRTYwOwogICAgYm9yZGVyOiAxcHggc29saWQgI0M4RjBDODsKfQoKUVB1c2hCdXR0b24jZ3JlZW5Ub29sQnRuOmhvdmVyIHsKICAgIGJhY2tncm91bmQ6ICNFMEY1RTA7CiAgICBib3JkZXItY29sb3I6ICMyN0FFNjA7Cn0KClFQdXNoQnV0dG9uI3JlZFRvb2xCdG4gewogICAgYmFja2dyb3VuZDogI0ZERjJGMjsKICAgIGNvbG9yOiAjRTc0QzNDOwogICAgYm9yZGVyOiAxcHggc29saWQgI0ZBREJEODsKfQoKUVB1c2hCdXR0b24jcmVkVG9vbEJ0bjpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjRkNFQUU5OwogICAgYm9yZGVyLWNvbG9yOiAjRTc0QzNDOwp9CgpRUHVzaEJ1dHRvbiNibHVlVG9vbEJ0biB7CiAgICBiYWNrZ3JvdW5kOiAjRjBGNEZBOwogICAgY29sb3I6ICMyQjhBRjU7CiAgICBib3JkZXI6IDFweCBzb2xpZCAjQzhERkZGOwp9CgpRUHVzaEJ1dHRvbiNibHVlVG9vbEJ0bjpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjRTBFQ0ZGOwogICAgYm9yZGVyLWNvbG9yOiAjMkI4QUY1Owp9CgovKiDlj5bmtojmjInpkq4gKi8KUVB1c2hCdXR0b24jY2FuY2VsQnRuIHsKICAgIGJhY2tncm91bmQ6ICNGNUY3RkE7CiAgICBjb2xvcjogIzhFOUFBRjsKICAgIGJvcmRlcjogMXB4IHNvbGlkICNERUUyRTg7Cn0KClFQdXNoQnV0dG9uI2NhbmNlbEJ0bjpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjRUFFRkY1OwogICAgY29sb3I6ICM1QTZGODU7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOihqOagvCA9PT09PT09PT09PT09PT09PT09PSAqLwpRVGFibGVXaWRnZXQgewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGFsdGVybmF0ZS1iYWNrZ3JvdW5kLWNvbG9yOiAjRkFGQkZDOwogICAgYm9yZGVyOiAxcHggc29saWQgI0U4RUNGMTsKICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICBncmlkbGluZS1jb2xvcjogI0YwRjJGNTsKICAgIHNlbGVjdGlvbi1iYWNrZ3JvdW5kLWNvbG9yOiAjRThGMEZFOwogICAgc2VsZWN0aW9uLWNvbG9yOiAjMkMzRTUwOwogICAgY29sb3I6ICMyQzNFNTA7CiAgICBmb250LXNpemU6IDEzcHg7CiAgICBvdXRsaW5lOiBub25lOwp9CgpRVGFibGVXaWRnZXQ6Oml0ZW0gewogICAgcGFkZGluZzogNHB4IDE0cHg7CiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI0YwRjJGNTsKfQoKUVRhYmxlV2lkZ2V0OjppdGVtOmhvdmVyIHsKICAgIGJhY2tncm91bmQ6ICNGOEZCRkY7Cn0KClFIZWFkZXJWaWV3OjpzZWN0aW9uIHsKICAgIGJhY2tncm91bmQ6ICNGNUY3RkE7CiAgICBjb2xvcjogIzVBNkY4NTsKICAgIGJvcmRlcjogbm9uZTsKICAgIGJvcmRlci1yaWdodDogMXB4IHNvbGlkICNFOEVDRjE7CiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI0RFRTJFODsKICAgIHBhZGRpbmc6IDEwcHggMTRweDsKICAgIGZvbnQtc2l6ZTogMTNweDsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwp9CgpRSGVhZGVyVmlldzo6c2VjdGlvbjpmaXJzdCB7CiAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAxMHB4Owp9CgpRSGVhZGVyVmlldzo6c2VjdGlvbjpsYXN0IHsKICAgIGJvcmRlci10b3AtcmlnaHQtcmFkaXVzOiAxMHB4Owp9CgpRSGVhZGVyVmlldzo6c2VjdGlvbjpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjRUFFRkY1Owp9CgpRVGFibGVDb3JuZXJCdXR0b246OnNlY3Rpb24gewogICAgYmFja2dyb3VuZDogI0Y1RjdGQTsKICAgIGJvcmRlcjogbm9uZTsKICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDEwcHg7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOi+k+WFpeahhiA9PT09PT09PT09PT09PT09PT09PSAqLwpRTGluZUVkaXQgewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGNvbG9yOiAjMkMzRTUwOwogICAgYm9yZGVyOiAxcHggc29saWQgI0RFRTJFODsKICAgIGJvcmRlci1yYWRpdXM6IDhweDsKICAgIHBhZGRpbmc6IDhweCAxNHB4OwogICAgZm9udC1zaXplOiAxM3B4Owp9CgpRTGluZUVkaXQ6aG92ZXIgewogICAgYm9yZGVyLWNvbG9yOiAjQzBDOEQ0Owp9CgpRTGluZUVkaXQ6Zm9jdXMgewogICAgYm9yZGVyLWNvbG9yOiAjMkI4QUY1OwogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKfQoKUUxpbmVFZGl0OjpwbGFjZWhvbGRlciB7CiAgICBjb2xvcjogI0IwQjhDNDsKfQoKUUxpbmVFZGl0OmRpc2FibGVkIHsKICAgIGJhY2tncm91bmQ6ICNGNUY3RkE7CiAgICBjb2xvcjogI0MwQzhENDsKfQoKLyogPT09PT09PT09PT09PT09PT09PT0g5LiL5ouJ5qGGID09PT09PT09PT09PT09PT09PT09ICovClFDb21ib0JveCB7CiAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgY29sb3I6ICMyQzNFNTA7CiAgICBib3JkZXI6IDFweCBzb2xpZCAjREVFMkU4OwogICAgYm9yZGVyLXJhZGl1czogOHB4OwogICAgcGFkZGluZzogOHB4IDM2cHggOHB4IDE0cHg7CiAgICBtaW4taGVpZ2h0OiAxOHB4OwogICAgZm9udC1zaXplOiAxM3B4Owp9CgpRQ29tYm9Cb3g6aG92ZXIgewogICAgYm9yZGVyLWNvbG9yOiAjQzBDOEQ0Owp9CgpRQ29tYm9Cb3g6Zm9jdXMsIFFDb21ib0JveDpvbiB7CiAgICBib3JkZXItY29sb3I6ICMyQjhBRjU7Cn0KClFDb21ib0JveDo6ZHJvcC1kb3duIHsKICAgIHN1YmNvbnRyb2wtb3JpZ2luOiBwYWRkaW5nOwogICAgc3ViY29udHJvbC1wb3NpdGlvbjogcmlnaHQgY2VudGVyOwogICAgd2lkdGg6IDMwcHg7CiAgICBib3JkZXI6IG5vbmU7CiAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKfQoKUUNvbWJvQm94IFFBYnN0cmFjdEl0ZW1WaWV3IHsKICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICBjb2xvcjogIzJDM0U1MDsKICAgIGJvcmRlcjogMXB4IHNvbGlkICNERUUyRTg7CiAgICBib3JkZXItcmFkaXVzOiA4cHg7CiAgICBzZWxlY3Rpb24tYmFja2dyb3VuZC1jb2xvcjogI0U4RjBGRTsKICAgIHNlbGVjdGlvbi1jb2xvcjogIzJDM0U1MDsKICAgIHBhZGRpbmc6IDRweDsKICAgIG91dGxpbmU6IG5vbmU7Cn0KClFDb21ib0JveCBRQWJzdHJhY3RJdGVtVmlldzo6aXRlbSB7CiAgICBwYWRkaW5nOiA4cHggMTRweDsKICAgIGJvcmRlci1yYWRpdXM6IDZweDsKICAgIG1pbi1oZWlnaHQ6IDMycHg7Cn0KClFDb21ib0JveCBRQWJzdHJhY3RJdGVtVmlldzo6aXRlbTpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjRjBGNEZBOwp9CgovKiA9PT09PT09PT09PT09PT09PT09PSDmlbDlrZfmoYYgPT09PT09PT09PT09PT09PT09PT0gKi8KUVNwaW5Cb3ggewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGNvbG9yOiAjMkMzRTUwOwogICAgYm9yZGVyOiAxcHggc29saWQgI0RFRTJFODsKICAgIGJvcmRlci1yYWRpdXM6IDhweDsKICAgIHBhZGRpbmc6IDhweCAxNHB4OwogICAgbWluLWhlaWdodDogMThweDsKICAgIGZvbnQtc2l6ZTogMTNweDsKfQoKUVNwaW5Cb3g6aG92ZXIgewogICAgYm9yZGVyLWNvbG9yOiAjQzBDOEQ0Owp9CgpRU3BpbkJveDpmb2N1cyB7CiAgICBib3JkZXItY29sb3I6ICMyQjhBRjU7Cn0KClFTcGluQm94Ojp1cC1idXR0b24sIFFTcGluQm94Ojpkb3duLWJ1dHRvbiB7CiAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKICAgIGJvcmRlcjogbm9uZTsKICAgIHdpZHRoOiAyMHB4Owp9CgpRU3BpbkJveDo6dXAtYnV0dG9uOmhvdmVyLCBRU3BpbkJveDo6ZG93bi1idXR0b246aG92ZXIgewogICAgYmFja2dyb3VuZDogI0YwRjRGQTsKfQoKUVNwaW5Cb3g6OnVwLWFycm93IHsKICAgIHdpZHRoOiA4cHg7CiAgICBoZWlnaHQ6IDhweDsKICAgIGJvcmRlci1sZWZ0OiAycHggc29saWQgIzhFOUFBRjsKICAgIGJvcmRlci1yaWdodDogMnB4IHNvbGlkICM4RTlBQUY7CiAgICBib3JkZXItYm90dG9tOiBub25lOwogICAgYm9yZGVyLXRvcDogMnB4IHNvbGlkICM4RTlBQUY7Cn0KClFTcGluQm94Ojpkb3duLWFycm93IHsKICAgIHdpZHRoOiA4cHg7CiAgICBoZWlnaHQ6IDhweDsKICAgIGJvcmRlci1sZWZ0OiAycHggc29saWQgIzhFOUFBRjsKICAgIGJvcmRlci1yaWdodDogMnB4IHNvbGlkICM4RTlBQUY7CiAgICBib3JkZXItdG9wOiBub25lOwogICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICM4RTlBQUY7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOaWh+acrOe8lui+kSA9PT09PT09PT09PT09PT09PT09PSAqLwpRVGV4dEVkaXQsIFFQbGFpblRleHRFZGl0IHsKICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICBjb2xvcjogIzJDM0U1MDsKICAgIGJvcmRlcjogMXB4IHNvbGlkICNFOEVDRjE7CiAgICBib3JkZXItcmFkaXVzOiAxMHB4OwogICAgcGFkZGluZzogMTJweDsKICAgIGZvbnQtZmFtaWx5OiAiQ29uc29sYXMiLCAiTWljcm9zb2Z0IFlhSGVpIiwgbW9ub3NwYWNlOwogICAgZm9udC1zaXplOiAxMnB4OwogICAgc2VsZWN0aW9uLWJhY2tncm91bmQtY29sb3I6ICNFOEYwRkU7CiAgICBzZWxlY3Rpb24tY29sb3I6ICMyQzNFNTA7Cn0KClFUZXh0RWRpdDpmb2N1cywgUVBsYWluVGV4dEVkaXQ6Zm9jdXMgewogICAgYm9yZGVyLWNvbG9yOiAjMkI4QUY1Owp9CgovKiA9PT09PT09PT09PT09PT09PT09PSDljZXpgInmoYYgPT09PT09PT09PT09PT09PT09PT0gKi8KUVJhZGlvQnV0dG9uIHsKICAgIGNvbG9yOiAjMkMzRTUwOwogICAgc3BhY2luZzogOHB4OwogICAgZm9udC1zaXplOiAxM3B4Owp9CgpRUmFkaW9CdXR0b246OmluZGljYXRvciB7CiAgICB3aWR0aDogMTZweDsKICAgIGhlaWdodDogMTZweDsKICAgIGJvcmRlci1yYWRpdXM6IDhweDsKICAgIGJvcmRlcjogMnB4IHNvbGlkICNDMEM4RDQ7CiAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwp9CgpRUmFkaW9CdXR0b246OmluZGljYXRvcjpob3ZlciB7CiAgICBib3JkZXItY29sb3I6ICMyQjhBRjU7Cn0KClFSYWRpb0J1dHRvbjo6aW5kaWNhdG9yOmNoZWNrZWQgewogICAgYmFja2dyb3VuZDogIzJCOEFGNTsKICAgIGJvcmRlci1jb2xvcjogIzJCOEFGNTsKfQoKLyogPT09PT09PT09PT09PT09PT09PT0g5aSN6YCJ5qGGID09PT09PT09PT09PT09PT09PT09ICovClFDaGVja0JveCB7CiAgICBjb2xvcjogIzJDM0U1MDsKICAgIHNwYWNpbmc6IDhweDsKICAgIGZvbnQtc2l6ZTogMTNweDsKfQoKUUNoZWNrQm94OjppbmRpY2F0b3IgewogICAgd2lkdGg6IDE4cHg7CiAgICBoZWlnaHQ6IDE4cHg7CiAgICBib3JkZXItcmFkaXVzOiA0cHg7CiAgICBib3JkZXI6IDJweCBzb2xpZCAjQzBDOEQ0OwogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKfQoKUUNoZWNrQm94OjppbmRpY2F0b3I6aG92ZXIgewogICAgYm9yZGVyLWNvbG9yOiAjMkI4QUY1Owp9CgpRQ2hlY2tCb3g6OmluZGljYXRvcjpjaGVja2VkIHsKICAgIGJhY2tncm91bmQ6ICMyQjhBRjU7CiAgICBib3JkZXItY29sb3I6ICMyQjhBRjU7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOWIhue7hOahhiA9PT09PT09PT09PT09PT09PT09PSAqLwpRR3JvdXBCb3ggewogICAgY29sb3I6ICMyQzNFNTA7CiAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgYm9yZGVyOiAxcHggc29saWQgI0U4RUNGMTsKICAgIGJvcmRlci1yYWRpdXM6IDEycHg7CiAgICBtYXJnaW4tdG9wOiAxNnB4OwogICAgcGFkZGluZzogMjBweCAxNnB4IDE2cHggMTZweDsKICAgIGZvbnQtc2l6ZTogMTRweDsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwp9CgpRR3JvdXBCb3g6OnRpdGxlIHsKICAgIHN1YmNvbnRyb2wtb3JpZ2luOiBtYXJnaW47CiAgICBzdWJjb250cm9sLXBvc2l0aW9uOiB0b3AgbGVmdDsKICAgIGxlZnQ6IDE2cHg7CiAgICBwYWRkaW5nOiAwIDhweDsKICAgIGNvbG9yOiAjNUE2Rjg1Owp9CgovKiA9PT09PT09PT09PT09PT09PT09PSDmu5rliqjljLrln58gPT09PT09PT09PT09PT09PT09PT0gKi8KUVNjcm9sbEFyZWEgewogICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7CiAgICBib3JkZXI6IG5vbmU7Cn0KClFTY3JvbGxBcmVhID4gUVdpZGdldCA+IFFXaWRnZXQgewogICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7Cn0KClFTY3JvbGxCYXI6dmVydGljYWwgewogICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7CiAgICB3aWR0aDogNnB4OwogICAgbWFyZ2luOiAwOwogICAgYm9yZGVyOiBub25lOwp9CgpRU2Nyb2xsQmFyOjpoYW5kbGU6dmVydGljYWwgewogICAgYmFja2dyb3VuZDogI0QwRDhFNDsKICAgIGJvcmRlci1yYWRpdXM6IDNweDsKICAgIG1pbi1oZWlnaHQ6IDMwcHg7Cn0KClFTY3JvbGxCYXI6OmhhbmRsZTp2ZXJ0aWNhbDpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjQjBCOEM0Owp9CgpRU2Nyb2xsQmFyOjphZGQtbGluZTp2ZXJ0aWNhbCwgUVNjcm9sbEJhcjo6c3ViLWxpbmU6dmVydGljYWwgewogICAgaGVpZ2h0OiAwOwogICAgYm9yZGVyOiBub25lOwogICAgYmFja2dyb3VuZDogbm9uZTsKfQoKUVNjcm9sbEJhcjo6YWRkLXBhZ2U6dmVydGljYWwsIFFTY3JvbGxCYXI6OnN1Yi1wYWdlOnZlcnRpY2FsIHsKICAgIGJhY2tncm91bmQ6IG5vbmU7Cn0KClFTY3JvbGxCYXI6aG9yaXpvbnRhbCB7CiAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKICAgIGhlaWdodDogNnB4OwogICAgbWFyZ2luOiAwOwogICAgYm9yZGVyOiBub25lOwp9CgpRU2Nyb2xsQmFyOjpoYW5kbGU6aG9yaXpvbnRhbCB7CiAgICBiYWNrZ3JvdW5kOiAjRDBEOEU0OwogICAgYm9yZGVyLXJhZGl1czogM3B4OwogICAgbWluLXdpZHRoOiAzMHB4Owp9CgpRU2Nyb2xsQmFyOjpoYW5kbGU6aG9yaXpvbnRhbDpob3ZlciB7CiAgICBiYWNrZ3JvdW5kOiAjQjBCOEM0Owp9CgpRU2Nyb2xsQmFyOjphZGQtbGluZTpob3Jpem9udGFsLCBRU2Nyb2xsQmFyOjpzdWItbGluZTpob3Jpem9udGFsIHsKICAgIHdpZHRoOiAwOwogICAgYm9yZGVyOiBub25lOwogICAgYmFja2dyb3VuZDogbm9uZTsKfQoKUVNjcm9sbEJhcjo6YWRkLXBhZ2U6aG9yaXpvbnRhbCwgUVNjcm9sbEJhcjo6c3ViLXBhZ2U6aG9yaXpvbnRhbCB7CiAgICBiYWNrZ3JvdW5kOiBub25lOwp9CgovKiA9PT09PT09PT09PT09PT09PT09PSDmoIfnrb7pobUgPT09PT09PT09PT09PT09PT09PT0gKi8KUVRhYldpZGdldDo6cGFuZSB7CiAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgYm9yZGVyOiAxcHggc29saWQgI0U4RUNGMTsKICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICB0b3A6IC0xcHg7Cn0KClFUYWJCYXI6OnRhYiB7CiAgICBiYWNrZ3JvdW5kOiAjRjVGN0ZBOwogICAgY29sb3I6ICM4RTlBQUY7CiAgICBib3JkZXI6IDFweCBzb2xpZCAjRThFQ0YxOwogICAgYm9yZGVyLWJvdHRvbTogbm9uZTsKICAgIGJvcmRlci10b3AtbGVmdC1yYWRpdXM6IDhweDsKICAgIGJvcmRlci10b3AtcmlnaHQtcmFkaXVzOiA4cHg7CiAgICBwYWRkaW5nOiAxMHB4IDI0cHg7CiAgICBtYXJnaW4tcmlnaHQ6IDJweDsKICAgIGZvbnQtc2l6ZTogMTNweDsKfQoKUVRhYkJhcjo6dGFiOnNlbGVjdGVkIHsKICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICBjb2xvcjogIzJCOEFGNTsKICAgIGJvcmRlci1jb2xvcjogI0U4RUNGMTsKICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjMkI4QUY1Owp9CgpRVGFiQmFyOjp0YWI6aG92ZXI6IXNlbGVjdGVkIHsKICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICBjb2xvcjogIzVBNkY4NTsKfQoKLyogPT09PT09PT09PT09PT09PT09PT0g54q25oCB5qCPID09PT09PT09PT09PT09PT09PT09ICovClFTdGF0dXNCYXIgewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGNvbG9yOiAjOEU5QUFGOwogICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkICNFOEVDRjE7CiAgICBmb250LXNpemU6IDEycHg7CiAgICBwYWRkaW5nOiAycHggOHB4Owp9CgpRU3RhdHVzQmFyOjppdGVtIHsKICAgIGJvcmRlcjogbm9uZTsKfQoKUVN0YXR1c0JhciBRTGFiZWwgewogICAgY29sb3I6ICM4RTlBQUY7CiAgICBwYWRkaW5nOiAwIDhweDsKICAgIGJvcmRlci1yaWdodDogMXB4IHNvbGlkICNGMEYyRjU7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOWPs+mUruiPnOWNlSA9PT09PT09PT09PT09PT09PT09PSAqLwpRTWVudSB7CiAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgY29sb3I6ICMyQzNFNTA7CiAgICBib3JkZXI6IDFweCBzb2xpZCAjRThFQ0YxOwogICAgYm9yZGVyLXJhZGl1czogMTBweDsKICAgIHBhZGRpbmc6IDZweDsKfQoKUU1lbnU6Oml0ZW0gewogICAgcGFkZGluZzogOHB4IDM2cHggOHB4IDE2cHg7CiAgICBib3JkZXItcmFkaXVzOiA2cHg7CiAgICBtYXJnaW46IDJweCA0cHg7Cn0KClFNZW51OjppdGVtOnNlbGVjdGVkIHsKICAgIGJhY2tncm91bmQ6ICNFOEYwRkU7CiAgICBjb2xvcjogIzJCOEFGNTsKfQoKUU1lbnU6OnNlcGFyYXRvciB7CiAgICBoZWlnaHQ6IDFweDsKICAgIGJhY2tncm91bmQ6ICNGMEYyRjU7CiAgICBtYXJnaW46IDRweCAxMHB4Owp9CgovKiA9PT09PT09PT09PT09PT09PT09PSDlr7nor53moYYgPT09PT09PT09PT09PT09PT09PT0gKi8KUURpYWxvZyB7CiAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgYm9yZGVyOiAxcHggc29saWQgI0U4RUNGMTsKICAgIGJvcmRlci1yYWRpdXM6IDEycHg7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOW3peWFt+aPkOekuiA9PT09PT09PT09PT09PT09PT09PSAqLwpRVG9vbFRpcCB7CiAgICBiYWNrZ3JvdW5kOiAjMkMzRTUwOwogICAgY29sb3I6ICNGRkZGRkY7CiAgICBib3JkZXI6IG5vbmU7CiAgICBib3JkZXItcmFkaXVzOiA2cHg7CiAgICBwYWRkaW5nOiA2cHggMTJweDsKICAgIGZvbnQtc2l6ZTogMTJweDsKfQoKLyogPT09PT09PT09PT09PT09PT09PT0g5qCH562+ID09PT09PT09PT09PT09PT09PT09ICovClFMYWJlbCB7CiAgICBjb2xvcjogIzJDM0U1MDsKICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OwogICAgZm9udC1zaXplOiAxM3B4Owp9CgpRTGFiZWwjdGl0bGVMYWJlbCB7CiAgICBjb2xvcjogIzJDM0U1MDsKICAgIGZvbnQtc2l6ZTogMTZweDsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwp9CgpRTGFiZWwjc3VidGl0bGVMYWJlbCB7CiAgICBjb2xvcjogIzhFOUFBRjsKICAgIGZvbnQtc2l6ZTogMTNweDsKfQoKUUxhYmVsI3N0YXR1c1JlY29yZGluZyB7CiAgICBjb2xvcjogIzJCOEFGNTsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwp9CgpRTGFiZWwjc3RhdHVzTW9uaXRvcmluZyB7CiAgICBjb2xvcjogI0YzOUMxMjsKICAgIGZvbnQtd2VpZ2h0OiBib2xkOwp9CgpRTGFiZWwjc3RhdHVzT2ZmbGluZSB7CiAgICBjb2xvcjogI0IwQjhDNDsKfQoKUUxhYmVsI3N0YXR1c0Vycm9yIHsKICAgIGNvbG9yOiAjRTc0QzNDOwogICAgZm9udC13ZWlnaHQ6IGJvbGQ7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOi/m+W6puadoSA9PT09PT09PT09PT09PT09PT09PSAqLwpRUHJvZ3Jlc3NCYXIgewogICAgYmFja2dyb3VuZDogI0YwRjJGNTsKICAgIGJvcmRlcjogbm9uZTsKICAgIGJvcmRlci1yYWRpdXM6IDNweDsKICAgIGhlaWdodDogM3B4OwogICAgdGV4dC1hbGlnbjogY2VudGVyOwp9CgpRUHJvZ3Jlc3NCYXI6OmNodW5rIHsKICAgIGJhY2tncm91bmQ6ICMyQjhBRjU7CiAgICBib3JkZXItcmFkaXVzOiAzcHg7Cn0KCi8qID09PT09PT09PT09PT09PT09PT09IOW9leWItuWNoeeJhyA9PT09PT09PT09PT09PT09PT09PSAqLwpRV2lkZ2V0I3JlY29yZGluZ0NhcmQgewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGJvcmRlcjogMXB4IHNvbGlkICNFOEVDRjE7CiAgICBib3JkZXItcmFkaXVzOiAxMnB4Owp9CgpRV2lkZ2V0I3JlY29yZGluZ0NhcmQ6aG92ZXIgewogICAgYm9yZGVyLWNvbG9yOiAjQzhERkZGOwogICAgYm94LXNoYWRvdzogMCAycHggMTZweCByZ2JhKDQzLCAxMzgsIDI0NSwgMC4wOCk7Cn0KCi8qIOebtOaSremXtOihjOWNoeeJhyAqLwpRV2lkZ2V0I3Jvb21Sb3cgewogICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgIGJvcmRlcjogMXB4IHNvbGlkICNGMEYyRjU7CiAgICBib3JkZXItcmFkaXVzOiAxMHB4Owp9CgpRV2lkZ2V0I3Jvb21Sb3c6aG92ZXIgewogICAgYmFja2dyb3VuZDogI0ZBRkJGRjsKICAgIGJvcmRlci1jb2xvcjogI0UwRThGNTsKfQoKLyog55u05pKt6Ze06KGM5Y2h54mHIC0g6YCJ5Lit5oCBICovClFXaWRnZXQjcm9vbVJvd1NlbGVjdGVkIHsKICAgIGJhY2tncm91bmQ6ICNGMEY2RkY7CiAgICBib3JkZXI6IDJweCBzb2xpZCAjMkI4QUY1OwogICAgYm9yZGVyLXJhZGl1czogMTBweDsKfQoKUVdpZGdldCNyb29tUm93U2VsZWN0ZWQ6aG92ZXIgewogICAgYmFja2dyb3VuZDogI0U4RjBGRTsKICAgIGJvcmRlci1jb2xvcjogIzFBN0FFODsKfQ==
+/*
+ * LiveRecord Studio - 酷狗概念版桌面化风格
+ * 白色底 + 蓝色选中态 + 毛玻璃卡片
+ */
+
+/* ==================== 全局 ==================== */
+QMainWindow {
+    background: #F5F7FA;
+}
+
+QMainWindow::separator {
+    background: #E8ECF1;
+    width: 1px;
+    height: 1px;
+}
+
+QWidget {
+    font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+    font-size: 13px;
+    color: #2C3E50;
+}
+
+/* ==================== 侧边栏 ==================== */
+QWidget#sidebar {
+    background: #FFFFFF;
+    border-right: 1px solid #E8ECF1;
+}
+
+QWidget#sidebarLogo {
+    background: transparent;
+    border-bottom: 1px solid #F0F2F5;
+}
+
+/* 导航按钮容器 */
+QWidget#navContainer {
+    background: transparent;
+}
+
+/* ==================== 顶部工具栏 ==================== */
+QWidget#toolbar {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E8ECF1;
+}
+
+/* ==================== 按钮基础 ==================== */
+QPushButton {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #DEE2E8;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-size: 13px;
+    min-height: 18px;
+}
+
+QPushButton:hover {
+    border-color: #2B8AF5;
+    color: #2B8AF5;
+    background: #F8FBFF;
+}
+
+QPushButton:pressed {
+    background: #E8F0FE;
+}
+
+QPushButton:disabled {
+    background: #F5F7FA;
+    color: #C0C8D4;
+    border-color: #E8ECF1;
+}
+
+/* 主按钮 - 蓝色填充 */
+QPushButton#primaryBtn {
+    background: #2B8AF5;
+    color: #FFFFFF;
+    border: 1px solid #2B8AF5;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+QPushButton#primaryBtn:hover {
+    background: #1A7AE8;
+    border-color: #1A7AE8;
+}
+
+QPushButton#primaryBtn:pressed {
+    background: #1568CC;
+}
+
+/* 危险按钮 */
+QPushButton#dangerBtn {
+    background: #FFFFFF;
+    color: #E74C3C;
+    border: 1px solid #FADBD8;
+}
+
+QPushButton#dangerBtn:hover {
+    background: #FDF2F2;
+    border-color: #E74C3C;
+}
+
+/* 图标按钮 */
+QPushButton#iconBtn {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 6px;
+    min-width: 28px;
+    min-height: 28px;
+    color: #8E9AAF;
+}
+
+QPushButton#iconBtn:hover {
+    background: #F0F4FA;
+    border-color: #DEE2E8;
+    color: #2B8AF5;
+}
+
+/* 工具按钮(带图标+文字) */
+QPushButton#toolBtn {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #DEE2E8;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 13px;
+}
+
+QPushButton#toolBtn:hover {
+    border-color: #2B8AF5;
+    color: #2B8AF5;
+}
+
+QPushButton#greenToolBtn {
+    background: #F0FAF0;
+    color: #27AE60;
+    border: 1px solid #C8F0C8;
+}
+
+QPushButton#greenToolBtn:hover {
+    background: #E0F5E0;
+    border-color: #27AE60;
+}
+
+QPushButton#redToolBtn {
+    background: #FDF2F2;
+    color: #E74C3C;
+    border: 1px solid #FADBD8;
+}
+
+QPushButton#redToolBtn:hover {
+    background: #FCEAE9;
+    border-color: #E74C3C;
+}
+
+QPushButton#blueToolBtn {
+    background: #F0F4FA;
+    color: #2B8AF5;
+    border: 1px solid #C8DFFF;
+}
+
+QPushButton#blueToolBtn:hover {
+    background: #E0ECFF;
+    border-color: #2B8AF5;
+}
+
+/* 取消按钮 */
+QPushButton#cancelBtn {
+    background: #F5F7FA;
+    color: #8E9AAF;
+    border: 1px solid #DEE2E8;
+}
+
+QPushButton#cancelBtn:hover {
+    background: #EAEFF5;
+    color: #5A6F85;
+}
+
+/* ==================== 表格 ==================== */
+QTableWidget {
+    background: #FFFFFF;
+    alternate-background-color: #FAFBFC;
+    border: 1px solid #E8ECF1;
+    border-radius: 10px;
+    gridline-color: #F0F2F5;
+    selection-background-color: #E8F0FE;
+    selection-color: #2C3E50;
+    color: #2C3E50;
+    font-size: 13px;
+    outline: none;
+}
+
+QTableWidget::item {
+    padding: 4px 14px;
+    border-bottom: 1px solid #F0F2F5;
+}
+
+QTableWidget::item:hover {
+    background: #F8FBFF;
+}
+
+QHeaderView::section {
+    background: #F5F7FA;
+    color: #5A6F85;
+    border: none;
+    border-right: 1px solid #E8ECF1;
+    border-bottom: 1px solid #DEE2E8;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QHeaderView::section:first {
+    border-top-left-radius: 10px;
+}
+
+QHeaderView::section:last {
+    border-top-right-radius: 10px;
+}
+
+QHeaderView::section:hover {
+    background: #EAEFF5;
+}
+
+QTableCornerButton::section {
+    background: #F5F7FA;
+    border: none;
+    border-top-left-radius: 10px;
+}
+
+/* ==================== 输入框 ==================== */
+QLineEdit {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #DEE2E8;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+}
+
+QLineEdit:hover {
+    border-color: #C0C8D4;
+}
+
+QLineEdit:focus {
+    border-color: #2B8AF5;
+    background: #FFFFFF;
+}
+
+QLineEdit::placeholder {
+    color: #B0B8C4;
+}
+
+QLineEdit:disabled {
+    background: #F5F7FA;
+    color: #C0C8D4;
+}
+
+/* ==================== 下拉框 ==================== */
+QComboBox {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #DEE2E8;
+    border-radius: 8px;
+    padding: 8px 36px 8px 14px;
+    min-height: 18px;
+    font-size: 13px;
+}
+
+QComboBox:hover {
+    border-color: #C0C8D4;
+}
+
+QComboBox:focus, QComboBox:on {
+    border-color: #2B8AF5;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: right center;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+QComboBox QAbstractItemView {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #DEE2E8;
+    border-radius: 8px;
+    selection-background-color: #E8F0FE;
+    selection-color: #2C3E50;
+    padding: 4px;
+    outline: none;
+}
+
+QComboBox QAbstractItemView::item {
+    padding: 8px 14px;
+    border-radius: 6px;
+    min-height: 32px;
+}
+
+QComboBox QAbstractItemView::item:hover {
+    background: #F0F4FA;
+}
+
+/* ==================== 数字框 ==================== */
+QSpinBox {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #DEE2E8;
+    border-radius: 8px;
+    padding: 8px 14px;
+    min-height: 18px;
+    font-size: 13px;
+}
+
+QSpinBox:hover {
+    border-color: #C0C8D4;
+}
+
+QSpinBox:focus {
+    border-color: #2B8AF5;
+}
+
+QSpinBox::up-button, QSpinBox::down-button {
+    background: transparent;
+    border: none;
+    width: 20px;
+}
+
+QSpinBox::up-button:hover, QSpinBox::down-button:hover {
+    background: #F0F4FA;
+}
+
+QSpinBox::up-arrow {
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #8E9AAF;
+    border-right: 2px solid #8E9AAF;
+    border-bottom: none;
+    border-top: 2px solid #8E9AAF;
+}
+
+QSpinBox::down-arrow {
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #8E9AAF;
+    border-right: 2px solid #8E9AAF;
+    border-top: none;
+    border-bottom: 2px solid #8E9AAF;
+}
+
+/* ==================== 文本编辑 ==================== */
+QTextEdit, QPlainTextEdit {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #E8ECF1;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: "Consolas", "Microsoft YaHei", monospace;
+    font-size: 12px;
+    selection-background-color: #E8F0FE;
+    selection-color: #2C3E50;
+}
+
+QTextEdit:focus, QPlainTextEdit:focus {
+    border-color: #2B8AF5;
+}
+
+/* ==================== 单选框 ==================== */
+QRadioButton {
+    color: #2C3E50;
+    spacing: 8px;
+    font-size: 13px;
+}
+
+QRadioButton::indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 2px solid #C0C8D4;
+    background: #FFFFFF;
+}
+
+QRadioButton::indicator:hover {
+    border-color: #2B8AF5;
+}
+
+QRadioButton::indicator:checked {
+    background: #2B8AF5;
+    border-color: #2B8AF5;
+}
+
+/* ==================== 复选框 ==================== */
+QCheckBox {
+    color: #2C3E50;
+    spacing: 8px;
+    font-size: 13px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 2px solid #C0C8D4;
+    background: #FFFFFF;
+}
+
+QCheckBox::indicator:hover {
+    border-color: #2B8AF5;
+}
+
+QCheckBox::indicator:checked {
+    background: #2B8AF5;
+    border-color: #2B8AF5;
+}
+
+/* ==================== 分组框 ==================== */
+QGroupBox {
+    color: #2C3E50;
+    background: #FFFFFF;
+    border: 1px solid #E8ECF1;
+    border-radius: 12px;
+    margin-top: 16px;
+    padding: 20px 16px 16px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 16px;
+    padding: 0 8px;
+    color: #5A6F85;
+}
+
+/* ==================== 滚动区域 ==================== */
+QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+QScrollArea > QWidget > QWidget {
+    background: transparent;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 6px;
+    margin: 0;
+    border: none;
+}
+
+QScrollBar::handle:vertical {
+    background: #D0D8E4;
+    border-radius: 3px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #B0B8C4;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+    border: none;
+    background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 6px;
+    margin: 0;
+    border: none;
+}
+
+QScrollBar::handle:horizontal {
+    background: #D0D8E4;
+    border-radius: 3px;
+    min-width: 30px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #B0B8C4;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0;
+    border: none;
+    background: none;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+/* ==================== 标签页 ==================== */
+QTabWidget::pane {
+    background: #FFFFFF;
+    border: 1px solid #E8ECF1;
+    border-radius: 10px;
+    top: -1px;
+}
+
+QTabBar::tab {
+    background: #F5F7FA;
+    color: #8E9AAF;
+    border: 1px solid #E8ECF1;
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px 24px;
+    margin-right: 2px;
+    font-size: 13px;
+}
+
+QTabBar::tab:selected {
+    background: #FFFFFF;
+    color: #2B8AF5;
+    border-color: #E8ECF1;
+    border-bottom: 2px solid #2B8AF5;
+}
+
+QTabBar::tab:hover:!selected {
+    background: #FFFFFF;
+    color: #5A6F85;
+}
+
+/* ==================== 状态栏 ==================== */
+QStatusBar {
+    background: #FFFFFF;
+    color: #8E9AAF;
+    border-top: 1px solid #E8ECF1;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+QStatusBar::item {
+    border: none;
+}
+
+QStatusBar QLabel {
+    color: #8E9AAF;
+    padding: 0 8px;
+    border-right: 1px solid #F0F2F5;
+}
+
+/* ==================== 右键菜单 ==================== */
+QMenu {
+    background: #FFFFFF;
+    color: #2C3E50;
+    border: 1px solid #E8ECF1;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+QMenu::item {
+    padding: 8px 36px 8px 16px;
+    border-radius: 6px;
+    margin: 2px 4px;
+}
+
+QMenu::item:selected {
+    background: #E8F0FE;
+    color: #2B8AF5;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #F0F2F5;
+    margin: 4px 10px;
+}
+
+/* ==================== 对话框 ==================== */
+QDialog {
+    background: #FFFFFF;
+    border: 1px solid #E8ECF1;
+    border-radius: 12px;
+}
+
+/* ==================== 工具提示 ==================== */
+QToolTip {
+    background: #2C3E50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+/* ==================== 标签 ==================== */
+QLabel {
+    color: #2C3E50;
+    background: transparent;
+    font-size: 13px;
+}
+
+QLabel#titleLabel {
+    color: #2C3E50;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#subtitleLabel {
+    color: #8E9AAF;
+    font-size: 13px;
+}
+
+QLabel#statusRecording {
+    color: #2B8AF5;
+    font-weight: bold;
+}
+
+QLabel#statusMonitoring {
+    color: #F39C12;
+    font-weight: bold;
+}
+
+QLabel#statusOffline {
+    color: #B0B8C4;
+}
+
+QLabel#statusError {
+    color: #E74C3C;
+    font-weight: bold;
+}
+
+/* ==================== 进度条 ==================== */
+QProgressBar {
+    background: #F0F2F5;
+    border: none;
+    border-radius: 3px;
+    height: 3px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background: #2B8AF5;
+    border-radius: 3px;
+}
+
+/* ==================== 录制卡片 ==================== */
+QWidget#recordingCard {
+    background: #FFFFFF;
+    border: 1px solid #E8ECF1;
+    border-radius: 12px;
+}
+
+QWidget#recordingCard:hover {
+    border-color: #C8DFFF;
+    box-shadow: 0 2px 16px rgba(43, 138, 245, 0.08);
+}
+
+/* 直播间行卡片 */
+QWidget#roomRow {
+    background: #FFFFFF;
+    border: 1px solid #F0F2F5;
+    border-radius: 10px;
+}
+
+QWidget#roomRow:hover {
+    background: #FAFBFF;
+    border-color: #E0E8F5;
+}
+
+/* 直播间行卡片 - 选中态 */
+QWidget#roomRowSelected {
+    background: #F0F6FF;
+    border: 2px solid #2B8AF5;
+    border-radius: 10px;
+}
+
+QWidget#roomRowSelected:hover {
+    background: #E8F0FE;
+    border-color: #1A7AE8;
+}

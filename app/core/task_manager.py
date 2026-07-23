@@ -1,1 +1,302 @@
-IiIiCuWFqOWxgOS7u+WKoeiwg+W6pueuoeeQhuWZqCAtIOWNj+iwg01vbml0b3LlkoxSZWNvcmRlcgoiIiIKaW1wb3J0IG9zCmltcG9ydCB0aW1lCmltcG9ydCBzdWJwcm9jZXNzCmZyb20gUHlTaWRlNi5RdENvcmUgaW1wb3J0IFFPYmplY3QsIFNpZ25hbCwgUVRpbWVyLCBRVGhyZWFkCmZyb20gbG9ndXJ1IGltcG9ydCBsb2dnZXIKZnJvbSBhcHAuY29yZS5tb25pdG9yIGltcG9ydCBNb25pdG9yV29ya2VyCmZyb20gYXBwLmNvcmUucmVjb3JkZXIgaW1wb3J0IFJlY29yZGVyCgoKY2xhc3MgX0NvbnZlcnRUaHJlYWQoUVRocmVhZCk6CiAgICAiIiLlkI7lj7DovaznoIHnur/nqIvvvIjlj6/lj5bmtojvvIkiIiIKICAgIGxvZyA9IFNpZ25hbChzdHIsIHN0cikKICAgIGZpbmlzaGVkID0gU2lnbmFsKHN0ciwgc3RyLCBib29sKSAgIyAoaW5wdXRfcGF0aCwgb3V0cHV0X3BhdGgsIHN1Y2Nlc3MpCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGZmbXBlZ19wYXRoLCBpbnB1dF9wYXRoLCBvdXRwdXRfcGF0aCwgcGFyZW50PU5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18ocGFyZW50KQogICAgICAgIHNlbGYuX2ZmbXBlZ19wYXRoID0gZmZtcGVnX3BhdGgKICAgICAgICBzZWxmLl9pbnB1dCA9IGlucHV0X3BhdGgKICAgICAgICBzZWxmLl9vdXRwdXQgPSBvdXRwdXRfcGF0aAogICAgICAgIHNlbGYuX2NhbmNlbGxlZCA9IEZhbHNlCiAgICAgICAgc2VsZi5fcHJvYyA9IE5vbmUKCiAgICBkZWYgY2FuY2VsKHNlbGYpOgogICAgICAgICIiIuWPlua2iOi9rOeggSIiIgogICAgICAgIHNlbGYuX2NhbmNlbGxlZCA9IFRydWUKICAgICAgICBpZiBzZWxmLl9wcm9jIGFuZCBzZWxmLl9wcm9jLnBvbGwoKSBpcyBOb25lOgogICAgICAgICAgICBzZWxmLl9wcm9jLnRlcm1pbmF0ZSgpCgogICAgZGVmIHJ1bihzZWxmKToKICAgICAgICBjbWQgPSBbCiAgICAgICAgICAgIHNlbGYuX2ZmbXBlZ19wYXRoLCAnLXknLAogICAgICAgICAgICAnLWknLCBzZWxmLl9pbnB1dCwKICAgICAgICAgICAgJy1jOnYnLCAnY29weScsICctYzphJywgJ2NvcHknLAogICAgICAgICAgICAnLWJzZjphJywgJ2FhY19hZHRzdG9hc2MnLAogICAgICAgICAgICAnLW1vdmZsYWdzJywgJytmYXN0c3RhcnQnLAogICAgICAgICAgICBzZWxmLl9vdXRwdXQsCiAgICAgICAgXQogICAgICAgIHNlbGYubG9nLmVtaXQoImluZm8iLCBmIuW8gOWni+i9rOeggToge29zLnBhdGguYmFzZW5hbWUoc2VsZi5fb3V0cHV0KX0iKQogICAgICAgIHRyeToKICAgICAgICAgICAgc2VsZi5fcHJvYyA9IHN1YnByb2Nlc3MuUG9wZW4oY21kLCBzdGRvdXQ9c3VicHJvY2Vzcy5QSVBFLCBzdGRlcnI9c3VicHJvY2Vzcy5QSVBFKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBzZWxmLl9wcm9jLndhaXQodGltZW91dD0zNjAwKQogICAgICAgICAgICBleGNlcHQgc3VicHJvY2Vzcy5UaW1lb3V0RXhwaXJlZDoKICAgICAgICAgICAgICAgIHNlbGYuX3Byb2MudGVybWluYXRlKCkKICAgICAgICAgICAgaWYgc2VsZi5fY2FuY2VsbGVkOgogICAgICAgICAgICAgICAgc2VsZi5sb2cuZW1pdCgiaW5mbyIsICLovaznoIHlt7Llj5bmtogiKQogICAgICAgICAgICAgICAgIyDmuIXnkIblj6/og73kuqfnlJ/nmoTkuI3lrozmlbQgTVA0CiAgICAgICAgICAgICAgICBpZiBvcy5wYXRoLmlzZmlsZShzZWxmLl9vdXRwdXQpOgogICAgICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICAgICAgb3MucmVtb3ZlKHNlbGYuX291dHB1dCkKICAgICAgICAgICAgICAgICAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICAgICAgICAgICAgICAgICAgcGFzcwogICAgICAgICAgICAgICAgc2VsZi5maW5pc2hlZC5lbWl0KHNlbGYuX2lucHV0LCBzZWxmLl9vdXRwdXQsIEZhbHNlKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIGlmIHNlbGYuX3Byb2MucmV0dXJuY29kZSA9PSAwIGFuZCBvcy5wYXRoLmlzZmlsZShzZWxmLl9vdXRwdXQpOgogICAgICAgICAgICAgICAgc3ogPSBvcy5wYXRoLmdldHNpemUoc2VsZi5fb3V0cHV0KQogICAgICAgICAgICAgICAgc2VsZi5sb2cuZW1pdCgiaW5mbyIsIGYi6L2s56CB5a6M5oiQOiB7c3ovMTAyNC8xMDI0Oi4xZn1NQiIpCiAgICAgICAgICAgICAgICBzZWxmLmZpbmlzaGVkLmVtaXQoc2VsZi5faW5wdXQsIHNlbGYuX291dHB1dCwgVHJ1ZSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHN0ZGVyciA9IHNlbGYuX3Byb2Muc3RkZXJyLnJlYWQoKS5kZWNvZGUoJ3V0Zi04JywgZXJyb3JzPSdyZXBsYWNlJylbLTMwMDpdCiAgICAgICAgICAgICAgICBzZWxmLmxvZy5lbWl0KCJlcnJvciIsIGYi6L2s56CB5aSx6LSlOiB7c3RkZXJyLnN0cmlwKCl9IikKICAgICAgICAgICAgICAgIHNlbGYuZmluaXNoZWQuZW1pdChzZWxmLl9pbnB1dCwgc2VsZi5fb3V0cHV0LCBGYWxzZSkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIHNlbGYubG9nLmVtaXQoImVycm9yIiwgZiLovaznoIHlvILluLg6IHtlfSIpCiAgICAgICAgICAgIHNlbGYuZmluaXNoZWQuZW1pdChzZWxmLl9pbnB1dCwgc2VsZi5fb3V0cHV0LCBGYWxzZSkKCgpjbGFzcyBUYXNrTWFuYWdlcihRT2JqZWN0KToKICAgICIiIuWFqOWxgOW9leWItuS7u+WKoeeuoeeQhiIiIgoKICAgICMg5L+h5Y+3CiAgICByb29tX3N0YXR1c19jaGFuZ2VkID0gU2lnbmFsKHN0ciwgc3RyLCBzdHIpICAgIyAodXJsLCBzdGF0dXMsIGV4dHJhKQogICAgbG9nX21lc3NhZ2UgPSBTaWduYWwoc3RyLCBzdHIpICAgICAgICAgICAgICAgICMgKGxldmVsLCBtc2cpCiAgICByZWNvcmRpbmdfcHJvZ3Jlc3MgPSBTaWduYWwoc3RyLCBzdHIsIGludCkgICAgICMgKHVybCwgZmlsZW5hbWUsIHNpemUpCiAgICByZWNvcmRpbmdfY29tcGxldGVkID0gU2lnbmFsKHN0ciwgc3RyLCBpbnQsIGludCkgICMgKHVybCwgZmlsZV9wYXRoLCBmaWxlX3NpemUsIGR1cmF0aW9uKQogICAgZGlza193YXJuaW5nID0gU2lnbmFsKGZsb2F0KSAgICAgICAgICAgICAgICAgICAjIHJlbWFpbmluZ19nYgogICAgZ2xvYmFsX3N0YXR1c19jaGFuZ2VkID0gU2lnbmFsKGRpY3QpICAgICAgICAgICAjIHttb25pdG9yaW5nLCByZWNvcmRpbmcsIGRpc2ssIHByb3h5fQoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBmZm1wZWdfcGF0aDogc3RyLCBwYXJlbnQ9Tm9uZSk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhwYXJlbnQpCiAgICAgICAgc2VsZi5fZmZtcGVnX3BhdGggPSBmZm1wZWdfcGF0aAogICAgICAgIHNlbGYuX21vbml0b3JzID0ge30gICAjIHVybCAtPiBNb25pdG9yV29ya2VyCiAgICAgICAgc2VsZi5fcmVjb3JkZXJzID0ge30gICMgdXJsIC0+IFJlY29yZGVyCiAgICAgICAgc2VsZi5fcm9vbV9kYXRhID0ge30gICMgdXJsIC0+IHN0cmVhbV9kYXRhCiAgICAgICAgc2VsZi5fY29udmVydF90aHJlYWRzID0gW10gICMg5rS76LeD55qE6L2s56CB57q/56iLCiAgICAgICAgc2VsZi5fcHJveHkgPSAiIgogICAgICAgIHNlbGYuX3JlY29yZF9zZXR0aW5ncyA9IE5vbmUKICAgICAgICBzZWxmLl9zdGF0dXNfdGltZXIgPSBRVGltZXIoc2VsZikKICAgICAgICBzZWxmLl9zdGF0dXNfdGltZXIudGltZW91dC5jb25uZWN0KHNlbGYuX3VwZGF0ZV9nbG9iYWxfc3RhdHVzKQogICAgICAgIHNlbGYuX3N0YXR1c190aW1lci5zZXRJbnRlcnZhbCgzMDAwKQoKICAgIGRlZiBjb25maWd1cmUoc2VsZiwgcmVjb3JkX3NldHRpbmdzLCBwcm94eT0iIik6CiAgICAgICAgIiIi6YWN572u5b2V5Yi25Y+C5pWwIiIiCiAgICAgICAgc2VsZi5fcmVjb3JkX3NldHRpbmdzID0gcmVjb3JkX3NldHRpbmdzCiAgICAgICAgc2VsZi5fcHJveHkgPSBwcm94eQoKICAgIGRlZiBzdGFydF9tb25pdG9yKHNlbGYsIHVybDogc3RyLCBxdWFsaXR5OiBzdHIgPSAiT0QiLCBpbnRlcnZhbDogaW50ID0gMTIwLCBjb29raWU6IHN0ciA9ICIiKToKICAgICAgICAiIiLlkK/liqjljZXkuKrmiL/pl7TnmoTnm5HmjqciIiIKICAgICAgICBpZiB1cmwgaW4gc2VsZi5fbW9uaXRvcnM6CiAgICAgICAgICAgIHJldHVybiAgIyDlt7LlnKjnm5HmjqcKCiAgICAgICAgd29ya2VyID0gTW9uaXRvcldvcmtlcih1cmwsIHF1YWxpdHksIGludGVydmFsKQogICAgICAgIHdvcmtlci5zZXRfcHJveHkoc2VsZi5fcHJveHkpCiAgICAgICAgaWYgY29va2llOgogICAgICAgICAgICB3b3JrZXIuc2V0X2Nvb2tpZShjb29raWUpCiAgICAgICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiZGVidWciLCBmIuS9v+eUqCBDb29raWUg55uR5o6nOiB7dXJsWzo0MF19IikKCiAgICAgICAgIyDov57mjqXkv6Hlj7cKICAgICAgICB3b3JrZXIuc3RhdHVzX2NoYW5nZWQuY29ubmVjdChzZWxmLl9vbl9zdGF0dXNfY2hhbmdlZCkKICAgICAgICB3b3JrZXIuc3RyZWFtX2ZvdW5kLmNvbm5lY3Qoc2VsZi5fb25fc3RyZWFtX2ZvdW5kKQogICAgICAgIHdvcmtlci5lcnJvcl9vY2N1cnJlZC5jb25uZWN0KHNlbGYuX29uX2Vycm9yKQogICAgICAgIHdvcmtlci5sb2dfbWVzc2FnZS5jb25uZWN0KHNlbGYubG9nX21lc3NhZ2UuZW1pdCkKCiAgICAgICAgc2VsZi5fbW9uaXRvcnNbdXJsXSA9IHdvcmtlcgogICAgICAgIHdvcmtlci5zdGFydCgpCiAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJpbmZvIiwgZiLlt7LlvIDlp4vnm5Hmjqc6IHt1cmxbOjQwXX0iKQogICAgICAgIHNlbGYuX3N0YXR1c190aW1lci5zdGFydCgpCgogICAgZGVmIHN0b3BfbW9uaXRvcihzZWxmLCB1cmw6IHN0cik6CiAgICAgICAgIiIi5YGc5q2i5Y2V5Liq5oi/6Ze055qE55uR5o6n5ZKM5b2V5Yi2IiIiCiAgICAgICAgbW9uaXRvciA9IHNlbGYuX21vbml0b3JzLnBvcCh1cmwsIE5vbmUpCiAgICAgICAgaWYgbW9uaXRvcjoKICAgICAgICAgICAgbW9uaXRvci5zdG9wKCkKCiAgICAgICAgcmVjb3JkZXIgPSBzZWxmLl9yZWNvcmRlcnMucG9wKHVybCwgTm9uZSkKICAgICAgICBpZiByZWNvcmRlcjoKICAgICAgICAgICAgcmVjb3JkZXIuc3RvcF9yZWNvcmRpbmcoKQoKICAgICAgICBzZWxmLl9yb29tX2RhdGEucG9wKHVybCwgTm9uZSkKICAgICAgICBzZWxmLmxvZ19tZXNzYWdlLmVtaXQoImluZm8iLCBmIuW3suWBnOatouebkeaOpzoge3VybFs6NDBdfSIpCgogICAgZGVmIHN0b3BfYWxsKHNlbGYpOgogICAgICAgICIiIuWBnOatouaJgOaciSIiIgogICAgICAgIGZvciB1cmwgaW4gbGlzdChzZWxmLl9tb25pdG9ycy5rZXlzKCkpOgogICAgICAgICAgICBzZWxmLnN0b3BfbW9uaXRvcih1cmwpCiAgICAgICAgc2VsZi5fc3RhdHVzX3RpbWVyLnN0b3AoKQoKICAgIGRlZiBpc19tb25pdG9yaW5nKHNlbGYpIC0+IGJvb2w6CiAgICAgICAgIiIi5piv5ZCm5pyJ5q2j5Zyo6L+Q6KGM55qE55uR5o6nIiIiCiAgICAgICAgcmV0dXJuIGxlbihzZWxmLl9tb25pdG9ycykgPiAwCgogICAgZGVmIGNhbmNlbF9hbGxfY29udmVydHMoc2VsZik6CiAgICAgICAgIiIi5Y+W5raI5omA5pyJ5q2j5Zyo6L+b6KGM55qE6L2s56CBIiIiCiAgICAgICAgY291bnQgPSAwCiAgICAgICAgZm9yIHQgaW4gbGlzdChzZWxmLl9jb252ZXJ0X3RocmVhZHMpOgogICAgICAgICAgICBpZiB0LmlzUnVubmluZygpOgogICAgICAgICAgICAgICAgdC5jYW5jZWwoKQogICAgICAgICAgICAgICAgY291bnQgKz0gMQogICAgICAgIHJldHVybiBjb3VudAoKICAgIEBwcm9wZXJ0eQogICAgZGVmIGFjdGl2ZV9jb252ZXJ0cyhzZWxmKSAtPiBpbnQ6CiAgICAgICAgcmV0dXJuIHN1bSgxIGZvciB0IGluIHNlbGYuX2NvbnZlcnRfdGhyZWFkcyBpZiB0LmlzUnVubmluZygpKQoKICAgIGRlZiBzdG9wX3JlY29yZGluZyhzZWxmLCB1cmw6IHN0cik6CiAgICAgICAgIiIi5LuF5YGc5q2i5b2V5Yi277yM57un57ut55uR5o6nIiIiCiAgICAgICAgcmVjb3JkZXIgPSBzZWxmLl9yZWNvcmRlcnMucG9wKHVybCwgTm9uZSkKICAgICAgICBpZiByZWNvcmRlcjoKICAgICAgICAgICAgcmVjb3JkZXIuc3RvcF9yZWNvcmRpbmcoKQogICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiaW5mbyIsIGYi5bey5YGc5q2i5b2V5Yi2OiB7dXJsWzo0MF19IikKCiAgICBkZWYgc3RvcF9yZWNvcmRpbmdfYnlfZmlsZShzZWxmLCBmaWxlX3BhdGg6IHN0cik6CiAgICAgICAgIiIi5YGc5q2i5q2j5Zyo5YaZ5YWl5oyH5a6a5paH5Lu255qE5b2V5Yi277yM5bm25Y+W5raI55u45YWz6L2s56CBIiIiCiAgICAgICAgZmlsZV9wYXRoID0gb3MucGF0aC5ub3JtcGF0aChmaWxlX3BhdGgpCiAgICAgICAgIyDlgZzmraLlvZXliLYKICAgICAgICBmb3IgdXJsLCByZWNvcmRlciBpbiBsaXN0KHNlbGYuX3JlY29yZGVycy5pdGVtcygpKToKICAgICAgICAgICAgaWYgb3MucGF0aC5ub3JtcGF0aChyZWNvcmRlci5fY3VycmVudF9maWxlKSA9PSBmaWxlX3BhdGg6CiAgICAgICAgICAgICAgICByZWNvcmRlci5zdG9wX3JlY29yZGluZygpCiAgICAgICAgICAgICAgICBzZWxmLl9yZWNvcmRlcnMucG9wKHVybCwgTm9uZSkKICAgICAgICAgICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiaW5mbyIsIGYi5bey5YGc5q2i5b2V5Yi2KOaWh+S7tuiiq+WIoOmZpCk6IHt1cmxbOjQwXX0iKQogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAjIOWPlua2iOi9rOeggQogICAgICAgIGZvciB0aHJlYWQgaW4gbGlzdChzZWxmLl9jb252ZXJ0X3RocmVhZHMpOgogICAgICAgICAgICBpZiAob3MucGF0aC5ub3JtcGF0aCh0aHJlYWQuX2lucHV0KSA9PSBmaWxlX3BhdGggb3IKICAgICAgICAgICAgICAgIG9zLnBhdGgubm9ybXBhdGgodGhyZWFkLl9vdXRwdXQpID09IGZpbGVfcGF0aCk6CiAgICAgICAgICAgICAgICB0aHJlYWQuY2FuY2VsKCkKICAgICAgICAgICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiaW5mbyIsIGYi5bey5Y+W5raI6L2s56CBKOaWh+S7tuiiq+WIoOmZpCkiKQoKICAgIEBwcm9wZXJ0eQogICAgZGVmIGFjdGl2ZV9tb25pdG9ycyhzZWxmKSAtPiBpbnQ6CiAgICAgICAgcmV0dXJuIHN1bSgxIGZvciBtIGluIHNlbGYuX21vbml0b3JzLnZhbHVlcygpIGlmIG0uaXNSdW5uaW5nKCkpCgogICAgQHByb3BlcnR5CiAgICBkZWYgYWN0aXZlX3JlY29yZGluZ3Moc2VsZikgLT4gaW50OgogICAgICAgIHJldHVybiBzdW0oMSBmb3IgciBpbiBzZWxmLl9yZWNvcmRlcnMudmFsdWVzKCkgaWYgci5pc19yZWNvcmRpbmcpCgogICAgZGVmIF9vbl9zdGF0dXNfY2hhbmdlZChzZWxmLCB1cmwsIHN0YXR1cywgZXh0cmEpOgogICAgICAgICMg5LiL5pKt5pe26Ieq5Yqo5YGc5q2i5b2V5Yi2CiAgICAgICAgaWYgc3RhdHVzID09ICJvZmZsaW5lIiBhbmQgdXJsIGluIHNlbGYuX3JlY29yZGVycyBhbmQgc2VsZi5fcmVjb3JkZXJzW3VybF0uaXNfcmVjb3JkaW5nOgogICAgICAgICAgICBzZWxmLmxvZ19tZXNzYWdlLmVtaXQoImluZm8iLCBmIuajgOa1i+WIsOS4i+aSre+8jOWBnOatouW9leWItjoge2V4dHJhfSIpCiAgICAgICAgICAgIHNlbGYuX3JlY29yZGVyc1t1cmxdLnN0b3BfcmVjb3JkaW5nKCkKICAgICAgICBzZWxmLnJvb21fc3RhdHVzX2NoYW5nZWQuZW1pdCh1cmwsIHN0YXR1cywgZXh0cmEpCgogICAgZGVmIF9vbl9zdHJlYW1fZm91bmQoc2VsZiwgdXJsLCBzdHJlYW1fZGF0YSk6CiAgICAgICAgIiIi5Y+R546w55u05pKt77yM5ZCv5Yqo5b2V5Yi2IiIiCiAgICAgICAgc2VsZi5fcm9vbV9kYXRhW3VybF0gPSBzdHJlYW1fZGF0YQoKICAgICAgICAjIOWmguaenOW3suWcqOW9leWItu+8jOWFiOWBnOaOieaXp+eahAogICAgICAgIGlmIHVybCBpbiBzZWxmLl9yZWNvcmRlcnMgYW5kIHNlbGYuX3JlY29yZGVyc1t1cmxdLmlzX3JlY29yZGluZzoKICAgICAgICAgICAgc2VsZi5fcmVjb3JkZXJzW3VybF0uc3RvcF9yZWNvcmRpbmcoKQoKICAgICAgICAjIOiOt+WPlua1gVVSTAogICAgICAgIHN0cmVhbV91cmwgPSBzdHJlYW1fZGF0YS5nZXQoJ20zdThfdXJsJykgb3Igc3RyZWFtX2RhdGEuZ2V0KCdmbHZfdXJsJywgJycpCiAgICAgICAgaWYgbm90IHN0cmVhbV91cmw6CiAgICAgICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiZXJyb3IiLCBmIuaXoOWPr+eUqOa1geWcsOWdgDoge3VybFs6NDBdfSIpCiAgICAgICAgICAgIHJldHVybgoKICAgICAgICAjIOehruWumui+k+WHuui3r+W+hO+8iOS9v+eUqOaWh+S7tuWRveWQjeaooeadv++8iQogICAgICAgIGlmIHNlbGYuX3JlY29yZF9zZXR0aW5nczoKICAgICAgICAgICAgZnJvbSBhcHAudXRpbHMuZmlsZV9uYW1pbmcgaW1wb3J0IGdlbmVyYXRlX3JlY29yZGluZ19wYXRoLCBERUZBVUxUX1RFTVBMQVRFCiAgICAgICAgICAgIHRlbXBsYXRlID0gZ2V0YXR0cihzZWxmLl9yZWNvcmRfc2V0dGluZ3MsICdmaWxlbmFtZV90ZW1wbGF0ZScsICcnKSBvciBERUZBVUxUX1RFTVBMQVRFCiAgICAgICAgICAgIG91dHB1dCA9IGdlbmVyYXRlX3JlY29yZGluZ19wYXRoKAogICAgICAgICAgICAgICAgc2F2ZV9yb290PXNlbGYuX3JlY29yZF9zZXR0aW5ncy5zYXZlX3BhdGgsCiAgICAgICAgICAgICAgICB0ZW1wbGF0ZT10ZW1wbGF0ZSwKICAgICAgICAgICAgICAgIHBsYXRmb3JtPXN0cmVhbV9kYXRhLmdldCgncGxhdGZvcm0nLCAn5pyq55+lJyksCiAgICAgICAgICAgICAgICBvd25lcj1zdHJlYW1fZGF0YS5nZXQoJ2FuY2hvcl9uYW1lJywgJ3Vua25vd24nKSwKICAgICAgICAgICAgICAgIHRpdGxlPXN0cmVhbV9kYXRhLmdldCgndGl0bGUnLCAnJyksCiAgICAgICAgICAgICAgICBxdWFsaXR5PXN0cmVhbV9kYXRhLmdldCgncXVhbGl0eScsICcnKSwKICAgICAgICAgICAgICAgIGV4dD0ndHMnLCAgIyDnu5/kuIDkvb/nlKggVFMg5a655ZmoCiAgICAgICAgICAgICkKICAgICAgICBlbHNlOgogICAgICAgICAgICBvdXRwdXQgPSBmInJlY29yZGluZ197aW50KHRpbWUudGltZSgpKX0udHMiCgogICAgICAgIGFuY2hvcl9uYW1lID0gc3RyZWFtX2RhdGEuZ2V0KCdhbmNob3JfbmFtZScsICcnKQoKICAgICAgICAjIOWIm+W7uuW5tuWQr+WKqOW9leWItuWZqAogICAgICAgIHJlY29yZGVyID0gUmVjb3JkZXIoc2VsZi5fZmZtcGVnX3BhdGgsIHNlbGYpCiAgICAgICAgcmVjb3JkZXIucmVjb3JkaW5nX3N0YXJ0ZWQuY29ubmVjdChsYW1iZGEgdSwgZnA6ICgKICAgICAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJpbmZvIiwgZiLlvIDlp4vlvZXliLY6IHtvcy5wYXRoLmJhc2VuYW1lKGZwKX0iKSwKICAgICAgICAgICAgc2VsZi5yb29tX3N0YXR1c19jaGFuZ2VkLmVtaXQodSwgInJlY29yZGluZyIsIGFuY2hvcl9uYW1lKSwKICAgICAgICApKQogICAgICAgIHJlY29yZGVyLnJlY29yZGluZ19lcnJvci5jb25uZWN0KGxhbWJkYSB1LCBlOiBzZWxmLmxvZ19tZXNzYWdlLmVtaXQoImVycm9yIiwgZiLlvZXliLbplJnor686IHtlfSIpKQogICAgICAgIHJlY29yZGVyLmZpbGVfc2l6ZV9jaGFuZ2VkLmNvbm5lY3QobGFtYmRhIHUsIHNpemU6IHNlbGYucmVjb3JkaW5nX3Byb2dyZXNzLmVtaXQodSwgIiIsIHNpemUpKQoKICAgICAgICAjIOiusOW9leW8gOWni+aXtumXtAogICAgICAgIHN0YXJ0X3RpbWUgPSB0aW1lLnRpbWUoKQoKICAgICAgICBkZWYgX29uX3JlY29yZGluZ19maW5pc2hlZCh1LCBjb2RlKToKICAgICAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJpbmZvIiwgZiLlvZXliLbnu5PmnZ8oY29kZT17Y29kZX0pOiB7dVs6NDBdfSIpCiAgICAgICAgICAgICMg5LuOIF9yZWNvcmRlcnMg5Lit5riF55CG77yI6YG/5YWN5q6L55WZ77yJCiAgICAgICAgICAgIGlmIHUgaW4gc2VsZi5fcmVjb3JkZXJzOgogICAgICAgICAgICAgICAgZGVsIHNlbGYuX3JlY29yZGVyc1t1XQogICAgICAgICAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJkZWJ1ZyIsIGYi5bey5riF55CGIHJlY29yZGVyOiB7dVs6NDBdfSIpCiAgICAgICAgICAgIGZpbGVfc2l6ZSA9IDAKICAgICAgICAgICAgaWYgb3MucGF0aC5pc2ZpbGUob3V0cHV0KToKICAgICAgICAgICAgICAgIGZpbGVfc2l6ZSA9IG9zLnBhdGguZ2V0c2l6ZShvdXRwdXQpCiAgICAgICAgICAgIGR1cmF0aW9uID0gaW50KHRpbWUudGltZSgpIC0gc3RhcnRfdGltZSkKICAgICAgICAgICAgc2VsZi5yZWNvcmRpbmdfY29tcGxldGVkLmVtaXQodSwgb3V0cHV0LCBmaWxlX3NpemUsIGR1cmF0aW9uKQoKICAgICAgICAgICAgIyDoh6rliqjovaznoIEgTVA0CiAgICAgICAgICAgIGlmIHNlbGYuX3JlY29yZF9zZXR0aW5ncyBhbmQgc2VsZi5fcmVjb3JkX3NldHRpbmdzLmNvbnZlcnRfbXA0IGFuZCBmaWxlX3NpemUgPiAwOgogICAgICAgICAgICAgICAgaWYgb3V0cHV0Lmxvd2VyKCkuZW5kc3dpdGgoKCcudHMnLCAnLm1rdicsICcuZmx2JykpOgogICAgICAgICAgICAgICAgICAgIG1wNF9wYXRoID0gb3MucGF0aC5zcGxpdGV4dChvdXRwdXQpWzBdICsgJy5tcDQnCiAgICAgICAgICAgICAgICAgICAgdGhyZWFkID0gX0NvbnZlcnRUaHJlYWQoc2VsZi5fZmZtcGVnX3BhdGgsIG91dHB1dCwgbXA0X3BhdGgsIHNlbGYpCiAgICAgICAgICAgICAgICAgICAgdGhyZWFkLmxvZy5jb25uZWN0KHNlbGYubG9nX21lc3NhZ2UuZW1pdCkKICAgICAgICAgICAgICAgICAgICBzZWxmLl9jb252ZXJ0X3RocmVhZHMuYXBwZW5kKHRocmVhZCkKCiAgICAgICAgICAgICAgICAgICAgZGVmIF9vbl9jb252ZXJ0X2RvbmUoc3JjLCBkc3QsIHN1Y2Nlc3MpOgogICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9jb252ZXJ0X3RocmVhZHMgPSBbdCBmb3IgdCBpbiBzZWxmLl9jb252ZXJ0X3RocmVhZHMgaWYgdCBpcyBub3QgdGhyZWFkXQogICAgICAgICAgICAgICAgICAgICAgICBpZiBzdWNjZXNzOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9zLnJlbW92ZShzcmMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5sb2dfbWVzc2FnZS5lbWl0KCJpbmZvIiwgZiLlt7LliKDpmaTmupDmlofku7Y6IHtvcy5wYXRoLmJhc2VuYW1lKHNyYyl9IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIOabtOaWsOWOhuWPsuiusOW9leS4reeahOaWh+S7tui3r+W+hAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYucmVjb3JkaW5nX2NvbXBsZXRlZC5lbWl0KHUsIGRzdCwgb3MucGF0aC5nZXRzaXplKGRzdCksIGR1cmF0aW9uKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhjZXB0IE9TRXJyb3IgYXMgZToKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLmxvZ19tZXNzYWdlLmVtaXQoIndhcm5pbmciLCBmIuWIoOmZpOa6kOaWh+S7tuWksei0pToge2V9IikKICAgICAgICAgICAgICAgICAgICAgICAgdGhyZWFkLmRlbGV0ZUxhdGVyKCkKCiAgICAgICAgICAgICAgICAgICAgdGhyZWFkLmZpbmlzaGVkLmNvbm5lY3QoX29uX2NvbnZlcnRfZG9uZSkKICAgICAgICAgICAgICAgICAgICB0aHJlYWQuc3RhcnQoKQoKICAgICAgICByZWNvcmRlci5yZWNvcmRpbmdfZmluaXNoZWQuY29ubmVjdChfb25fcmVjb3JkaW5nX2ZpbmlzaGVkKQoKICAgICAgICByZWNvcmRlci5zdGFydF9yZWNvcmRpbmcoCiAgICAgICAgICAgIHVybD11cmwsCiAgICAgICAgICAgIHN0cmVhbV91cmw9c3RyZWFtX3VybCwKICAgICAgICAgICAgb3V0cHV0X3BhdGg9b3V0cHV0LAogICAgICAgICAgICBmbXQ9Im1wZWd0cyIsICAjIOe7n+S4gOS9v+eUqCBtcGVndHPvvIhUU++8iei+k+WHuu+8jEZMVuWuueWZqOaXoOazleato+ehrua1geW8j+WGmeWFpeebtOaSreaVsOaNrgogICAgICAgICAgICBwcm94eT1zZWxmLl9wcm94eSwKICAgICAgICAgICAgc3BsaXRfZHVyYXRpb249c2VsZi5fcmVjb3JkX3NldHRpbmdzLnNwbGl0X2R1cmF0aW9uIGlmIHNlbGYuX3JlY29yZF9zZXR0aW5ncyBhbmQgc2VsZi5fcmVjb3JkX3NldHRpbmdzLmF1dG9fc3BsaXQgZWxzZSAwLAogICAgICAgICkKCiAgICAgICAgc2VsZi5fcmVjb3JkZXJzW3VybF0gPSByZWNvcmRlcgogICAgICAgIHNlbGYubG9nX21lc3NhZ2UuZW1pdCgiaW5mbyIsIGYi5byA5aeL5b2V5Yi2OiB7YW5jaG9yX25hbWV9IikKCiAgICBkZWYgX29uX2Vycm9yKHNlbGYsIHVybCwgZXJyb3JfbXNnKToKICAgICAgICBzZWxmLmxvZ19tZXNzYWdlLmVtaXQoImVycm9yIiwgZiLnm5HmjqflvILluLgge3VybFs6NDBdfToge2Vycm9yX21zZ30iKQoKICAgIGRlZiBfdXBkYXRlX2dsb2JhbF9zdGF0dXMoc2VsZik6CiAgICAgICAgIiIi5a6a5pe25pu05paw5YWo5bGA54q25oCBIiIiCiAgICAgICAgc3RhdHVzID0gewogICAgICAgICAgICAibW9uaXRvcmluZyI6IHNlbGYuYWN0aXZlX21vbml0b3JzLAogICAgICAgICAgICAicmVjb3JkaW5nIjogc2VsZi5hY3RpdmVfcmVjb3JkaW5ncywKICAgICAgICB9CiAgICAgICAgc2VsZi5nbG9iYWxfc3RhdHVzX2NoYW5nZWQuZW1pdChzdGF0dXMp
+"""
+全局任务调度管理器 - 协调Monitor和Recorder
+"""
+import os
+import time
+import subprocess
+from PySide6.QtCore import QObject, Signal, QTimer, QThread
+from loguru import logger
+from app.core.monitor import MonitorWorker
+from app.core.recorder import Recorder
+
+
+class _ConvertThread(QThread):
+    """后台转码线程（可取消）"""
+    log = Signal(str, str)
+    finished = Signal(str, str, bool)  # (input_path, output_path, success)
+
+    def __init__(self, ffmpeg_path, input_path, output_path, parent=None):
+        super().__init__(parent)
+        self._ffmpeg_path = ffmpeg_path
+        self._input = input_path
+        self._output = output_path
+        self._cancelled = False
+        self._proc = None
+
+    def cancel(self):
+        """取消转码"""
+        self._cancelled = True
+        if self._proc and self._proc.poll() is None:
+            self._proc.terminate()
+
+    def run(self):
+        cmd = [
+            self._ffmpeg_path, '-y',
+            '-i', self._input,
+            '-c:v', 'copy', '-c:a', 'copy',
+            '-bsf:a', 'aac_adtstoasc',
+            '-movflags', '+faststart',
+            self._output,
+        ]
+        self.log.emit("info", f"开始转码: {os.path.basename(self._output)}")
+        try:
+            # 用 DEVNULL 避免 stderr pipe 死锁（ffmpeg 进度输出量极大）
+            self._proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            try:
+                self._proc.wait(timeout=3600)
+            except subprocess.TimeoutExpired:
+                self._proc.terminate()
+                self.log.emit("warning", "转码超时，已终止")
+            if self._cancelled:
+                self.log.emit("info", "转码已取消")
+                # 清理可能产生的不完整 MP4
+                if os.path.isfile(self._output):
+                    try:
+                        os.remove(self._output)
+                    except OSError:
+                        pass
+                self.finished.emit(self._input, self._output, False)
+                return
+            if self._proc.returncode == 0 and os.path.isfile(self._output):
+                sz = os.path.getsize(self._output)
+                self.log.emit("info", f"转码完成: {sz/1024/1024:.1f}MB")
+                self.finished.emit(self._input, self._output, True)
+            else:
+                self.log.emit("error", f"转码失败 (code={self._proc.returncode})")
+                self.finished.emit(self._input, self._output, False)
+        except Exception as e:
+            self.log.emit("error", f"转码异常: {e}")
+            self.finished.emit(self._input, self._output, False)
+
+
+class TaskManager(QObject):
+    """全局录制任务管理"""
+
+    # 信号
+    room_status_changed = Signal(str, str, str)   # (url, status, extra)
+    log_message = Signal(str, str)                # (level, msg)
+    recording_progress = Signal(str, str, int)     # (url, filename, size)
+    recording_completed = Signal(str, str, int, int)  # (url, file_path, file_size, duration)
+    disk_warning = Signal(float)                   # remaining_gb
+    global_status_changed = Signal(dict)           # {monitoring, recording, disk, proxy}
+
+    def __init__(self, ffmpeg_path: str, parent=None):
+        super().__init__(parent)
+        self._ffmpeg_path = ffmpeg_path
+        self._monitors = {}   # url -> MonitorWorker
+        self._recorders = {}  # url -> Recorder
+        self._room_data = {}  # url -> stream_data
+        self._convert_threads = []  # 活跃的转码线程
+        self._proxy = ""
+        self._record_settings = None
+        self._status_timer = QTimer(self)
+        self._status_timer.timeout.connect(self._update_global_status)
+        self._status_timer.setInterval(3000)
+
+    def configure(self, record_settings, proxy=""):
+        """配置录制参数"""
+        self._record_settings = record_settings
+        self._proxy = proxy
+
+    def start_monitor(self, url: str, quality: str = "OD", interval: int = 120, cookie: str = ""):
+        """启动单个房间的监控"""
+        if url in self._monitors:
+            return  # 已在监控
+
+        worker = MonitorWorker(url, quality, interval)
+        worker.set_proxy(self._proxy)
+        if cookie:
+            worker.set_cookie(cookie)
+            self.log_message.emit("debug", f"使用 Cookie 监控: {url[:40]}")
+
+        # 连接信号
+        worker.status_changed.connect(self._on_status_changed)
+        worker.stream_found.connect(self._on_stream_found)
+        worker.error_occurred.connect(self._on_error)
+        worker.log_message.connect(self.log_message.emit)
+
+        self._monitors[url] = worker
+        worker.start()
+        self.log_message.emit("info", f"已开始监控: {url[:40]}")
+        self._status_timer.start()
+
+    def stop_monitor(self, url: str):
+        """停止单个房间的监控和录制"""
+        monitor = self._monitors.pop(url, None)
+        if monitor:
+            monitor.stop()
+
+        recorder = self._recorders.pop(url, None)
+        if recorder:
+            recorder.stop_recording()
+
+        self._room_data.pop(url, None)
+        self.log_message.emit("info", f"已停止监控: {url[:40]}")
+
+    def stop_all(self):
+        """停止所有"""
+        for url in list(self._monitors.keys()):
+            self.stop_monitor(url)
+        self._status_timer.stop()
+
+    def is_monitoring(self) -> bool:
+        """是否有正在运行的监控"""
+        return len(self._monitors) > 0
+
+    def cancel_all_converts(self):
+        """取消所有正在进行的转码"""
+        count = 0
+        for t in list(self._convert_threads):
+            if t.isRunning():
+                t.cancel()
+                count += 1
+        return count
+
+    @property
+    def active_converts(self) -> int:
+        return sum(1 for t in self._convert_threads if t.isRunning())
+
+    def stop_recording(self, url: str):
+        """仅停止录制，继续监控"""
+        recorder = self._recorders.pop(url, None)
+        if recorder:
+            recorder.stop_recording()
+        self.log_message.emit("info", f"已停止录制: {url[:40]}")
+
+    def stop_recording_by_file(self, file_path: str):
+        """停止正在写入指定文件的录制，并取消相关转码"""
+        file_path = os.path.normpath(file_path)
+        # 停止录制
+        for url, recorder in list(self._recorders.items()):
+            if os.path.normpath(recorder._current_file) == file_path:
+                recorder.stop_recording()
+                self._recorders.pop(url, None)
+                self.log_message.emit("info", f"已停止录制(文件被删除): {url[:40]}")
+                break
+        # 取消转码
+        for thread in list(self._convert_threads):
+            if (os.path.normpath(thread._input) == file_path or
+                os.path.normpath(thread._output) == file_path):
+                thread.cancel()
+                self.log_message.emit("info", f"已取消转码(文件被删除)")
+
+    @property
+    def active_monitors(self) -> int:
+        return sum(1 for m in self._monitors.values() if m.isRunning())
+
+    @property
+    def active_recordings(self) -> int:
+        return sum(1 for r in self._recorders.values() if r.is_recording)
+
+    def _on_status_changed(self, url, status, extra):
+        # 下播时自动停止录制
+        if status == "offline" and url in self._recorders and self._recorders[url].is_recording:
+            self.log_message.emit("info", f"检测到下播，停止录制: {extra}")
+            self._recorders[url].stop_recording()
+        self.room_status_changed.emit(url, status, extra)
+
+    def _on_stream_found(self, url, stream_data):
+        """发现直播，启动录制"""
+        # 使用原始 URL（防止 streamget 内部重定向修改 URL）
+        url = stream_data.get("url") or url
+        self._room_data[url] = stream_data
+
+        # 如果已在录制，先停掉旧的
+        if url in self._recorders and self._recorders[url].is_recording:
+            self._recorders[url].stop_recording()
+
+        # 获取流URL
+        stream_url = stream_data.get('m3u8_url') or stream_data.get('flv_url', '')
+        if not stream_url:
+            self.log_message.emit("error", f"无可用流地址: {url[:40]}")
+            return
+
+        # 确定输出路径（使用文件命名模板）
+        if self._record_settings:
+            from app.utils.file_naming import generate_recording_path, DEFAULT_TEMPLATE
+            template = getattr(self._record_settings, 'filename_template', '') or DEFAULT_TEMPLATE
+            output = generate_recording_path(
+                save_root=self._record_settings.save_path,
+                template=template,
+                platform=stream_data.get('platform', '未知'),
+                owner=stream_data.get('anchor_name', 'unknown'),
+                title=stream_data.get('title', ''),
+                quality=stream_data.get('quality', ''),
+                ext='ts',  # 统一使用 TS 容器
+            )
+        else:
+            output = f"recording_{int(time.time())}.ts"
+
+        anchor_name = stream_data.get('anchor_name', '')
+
+        # 创建并启动录制器
+        recorder = Recorder(self._ffmpeg_path, self)
+        recorder.recording_started.connect(lambda u, fp: (
+            self.log_message.emit("info", f"开始录制: {os.path.basename(fp)}"),
+            self.room_status_changed.emit(u, "recording", anchor_name),
+        ))
+        recorder.recording_error.connect(lambda u, e: self.log_message.emit("error", f"录制错误: {e}"))
+        recorder.file_size_changed.connect(lambda u, size: self.recording_progress.emit(u, "", size))
+
+        # 记录开始时间
+        start_time = time.time()
+
+        def _on_recording_finished(u, code):
+            self.log_message.emit("info", f"录制结束(code={code}): {u[:40]}")
+            # 从 _recorders 中清理（避免残留）
+            if u in self._recorders:
+                del self._recorders[u]
+                self.log_message.emit("debug", f"已清理 recorder: {u[:40]}")
+            file_size = 0
+            if os.path.isfile(output):
+                file_size = os.path.getsize(output)
+            duration = int(time.time() - start_time)
+            self.recording_completed.emit(u, output, file_size, duration)
+
+            # 自动转码 MP4
+            if self._record_settings and self._record_settings.convert_mp4 and file_size > 0:
+                if output.lower().endswith(('.ts', '.mkv', '.flv')):
+                    mp4_path = os.path.splitext(output)[0] + '.mp4'
+                    thread = _ConvertThread(self._ffmpeg_path, output, mp4_path, self)
+                    thread.log.connect(self.log_message.emit)
+                    self._convert_threads.append(thread)
+
+                    def _on_convert_done(src, dst, success):
+                        self._convert_threads = [t for t in self._convert_threads if t is not thread]
+                        if success:
+                            try:
+                                os.remove(src)
+                                self.log_message.emit("info", f"已删除源文件: {os.path.basename(src)}")
+                                # 更新历史记录中的文件路径
+                                self.recording_completed.emit(u, dst, os.path.getsize(dst), duration)
+                            except OSError as e:
+                                self.log_message.emit("warning", f"删除源文件失败: {e}")
+                        thread.deleteLater()
+
+                    thread.finished.connect(_on_convert_done)
+                    thread.start()
+
+        recorder.recording_finished.connect(_on_recording_finished)
+
+        recorder.start_recording(
+            url=url,
+            stream_url=stream_url,
+            output_path=output,
+            fmt="mpegts",  # 统一使用 mpegts（TS）输出，FLV容器无法正确流式写入直播数据
+            proxy=self._proxy,
+            split_duration=self._record_settings.split_duration if self._record_settings and self._record_settings.auto_split else 0,
+        )
+
+        self._recorders[url] = recorder
+        self.log_message.emit("info", f"开始录制: {anchor_name}")
+
+    def _on_error(self, url, error_msg):
+        self.log_message.emit("error", f"监控异常 {url[:40]}: {error_msg}")
+
+    def _update_global_status(self):
+        """定时更新全局状态"""
+        status = {
+            "monitoring": self.active_monitors,
+            "recording": self.active_recordings,
+        }
+        self.global_status_changed.emit(status)

@@ -1,1 +1,47 @@
-IiIi5YWz5LqO6aG16Z2iIiIiCmZyb20gUHlTaWRlNi5RdFdpZGdldHMgaW1wb3J0IFFXaWRnZXQsIFFWQm94TGF5b3V0LCBRTGFiZWwKZnJvbSBQeVNpZGU2LlF0Q29yZSBpbXBvcnQgUXQKCgpjbGFzcyBBYm91dFRhYihRV2lkZ2V0KToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwYXJlbnQ9Tm9uZSk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhwYXJlbnQpCiAgICAgICAgc2VsZi5fc2V0dXBfdWkoKQoKICAgIGRlZiBfc2V0dXBfdWkoc2VsZik6CiAgICAgICAgbGF5b3V0ID0gUVZCb3hMYXlvdXQoc2VsZikKICAgICAgICBsYXlvdXQuc2V0QWxpZ25tZW50KFF0LkFsaWdubWVudEZsYWcuQWxpZ25DZW50ZXIpCiAgICAgICAgbGF5b3V0LnNldFNwYWNpbmcoMTYpCgogICAgICAgIGxvZ28gPSBRTGFiZWwoIkxpdmVSZWNvcmQgU3R1ZGlvIikKICAgICAgICBsb2dvLnNldEFsaWdubWVudChRdC5BbGlnbm1lbnRGbGFnLkFsaWduQ2VudGVyKQogICAgICAgIGxvZ28uc2V0U3R5bGVTaGVldCgiZm9udC1zaXplOiAyOHB4OyBmb250LXdlaWdodDogYm9sZDsgY29sb3I6ICMyQjhBRjU7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IikKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KGxvZ28pCgogICAgICAgIHZlciA9IFFMYWJlbCgidjEuMC4xIikKICAgICAgICB2ZXIuc2V0QWxpZ25tZW50KFF0LkFsaWdubWVudEZsYWcuQWxpZ25DZW50ZXIpCiAgICAgICAgdmVyLnNldFN0eWxlU2hlZXQoImZvbnQtc2l6ZTogMTNweDsgY29sb3I6ICNCMEI4QzQ7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IikKICAgICAgICBsYXlvdXQuYWRkV2lkZ2V0KHZlcikKCiAgICAgICAgc2VwID0gUUxhYmVsKCkKICAgICAgICBzZXAuc2V0Rml4ZWRIZWlnaHQoMSkKICAgICAgICBzZXAuc2V0U3R5bGVTaGVldCgiYmFja2dyb3VuZDogI0U4RUNGMTsgYm9yZGVyOiBub25lOyBtYXgtd2lkdGg6IDIwMHB4OyIpCiAgICAgICAgbGF5b3V0LmFkZFdpZGdldChzZXApCgogICAgICAgIGRlc2MgPSBRTGFiZWwoIueOsOS7o+WMluWkmuW5s+WPsOebtOaSreW9leWItuW3peWFt1xu5Z+65LqOIHN0cmVhbWdldCArIEZGbXBlZyArIFB5U2lkZTYiKQogICAgICAgIGRlc2Muc2V0QWxpZ25tZW50KFF0LkFsaWdubWVudEZsYWcuQWxpZ25DZW50ZXIpCiAgICAgICAgZGVzYy5zZXRTdHlsZVNoZWV0KCJmb250LXNpemU6IDEzcHg7IGNvbG9yOiAjNUE2Rjg1OyBib3JkZXI6IG5vbmU7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyIpCiAgICAgICAgbGF5b3V0LmFkZFdpZGdldChkZXNjKQoKICAgICAgICBwbGF0Zm9ybXMgPSBRTGFiZWwoCiAgICAgICAgICAgICLmlK/mjIHlubPlj7A6IOaKlumfsyB8IFRpa1RvayB8IOW/q+aJiyB8IOiZjueJmSB8IOaWl+mxvCB8IFlZ55u05pKtXG4iCiAgICAgICAgICAgICLlk5Tlk6nlk5Tlk6kgfCDlsI/nuqLkuaYgfCBUd2l0Y2ggfCBZb3VUdWJlIHwgQmlnbyB8IOabtOWkmi4uLiIKICAgICAgICApCiAgICAgICAgcGxhdGZvcm1zLnNldEFsaWdubWVudChRdC5BbGlnbm1lbnRGbGFnLkFsaWduQ2VudGVyKQogICAgICAgIHBsYXRmb3Jtcy5zZXRTdHlsZVNoZWV0KCJmb250LXNpemU6IDEycHg7IGNvbG9yOiAjOEU5QUFGOyBib3JkZXI6IG5vbmU7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyIpCiAgICAgICAgbGF5b3V0LmFkZFdpZGdldChwbGF0Zm9ybXMpCgogICAgICAgIHRoYW5rcyA9IFFMYWJlbCgi5rWB6Kej5p6Q5byV5pOOOiBzdHJlYW1nZXQgYnkgaWhtaWx5XG7lvZXliLblvJXmk446IEZGbXBlZyIpCiAgICAgICAgdGhhbmtzLnNldEFsaWdubWVudChRdC5BbGlnbm1lbnRGbGFnLkFsaWduQ2VudGVyKQogICAgICAgIHRoYW5rcy5zZXRTdHlsZVNoZWV0KCJmb250LXNpemU6IDExcHg7IGNvbG9yOiAjQjBCOEM0OyBib3JkZXI6IG5vbmU7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyBtYXJnaW4tdG9wOiAxNnB4OyIpCiAgICAgICAgbGF5b3V0LmFkZFdpZGdldCh0aGFua3Mp
+"""关于页面"""
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel
+from PySide6.QtCore import Qt
+
+
+class AboutTab(QWidget):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self._setup_ui()
+
+    def _setup_ui(self):
+        layout = QVBoxLayout(self)
+        layout.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        layout.setSpacing(16)
+
+        logo = QLabel("LiveRecord Studio")
+        logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        logo.setStyleSheet("font-size: 28px; font-weight: bold; color: #2B8AF5; border: none; background: transparent;")
+        layout.addWidget(logo)
+
+        ver = QLabel("v1.0.2")
+        ver.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        ver.setStyleSheet("font-size: 13px; color: #B0B8C4; border: none; background: transparent;")
+        layout.addWidget(ver)
+
+        sep = QLabel()
+        sep.setFixedHeight(1)
+        sep.setStyleSheet("background: #E8ECF1; border: none; max-width: 200px;")
+        layout.addWidget(sep)
+
+        desc = QLabel("现代化多平台直播录制工具\n基于 streamget + FFmpeg + PySide6")
+        desc.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        desc.setStyleSheet("font-size: 13px; color: #5A6F85; border: none; background: transparent;")
+        layout.addWidget(desc)
+
+        platforms = QLabel(
+            "支持平台: 抖音 | TikTok | 快手 | 虎牙 | 斗鱼 | YY直播\n"
+            "哔哩哔哩 | 小红书 | Twitch | YouTube | Bigo | 更多..."
+        )
+        platforms.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        platforms.setStyleSheet("font-size: 12px; color: #8E9AAF; border: none; background: transparent;")
+        layout.addWidget(platforms)
+
+        thanks = QLabel("流解析引擎: streamget by ihmily\n录制引擎: FFmpeg")
+        thanks.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        thanks.setStyleSheet("font-size: 11px; color: #B0B8C4; border: none; background: transparent; margin-top: 16px;")
+        layout.addWidget(thanks)

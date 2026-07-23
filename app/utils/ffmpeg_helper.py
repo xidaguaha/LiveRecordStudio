@@ -1,1 +1,124 @@
-aW1wb3J0IG9zCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHBsYXRmb3JtCmltcG9ydCBzeXMKZnJvbSB0eXBpbmcgaW1wb3J0IE9wdGlvbmFsCgoKZGVmIF9nZXRfcHJvamVjdF9yb290KCkgLT4gc3RyOgogICAgIiIi6I635Y+W6aG555uu5qC555uu5b2V77yI5YW85a655byA5Y+R5ZKM5omT5YyF546v5aKD77yJIiIiCiAgICBpZiBnZXRhdHRyKHN5cywgJ2Zyb3plbicsIEZhbHNlKToKICAgICAgICBleGVfZGlyID0gb3MucGF0aC5kaXJuYW1lKHN5cy5leGVjdXRhYmxlKQogICAgICAgICMgUHlJbnN0YWxsZXIgLS1vbmVkaXIg5qih5byP5LiL77yM6LWE5rqQ5ZyoIF9pbnRlcm5hbCDlrZDnm67lvZXkuIsKICAgICAgICBpbnRlcm5hbF9kaXIgPSBvcy5wYXRoLmpvaW4oZXhlX2RpciwgIl9pbnRlcm5hbCIpCiAgICAgICAgaWYgb3MucGF0aC5pc2RpcihpbnRlcm5hbF9kaXIpOgogICAgICAgICAgICByZXR1cm4gaW50ZXJuYWxfZGlyCiAgICAgICAgcmV0dXJuIGV4ZV9kaXIKICAgICMg5LuOIGFwcC91dGlscy9mZm1wZWdfaGVscGVyLnB5IOWQkeS4iuS4pOe6p+WIsOmhueebruaguQogICAgcmV0dXJuIG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpKSkKCgpkZWYgZmluZF9mZm1wZWcoKSAtPiBPcHRpb25hbFtzdHJdOgogICAgIiIi5p+l5om+ZmZtcGVn6Lev5b6E77yI5LyY5YWI6aG555uu5YaF5bWM54mI5pys77yJIiIiCgogICAgIyAxLiDmiZPljIXnjq/looPvvJpleGUg5ZCM57qn55qEIGZmbXBlZy9iaW4vZmZtcGVnLmV4ZQogICAgaWYgZ2V0YXR0cihzeXMsICdmcm96ZW4nLCBGYWxzZSk6CiAgICAgICAgZXhlX2RpciA9IG9zLnBhdGguZGlybmFtZShzeXMuZXhlY3V0YWJsZSkKICAgICAgICBlbWJlZGRlZCA9IG9zLnBhdGguam9pbihleGVfZGlyLCAiZmZtcGVnIiwgImJpbiIsICJmZm1wZWcuZXhlIikKICAgICAgICBpZiBvcy5wYXRoLmlzZmlsZShlbWJlZGRlZCk6CiAgICAgICAgICAgIHJldHVybiBlbWJlZGRlZAoKICAgICMgMi4g5byA5Y+R546v5aKD77ya6aG555uu5qC555uu5b2V5LiL55qEIGZmbXBlZy9iaW4vZmZtcGVnLmV4ZQogICAgcm9vdCA9IF9nZXRfcHJvamVjdF9yb290KCkKICAgIGVtYmVkZGVkID0gb3MucGF0aC5qb2luKHJvb3QsICJmZm1wZWciLCAiYmluIiwgImZmbXBlZy5leGUiKQogICAgaWYgb3MucGF0aC5pc2ZpbGUoZW1iZWRkZWQpOgogICAgICAgIHJldHVybiBlbWJlZGRlZAoKICAgICMgMy4gUEFUSOS4reafpeaJvgogICAgcGF0aCA9IHNodXRpbC53aGljaCgiZmZtcGVnIikKICAgIGlmIHBhdGg6CiAgICAgICAgcmV0dXJuIHBhdGgKCiAgICAjIDQuIOW4uOingeWuieijheS9jee9rgogICAgaWYgcGxhdGZvcm0uc3lzdGVtKCkgPT0gIldpbmRvd3MiOgogICAgICAgIGNhbmRpZGF0ZXMgPSBbCiAgICAgICAgICAgIG9zLnBhdGguZXhwYW5kdmFycyhyIiVQUk9HUkFNRklMRVMlXEZGbXBlZ1xiaW5cZmZtcGVnLmV4ZSIpLAogICAgICAgICAgICBvcy5wYXRoLmV4cGFuZHZhcnMociIlUFJPR1JBTUZJTEVTKHg4NiklXEZGbXBlZ1xiaW5cZmZtcGVnLmV4ZSIpLAogICAgICAgICAgICBvcy5wYXRoLmV4cGFuZHZhcnMociIlTE9DQUxBUFBEQVRBJVxGRm1wZWdcYmluXGZmbXBlZy5leGUiKSwKICAgICAgICAgICAgb3MucGF0aC5leHBhbmR2YXJzKHIiJVVTRVJQUk9GSUxFJVxzY29vcFxhcHBzXGZmbXBlZ1xjdXJyZW50XGJpblxmZm1wZWcuZXhlIiksCiAgICAgICAgXQogICAgICAgIGZvciBjIGluIGNhbmRpZGF0ZXM6CiAgICAgICAgICAgIGlmIG9zLnBhdGguaXNmaWxlKGMpOgogICAgICAgICAgICAgICAgcmV0dXJuIGMKCiAgICByZXR1cm4gTm9uZQoKCmRlZiBidWlsZF9mZm1wZWdfY29tbWFuZCgKICAgIHN0cmVhbV91cmw6IHN0ciwKICAgIG91dHB1dF9wYXRoOiBzdHIsCiAgICBmbXQ6IHN0ciA9ICJ0cyIsCiAgICBwcm94eTogc3RyID0gIiIsCiAgICB1c2VyX2FnZW50OiBzdHIgPSBOb25lLAogICAgcndfdGltZW91dDogaW50ID0gMzAsCiAgICBzcGxpdF9kdXJhdGlvbjogaW50ID0gMCwKKSAtPiBsaXN0OgogICAgIiIi5p6E5bu6ZmZtcGVn5b2V5Yi25ZG95LukIiIiCiAgICBjbWQgPSBbImZmbXBlZyIsICIteSJdCgogICAgIyDotoXml7YKICAgIGNtZC5leHRlbmQoWyItcndfdGltZW91dCIsIHN0cihyd190aW1lb3V0ICogMTAwMDAwMCldKQoKICAgICMgVXNlci1BZ2VudAogICAgdWEgPSB1c2VyX2FnZW50IG9yICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYiCiAgICBjbWQuZXh0ZW5kKFsiLXVzZXJfYWdlbnQiLCB1YV0pCgogICAgIyDku6PnkIYKICAgIGlmIHByb3h5OgogICAgICAgIGNtZC5leHRlbmQoWyItaHR0cF9wcm94eSIsIHByb3h5XSkKCiAgICAjIOi+k+WFpea1gQogICAgY21kLmV4dGVuZChbIi1pIiwgc3RyZWFtX3VybF0pCgogICAgIyDlvZXliLbml7bplb/vvIjliIbmrrXvvIkKICAgIGlmIHNwbGl0X2R1cmF0aW9uID4gMDoKICAgICAgICBjbWQuZXh0ZW5kKFsiLXQiLCBzdHIoc3BsaXRfZHVyYXRpb24pXSkKCiAgICAjIOe8luegge+8muebtOaOpeaLt+i0nQogICAgY21kLmV4dGVuZChbIi1jIiwgImNvcHkiXSkKCiAgICAjIOi+k+WHugogICAgY21kLmV4dGVuZChbIi1mIiwgZm10LCBvdXRwdXRfcGF0aF0pCgogICAgcmV0dXJuIGNtZAoKCmRlZiBidWlsZF9jb252ZXJ0X2NvbW1hbmQoCiAgICBpbnB1dF9wYXRoOiBzdHIsCiAgICBvdXRwdXRfcGF0aDogc3RyLAogICAgcmVlbmNvZGU6IGJvb2wgPSBGYWxzZSwKKSAtPiBsaXN0OgogICAgIiIi5p6E5bu66L2s56CBTVA05ZG95LukIiIiCiAgICBjbWQgPSBbImZmbXBlZyIsICIteSIsICItaSIsIGlucHV0X3BhdGhdCiAgICBpZiByZWVuY29kZToKICAgICAgICBjbWQuZXh0ZW5kKFsiLWM6diIsICJsaWJ4MjY0IiwgIi1wcmVzZXQiLCAiZmFzdCIsICItY3JmIiwgIjIzIiwgIi1jOmEiLCAiYWFjIl0pCiAgICBlbHNlOgogICAgICAgIGNtZC5leHRlbmQoWyItYyIsICJjb3B5Il0pCiAgICBjbWQuYXBwZW5kKG91dHB1dF9wYXRoKQogICAgcmV0dXJuIGNtZAoKCmRlZiBjaGVja19mZm1wZWdfYXZhaWxhYmxlKCkgLT4gdHVwbGU6CiAgICAiIiLmo4Dmn6VmZm1wZWfmmK/lkKblj6/nlKjvvIzov5Tlm54gKGJvb2wsIG1lc3NhZ2UpIiIiCiAgICBwYXRoID0gZmluZF9mZm1wZWcoKQogICAgaWYgcGF0aDoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgICAgICAgICAgW3BhdGgsICItdmVyc2lvbiJdLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIHRpbWVvdXQ9NQogICAgICAgICAgICApCiAgICAgICAgICAgIHZlcnNpb24gPSByZXN1bHQuc3Rkb3V0LnNwbGl0KCdcbicpWzBdIGlmIHJlc3VsdC5zdGRvdXQgZWxzZSAiIgogICAgICAgICAgICByZXR1cm4gVHJ1ZSwgZiJGRm1wZWcg5bey5a6J6KOFICh7dmVyc2lvbn0pIgogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHJldHVybiBUcnVlLCBmIkZGbXBlZyDot6/lvoQ6IHtwYXRofSIKICAgIHJldHVybiBGYWxzZSwgIuacquaJvuWIsCBGRm1wZWfvvIzor7flhYjlronoo4UgRkZtcGVnIOW5tua3u+WKoOWIsOezu+e7nyBQQVRIIg==
+import os
+import shutil
+import subprocess
+import platform
+import sys
+from typing import Optional
+
+
+def _get_project_root() -> str:
+    """获取项目根目录（兼容开发和打包环境）"""
+    if getattr(sys, 'frozen', False):
+        exe_dir = os.path.dirname(sys.executable)
+        # PyInstaller --onedir 模式下，资源在 _internal 子目录下
+        internal_dir = os.path.join(exe_dir, "_internal")
+        if os.path.isdir(internal_dir):
+            return internal_dir
+        return exe_dir
+    # 从 app/utils/ffmpeg_helper.py 向上两级到项目根
+    return os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+def find_ffmpeg() -> Optional[str]:
+    """查找ffmpeg路径（优先项目内嵌版本）"""
+
+    # 1. 打包环境：exe 同级的 ffmpeg/bin/ffmpeg.exe
+    if getattr(sys, 'frozen', False):
+        exe_dir = os.path.dirname(sys.executable)
+        embedded = os.path.join(exe_dir, "ffmpeg", "bin", "ffmpeg.exe")
+        if os.path.isfile(embedded):
+            return embedded
+
+    # 2. 开发环境：项目根目录下的 ffmpeg/bin/ffmpeg.exe
+    root = _get_project_root()
+    embedded = os.path.join(root, "ffmpeg", "bin", "ffmpeg.exe")
+    if os.path.isfile(embedded):
+        return embedded
+
+    # 3. PATH中查找
+    path = shutil.which("ffmpeg")
+    if path:
+        return path
+
+    # 4. 常见安装位置
+    if platform.system() == "Windows":
+        candidates = [
+            os.path.expandvars(r"%PROGRAMFILES%\FFmpeg\bin\ffmpeg.exe"),
+            os.path.expandvars(r"%PROGRAMFILES(x86)%\FFmpeg\bin\ffmpeg.exe"),
+            os.path.expandvars(r"%LOCALAPPDATA%\FFmpeg\bin\ffmpeg.exe"),
+            os.path.expandvars(r"%USERPROFILE%\scoop\apps\ffmpeg\current\bin\ffmpeg.exe"),
+        ]
+        for c in candidates:
+            if os.path.isfile(c):
+                return c
+
+    return None
+
+
+def build_ffmpeg_command(
+    stream_url: str,
+    output_path: str,
+    fmt: str = "ts",
+    proxy: str = "",
+    user_agent: str = None,
+    rw_timeout: int = 30,
+    split_duration: int = 0,
+) -> list:
+    """构建ffmpeg录制命令"""
+    cmd = ["ffmpeg", "-y"]
+
+    # 超时
+    cmd.extend(["-rw_timeout", str(rw_timeout * 1000000)])
+
+    # User-Agent
+    ua = user_agent or "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    cmd.extend(["-user_agent", ua])
+
+    # 代理
+    if proxy:
+        cmd.extend(["-http_proxy", proxy])
+
+    # 输入流
+    cmd.extend(["-i", stream_url])
+
+    # 录制时长（分段）
+    if split_duration > 0:
+        cmd.extend(["-t", str(split_duration)])
+
+    # 编码：直接拷贝
+    cmd.extend(["-c", "copy"])
+
+    # 输出
+    cmd.extend(["-f", fmt, output_path])
+
+    return cmd
+
+
+def build_convert_command(
+    input_path: str,
+    output_path: str,
+    reencode: bool = False,
+) -> list:
+    """构建转码MP4命令"""
+    cmd = ["ffmpeg", "-y", "-i", input_path]
+    if reencode:
+        cmd.extend(["-c:v", "libx264", "-preset", "fast", "-crf", "23", "-c:a", "aac"])
+    else:
+        cmd.extend(["-c", "copy"])
+    cmd.append(output_path)
+    return cmd
+
+
+def check_ffmpeg_available() -> tuple:
+    """检查ffmpeg是否可用，返回 (bool, message)"""
+    path = find_ffmpeg()
+    if path:
+        try:
+            result = subprocess.run(
+                [path, "-version"], capture_output=True, text=True, timeout=5
+            )
+            version = result.stdout.split('\n')[0] if result.stdout else ""
+            return True, f"FFmpeg 已安装 ({version})"
+        except Exception:
+            return True, f"FFmpeg 路径: {path}"
+    return False, "未找到 FFmpeg，请先安装 FFmpeg 并添加到系统 PATH"
