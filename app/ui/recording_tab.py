@@ -4,11 +4,9 @@ import time
 from datetime import datetime
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QScrollArea, QFrame,
-    QPushButton, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox,
-    QMenu
+    QPushButton, QTableWidget, QTableWidgetItem, QHeaderView, QMessageBox
 )
 from PySide6.QtCore import Qt, Signal, QTimer
-from PySide6.QtGui import QCursor
 
 
 class RecordingCard(QWidget):
@@ -27,15 +25,10 @@ class RecordingCard(QWidget):
 
     def _setup_ui(self):
         self.setObjectName("recordingCard")
-        self.setFixedHeight(64)
-        layout = QHBoxLayout(self)
-        layout.setContentsMargins(16, 0, 16, 0)
-        layout.setSpacing(12)
-
-        # 左侧信息区（垂直居中堆叠）
-        info = QVBoxLayout()
-        info.setSpacing(2)
-        info.setContentsMargins(0, 0, 0, 0)
+        self.setFixedHeight(80)
+        card_layout = QVBoxLayout(self)
+        card_layout.setContentsMargins(16, 10, 16, 10)
+        card_layout.setSpacing(6)
 
         top = QHBoxLayout()
         top.setSpacing(8)
@@ -53,7 +46,8 @@ class RecordingCard(QWidget):
         top.addWidget(name_label)
         top.addWidget(platform_label)
         top.addWidget(self._recording_indicator)
-        info.addLayout(top)
+        top.addStretch()
+        card_layout.addLayout(top)
 
         mid = QHBoxLayout()
         mid.setSpacing(16)
@@ -66,11 +60,11 @@ class RecordingCard(QWidget):
         mid.addWidget(self._start_time_label)
         mid.addWidget(self._duration_label)
         mid.addWidget(self._size_label)
-        info.addLayout(mid)
+        mid.addStretch()
+        card_layout.addLayout(mid)
 
-        layout.addLayout(info, 1)
-
-        # 右侧按钮（垂直居中）
+        bottom = QHBoxLayout()
+        bottom.addStretch()
         folder_btn = QPushButton("打开文件夹")
         folder_btn.setObjectName("blueToolBtn")
         folder_btn.setFixedHeight(28)
@@ -81,8 +75,9 @@ class RecordingCard(QWidget):
         stop_btn.setFixedHeight(28)
         stop_btn.setCursor(Qt.CursorShape.PointingHandCursor)
         stop_btn.clicked.connect(lambda: self.stop_clicked.emit(self._url))
-        layout.addWidget(folder_btn)
-        layout.addWidget(stop_btn)
+        bottom.addWidget(folder_btn)
+        bottom.addWidget(stop_btn)
+        card_layout.addLayout(bottom)
 
         if self._start_time > 0:
             dt = datetime.fromtimestamp(self._start_time)
@@ -112,8 +107,6 @@ class RecordingTab(QWidget):
     open_folder_requested = Signal(str)
     stop_recording_requested = Signal(str)
     history_clear_requested = Signal()
-    delete_record_requested = Signal(int)       # 删除历史记录（索引）
-    delete_file_requested = Signal(int, str)    # 删除文件（索引, 文件路径）
 
     def __init__(self, icon_dir: str = "", parent=None):
         super().__init__(parent)
@@ -148,7 +141,6 @@ class RecordingTab(QWidget):
         scroll = QScrollArea()
         scroll.setWidgetResizable(True)
         scroll.setFrameShape(QScrollArea.Shape.NoFrame)
-        scroll.setMinimumHeight(100)  # 确保至少能显示一个完整卡片
         self._container = QWidget()
         self._container_layout = QVBoxLayout(self._container)
         self._container_layout.setContentsMargins(0, 0, 0, 0)
@@ -184,20 +176,16 @@ class RecordingTab(QWidget):
             "主播", "平台", "标题", "时长", "大小", "时间", "操作"
         ])
         header = self._history_table.horizontalHeader()
-        # 主播、平台、标题允许拉伸
-        header.setSectionResizeMode(0, QHeaderView.ResizeMode.Stretch)  # 主播
-        header.setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)  # 标题
-        # 其他列固定或自适应内容
-        header.setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)  # 平台
-        header.setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)  # 时长
-        header.setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)  # 大小
-        header.setSectionResizeMode(5, QHeaderView.ResizeMode.ResizeToContents)  # 时间
-        header.setSectionResizeMode(6, QHeaderView.ResizeMode.Fixed)
-        header.resizeSection(6, 120)  # 操作列固定120px
+        # 所有列先统一 ResizeToContents，再给标题列额外拉伸
+        for col in range(7):
+            header.setSectionResizeMode(col, QHeaderView.ResizeMode.ResizeToContents)
+        # 标题列(2)和主播列(0)允许拉伸，其他固定
+        header.setSectionResizeMode(0, QHeaderView.ResizeMode.Stretch)
+        header.setSectionResizeMode(2, QHeaderView.ResizeMode.Stretch)
         self._history_table.setSelectionBehavior(QTableWidget.SelectionBehavior.SelectRows)
         self._history_table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
         self._history_table.setAlternatingRowColors(True)
-        self._history_table.verticalHeader().setDefaultSectionSize(44)
+        self._history_table.verticalHeader().setDefaultSectionSize(40)
         self._history_table.verticalHeader().setVisible(False)
         layout.addWidget(self._history_table, 2)
 
@@ -254,23 +242,16 @@ class RecordingTab(QWidget):
             item5 = QTableWidgetItem(r.start_time_str or "-")
             item5.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
             self._history_table.setItem(i, 5, item5)
-            # 操作 - 打开 + 删除
+            # 操作 - 用按钮 widget
             btn_widget = QWidget()
             btn_layout = QHBoxLayout(btn_widget)
-            btn_layout.setContentsMargins(4, 0, 4, 0)
-            btn_layout.setSpacing(6)
+            btn_layout.setContentsMargins(4, 2, 4, 2)
+            btn_layout.setSpacing(4)
             open_btn = QPushButton("打开")
-            open_btn.setFixedSize(50, 26)
-            open_btn.setCursor(Qt.CursorShape.PointingHandCursor)
-            open_btn.setStyleSheet("font-size: 11px; padding: 0px 6px; border-radius: 4px; border: 1px solid #DEE2E8; background: white; color: #2C3E50;")
+            open_btn.setFixedHeight(26)
+            open_btn.setStyleSheet("font-size: 11px; padding: 2px 10px; border-radius: 4px;")
             open_btn.clicked.connect(lambda checked, fp=r.file_path: self._open_file(fp))
             btn_layout.addWidget(open_btn)
-            del_btn = QPushButton("删除")
-            del_btn.setFixedSize(50, 26)
-            del_btn.setCursor(Qt.CursorShape.PointingHandCursor)
-            del_btn.setStyleSheet("font-size: 11px; padding: 0px 6px; border-radius: 4px; border: 1px solid #E74C3C; background: white; color: #E74C3C;")
-            del_btn.clicked.connect(lambda checked, idx=i, fp=r.file_path: self._on_delete_clicked(idx, fp))
-            btn_layout.addWidget(del_btn)
             btn_layout.addStretch()
             self._history_table.setCellWidget(i, 6, btn_widget)
         self._hist_count.setText(f"({len(records)})" if records else "")
@@ -281,17 +262,6 @@ class RecordingTab(QWidget):
             open_file_location(file_path)
         else:
             QMessageBox.information(self, "提示", "文件不存在或已被删除")
-
-    def _on_delete_clicked(self, index: int, file_path: str):
-        """点击删除按钮，弹出选择菜单"""
-        menu = QMenu(self)
-        act_record = menu.addAction("仅删除记录")
-        act_file = menu.addAction("删除记录和文件")
-        action = menu.exec(QCursor.pos())
-        if action == act_record:
-            self.delete_record_requested.emit(index)
-        elif action == act_file:
-            self.delete_file_requested.emit(index, file_path)
 
     def _on_clear_history(self):
         reply = QMessageBox.question(

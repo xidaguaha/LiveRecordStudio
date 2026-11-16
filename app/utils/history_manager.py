@@ -1,5 +1,5 @@
 """
-录制历史管理 - 持久化录制记录（信号+本地文件扫描双重验证）
+录制历史管理 - 持久化录制记录
 """
 import os
 import json
@@ -135,85 +135,3 @@ class HistoryManager:
             "total_size": self.get_total_size(),
             "total_duration": self.get_total_duration(),
         }
-
-    def scan_local_files(self, save_root: str) -> List[RecordingHistory]:
-        """扫描保存目录下的录制文件，补充缺失的历史记录"""
-        if not os.path.isdir(save_root):
-            return []
-
-        # 已有记录的文件路径集合（用于去重）
-        existing_paths = set()
-        for r in self._records:
-            if r.file_path:
-                existing_paths.add(os.path.normpath(r.file_path))
-
-        # 支持的视频文件扩展名
-        video_exts = ('.ts', '.mp4', '.mkv', '.flv')
-        new_records = []
-
-        # 递归扫描 save_root 下所有视频文件
-        for root, dirs, files in os.walk(save_root):
-            for fname in files:
-                if not fname.lower().endswith(video_exts):
-                    continue
-                full_path = os.path.normpath(os.path.join(root, fname))
-                if full_path in existing_paths:
-                    continue
-
-                # 跳过太小的文件（可能是失败的录制，< 100KB）
-                try:
-                    fsize = os.path.getsize(full_path)
-                except OSError:
-                    continue
-                if fsize < 100 * 1024:
-                    continue
-
-                # 从目录结构推断平台和主播名
-                # 目录结构: save_root/platform/owner/filename.ts
-                rel = os.path.relpath(root, save_root)
-                parts = rel.replace(os.sep, '/').split('/')
-                platform = parts[0] if len(parts) >= 1 else "未知"
-                owner = parts[1] if len(parts) >= 2 else "未知"
-
-                # 从文件名提取信息（去掉扩展名）
-                base = os.path.splitext(fname)[0]
-
-                # 用文件修改时间作为时间戳
-                try:
-                    mtime = os.path.getmtime(full_path)
-                except OSError:
-                    mtime = time.time()
-
-                record = RecordingHistory(
-                    url="",
-                    anchor_name=owner,
-                    title=base,
-                    platform=platform,
-                    quality="",
-                    start_time=mtime,
-                    end_time=mtime,
-                    file_path=full_path,
-                    file_size=fsize,
-                    duration=0,
-                    status="completed",
-                )
-                new_records.append(record)
-
-        # 按时间倒序排列
-        new_records.sort(key=lambda r: r.end_time, reverse=True)
-        return new_records
-
-    def merge_scanned_records(self, save_root: str):
-        """扫描本地文件并合并到历史记录中，返回完整记录列表"""
-        new_records = self.scan_local_files(save_root)
-        if new_records:
-            # 合并：新记录插到已有记录前面，避免重复
-            new_paths = {os.path.normpath(r.file_path) for r in new_records}
-            # 去掉已有记录中与扫描结果重复的旧记录
-            self._records = [r for r in self._records if os.path.normpath(r.file_path) not in new_paths]
-            # 插入新记录
-            self._records = new_records + self._records
-            # 按时间倒序
-            self._records.sort(key=lambda r: r.end_time, reverse=True)
-            self.save()
-        return list(self._records)

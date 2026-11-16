@@ -11,7 +11,6 @@ class StatusIndicator(QWidget):
     """带彩色圆点的状态标签"""
     COLORS = {
         "recording": "#2B8AF5",    # 蓝色 - 录制中
-        "live": "#27AE60",         # 绿色 - 直播中（等待录制启动）
         "monitoring": "#F39C12",   # 橙色 - 监测中
         "offline": "#B0B8C4",      # 灰色 - 未开播
         "idle": "#B0B8C4",         # 浅灰 - 空闲
@@ -20,7 +19,6 @@ class StatusIndicator(QWidget):
     }
     TEXT_MAP = {
         "recording": "录制中",
-        "live": "直播中",
         "monitoring": "监测中",
         "offline": "未开播",
         "idle": "空闲",

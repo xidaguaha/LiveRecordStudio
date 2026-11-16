@@ -4,7 +4,7 @@ import webbrowser
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel,
     QStackedLayout, QFrame, QMenu, QSizePolicy, QMessageBox,
-    QApplication, QScrollArea, QCheckBox
+    QApplication, QScrollArea
 )
 from PySide6.QtCore import Qt, Signal, QPoint
 from PySide6.QtGui import QClipboard
@@ -17,7 +17,6 @@ class RoomRowWidget(QWidget):
     open_folder_clicked = Signal(str)
     stop_clicked = Signal(str)
     right_click_requested = Signal(object, str)  # (position, url)
-    toggle_enabled = Signal(str, bool)  # (url, enabled)
 
     def __init__(self, room: Room, parent=None):
         super().__init__(parent)
@@ -30,20 +29,8 @@ class RoomRowWidget(QWidget):
         self.setFixedHeight(60)
         self.setCursor(Qt.CursorShape.PointingHandCursor)
         layout = QHBoxLayout(self)
-        layout.setContentsMargins(12, 8, 16, 8)
-        layout.setSpacing(12)
-
-        # 启用/禁用开关
-        self._enable_check = QCheckBox()
-        self._enable_check.setChecked(room.enabled)
-        self._enable_check.setToolTip("启用/禁用监控")
-        self._enable_check.setStyleSheet(
-            "QCheckBox { border: none; background: transparent; }"
-            "QCheckBox::indicator { width: 18px; height: 18px; border-radius: 4px; border: 2px solid #B0B8C4; background: white; }"
-            "QCheckBox::indicator:checked { border-color: #2B8AF5; background: #2B8AF5; image: none; }"
-            "QCheckBox::indicator:checked::after { content: ''; }"
-        )
-        self._enable_check.toggled.connect(lambda checked: self.toggle_enabled.emit(self._url, checked))
+        layout.setContentsMargins(16, 8, 16, 8)
+        layout.setSpacing(16)
 
         self._status = StatusIndicator(room.status.value if room.status else "idle")
 
@@ -90,16 +77,9 @@ class RoomRowWidget(QWidget):
         self._stop_btn.setCursor(Qt.CursorShape.PointingHandCursor)
         self._stop_btn.clicked.connect(lambda: self.stop_clicked.emit(self._url))
 
-        # Cookie 状态指示
-        self._cookie_label = QLabel("🍪" if room.cookie else "")
-        self._cookie_label.setStyleSheet("font-size: 12px; border: none; background: transparent;")
-        self._cookie_label.setToolTip("已设置 Cookie" if room.cookie else "")
-
         btn_layout.addWidget(self._folder_btn)
         btn_layout.addWidget(self._stop_btn)
-        btn_layout.addWidget(self._cookie_label)
 
-        layout.addWidget(self._enable_check)
         layout.addWidget(self._status)
         layout.addWidget(self._platform_label)
         layout.addWidget(self._name_label, 1)
@@ -133,8 +113,6 @@ class LiveTab(QWidget):
     remove_rooms_requested = Signal(list)  # 要删除的 url 列表
     remove_single_requested = Signal(str)  # 右键删除单个
     room_name_updated = Signal(str, str)   # (url, new_name) 主播名更新
-    toggle_room_enabled = Signal(str, bool)  # (url, enabled)
-    room_cookie_updated = Signal(str, str)   # (url, cookie) Cookie 更新
 
     def __init__(self, icon_dir: str = "", parent=None):
         super().__init__(parent)
@@ -287,7 +265,6 @@ class LiveTab(QWidget):
             row.open_folder_clicked.connect(self.open_folder_requested.emit)
             row.stop_clicked.connect(self.stop_monitor_requested.emit)
             row.right_click_requested.connect(self._show_context_menu)
-            row.toggle_enabled.connect(self.toggle_room_enabled.emit)
 
             self._list_layout.insertWidget(self._list_layout.count() - 1, row)
             self._rows[room.url] = row
@@ -316,13 +293,6 @@ class LiveTab(QWidget):
         stop_act = menu.addAction("停止监控此直播间")
         delete_act = menu.addAction("删除此直播间")
         menu.addSeparator()
-        toggle_text = "禁用此直播间" if (room and room.enabled) else "启用此直播间"
-        toggle_act = menu.addAction(toggle_text)
-        menu.addSeparator()
-        # Cookie 设置
-        cookie_text = "设置 Cookie" + (" ✓" if (room and room.cookie) else "")
-        cookie_act = menu.addAction(cookie_text)
-        menu.addSeparator()
         select_all_act = menu.addAction("全选")
         deselect_all_act = menu.addAction("取消全选")
 
@@ -341,27 +311,6 @@ class LiveTab(QWidget):
             self.stop_monitor_requested.emit(url)
         elif action == delete_act:
             self.remove_single_requested.emit(url)
-        elif action == toggle_act:
-            new_state = not (room.enabled if room else True)
-            self.toggle_room_enabled.emit(url, new_state)
-            if room:
-                room.enabled = new_state
-                row = self._rows.get(url)
-                if row:
-                    row._enable_check.setChecked(new_state)
-        elif action == cookie_act:
-            from PySide6.QtWidgets import QInputDialog, QLineEdit
-            current_cookie = room.cookie if room else ""
-            text, ok = QInputDialog.getMultiLineText(
-                self, "设置 Cookie",
-                f"为「{room.display_name if room else url[:30]}」设置 Cookie\n"
-                "（留空表示不使用 Cookie）：",
-                current_cookie,
-            )
-            if ok and room:
-                room.cookie = text.strip()
-                self.room_cookie_updated.emit(url, room.cookie)
-                # 更新菜单显示（下次右键时）
         elif action == select_all_act:
             for row in self._rows.values():
                 row.set_selected(True)
@@ -382,13 +331,12 @@ class LiveTab(QWidget):
                     room.status = RoomStatus(status)
                 except ValueError:
                     room.status = RoomStatus.IDLE
-                # extra 是主播名或额外信息，仅在 extra 非空且不是错误信息时更新名字
-                if extra and extra not in ("获取数据失败", "数据获取失败", ""):
-                    if room.anchor_name != extra:
-                        room.anchor_name = extra
-                        name_updated = True
-                        if row:
-                            row._name_label.setText(room.display_name)
+                if extra and not room.anchor_name:
+                    room.anchor_name = extra
+                    name_updated = True
+                    # 同步更新行上的显示名
+                    if row:
+                        row._name_label.setText(room.display_name)
                 break
         if name_updated:
             self.room_name_updated.emit(url, extra)

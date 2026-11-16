@@ -18,7 +18,7 @@ class AboutTab(QWidget):
         logo.setStyleSheet("font-size: 28px; font-weight: bold; color: #2B8AF5; border: none; background: transparent;")
         layout.addWidget(logo)
 
-        ver = QLabel("v1.0.2")
+        ver = QLabel("v1.0.0")
         ver.setAlignment(Qt.AlignmentFlag.AlignCenter)
         ver.setStyleSheet("font-size: 13px; color: #B0B8C4; border: none; background: transparent;")
         layout.addWidget(ver)

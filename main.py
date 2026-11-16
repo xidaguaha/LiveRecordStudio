@@ -20,6 +20,7 @@ if sys.platform == 'win32':
 def get_app_root():
     """获取应用根目录（兼容开发环境和PyInstaller打包环境）"""
     if getattr(sys, 'frozen', False):
+        # PyInstaller 打包后的环境
         return os.path.dirname(sys.executable)
     return os.path.dirname(os.path.abspath(__file__))
 

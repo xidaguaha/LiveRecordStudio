@@ -2,17 +2,41 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-dist/
+.venv/
+venv/
+env/
+
+# PyInstaller 构建产物
 build/
+dist/
+dist_*/
+*_build/
+launcher_build/
+launcher_dist/
+*.spec.bak
 
-# IDE
-.vscode/
+# 打包产物 / 安装包
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+
+# FFmpeg 本地二进制（请自行下载，见 README）
+ffmpeg/
+
+# 本地运行时数据（首次运行自动生成）
+config/
+logs/
+*.log
+
+# 开发临时文件
+push_batch_*.json
+source_files_*.json
+.uploads/
+
+# IDE / 系统
 .idea/
-
-# OS
+.vscode/
 .DS_Store
 Thumbs.db
-
-# Env
-.env
-venv/

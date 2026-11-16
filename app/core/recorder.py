@@ -2,7 +2,6 @@
 录制引擎 - 使用QProcess管理ffmpeg子进程
 """
 import os
-import signal
 from PySide6.QtCore import QObject, Signal, QProcess
 from loguru import logger
 
@@ -63,23 +62,18 @@ class Recorder(QObject):
         self._process.start(self._ffmpeg_path, cmd)
 
     def stop_recording(self):
-        """停止录制：terminate + 延迟 os.kill 确保进程死亡"""
+        """停止录制（先优雅退出，超时后强制终止）"""
         if self._process and self._process.state() == QProcess.ProcessState.Running:
             logger.info(f"停止录制: {self._current_url}")
-            pid = self._process.processId()
-            self._process.terminate()
-            # 800ms 后用 os.kill 确保进程真正死掉（不依赖 Qt event loop）
-            import threading
-            def _ensure_dead():
-                import time
-                time.sleep(0.8)
-                try:
-                    os.kill(pid, signal.SIGTERM)
-                    logger.info(f"已强制终止 ffmpeg PID={pid}")
-                except OSError:
-                    pass  # 进程已退出
-            t = threading.Thread(target=_ensure_dead, daemon=True)
-            t.start()
+            # 关闭 stdin，让 ffmpeg 自然结束
+            self._process.closeWriteChannel()
+            # 给 ffmpeg 10秒优雅退出（等文件 flush）
+            if not self._process.waitForFinished(10000):
+                logger.warning(f"ffmpeg 未响应，发送 terminate: {self._current_url}")
+                self._process.terminate()
+                if not self._process.waitForFinished(5000):
+                    logger.warning(f"ffmpeg 强制 kill: {self._current_url}")
+                    self._process.kill()
 
     def _build_command(self, stream_url, output_path, fmt, proxy, split_duration):
         """构建ffmpeg命令参数（不含ffmpeg自身路径）"""
@@ -100,27 +94,20 @@ class Recorder(QObject):
         return args
 
     def _on_started(self):
-        pid = self._process.processId() if self._process else 0
-        logger.info(f"录制已启动: PID={pid}, file={os.path.basename(self._current_file)}")
+        logger.info(f"录制已启动: {self._current_file}")
         self.recording_started.emit(self._current_url, self._current_file)
 
     def _on_finished(self, exit_code, exit_status):
+        # 崩溃时 _on_error 已清理，此处安全跳过
         if self._process is None and not self._current_url:
             return
         url = self._current_url
         file_path = self._current_file
-        logger.info(f"录制结束: {os.path.basename(file_path)}, exit_code={exit_code}, status={exit_status}")
-        # 释放 QProcess，关闭文件句柄
-        proc = self._process
+        logger.info(f"录制结束: {file_path}, exit_code={exit_code}")
+        self.recording_finished.emit(url, exit_code)
         self._process = None
         self._current_url = ""
         self._current_file = ""
-        # 断开信号，避免重复触发
-        proc.finished.disconnect(self._on_finished)
-        proc.errorOccurred.disconnect(self._on_error)
-        proc.close()
-        proc.deleteLater()
-        self.recording_finished.emit(url, exit_code)
 
     def _on_output(self):
         """ffmpeg输出（可用于解析进度）"""
@@ -145,15 +132,17 @@ class Recorder(QObject):
     def _on_error(self, error):
         error_msg = {
             QProcess.ProcessError.FailedToStart: "启动失败(FFmpeg未找到或无权限)",
-            QProcess.ProcessError.Crashed: "进程被终止(正常停止)",
+            QProcess.ProcessError.Crashed: "进程崩溃",
             QProcess.ProcessError.Timedout: "超时",
             QProcess.ProcessError.WriteError: "写入错误",
             QProcess.ProcessError.ReadError: "读取错误",
             QProcess.ProcessError.UnknownError: "未知错误"
         }.get(error, "未知错误")
-        # Crash 是 terminate() 的正常结果，不视为错误
-        if error != QProcess.ProcessError.Crashed:
-            logger.error(f"录制错误: {error_msg}")
-            self.recording_error.emit(self._current_url, error_msg)
-        # 不在此处清理状态，统一由 _on_finished 处理
-        # 因为 terminate() 后 finished 信号仍会触发
+        logger.error(f"录制错误: {error_msg}")
+        self.recording_error.emit(self._current_url, error_msg)
+        # 崩溃后立即清理引用，否则 is_recording 会永远返回 True
+        # finished 信号也会触发，但 _on_finished 会安全处理 None
+        if error == QProcess.ProcessError.Crashed:
+            self._process = None
+            self._current_url = ""
+            self._current_file = ""

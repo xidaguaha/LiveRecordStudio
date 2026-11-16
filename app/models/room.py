@@ -72,7 +72,6 @@ class Room:
     platform: Platform = Platform.UNKNOWN
     status: RoomStatus = RoomStatus.IDLE
     enabled: bool = True
-    cookie: str = ""  # 该直播间的登录态 Cookie
     record_file: str = ""  # 当前录制文件路径
     record_start_time: float = 0  # 录制开始时间戳
     file_size: int = 0  # 当前文件大小(字节)
@@ -116,7 +115,6 @@ class Room:
             "custom_name": self.custom_name,
             "quality": self.quality.value,
             "enabled": self.enabled,
-            "cookie": self.cookie,
         }
 
     @classmethod
@@ -143,5 +141,4 @@ class Room:
             custom_name=d.get("custom_name", ""),
             quality=quality,
             enabled=d.get("enabled", True),
-            cookie=d.get("cookie", ""),
         )

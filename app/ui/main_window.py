@@ -202,27 +202,6 @@ class MainWindow(QMainWindow):
         if os.path.isfile(style_path):
             with open(style_path, 'r', encoding='utf-8') as f:
                 self.setStyleSheet(f.read())
-        # 用 QProxyStyle 绘制下拉框倒三角
-        from PySide6.QtWidgets import QProxyStyle
-        from PySide6.QtGui import QPainter, QPen, QColor
-        from PySide6.QtCore import QPointF, Qt
-        class _ComboStyle(QProxyStyle):
-            def drawPrimitive(self, element, option, painter, widget):
-                if element == QStyle.PrimitiveElement.PE_IndicatorArrowDown:
-                    painter.save()
-                    r = option.rect
-                    h, w = r.height(), r.width()
-                    pen = QPen(QColor(142, 154, 175), 2)
-                    pen.setCapStyle(Qt.PenCapStyle.RoundCap)
-                    painter.setPen(pen)
-                    painter.drawLine(QPointF(r.x() + 3, r.y() + h * 0.35),
-                                     QPointF(r.x() + w / 2, r.y() + h * 0.65))
-                    painter.drawLine(QPointF(r.x() + w / 2, r.y() + h * 0.65),
-                                     QPointF(r.x() + w - 3, r.y() + h * 0.35))
-                    painter.restore()
-                    return
-                super().drawPrimitive(element, option, painter, widget)
-        self.setStyle(_ComboStyle())
 
     def _connect_signals(self):
         self._live_tab._add_btn.clicked.connect(self._on_add_room)
@@ -235,13 +214,9 @@ class MainWindow(QMainWindow):
         self._live_tab.remove_rooms_requested.connect(self._on_remove_rooms)
         self._live_tab.remove_single_requested.connect(self._on_remove_single)
         self._live_tab.room_name_updated.connect(self._on_room_name_updated)
-        self._live_tab.toggle_room_enabled.connect(self._on_toggle_room_enabled)
-        self._live_tab.room_cookie_updated.connect(self._on_room_cookie_updated)
         self._recording_tab.open_folder_requested.connect(self._open_folder)
         self._recording_tab.stop_recording_requested.connect(self._stop_one)
         self._recording_tab.history_clear_requested.connect(self._on_clear_history)
-        self._recording_tab.delete_record_requested.connect(self._on_delete_record)
-        self._recording_tab.delete_file_requested.connect(self._on_delete_file)
         self._settings_tab.settings_changed.connect(self._save_settings)
         self._task_mgr.room_status_changed.connect(self._on_status_changed)
         self._task_mgr.log_message.connect(self._on_log)
@@ -295,29 +270,10 @@ class MainWindow(QMainWindow):
 
     def _do_quit(self):
         """执行退出流程"""
-        # 检查转码线程
-        converts = self._task_mgr.active_converts
-        if converts > 0:
-            reply = QMessageBox(
-                QMessageBox.Icon.Warning,
-                "转码进行中",
-                f"当前有 {converts} 个文件正在转码为 MP4。\n"
-                "退出将取消转码（已录制的文件不受影响）。\n\n"
-                "确定要退出吗？",
-                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-                self,
-            )
-            reply.setWindowTitle("LiveRecord Studio")
-            if reply.exec() != QMessageBox.StandardButton.Yes:
-                return
-            self._task_mgr.cancel_all_converts()
-
         self._task_mgr.stop_all()
         self._tray.hide()
         self._save_window_state()
-        # 延迟退出，给 os.kill 后台线程 800ms + 余量
-        from PySide6.QtCore import QTimer
-        QTimer.singleShot(1500, QApplication.quit)
+        QApplication.quit()
 
     def _force_quit(self):
         """从托盘菜单强制退出（跳过录制检查）"""
@@ -421,9 +377,8 @@ class MainWindow(QMainWindow):
         for room in self._rooms:
             if room.enabled:
                 self._task_mgr.start_monitor(
-                    room.url, room.quality.name,
-                    self._settings.record.loop_interval,
-                    room.cookie,
+                    room.url, room.quality.name,  # name 是英文 key "OD"
+                    self._settings.record.loop_interval
                 )
         self._status_label.setText("监控中...")
 
@@ -453,13 +408,6 @@ class MainWindow(QMainWindow):
                 self._rooms.append(room)
                 self._save_and_refresh()
                 self._on_log("info", f"已添加直播间: {room.display_name}")
-                # 如果当前正在监控中，自动为新房间启动监控
-                if self._task_mgr.is_monitoring():
-                    self._task_mgr.start_monitor(
-                        room.url, room.quality.name,
-                        self._settings.record.loop_interval,
-                        room.cookie,
-                    )
         except Exception as e:
             import traceback
             self._on_log("error", f"添加直播间失败: {e}")
@@ -500,15 +448,6 @@ class MainWindow(QMainWindow):
         self._rooms = [Room.from_dict(d) for d in self._settings.get_rooms()]
         self._live_tab.set_rooms(self._rooms)
         self._settings_tab.load_settings(self._settings.settings)
-        # 扫描本地录制文件补充历史
-        records = self._history.merge_scanned_records(self._settings.record.save_path)
-        self._recording_tab.refresh_history(records)
-        # 启动时自动监控
-        if self._settings.settings.auto_start_monitor:
-            from app.utils.ffmpeg_helper import check_ffmpeg_available
-            available, _ = check_ffmpeg_available()
-            if available and self._rooms:
-                self._start_all_monitor()
 
     def _save_and_refresh(self):
         """保存房间数据到配置并刷新 UI 显示"""
@@ -519,29 +458,6 @@ class MainWindow(QMainWindow):
     def _refresh_rooms_display(self):
         """刷新按钮：仅刷新 UI 显示，不重新加载配置，不丢失运行时状态"""
         self._live_tab.set_rooms(self._rooms)
-
-    def _on_toggle_room_enabled(self, url, enabled):
-        """切换房间启用/禁用"""
-        for room in self._rooms:
-            if room.url == url:
-                room.enabled = enabled
-                break
-        self._save_and_refresh()
-        # 如果禁用，停止该房间的监控
-        if not enabled:
-            self._task_mgr.stop_monitor(url)
-        state_str = "启用" if enabled else "禁用"
-        self._on_log("info", f"已{state_str}监控: {url[:40]}")
-
-    def _on_room_cookie_updated(self, url, cookie):
-        """更新房间 Cookie"""
-        for room in self._rooms:
-            if room.url == url:
-                room.cookie = cookie
-                break
-        self._save_and_refresh()
-        hint = "已设置" if cookie else "已清除"
-        self._on_log("info", f"{hint} Cookie: {url[:40]}")
 
     def _save_settings(self):
         data = self._settings_tab.get_settings()
@@ -556,41 +472,23 @@ class MainWindow(QMainWindow):
         r.use_proxy = data["use_proxy"]
         r.proxy_addr = data["proxy_addr"]
         r.filename_template = data.get("filename_template", "")
+        p = self._settings.push
+        p.enabled = data["push_enabled"]
+        p.notify_on_live = data["notify_on_live"]
+        p.notify_on_end = data["notify_on_end"]
         # 通用设置
         self._settings.settings.minimize_action = data.get("minimize_action", "ask")
-        self._settings.settings.dont_ask_again = False
+        self._settings.settings.dont_ask_again = False  # 用户在设置页改了，重置不再询问
         self._settings.settings.close_confirm = data.get("close_confirm", True)
-        self._settings.settings.auto_start_monitor = data.get("auto_start_monitor", False)
-        self._settings.settings.notify_on_live = data.get("notify_on_live", True)
-        # Webhook 推送
-        p = self._settings.push
-        p.enabled = data.get("push_enabled", False)
-        p.notify_on_live = data.get("push_notify_live", True)
-        p.notify_on_end = data.get("push_notify_end", False)
-        p.dingtalk_webhook = data.get("webhook_url", "")
-        self._settings.settings.webhook_secret = data.get("webhook_secret", "")
-        self._settings.settings.webhook_body = data.get("webhook_body", "")
         self._settings.save()
-        # 开机自启动
-        from app.ui.settings_tab import SettingsTab
-        SettingsTab.set_auto_start(data.get("auto_start", False))
         self._on_log("info", "设置已保存")
 
     def _on_status_changed(self, url, status, extra):
+        # 二次校验：如果上报 recording 但实际无活跃录制，降级为 monitoring
+        if status == "recording" and self._task_mgr.active_recordings == 0:
+            status = "monitoring"
         self._live_tab.update_room_status(url, status, extra)
-        if status == "live" and self._settings.settings.notify_on_live:
-            # 系统托盘通知
-            from PySide6.QtGui import QSystemTrayIcon
-            if self._tray.isSystemTrayAvailable():
-                self._tray.showMessage(
-                    "LiveRecord Studio",
-                    f"{extra or '主播'} 正在直播",
-                    QSystemTrayIcon.MessageIcon.Information,
-                    5000
-                )
-            # Webhook 推送
-            self._send_webhook("开播", extra or "未知主播", url)
-        elif status == "recording" and extra:
+        if status == "recording" and extra:
             platform = detect_platform(url).value
             self._recording_tab.add_recording(url, extra, platform, start_time=time.time())
             # 更新房间的录制开始时间
@@ -599,54 +497,17 @@ class MainWindow(QMainWindow):
                     room.record_start_time = time.time()
                     room.status = RoomStatus.RECORDING
                     break
-        elif status == "offline":
-            # 下播 Webhook 推送
-            anchor = ""
-            for room in self._rooms:
-                if room.url == url:
-                    anchor = room.anchor_name or room.display_name
-                    break
-            self._send_webhook("下播", anchor or "未知主播", url)
+        elif status in ("offline", "idle", "error"):
             self._recording_tab.remove_recording(url)
-        elif status == "idle":
-            # monitor 停止时清理录制状态
-            self._recording_tab.remove_recording(url)
+            # 下播时停止 ffmpeg 录制进程
             self._task_mgr.stop_recording(url)
+            # 清理房间的录制状态
             for room in self._rooms:
                 if room.url == url:
                     room.record_file = ""
                     room.record_start_time = 0
                     room.file_size = 0
                     break
-        elif status == "error":
-            # fetch 失败只更新 UI 状态，不停止录制（避免网络波动导致录制中断）
-            self._live_tab.update_room_status(url, status, extra)
-            self._on_log("warning", f"获取直播数据失败: {url[:40]}...")
-
-    def _send_webhook(self, event, anchor, url):
-        """发送 Webhook 推送"""
-        p = self._settings.push
-        if not p.enabled:
-            return
-        if event == "开播" and not p.notify_on_live:
-            return
-        if event == "下播" and not p.notify_on_end:
-            return
-        webhook_url = p.dingtalk_webhook or ""
-        if not webhook_url:
-            return
-        secret = self._settings.settings.webhook_secret
-        body = self._settings.settings.webhook_body
-        platform = detect_platform(url).value
-        title = ""
-        for room in self._rooms:
-            if room.url == url:
-                title = getattr(room, 'title', '') or ''
-                break
-        from app.ui.settings_tab import SettingsTab
-        result = SettingsTab.send_webhook(webhook_url, secret, body, event, anchor, platform, url, title)
-        if result is not True:
-            self._on_log("warning", f"Webhook推送失败: {result}")
 
     def _on_log(self, level, message):
         self._log_tab.append_log(level, message)
@@ -674,9 +535,7 @@ class MainWindow(QMainWindow):
             status="completed" if file_size > 0 else "error",
         )
         self._history.add_record(record)
-        # 信号+本地扫描双重验证
-        records = self._history.merge_scanned_records(self._settings.record.save_path)
-        self._recording_tab.refresh_history(records)
+        self._recording_tab.refresh_history(self._history.get_records())
         self._on_log("info", f"录制历史已记录: {os.path.basename(file_path)} ({record.file_size_str})")
 
     def _on_clear_history(self):
@@ -684,43 +543,6 @@ class MainWindow(QMainWindow):
         self._history.clear()
         self._recording_tab.refresh_history([])
         self._on_log("info", "录制历史已清空")
-
-    def _on_delete_record(self, index: int):
-        """删除单条历史记录（不删文件）"""
-        self._history.remove_record(index)
-        records = self._history.get_records()
-        self._recording_tab.refresh_history(records)
-        self._on_log("info", f"已删除历史记录")
-
-    def _on_delete_file(self, index: int, file_path: str):
-        """删除文件+对应历史记录"""
-        reply = QMessageBox(
-            QMessageBox.Icon.Warning,
-            "确认删除",
-            "确定要删除该录制文件吗？\n此操作不可恢复。",
-            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-            self,
-        )
-        reply.setWindowTitle("LiveRecord Studio")
-        if reply.exec() == QMessageBox.StandardButton.Yes:
-            if file_path and os.path.isfile(file_path):
-                # 先停止可能占用该文件的录制/转码
-                self._task_mgr.stop_recording_by_file(file_path)
-                # 重试删除（等待文件句柄释放）
-                import time
-                for attempt in range(5):
-                    try:
-                        os.remove(file_path)
-                        self._on_log("info", f"已删除文件: {os.path.basename(file_path)}")
-                        break
-                    except OSError as e:
-                        if attempt < 4:
-                            time.sleep(0.5)
-                        else:
-                            self._on_log("warning", f"删除文件失败: {e}")
-            self._history.remove_record(index)
-            records = self._history.get_records()
-            self._recording_tab.refresh_history(records)
 
     def _on_global_status(self, status):
         self._monitor_label.setText(f"监测: {status.get('monitoring', 0)}")
@@ -742,29 +564,25 @@ class MainWindow(QMainWindow):
             self._disk_label.setText("")
 
     def _open_folder(self, url):
-        """打开录制文件所在的文件夹"""
         for room in self._rooms:
             if room.url == url:
-                # 优先：打开录制文件所在目录
                 if room.record_file and os.path.isfile(room.record_file):
                     open_file_location(room.record_file)
-                    return
-                # 次选：扫描保存路径下最近修改的目录
-                save_root = self._settings.record.save_path
-                if os.path.isdir(save_root):
-                    # 找最近修改的子目录
-                    try:
-                        dirs = [os.path.join(save_root, d) for d in os.listdir(save_root)
-                                if os.path.isdir(os.path.join(save_root, d))]
-                        if dirs:
-                            dirs.sort(key=os.path.getmtime, reverse=True)
-                            open_file_location(dirs[0])
-                            return
-                    except OSError:
-                        pass
-                    open_file_location(save_root)
                 else:
-                    self._on_log("warning", f"保存路径不存在: {save_root}")
+                    folder = os.path.join(
+                        self._settings.record.save_path,
+                        room.platform.value,
+                        room.display_name or "unknown"
+                    )
+                    if os.path.isdir(folder):
+                        open_file_location(folder)
+                    else:
+                        # 尝试打开保存根目录
+                        root = self._settings.record.save_path
+                        if os.path.isdir(root):
+                            open_file_location(root)
+                        else:
+                            self._on_log("warning", f"文件夹不存在: {folder}")
                 break
 
     def _stop_one(self, url):
@@ -790,7 +608,7 @@ class _NavButton(QWidget):
         self._text = text
         self._icon_path = icon_path
         self._active = active
-        self.setFixedSize(72, 64)
+        self.setFixedSize(64, 64)
         self.setCursor(Qt.CursorShape.PointingHandCursor)
         self.setToolTip(text)
         self._setup_ui()
@@ -798,21 +616,20 @@ class _NavButton(QWidget):
 
     def _setup_ui(self):
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(0, 8, 0, 6)
+        layout.setContentsMargins(4, 8, 4, 6)
         layout.setSpacing(4)
-        layout.setAlignment(Qt.AlignmentFlag.AlignHCenter)
 
         # 图标
         self._icon_label = QLabel()
         self._icon_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self._icon_label.setFixedSize(72, 28)
-        layout.addWidget(self._icon_label, 0, Qt.AlignmentFlag.AlignHCenter)
+        self._icon_label.setFixedSize(40, 28)
+        layout.addWidget(self._icon_label)
 
         # 文字
         self._text_label = QLabel(self._text)
         self._text_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._text_label.setMinimumHeight(16)
-        layout.addWidget(self._text_label, 0, Qt.AlignmentFlag.AlignHCenter)
+        layout.addWidget(self._text_label)
 
     def set_active(self, active: bool):
         self._active = active

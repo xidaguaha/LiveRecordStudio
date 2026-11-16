@@ -12,11 +12,8 @@ from typing import Optional
 _ILLEGAL_CHARS = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 
 
-def _sanitize(name) -> str:
+def _sanitize(name: str) -> str:
     """清理文件名中的非法字符"""
-    if not name:
-        return 'unknown'
-    name = str(name)
     name = _ILLEGAL_CHARS.sub('_', name)
     name = name.strip('. ')
     if not name:

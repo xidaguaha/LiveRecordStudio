@@ -1,96 +1,126 @@
-# LiveRecord Studio
+# LiveRecordStudio
 
-多平台直播自动录制工具，基于 Python + PySide6 + FFmpeg。
+**LiveRecordStudio** 是一款基于 Python 的多平台直播录制工具，支持对抖音、B 站、虎牙、斗鱼、快手、TikTok、YouTube 等主流直播平台进行开播监控与自动录制，并提供图形化界面（PySide6 / Qt）方便日常使用。
 
-## 功能特性
+![主界面](screenshot_v3.png)
 
-- **多平台支持**：Bilibili、快手、抖音、斗鱼、虎牙、YouTube 等主流直播平台
-- **自动监控**：定时检测直播间状态，开播自动录制，下播自动停止
-- **多房间并发**：同时监控多个直播间，独立录制互不干扰
-- **画质选择**：原画 / 高清 / 标清可选
-- **录制格式**：TS 流式录制（断电不丢数据），可选自动转码 MP4
-- **录制历史**：信号记录 + 本地文件扫描双重验证，不丢失任何录制
-- **Cookie 登录态**：每个直播间可单独设置 Cookie，支持需要登录的平台
-- **Webhook 推送**：开播 / 下播自动推送通知到钉钉
-- **系统托盘**：最小化到托盘，后台持续监控
-- **文件管理**：录制历史中可直接打开文件所在目录、删除记录或删除文件
+## ✨ 功能特性
 
-## 技术栈
+- **多平台支持**：抖音、哔哩哔哩、虎牙、斗鱼、快手、小红书、TikTok、Twitch、YouTube、YY直播、Bigo
+- **开播监控**：后台轮询检测直播间状态，开播自动开始录制、下播自动停止
+- **录制核心**：基于 `streamget` 解析直播流地址 + `ffmpeg` 拉流录制，支持 TS / MKV / FLV / MP4 格式
+- **画质选择**：原画（OD）/ 超清（UHD）/ 高清（HD）/ 标清（SD）/ 流畅（LD）
+- **灵活的文件管理**：自定义文件名模板（`{platform}` `{owner}` `{title}` `{year}` 等占位符）、定时自动分片、录制完成后自动转 MP4（可选 H.264 重编码）
+- **录制历史**：本地历史记录、时长/大小统计、一键打开文件所在位置
+- **日志查看**：内置日志标签页，基于 loguru 记录运行日志
+- **网络代理**：支持为指定平台配置 HTTP/SOCKS 代理
+- **事件推送**（Webhook）：开播 / 下播事件可推送到自定义 Webhook 地址
+- **打包友好**：内置 PyInstaller 配置（`LiveRecordStudio.spec`、`launcher.spec`），可打包为免安装的 Windows 程序
 
-| 组件 | 技术 |
-|------|------|
-| GUI | PySide6 (Qt6) |
-| 流解析 | stream-gear |
-| 录制 | FFmpeg (QProcess) |
-| 打包 | PyInstaller |
+## 📸 截图
 
-## 快速开始
+| 直播监控 | 录制管理 |
+| --- | --- |
+| ![直播监控](screenshot_final_home.png) | ![录制管理](screenshot_final_recordings.png) |
 
-### 环境要求
+| 设置 | 日志 |
+| --- | --- |
+| ![设置](screenshot_final_settings.png) | ![日志](screenshot_logs.png) |
 
+## 🛠️ 技术栈
+
+- Python 3.11
+- [PySide6](https://doc.qt.io/qtforpython/)（Qt 图形界面）
+- [streamget](https://github.com/ihmily/streamget)（多平台直播流解析，MIT License）
+- [FFmpeg](https://ffmpeg.org/)（拉流录制 / 格式转换）
+- [loguru](https://github.com/Delgan/loguru)（日志）
+- PyInstaller（打包）
+
+## 📦 安装运行
+
+### 1. 环境要求
+
+- Windows 10/11（其他平台理论上可运行，未充分测试）
 - Python 3.10+
-- FFmpeg 7.x（自动内置）
+- FFmpeg（加入 PATH 或放到项目 `ffmpeg/bin/ffmpeg.exe`）
 
-### 安装依赖
+### 2. 安装依赖
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 运行
+### 3. 准备 FFmpeg
+
+程序按以下顺序查找 ffmpeg：
+
+1. 打包环境下 exe 同级的 `ffmpeg/bin/ffmpeg.exe`
+2. 项目根目录 `ffmpeg/bin/ffmpeg.exe`
+3. 系统 `PATH` 中的 `ffmpeg`
+4. 常见安装位置（`%PROGRAMFILES%\FFmpeg` 等）
+
+可从 [ffmpeg 官网](https://ffmpeg.org/download.html) 或 [gyan.dev 构建版](https://www.gyan.dev/ffmpeg/builds/) 下载 Windows 版本，解压后放到 `ffmpeg/bin/` 下即可。
+
+### 4. 运行
 
 ```bash
-python main.py
+python main.py        # 命令行运行
+python main.pyw       # Windows 下双击启动（无控制台窗口）
 ```
 
-### 打包
+> 提示：抖音平台解析需要 Node.js 运行时，可执行 `streamget install-node` 安装。
+
+## 📦 打包（可选）
+
+使用 PyInstaller 打包为免安装程序：
 
 ```bash
-pyinstaller -y --distpath dist LiveRecordStudio.spec
+pip install pyinstaller
+pyinstaller LiveRecordStudio.spec          # 主程序
+pyinstaller launcher.spec                  # 双击启动器（可选）
 ```
 
-## 项目结构
+打包完成后产物在 `dist/` 目录，将 `ffmpeg/bin/ffmpeg.exe` 复制到 `dist/LiveRecordStudio/_internal/ffmpeg/bin/` 即可随包分发。
+
+## 📖 项目结构
 
 ```
 LiveRecordStudio/
-├── main.py                    # 程序入口
-├── requirements.txt           # Python 依赖
-├── LiveRecordStudio.spec      # PyInstaller 打包配置
 ├── app/
-│   ├── style.qss              # 全局样式表
-│   ├── config/
-│   │   └── settings.py        # 配置管理（JSON 持久化）
-│   ├── core/
-│   │   ├── recorder.py        # 录制引擎（QProcess + FFmpeg）
-│   │   ├── monitor.py         # 直播监控（QThread 轮询）
-│   │   ├── stream_parser.py   # 流地址解析（stream-gear）
-│   │   └── task_manager.py    # 任务调度（监控/录制/转码）
-│   ├── models/
-│   │   └── room.py            # 房间数据模型
-│   ├── ui/
-│   │   ├── main_window.py     # 主窗口
-│   │   ├── live_tab.py        # 直播间列表
-│   │   ├── recording_tab.py   # 录制状态 + 历史记录
-│   │   ├── settings_tab.py    # 设置页
-│   │   ├── log_tab.py         # 运行日志
-│   │   ├── about_tab.py       # 关于页
-│   │   ├── add_room_dialog.py # 添加房间对话框
-│   │   └── components.py      # 通用 UI 组件
-│   └── utils/
-│       ├── ffmpeg_helper.py   # FFmpeg 查找与管理
-│       ├── file_manager.py    # 文件操作（打开目录等）
-│       ├── file_naming.py     # 录制文件命名模板
-│       └── history_manager.py # 录制历史持久化
+│   ├── core/            # 核心逻辑
+│   │   ├── stream_parser.py   # 多平台直播流解析（封装 streamget）
+│   │   ├── monitor.py         # 开播状态轮询监控
+│   │   ├── recorder.py        # QProcess + ffmpeg 录制
+│   │   └── task_manager.py    # 全局任务调度
+│   ├── ui/              # 5 个标签页（直播/录制/历史/日志/设置）
+│   ├── config/          # 配置管理
+│   ├── models/          # 数据模型
+│   ├── utils/           # 工具（ffmpeg 查找、文件命名、历史管理等）
+│   └── style.qss        # 界面样式
+├── resources/icons/     # 图标资源
+├── tests/               # 测试
+├── main.py / main.pyw   # 入口
+├── launcher.py          # 双击启动器
+└── requirements.txt     # 依赖
 ```
 
-## 使用说明
+## 📄 开源许可与依赖
 
-1. **添加直播间**：点击"添加直播间"按钮，粘贴直播间 URL
-2. **启动监控**：点击"全部开始"或单独启用某个房间
-3. **录制设置**：在设置页配置保存路径、画质、检测间隔等
-4. **查看历史**：在录制页查看所有录制记录，支持打开文件、删除记录
-5. **设置 Cookie**：右键直播间 → "设置 Cookie"（部分平台需要）
+本项目基于 [MIT License](LICENSE) 开源。
 
-## 许可证
+主要第三方依赖：
 
-MIT License
+| 依赖 | 许可证 | 来源 |
+| --- | --- | --- |
+| [streamget](https://pypi.org/project/streamget/) | MIT | PyPI / [GitHub](https://github.com/ihmily/streamget) |
+| PySide6 | LGPL-3.0 / 商业双许可 | Qt 官方 |
+| loguru | MIT | PyPI |
+| FFmpeg | LGPL-2.1 / GPL（视构建配置） | [ffmpeg.org](https://ffmpeg.org/) |
+
+## ⚠️ 免责声明
+
+本工具仅供个人学习与研究使用，请遵守各直播平台的服务条款，录制内容的版权归原作者所有，请勿用于商业用途或未经授权的传播。
+
+## 🤝 参与贡献
+
+欢迎提交 Issue 和 Pull Request，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。

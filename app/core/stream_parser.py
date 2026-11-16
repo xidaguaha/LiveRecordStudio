@@ -91,19 +91,12 @@ class StreamParser:
         self._platform_name = platform_name
         self._streamer = StreamerClass(
             proxy_addr=self._proxy or None,
-            cookies=self._cookie or "",  # 空字符串而非None，避免库内部 .strip() 崩溃
+            cookies=self._cookie or None,
         )
 
         try:
-            # 第一步：获取页面数据（部分平台用 fetch_app_stream_data）
-            fetch_method = getattr(self._streamer, 'fetch_web_stream_data', None)
-            if not fetch_method:
-                fetch_method = getattr(self._streamer, 'fetch_app_stream_data', None)
-            if not fetch_method:
-                logger.error(f"平台 {platform_name} 无可用的数据获取方法: {url}")
-                return None
-
-            data = await fetch_method(url)
+            # 第一步：获取页面数据
+            data = await self._streamer.fetch_web_stream_data(url)
             if not data:
                 logger.warning(f"获取直播间数据失败: {url}")
                 return None
@@ -114,20 +107,12 @@ class StreamParser:
                 logger.warning(f"获取流地址失败: {url}")
                 return None
 
-            # 流地址：优先 m3u8 > flv > record_url（B站等平台用 record_url）
-            m3u8 = getattr(stream_obj, 'm3u8_url', '') or ''
-            flv = getattr(stream_obj, 'flv_url', '') or ''
-            record_url = getattr(stream_obj, 'record_url', '') or ''
-            if not flv and record_url:
-                flv = record_url
-
             result = {
-                "url": url,  # 保留原始 URL，防止被库内部重定向覆盖
                 "is_live": getattr(stream_obj, 'is_live', False),
                 "anchor_name": getattr(stream_obj, 'anchor_name', ''),
-                "m3u8_url": m3u8,
-                "flv_url": flv,
-                "title": getattr(stream_obj, 'title', '') or '',
+                "m3u8_url": getattr(stream_obj, 'm3u8_url', ''),
+                "flv_url": getattr(stream_obj, 'flv_url', ''),
+                "title": getattr(stream_obj, 'title', ''),
                 "platform": getattr(stream_obj, 'platform', '') or platform_name,
             }
 
@@ -140,14 +125,8 @@ class StreamParser:
 
     def fetch_stream_data_sync(self, url: str, quality: str = "OD") -> Optional[dict]:
         """同步版本（用于QThread等非async上下文）"""
-        logger.info(f"开始获取直播数据: {url[:50]}...")
         try:
-            result = asyncio.run(self.fetch_stream_data(url, quality))
-            if result is None:
-                logger.warning(f"获取直播数据返回 None: {url[:50]}...")
-            else:
-                logger.info(f"获取结果: is_live={result.get('is_live')}, anchor={result.get('anchor_name', '')[:20]}, platform={result.get('platform', '')}")
-            return result
+            return asyncio.run(self.fetch_stream_data(url, quality))
         except Exception as e:
-            logger.error(f"流解析同步异常 {url[:50]}: {type(e).__name__}: {e}")
+            logger.error(f"流解析同步异常: {e}")
             return None
