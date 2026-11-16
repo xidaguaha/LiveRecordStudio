@@ -1,5 +1,7 @@
 # LiveRecordStudio
 
+[English](README.en.md) | **中文**
+
 **LiveRecordStudio** 是一款基于 Python 的多平台直播录制工具，支持对抖音、B 站、虎牙、斗鱼、快手、TikTok、YouTube 等主流直播平台进行开播监控与自动录制，并提供图形化界面（PySide6 / Qt）方便日常使用。
 
 ![主界面](screenshot_v3.png)
